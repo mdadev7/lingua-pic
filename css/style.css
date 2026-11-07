@@ -419,3 +419,7 @@ main {
 @media (min-width: 768px) {
   .home-grid { grid-template-columns: repeat(3, 1fr); }
 }
+
+.idiom-card { border-left-color: #805ad5; }
+.idiom-card h4 { color: var(--primary); }
+.level-section.locked .level-title { opacity: 0.6; }
