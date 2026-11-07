@@ -2,459 +2,211 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Learn English - App</title>
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
-  body { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; }
-  .container { max-width: 900px; margin: auto; background: #fff; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); overflow: hidden; }
-  header { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); color: white; padding: 30px; text-align: center; }
-  header h1 { font-size: 2em; }
-  header p { opacity: 0.9; margin-top: 5px; }
-  nav { display: flex; flex-wrap: wrap; background: #f0f4ff; }
-  nav button { flex: 1; min-width: 120px; padding: 15px; border: none; background: transparent; cursor: pointer; font-size: 14px; font-weight: 600; color: #555; transition: 0.3s; }
-  nav button:hover { background: #e0e7ff; }
-  nav button.active { background: #4facfe; color: white; }
-  .panel { display: none; padding: 30px; }
-  .panel.active { display: block; animation: fade 0.4s; }
-  @keyframes fade { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-  
-  /* Cours */
-  .lesson-card { background: #f9fafb; border-left: 5px solid #4facfe; padding: 15px 20px; margin-bottom: 15px; border-radius: 8px; }
-  .lesson-card h3 { color: #333; margin-bottom: 8px; }
-  .lesson-card .word { display: inline-block; background: #4facfe; color: white; padding: 3px 10px; border-radius: 15px; margin: 3px; font-size: 13px; }
-  .lesson-card .rule { color: #666; font-size: 14px; margin-top: 8px; }
-  
-  /* Quiz */
-  .quiz-question { font-size: 1.3em; margin: 20px 0; padding: 20px; background: #f0f4ff; border-radius: 10px; text-align: center; }
-  .quiz-options { display: grid; gap: 10px; }
-  .quiz-options button { padding: 15px; border: 2px solid #ddd; background: white; border-radius: 10px; cursor: pointer; font-size: 1em; transition: 0.2s; }
-  .quiz-options button:hover { border-color: #4facfe; background: #f0f9ff; }
-  .quiz-options button.correct { background: #d4edda; border-color: #28a745; }
-  .quiz-options button.wrong { background: #f8d7da; border-color: #dc3545; }
-  .score { text-align: center; margin-top: 15px; font-weight: bold; color: #4facfe; }
-  
-  /* Matching */
-  .match-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 15px; }
-  .match-col h4 { text-align: center; color: #4facfe; margin-bottom: 10px; }
-  .match-item { padding: 12px; background: #f0f4ff; border-radius: 8px; margin-bottom: 8px; cursor: pointer; text-align: center; transition: 0.2s; border: 2px solid transparent; }
-  .match-item:hover { background: #e0e7ff; }
-  .match-item.selected { background: #4facfe; color: white; border-color: #2980b9; }
-  .match-item.matched { background: #d4edda; color: #155724; cursor: default; }
-  
-  /* Reconnaissance */
-  .reco-zone { text-align: center; }
-  video, canvas { max-width: 100%; border-radius: 10px; margin: 10px 0; }
-  .btn { padding: 12px 25px; background: #4facfe; color: white; border: none; border-radius: 25px; cursor: pointer; font-size: 1em; font-weight: 600; transition: 0.3s; margin: 5px; }
-  .btn:hover { background: #2980b9; transform: translateY(-2px); }
-  .btn.secondary { background: #764ba2; }
-  .btn.secondary:hover { background: #5a3780; }
-  .result-box { margin-top: 15px; padding: 15px; background: #f0f9ff; border-radius: 10px; border-left: 5px solid #4facfe; min-height: 50px; }
-  .result-box .label { font-weight: bold; color: #4facfe; }
-  
-  .info { padding: 10px 15px; background: #fff3cd; border-radius: 8px; margin-bottom: 15px; color: #856404; font-size: 14px; }
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#667eea">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="description" content="Apprenez l'anglais avec quiz, jeux, dictionnaire et reconnaissance IA">
+<title>Learn English</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container">
-  <header>
-    <h1>🎓 Learn English</h1>
-    <p>Apprenez l'anglais avec quiz, jeux et reconnaissance</p>
-  </header>
-  
-  <nav>
-    <button class="active" data-panel="cours">📚 Cours</button>
-    <button data-panel="quiz">❓ Quiz</button>
-    <button data-panel="matching">🔤 Mots</button>
-    <button data-panel="image">📸 Image</button>
-    <button data-panel="texte">📝 Texte</button>
-  </nav>
-  
-  <!-- ============ COURS ============ -->
-  <section id="cours" class="panel active">
-    <h2>📚 Cours de base</h2>
-    <br>
-    <div class="lesson-card">
-      <h3>Vocabulaire : Les salutations</h3>
-      <span class="word">Hello</span>
-      <span class="word">Good morning</span>
-      <span class="word">Good evening</span>
-      <span class="word">Goodbye</span>
-      <span class="word">Please</span>
-      <span class="word">Thank you</span>
-      <div class="rule">👉 Utilisez "Hello" pour une salutation informelle, "Good morning" avant 12h.</div>
+
+<!-- ===== HEADER ===== -->
+<header class="app-header">
+  <div class="header-content">
+    <div class="logo">
+      <span class="logo-icon">🎓</span>
+      <span class="logo-text">Learn English</span>
     </div>
-    <div class="lesson-card">
-      <h3>Grammaire : Le présent simple</h3>
-      <div class="rule">Structure : Sujet + verbe (+ s à la 3ème personne)<br>
-      • I <b>play</b> football.<br>
-      • She <b>plays</b> football.<br>
-      • They <b>don't play</b> tennis.</div>
+    <div class="header-actions">
+      <div class="stat-badge" title="Points">
+        <span>⭐</span><span id="points-display">0</span>
+      </div>
+      <div class="stat-badge streak" title="Série de jours">
+        <span>🔥</span><span id="streak-display">0</span>
+      </div>
+      <button class="icon-btn" id="theme-toggle" aria-label="Changer de thème">🌙</button>
     </div>
-    <div class="lesson-card">
-      <h3>Vocabulaire : Les couleurs</h3>
-      <span class="word">Red</span>
-      <span class="word">Blue</span>
-      <span class="word">Green</span>
-      <span class="word">Yellow</span>
-      <span class="word">Black</span>
-      <span class="word">White</span>
+  </div>
+</header>
+
+<!-- ===== MAIN CONTENT ===== -->
+<main id="app">
+  <!-- HOME -->
+  <section class="page active" id="page-home">
+    <div class="hero">
+      <h1>Bonjour ! 👋</h1>
+      <p>Prêt à apprendre l'anglais aujourd'hui ?</p>
     </div>
-    <div class="lesson-card">
-      <h3>Grammaire : Les articles</h3>
-      <div class="rule">• <b>a</b> = un/une (devant consonne) → a cat<br>
-      • <b>an</b> = un/une (devant voyelle) → an apple<br>
-      • <b>the</b> = le/la/les (défini) → the sun</div>
-    </div>
-    <div class="lesson-card">
-      <h3>Vocabulaire : Les nombres</h3>
-      <span class="word">One</span>
-      <span class="word">Two</span>
-      <span class="word">Three</span>
-      <span class="word">Four</span>
-      <span class="word">Five</span>
-      <span class="word">Ten</span>
-      <span class="word">Twenty</span>
+    <div class="home-grid">
+      <button class="home-card" data-goto="cours">
+        <span class="hc-icon">📚</span>
+        <span class="hc-title">Cours</span>
+        <span class="hc-sub">Grammaire & vocabulaire</span>
+      </button>
+      <button class="home-card" data-goto="quiz">
+        <span class="hc-icon">❓</span>
+        <span class="hc-title">Quiz</span>
+        <span class="hc-sub">Testez vos connaissances</span>
+      </button>
+      <button class="home-card" data-goto="matching">
+        <span class="hc-icon">🔤</span>
+        <span class="hc-title">Mots</span>
+        <span class="hc-sub">Jeu de matching</span>
+      </button>
+      <button class="home-card" data-goto="dictionary">
+        <span class="hc-icon">📖</span>
+        <span class="hc-title">Dictionnaire</span>
+        <span class="hc-sub">Traduire un mot</span>
+      </button>
+      <button class="home-card" data-goto="image">
+        <span class="hc-icon">📸</span>
+        <span class="hc-title">Caméra</span>
+        <span class="hc-sub">Reconnaissance d'image</span>
+      </button>
+      <button class="home-card" data-goto="texte">
+        <span class="hc-icon">📝</span>
+        <span class="hc-title">OCR</span>
+        <span class="hc-sub">Lire un texte</span>
+      </button>
     </div>
   </section>
-  
-  <!-- ============ QUIZ ============ -->
-  <section id="quiz" class="panel">
-    <h2>❓ Quiz : Phrases & traductions</h2>
-    <br>
+
+  <!-- COURS -->
+  <section class="page" id="page-cours">
+    <div class="page-header">
+      <button class="back-btn" data-goto="home">←</button>
+      <h2>📚 Cours</h2>
+    </div>
+    <div id="lessons-container"></div>
+  </section>
+
+  <!-- QUIZ -->
+  <section class="page" id="page-quiz">
+    <div class="page-header">
+      <button class="back-btn" data-goto="home">←</button>
+      <h2>❓ Quiz</h2>
+    </div>
+    <div class="quiz-level-selector">
+      <button class="level-btn active" data-level="all">Tous</button>
+      <button class="level-btn" data-level="beginner">Débutant</button>
+      <button class="level-btn" data-level="intermediate">Intermédiaire</button>
+      <button class="level-btn" data-level="advanced">Avancé</button>
+    </div>
+    <div class="quiz-progress-bar"><div id="quiz-progress"></div></div>
     <div class="quiz-question" id="quiz-question">Chargement...</div>
     <div class="quiz-options" id="quiz-options"></div>
-    <div class="score" id="quiz-score">Score : 0 / 0</div>
-    <br>
-    <button class="btn" onclick="nextQuestion()">Question suivante ➡️</button>
+    <div class="quiz-footer">
+      <div class="score" id="quiz-score">Score : 0 / 0</div>
+      <button class="btn primary" onclick="nextQuestion()">Suivant ➡️</button>
+    </div>
   </section>
-  
-  <!-- ============ MATCHING ============ -->
-  <section id="matching" class="panel">
-    <h2>🔤 Jeu : Associer les mots</h2>
-    <p style="margin: 10px 0; color: #666;">Cliquez sur un mot anglais puis sur sa traduction française.</p>
+
+  <!-- MATCHING -->
+  <section class="page" id="page-matching">
+    <div class="page-header">
+      <button class="back-btn" data-goto="home">←</button>
+      <h2>🔤 Associer les mots</h2>
+    </div>
+    <p class="hint">Cliquez sur un mot anglais puis sur sa traduction.</p>
     <div class="match-grid">
       <div class="match-col"><h4>🇬🇧 Anglais</h4><div id="col-en"></div></div>
       <div class="match-col"><h4>🇫🇷 Français</h4><div id="col-fr"></div></div>
     </div>
-    <br>
-    <button class="btn" onclick="initMatching()">🔄 Recommencer</button>
+    <button class="btn secondary" onclick="initMatching()">🔄 Recommencer</button>
     <div class="score" id="match-score"></div>
   </section>
-  
-  <!-- ============ IMAGE ============ -->
-  <section id="image" class="panel">
-    <h2>📸 Reconnaissance d'image</h2>
-    <div class="info">⚠️ La reconnaissance d'image utilise l'API <b>TensorFlow.js MobileNet</b>. L'image doit être prise avec la caméra ou importée.</div>
-    <div class="reco-zone">
-      <button class="btn" onclick="startCamera()">🎥 Activer la caméra</button>
-      <button class="btn secondary" onclick="stopCamera()">⏹️ Arrêter</button>
-      <br>
-      <video id="video" autoplay playsinline style="display:none;"></video>
-      <br>
-      <label class="btn secondary" style="display:inline-block;">📁 Importer une image<input type="file" accept="image/*" onchange="handleImageUpload(event)" style="display:none;"></label>
-      <br>
-      <canvas id="canvas" style="display:none;"></canvas>
-      <button class="btn" id="btn-analyze" onclick="analyzeFrame()" style="display:none;">🔍 Analyser</button>
-      <div class="result-box" id="image-result">
-        <span class="label">Résultat :</span> <span id="image-text">En attente...</span>
-      </div>
-    </div>
-  </section>
-  
-  <!-- ============ TEXTE (OCR) ============ -->
-  <section id="texte" class="panel">
-    <h2>📝 Reconnaissance de texte (OCR)</h2>
-    <div class="info">⚠️ L'OCR utilise <b>Tesseract.js</b>. Importez une image de texte anglais (ex: photo d'un livre).</div>
-    <div class="reco-zone">
-      <label class="btn" style="display:inline-block;">📁 Choisir une image<input type="file" accept="image/*" onchange="handleOCR(event)" style="display:none;"></label>
-      <div class="result-box" id="ocr-result">
-        <span class="label">Texte détecté :</span>
-        <p id="ocr-text" style="margin-top: 8px; white-space: pre-wrap;">En attente...</p>
-      </div>
-      <div class="result-box">
-        <span class="label">🔊 Traduction / Prononciation :</span>
-        <p id="ocr-speak" style="margin-top: 8px;">Le texte sera lu à voix haute.</p>
-        <button class="btn" onclick="speakText()">🔊 Écouter</button>
-      </div>
-    </div>
-  </section>
-</div>
 
-<!-- ====== Librairies externes ====== -->
+  <!-- DICTIONNAIRE -->
+  <section class="page" id="page-dictionary">
+    <div class="page-header">
+      <button class="back-btn" data-goto="home">←</button>
+      <h2>📖 Dictionnaire</h2>
+    </div>
+    <div class="search-box">
+      <input type="text" id="dict-input" placeholder="Entrez un mot en anglais ou français..." autocomplete="off">
+      <button class="btn primary" onclick="searchWord()">🔍</button>
+    </div>
+    <div id="dict-result" class="dict-result"></div>
+    <div class="history-section">
+      <h4>🕘 Historique</h4>
+      <div id="dict-history" class="history-tags"></div>
+    </div>
+  </section>
+
+  <!-- IMAGE / CAMERA -->
+  <section class="page" id="page-image">
+    <div class="page-header">
+      <button class="back-btn" data-goto="home">←</button>
+      <h2>📸 Reconnaissance d'image</h2>
+    </div>
+    <div class="info-banner">💡 L'IA reconnaît les objets. Prenez une photo ou importez une image.</div>
+    <div class="camera-controls">
+      <button class="btn primary" id="btn-start-cam" onclick="startCamera()">🎥 Caméra</button>
+      <button class="btn secondary" id="btn-stop-cam" onclick="stopCamera()" disabled>⏹️ Stop</button>
+      <label class="btn secondary" style="cursor:pointer">📁 Importer
+        <input type="file" accept="image/*" onchange="handleImageUpload(event)" style="display:none">
+      </label>
+    </div>
+    <div class="camera-view">
+      <video id="video" autoplay playsinline muted></video>
+      <canvas id="canvas"></canvas>
+    </div>
+    <button class="btn primary full-width" id="btn-analyze" onclick="analyzeFrame()" style="display:none">🔍 Analyser</button>
+    <div class="result-box" id="image-result">
+      <span class="label">Résultat :</span> <span id="image-text">En attente...</span>
+    </div>
+  </section>
+
+  <!-- TEXTE / OCR -->
+  <section class="page" id="page-texte">
+    <div class="page-header">
+      <button class="back-btn" data-goto="home">←</button>
+      <h2>📝 OCR — Lire un texte</h2>
+    </div>
+    <div class="info-banner">💡 Importez une photo de texte anglais (livre, panneau...)</div>
+    <label class="btn primary full-width" style="cursor:pointer">📁 Choisir une image
+      <input type="file" accept="image/*" onchange="handleOCR(event)" style="display:none">
+    </label>
+    <div class="result-box">
+      <span class="label">Texte détecté :</span>
+      <p id="ocr-text" style="margin-top: 8px; white-space: pre-wrap;">En attente...</p>
+    </div>
+    <div class="ocr-actions">
+      <button class="btn primary" onclick="speakText()">🔊 Écouter</button>
+      <button class="btn secondary" onclick="copyOCR()">📋 Copier</button>
+      <button class="btn secondary" onclick="defineOCR()">📖 Définir</button>
+    </div>
+  </section>
+</main>
+
+<!-- ===== BOTTOM NAV ===== -->
+<nav class="bottom-nav">
+  <button class="nav-item active" data-goto="home"><span>🏠</span><small>Accueil</small></button>
+  <button class="nav-item" data-goto="cours"><span>📚</span><small>Cours</small></button>
+  <button class="nav-item" data-goto="quiz"><span>❓</span><small>Quiz</small></button>
+  <button class="nav-item" data-goto="dictionary"><span>📖</span><small>Dico</small></button>
+  <button class="nav-item" data-goto="image"><span>📸</span><small>Camera</small></button>
+</nav>
+
+<!-- ===== TOAST ===== -->
+<div id="toast" class="toast"></div>
+
+<!-- ===== LIBRAIRIES ===== -->
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.11.0/dist/tf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.0/dist/mobilenet.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
 
-<script>
-/* ============================================================
-   NAVIGATION
-============================================================ */
-document.querySelectorAll('nav button').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
-    btn.classList.add('active');
-    document.getElementById(btn.dataset.panel).classList.add('active');
-  });
-});
-
-/* ============================================================
-   QUIZ : Phrases & traductions
-============================================================ */
-const quizData = [
-  { q: "Comment dit-on « Bonjour » en anglais ?", options: ["Goodbye", "Hello", "Thanks", "Please"], answer: 1 },
-  { q: "Traduisez : « Je mange une pomme »", options: ["I eat a apple", "I eat an apple", "I eating apple", "I eats an apple"], answer: 1 },
-  { q: "Quel est le pluriel de « child » ?", options: ["childs", "childrens", "children", "childes"], answer: 2 },
-  { q: "« She ___ to school every day. »", options: ["go", "goes", "going", "gone"], answer: 1 },
-  { q: "Traduisez : « Comment t'appelles-tu ? »", options: ["What is your name?", "How old are you?", "Where are you?", "Who are you?"], answer: 0 },
-  { q: "« I have ___ orange. »", options: ["a", "an", "the", "some"], answer: 1 },
-  { q: "Traduisez : « Le chat est sur la table »", options: ["The cat is in the table", "The cat is on the table", "A cat is under table", "Cat on table"], answer: 1 },
-  { q: "Quel est le passé de « go » ?", options: ["goed", "gone", "went", "going"], answer: 2 },
-];
-
-let quizScore = 0, quizTotal = 0, currentQ = null;
-
-function shuffle(arr) { return arr.slice().sort(() => Math.random() - 0.5); }
-
-function nextQuestion() {
-  currentQ = quizData[Math.floor(Math.random() * quizData.length)];
-  document.getElementById('quiz-question').textContent = currentQ.q;
-  const opts = document.getElementById('quiz-options');
-  opts.innerHTML = '';
-  
-  // On mélange les options tout en gardant la bonne réponse
-  const indices = shuffle([0,1,2,3]);
-  indices.forEach(i => {
-    const b = document.createElement('button');
-    b.textContent = currentQ.options[i];
-    b.onclick = () => checkAnswer(b, i === currentQ.answer);
-    opts.appendChild(b);
-  });
-}
-
-function checkAnswer(btn, isCorrect) {
-  const buttons = document.querySelectorAll('#quiz-options button');
-  buttons.forEach(b => b.disabled = true);
-  if (isCorrect) {
-    btn.classList.add('correct');
-    quizScore++;
-  } else {
-    btn.classList.add('wrong');
-    // Montrer la bonne réponse
-    buttons.forEach(b => {
-      if (b.textContent === currentQ.options[currentQ.answer]) b.classList.add('correct');
-    });
-  }
-  quizTotal++;
-  document.getElementById('quiz-score').textContent = `Score : ${quizScore} / ${quizTotal}`;
-}
-
-nextQuestion();
-
-/* ============================================================
-   MATCHING : Associer mots
-============================================================ */
-const matchPairs = [
-  { en: "Apple", fr: "Pomme" },
-  { en: "House", fr: "Maison" },
-  { en: "Book", fr: "Livre" },
-  { en: "Water", fr: "Eau" },
-  { en: "Dog", fr: "Chien" },
-  { en: "Sun", fr: "Soleil" },
-  { en: "Car", fr: "Voiture" },
-  { en: "Tree", fr: "Arbre" },
-];
-
-let selectedEn = null, selectedFr = null, matchedCount = 0;
-
-function initMatching() {
-  const colEn = document.getElementById('col-en');
-  const colFr = document.getElementById('col-fr');
-  colEn.innerHTML = ''; colFr.innerHTML = '';
-  selectedEn = selectedFr = null;
-  matchedCount = 0;
-  document.getElementById('match-score').textContent = '';
-  
-  const pairs = shuffle(matchPairs).slice(0, 5);
-  const enList = shuffle(pairs.map(p => p.en));
-  const frList = shuffle(pairs.map(p => p.fr));
-  
-  enList.forEach(word => {
-    const div = document.createElement('div');
-    div.className = 'match-item';
-    div.textContent = word;
-    div.dataset.word = word;
-    div.onclick = () => selectEn(div);
-    colEn.appendChild(div);
-  });
-  
-  frList.forEach(word => {
-    const div = document.createElement('div');
-    div.className = 'match-item';
-    div.textContent = word;
-    div.dataset.word = word;
-    div.onclick = () => selectFr(div);
-    colFr.appendChild(div);
-  });
-}
-
-function selectEn(el) {
-  if (el.classList.contains('matched')) return;
-  document.querySelectorAll('#col-en .match-item').forEach(i => i.classList.remove('selected'));
-  el.classList.add('selected');
-  selectedEn = el;
-  tryMatch();
-}
-
-function selectFr(el) {
-  if (el.classList.contains('matched')) return;
-  document.querySelectorAll('#col-fr .match-item').forEach(i => i.classList.remove('selected'));
-  el.classList.add('selected');
-  selectedFr = el;
-  tryMatch();
-}
-
-function tryMatch() {
-  if (!selectedEn || !selectedFr) return;
-  const pair = matchPairs.find(p => p.en === selectedEn.dataset.word);
-  if (pair && pair.fr === selectedFr.dataset.word) {
-    selectedEn.classList.remove('selected');
-    selectedFr.classList.remove('selected');
-    selectedEn.classList.add('matched');
-    selectedFr.classList.add('matched');
-    matchedCount++;
-    const total = document.querySelectorAll('#col-en .match-item').length;
-    document.getElementById('match-score').textContent = `✅ ${matchedCount} / ${total} paires trouvées`;
-    if (matchedCount === total) {
-      document.getElementById('match-score').textContent = `🎉 Bravo ! Toutes les paires trouvées !`;
-    }
-  } else {
-    setTimeout(() => {
-      selectedEn.classList.remove('selected');
-      selectedFr.classList.remove('selected');
-    }, 400);
-  }
-  selectedEn = selectedFr = null;
-}
-
-initMatching();
-
-/* ============================================================
-   RECONNAISSANCE D'IMAGE (TensorFlow.js MobileNet)
-============================================================ */
-let model = null, stream = null;
-const video = document.getElementById('video');
-const canvas = document.getElementById('canvas');
-
-async function loadModel() {
-  if (model) return model;
-  document.getElementById('image-text').textContent = "⏳ Chargement du modèle IA...";
-  model = await mobilenet.load();
-  document.getElementById('image-text').textContent = "✅ Modèle prêt !";
-  return model;
-}
-
-async function startCamera() {
-  try {
-    stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment' } });
-    video.srcObject = stream;
-    video.style.display = 'block';
-    document.getElementById('btn-analyze').style.display = 'inline-block';
-    await loadModel();
-  } catch (err) {
-    alert("Impossible d'accéder à la caméra : " + err.message);
-  }
-}
-
-function stopCamera() {
-  if (stream) {
-    stream.getTracks().forEach(t => t.stop());
-    stream = null;
-    video.style.display = 'none';
-    document.getElementById('btn-analyze').style.display = 'none';
-  }
-}
-
-async function analyzeFrame() {
-  const m = await loadModel();
-  const result = await m.classify(video);
-  displayImageResult(result);
-}
-
-async function handleImageUpload(e) {
-  const file = e.target.files[0];
-  if (!file) return;
-  const img = new Image();
-  img.onload = async () => {
-    const m = await loadModel();
-    const result = await m.classify(img);
-    displayImageResult(result);
-  };
-  img.src = URL.createObjectURL(file);
-}
-
-function displayImageResult(predictions) {
-  if (!predictions || predictions.length === 0) {
-    document.getElementById('image-text').textContent = "❌ Aucune reconnaissance.";
-    return;
-  }
-  let html = predictions.map(p => 
-    `• <b>${p.className}</b> (${(p.probability*100).toFixed(1)}%)`
-  ).join('<br>');
-  document.getElementById('image-text').innerHTML = html;
-  
-  // Lecture à voix haute du mot reconnu
-  const word = predictions[0].className.split(',')[0].trim();
-  speak(word);
-}
-
-/* ============================================================
-   OCR (Tesseract.js)
-============================================================ */
-let lastOCRText = "";
-
-async function handleOCR(e) {
-  const file = e.target.files[0];
-  if (!file) return;
-  const ocrText = document.getElementById('ocr-text');
-  ocrText.textContent = "⏳ Analyse en cours...";
-  
-  try {
-    const { data: { text } } = await Tesseract.recognize(file, 'eng', {
-      logger: m => {
-        if (m.status === 'recognizing text') {
-          ocrText.textContent = `⏳ Analyse... ${Math.round(m.progress*100)}%`;
-        }
-      }
-    });
-    lastOCRText = text.trim();
-    if (!lastOCRText) {
-      ocrText.textContent = "❌ Aucun texte détecté.";
-    } else {
-      ocrText.textContent = lastOCRText;
-      document.getElementById('ocr-speak').textContent = "Cliquez sur 🔊 Écouter pour entendre le texte.";
-    }
-  } catch (err) {
-    ocrText.textContent = "❌ Erreur : " + err.message;
-  }
-}
-
-/* ============================================================
-   SYNTHÈSE VOCALE (Web Speech API)
-============================================================ */
-function speak(text) {
-  if (!text || !('speechSynthesis' in window)) return;
-  window.speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(text);
-  u.lang = 'en-US';
-  u.rate = 0.9;
-  window.speechSynthesis.speak(u);
-}
-
-function speakText() {
-  if (lastOCRText) speak(lastOCRText);
-}
-</script>
+<!-- ===== APP SCRIPTS ===== -->
+<script src="js/speech.js"></script>
+<script src="js/lessons.js"></script>
+<script src="js/quiz.js"></script>
+<script src="js/matching.js"></script>
+<script src="js/dictionary.js"></script>
+<script src="js/recognition.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
