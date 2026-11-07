@@ -1,2123 +1,9717 @@
 /* ============================================================
-   3000 MOTS ANGLAIS AVEC TRADUCTION FRANÇAISE
-   Organisés par niveau (A1→C2) et par thème
-   Format : { en, fr, theme }
-   ============================================================ */
+   3000 MOTS ANGLAIS — Généré automatiquement
+   Total : 1932 mots
+============================================================ */
 (function () {
-  // ============================================================
-  // NIVEAU A1 — 500 mots essentiels
-  // ============================================================
+  // ========== A1 — 460 mots ==========
   const A1 = [
-    // ----- Salutations & politesse (20) -----
-    {en:"hello",fr:"bonjour",theme:"salutations"},
-    {en:"hi",fr:"salut",theme:"salutations"},
-    {en:"goodbye",fr:"au revoir",theme:"salutations"},
-    {en:"bye",fr:"bye",theme:"salutations"},
-    {en:"please",fr:"s'il vous plaît",theme:"salutations"},
-    {en:"thank you",fr:"merci",theme:"salutations"},
-    {en:"thanks",fr:"merci",theme:"salutations"},
-    {en:"sorry",fr:"désolé",theme:"salutations"},
-    {en:"excuse me",fr:"excusez-moi",theme:"salutations"},
-    {en:"yes",fr:"oui",theme:"salutations"},
-    {en:"no",fr:"non",theme:"salutations"},
-    {en:"welcome",fr:"bienvenue",theme:"salutations"},
-    {en:"good morning",fr:"bonjour (matin)",theme:"salutations"},
-    {en:"good afternoon",fr:"bon après-midi",theme:"salutations"},
-    {en:"good evening",fr:"bonsoir",theme:"salutations"},
-    {en:"good night",fr:"bonne nuit",theme:"salutations"},
-    {en:"sir",fr:"monsieur",theme:"salutations"},
-    {en:"madam",fr:"madame",theme:"salutations"},
-    {en:"how are you",fr:"comment vas-tu",theme:"salutations"},
-    {en:"nice to meet you",fr:"enchanté",theme:"salutations"},
+  {
+    "en": "hello",
+    "fr": "bonjour",
+    "theme": "salutations"
+  },
+  {
+    "en": "hi",
+    "fr": "salut",
+    "theme": "salutations"
+  },
+  {
+    "en": "goodbye",
+    "fr": "au revoir",
+    "theme": "salutations"
+  },
+  {
+    "en": "bye",
+    "fr": "bye",
+    "theme": "salutations"
+  },
+  {
+    "en": "please",
+    "fr": "s'il vous plaît",
+    "theme": "salutations"
+  },
+  {
+    "en": "thank you",
+    "fr": "merci",
+    "theme": "salutations"
+  },
+  {
+    "en": "thanks",
+    "fr": "merci",
+    "theme": "salutations"
+  },
+  {
+    "en": "sorry",
+    "fr": "désolé",
+    "theme": "salutations"
+  },
+  {
+    "en": "excuse me",
+    "fr": "excusez-moi",
+    "theme": "salutations"
+  },
+  {
+    "en": "yes",
+    "fr": "oui",
+    "theme": "salutations"
+  },
+  {
+    "en": "no",
+    "fr": "non",
+    "theme": "salutations"
+  },
+  {
+    "en": "welcome",
+    "fr": "bienvenue",
+    "theme": "salutations"
+  },
+  {
+    "en": "good morning",
+    "fr": "bonjour (matin)",
+    "theme": "salutations"
+  },
+  {
+    "en": "good afternoon",
+    "fr": "bon après-midi",
+    "theme": "salutations"
+  },
+  {
+    "en": "good evening",
+    "fr": "bonsoir",
+    "theme": "salutations"
+  },
+  {
+    "en": "good night",
+    "fr": "bonne nuit",
+    "theme": "salutations"
+  },
+  {
+    "en": "sir",
+    "fr": "monsieur",
+    "theme": "salutations"
+  },
+  {
+    "en": "madam",
+    "fr": "madame",
+    "theme": "salutations"
+  },
+  {
+    "en": "how are you",
+    "fr": "comment vas-tu",
+    "theme": "salutations"
+  },
+  {
+    "en": "nice to meet you",
+    "fr": "enchanté",
+    "theme": "salutations"
+  },
+  {
+    "en": "family",
+    "fr": "famille",
+    "theme": "famille"
+  },
+  {
+    "en": "mother",
+    "fr": "mère",
+    "theme": "famille"
+  },
+  {
+    "en": "father",
+    "fr": "père",
+    "theme": "famille"
+  },
+  {
+    "en": "mom",
+    "fr": "maman",
+    "theme": "famille"
+  },
+  {
+    "en": "dad",
+    "fr": "papa",
+    "theme": "famille"
+  },
+  {
+    "en": "brother",
+    "fr": "frère",
+    "theme": "famille"
+  },
+  {
+    "en": "sister",
+    "fr": "sœur",
+    "theme": "famille"
+  },
+  {
+    "en": "son",
+    "fr": "fils",
+    "theme": "famille"
+  },
+  {
+    "en": "daughter",
+    "fr": "fille",
+    "theme": "famille"
+  },
+  {
+    "en": "child",
+    "fr": "enfant",
+    "theme": "famille"
+  },
+  {
+    "en": "baby",
+    "fr": "bébé",
+    "theme": "famille"
+  },
+  {
+    "en": "grandmother",
+    "fr": "grand-mère",
+    "theme": "famille"
+  },
+  {
+    "en": "grandfather",
+    "fr": "grand-père",
+    "theme": "famille"
+  },
+  {
+    "en": "grandparents",
+    "fr": "grands-parents",
+    "theme": "famille"
+  },
+  {
+    "en": "uncle",
+    "fr": "oncle",
+    "theme": "famille"
+  },
+  {
+    "en": "aunt",
+    "fr": "tante",
+    "theme": "famille"
+  },
+  {
+    "en": "cousin",
+    "fr": "cousin(e)",
+    "theme": "famille"
+  },
+  {
+    "en": "parents",
+    "fr": "parents",
+    "theme": "famille"
+  },
+  {
+    "en": "husband",
+    "fr": "mari",
+    "theme": "famille"
+  },
+  {
+    "en": "wife",
+    "fr": "épouse",
+    "theme": "famille"
+  },
+  {
+    "en": "man",
+    "fr": "homme",
+    "theme": "famille"
+  },
+  {
+    "en": "woman",
+    "fr": "femme",
+    "theme": "famille"
+  },
+  {
+    "en": "boy",
+    "fr": "garçon",
+    "theme": "famille"
+  },
+  {
+    "en": "girl",
+    "fr": "fille",
+    "theme": "famille"
+  },
+  {
+    "en": "people",
+    "fr": "gens",
+    "theme": "famille"
+  },
+  {
+    "en": "person",
+    "fr": "personne",
+    "theme": "famille"
+  },
+  {
+    "en": "friend",
+    "fr": "ami",
+    "theme": "famille"
+  },
+  {
+    "en": "neighbor",
+    "fr": "voisin",
+    "theme": "famille"
+  },
+  {
+    "en": "name",
+    "fr": "nom",
+    "theme": "famille"
+  },
+  {
+    "en": "age",
+    "fr": "âge",
+    "theme": "famille"
+  },
+  {
+    "en": "zero",
+    "fr": "zéro",
+    "theme": "nombres"
+  },
+  {
+    "en": "one",
+    "fr": "un",
+    "theme": "nombres"
+  },
+  {
+    "en": "two",
+    "fr": "deux",
+    "theme": "nombres"
+  },
+  {
+    "en": "three",
+    "fr": "trois",
+    "theme": "nombres"
+  },
+  {
+    "en": "four",
+    "fr": "quatre",
+    "theme": "nombres"
+  },
+  {
+    "en": "five",
+    "fr": "cinq",
+    "theme": "nombres"
+  },
+  {
+    "en": "six",
+    "fr": "six",
+    "theme": "nombres"
+  },
+  {
+    "en": "seven",
+    "fr": "sept",
+    "theme": "nombres"
+  },
+  {
+    "en": "eight",
+    "fr": "huit",
+    "theme": "nombres"
+  },
+  {
+    "en": "nine",
+    "fr": "neuf",
+    "theme": "nombres"
+  },
+  {
+    "en": "ten",
+    "fr": "dix",
+    "theme": "nombres"
+  },
+  {
+    "en": "eleven",
+    "fr": "onze",
+    "theme": "nombres"
+  },
+  {
+    "en": "twelve",
+    "fr": "douze",
+    "theme": "nombres"
+  },
+  {
+    "en": "thirteen",
+    "fr": "treize",
+    "theme": "nombres"
+  },
+  {
+    "en": "twenty",
+    "fr": "vingt",
+    "theme": "nombres"
+  },
+  {
+    "en": "thirty",
+    "fr": "trente",
+    "theme": "nombres"
+  },
+  {
+    "en": "forty",
+    "fr": "quarante",
+    "theme": "nombres"
+  },
+  {
+    "en": "fifty",
+    "fr": "cinquante",
+    "theme": "nombres"
+  },
+  {
+    "en": "hundred",
+    "fr": "cent",
+    "theme": "nombres"
+  },
+  {
+    "en": "thousand",
+    "fr": "mille",
+    "theme": "nombres"
+  },
+  {
+    "en": "million",
+    "fr": "million",
+    "theme": "nombres"
+  },
+  {
+    "en": "first",
+    "fr": "premier",
+    "theme": "nombres"
+  },
+  {
+    "en": "second",
+    "fr": "deuxième",
+    "theme": "nombres"
+  },
+  {
+    "en": "third",
+    "fr": "troisième",
+    "theme": "nombres"
+  },
+  {
+    "en": "half",
+    "fr": "moitié",
+    "theme": "nombres"
+  },
+  {
+    "en": "number",
+    "fr": "nombre",
+    "theme": "nombres"
+  },
+  {
+    "en": "many",
+    "fr": "beaucoup",
+    "theme": "nombres"
+  },
+  {
+    "en": "few",
+    "fr": "peu",
+    "theme": "nombres"
+  },
+  {
+    "en": "some",
+    "fr": "quelques",
+    "theme": "nombres"
+  },
+  {
+    "en": "all",
+    "fr": "tout",
+    "theme": "nombres"
+  },
+  {
+    "en": "color",
+    "fr": "couleur",
+    "theme": "couleurs"
+  },
+  {
+    "en": "red",
+    "fr": "rouge",
+    "theme": "couleurs"
+  },
+  {
+    "en": "blue",
+    "fr": "bleu",
+    "theme": "couleurs"
+  },
+  {
+    "en": "green",
+    "fr": "vert",
+    "theme": "couleurs"
+  },
+  {
+    "en": "yellow",
+    "fr": "jaune",
+    "theme": "couleurs"
+  },
+  {
+    "en": "black",
+    "fr": "noir",
+    "theme": "couleurs"
+  },
+  {
+    "en": "white",
+    "fr": "blanc",
+    "theme": "couleurs"
+  },
+  {
+    "en": "orange",
+    "fr": "orange",
+    "theme": "couleurs"
+  },
+  {
+    "en": "purple",
+    "fr": "violet",
+    "theme": "couleurs"
+  },
+  {
+    "en": "pink",
+    "fr": "rose",
+    "theme": "couleurs"
+  },
+  {
+    "en": "brown",
+    "fr": "marron",
+    "theme": "couleurs"
+  },
+  {
+    "en": "gray",
+    "fr": "gris",
+    "theme": "couleurs"
+  },
+  {
+    "en": "gold",
+    "fr": "or",
+    "theme": "couleurs"
+  },
+  {
+    "en": "silver",
+    "fr": "argent",
+    "theme": "couleurs"
+  },
+  {
+    "en": "dark",
+    "fr": "sombre",
+    "theme": "couleurs"
+  },
+  {
+    "en": "food",
+    "fr": "nourriture",
+    "theme": "nourriture"
+  },
+  {
+    "en": "water",
+    "fr": "eau",
+    "theme": "nourriture"
+  },
+  {
+    "en": "bread",
+    "fr": "pain",
+    "theme": "nourriture"
+  },
+  {
+    "en": "milk",
+    "fr": "lait",
+    "theme": "nourriture"
+  },
+  {
+    "en": "coffee",
+    "fr": "café",
+    "theme": "nourriture"
+  },
+  {
+    "en": "tea",
+    "fr": "thé",
+    "theme": "nourriture"
+  },
+  {
+    "en": "juice",
+    "fr": "jus",
+    "theme": "nourriture"
+  },
+  {
+    "en": "apple",
+    "fr": "pomme",
+    "theme": "nourriture"
+  },
+  {
+    "en": "banana",
+    "fr": "banane",
+    "theme": "nourriture"
+  },
+  {
+    "en": "orange fruit",
+    "fr": "orange (fruit)",
+    "theme": "nourriture"
+  },
+  {
+    "en": "grape",
+    "fr": "raisin",
+    "theme": "nourriture"
+  },
+  {
+    "en": "strawberry",
+    "fr": "fraise",
+    "theme": "nourriture"
+  },
+  {
+    "en": "lemon",
+    "fr": "citron",
+    "theme": "nourriture"
+  },
+  {
+    "en": "meat",
+    "fr": "viande",
+    "theme": "nourriture"
+  },
+  {
+    "en": "chicken",
+    "fr": "poulet",
+    "theme": "nourriture"
+  },
+  {
+    "en": "beef",
+    "fr": "bœuf",
+    "theme": "nourriture"
+  },
+  {
+    "en": "fish",
+    "fr": "poisson",
+    "theme": "nourriture"
+  },
+  {
+    "en": "egg",
+    "fr": "œuf",
+    "theme": "nourriture"
+  },
+  {
+    "en": "cheese",
+    "fr": "fromage",
+    "theme": "nourriture"
+  },
+  {
+    "en": "butter",
+    "fr": "beurre",
+    "theme": "nourriture"
+  },
+  {
+    "en": "rice",
+    "fr": "riz",
+    "theme": "nourriture"
+  },
+  {
+    "en": "pasta",
+    "fr": "pâtes",
+    "theme": "nourriture"
+  },
+  {
+    "en": "potato",
+    "fr": "pomme de terre",
+    "theme": "nourriture"
+  },
+  {
+    "en": "tomato",
+    "fr": "tomate",
+    "theme": "nourriture"
+  },
+  {
+    "en": "carrot",
+    "fr": "carotte",
+    "theme": "nourriture"
+  },
+  {
+    "en": "onion",
+    "fr": "oignon",
+    "theme": "nourriture"
+  },
+  {
+    "en": "salad",
+    "fr": "salade",
+    "theme": "nourriture"
+  },
+  {
+    "en": "soup",
+    "fr": "soupe",
+    "theme": "nourriture"
+  },
+  {
+    "en": "sandwich",
+    "fr": "sandwich",
+    "theme": "nourriture"
+  },
+  {
+    "en": "pizza",
+    "fr": "pizza",
+    "theme": "nourriture"
+  },
+  {
+    "en": "cake",
+    "fr": "gâteau",
+    "theme": "nourriture"
+  },
+  {
+    "en": "sugar",
+    "fr": "sucre",
+    "theme": "nourriture"
+  },
+  {
+    "en": "salt",
+    "fr": "sel",
+    "theme": "nourriture"
+  },
+  {
+    "en": "pepper",
+    "fr": "poivre",
+    "theme": "nourriture"
+  },
+  {
+    "en": "oil",
+    "fr": "huile",
+    "theme": "nourriture"
+  },
+  {
+    "en": "breakfast",
+    "fr": "petit-déjeuner",
+    "theme": "nourriture"
+  },
+  {
+    "en": "lunch",
+    "fr": "déjeuner",
+    "theme": "nourriture"
+  },
+  {
+    "en": "dinner",
+    "fr": "dîner",
+    "theme": "nourriture"
+  },
+  {
+    "en": "meal",
+    "fr": "repas",
+    "theme": "nourriture"
+  },
+  {
+    "en": "fruit",
+    "fr": "fruit",
+    "theme": "nourriture"
+  },
+  {
+    "en": "animal",
+    "fr": "animal",
+    "theme": "animaux"
+  },
+  {
+    "en": "dog",
+    "fr": "chien",
+    "theme": "animaux"
+  },
+  {
+    "en": "cat",
+    "fr": "chat",
+    "theme": "animaux"
+  },
+  {
+    "en": "bird",
+    "fr": "oiseau",
+    "theme": "animaux"
+  },
+  {
+    "en": "horse",
+    "fr": "cheval",
+    "theme": "animaux"
+  },
+  {
+    "en": "cow",
+    "fr": "vache",
+    "theme": "animaux"
+  },
+  {
+    "en": "pig",
+    "fr": "cochon",
+    "theme": "animaux"
+  },
+  {
+    "en": "sheep",
+    "fr": "mouton",
+    "theme": "animaux"
+  },
+  {
+    "en": "goat",
+    "fr": "chèvre",
+    "theme": "animaux"
+  },
+  {
+    "en": "rabbit",
+    "fr": "lapin",
+    "theme": "animaux"
+  },
+  {
+    "en": "mouse",
+    "fr": "souris",
+    "theme": "animaux"
+  },
+  {
+    "en": "elephant",
+    "fr": "éléphant",
+    "theme": "animaux"
+  },
+  {
+    "en": "lion",
+    "fr": "lion",
+    "theme": "animaux"
+  },
+  {
+    "en": "tiger",
+    "fr": "tigre",
+    "theme": "animaux"
+  },
+  {
+    "en": "monkey",
+    "fr": "singe",
+    "theme": "animaux"
+  },
+  {
+    "en": "bear",
+    "fr": "ours",
+    "theme": "animaux"
+  },
+  {
+    "en": "wolf",
+    "fr": "loup",
+    "theme": "animaux"
+  },
+  {
+    "en": "fox",
+    "fr": "renard",
+    "theme": "animaux"
+  },
+  {
+    "en": "duck",
+    "fr": "canard",
+    "theme": "animaux"
+  },
+  {
+    "en": "chicken animal",
+    "fr": "poule",
+    "theme": "animaux"
+  },
+  {
+    "en": "bee",
+    "fr": "abeille",
+    "theme": "animaux"
+  },
+  {
+    "en": "butterfly",
+    "fr": "papillon",
+    "theme": "animaux"
+  },
+  {
+    "en": "ant",
+    "fr": "fourmi",
+    "theme": "animaux"
+  },
+  {
+    "en": "snake",
+    "fr": "serpent",
+    "theme": "animaux"
+  },
+  {
+    "en": "frog",
+    "fr": "grenouille",
+    "theme": "animaux"
+  },
+  {
+    "en": "turtle",
+    "fr": "tortue",
+    "theme": "animaux"
+  },
+  {
+    "en": "dolphin",
+    "fr": "dauphin",
+    "theme": "animaux"
+  },
+  {
+    "en": "whale",
+    "fr": "baleine",
+    "theme": "animaux"
+  },
+  {
+    "en": "shark",
+    "fr": "requin",
+    "theme": "animaux"
+  },
+  {
+    "en": "penguin",
+    "fr": "pingouin",
+    "theme": "animaux"
+  },
+  {
+    "en": "body",
+    "fr": "corps",
+    "theme": "corps"
+  },
+  {
+    "en": "head",
+    "fr": "tête",
+    "theme": "corps"
+  },
+  {
+    "en": "hair",
+    "fr": "cheveux",
+    "theme": "corps"
+  },
+  {
+    "en": "face",
+    "fr": "visage",
+    "theme": "corps"
+  },
+  {
+    "en": "eye",
+    "fr": "œil",
+    "theme": "corps"
+  },
+  {
+    "en": "ear",
+    "fr": "oreille",
+    "theme": "corps"
+  },
+  {
+    "en": "nose",
+    "fr": "nez",
+    "theme": "corps"
+  },
+  {
+    "en": "mouth",
+    "fr": "bouche",
+    "theme": "corps"
+  },
+  {
+    "en": "tooth",
+    "fr": "dent",
+    "theme": "corps"
+  },
+  {
+    "en": "tongue",
+    "fr": "langue",
+    "theme": "corps"
+  },
+  {
+    "en": "neck",
+    "fr": "cou",
+    "theme": "corps"
+  },
+  {
+    "en": "shoulder",
+    "fr": "épaule",
+    "theme": "corps"
+  },
+  {
+    "en": "arm",
+    "fr": "bras",
+    "theme": "corps"
+  },
+  {
+    "en": "hand",
+    "fr": "main",
+    "theme": "corps"
+  },
+  {
+    "en": "finger",
+    "fr": "doigt",
+    "theme": "corps"
+  },
+  {
+    "en": "leg",
+    "fr": "jambe",
+    "theme": "corps"
+  },
+  {
+    "en": "foot",
+    "fr": "pied",
+    "theme": "corps"
+  },
+  {
+    "en": "knee",
+    "fr": "genou",
+    "theme": "corps"
+  },
+  {
+    "en": "back",
+    "fr": "dos",
+    "theme": "corps"
+  },
+  {
+    "en": "chest",
+    "fr": "poitrine",
+    "theme": "corps"
+  },
+  {
+    "en": "heart",
+    "fr": "cœur",
+    "theme": "corps"
+  },
+  {
+    "en": "stomach",
+    "fr": "estomac",
+    "theme": "corps"
+  },
+  {
+    "en": "skin",
+    "fr": "peau",
+    "theme": "corps"
+  },
+  {
+    "en": "bone",
+    "fr": "os",
+    "theme": "corps"
+  },
+  {
+    "en": "blood",
+    "fr": "sang",
+    "theme": "corps"
+  },
+  {
+    "en": "house",
+    "fr": "maison",
+    "theme": "maison"
+  },
+  {
+    "en": "home",
+    "fr": "chez soi",
+    "theme": "maison"
+  },
+  {
+    "en": "room",
+    "fr": "pièce",
+    "theme": "maison"
+  },
+  {
+    "en": "kitchen",
+    "fr": "cuisine",
+    "theme": "maison"
+  },
+  {
+    "en": "bedroom",
+    "fr": "chambre",
+    "theme": "maison"
+  },
+  {
+    "en": "bathroom",
+    "fr": "salle de bain",
+    "theme": "maison"
+  },
+  {
+    "en": "living room",
+    "fr": "salon",
+    "theme": "maison"
+  },
+  {
+    "en": "door",
+    "fr": "porte",
+    "theme": "maison"
+  },
+  {
+    "en": "window",
+    "fr": "fenêtre",
+    "theme": "maison"
+  },
+  {
+    "en": "wall",
+    "fr": "mur",
+    "theme": "maison"
+  },
+  {
+    "en": "floor",
+    "fr": "sol",
+    "theme": "maison"
+  },
+  {
+    "en": "ceiling",
+    "fr": "plafond",
+    "theme": "maison"
+  },
+  {
+    "en": "roof",
+    "fr": "toit",
+    "theme": "maison"
+  },
+  {
+    "en": "table",
+    "fr": "table",
+    "theme": "maison"
+  },
+  {
+    "en": "chair",
+    "fr": "chaise",
+    "theme": "maison"
+  },
+  {
+    "en": "bed",
+    "fr": "lit",
+    "theme": "maison"
+  },
+  {
+    "en": "sofa",
+    "fr": "canapé",
+    "theme": "maison"
+  },
+  {
+    "en": "lamp",
+    "fr": "lampe",
+    "theme": "maison"
+  },
+  {
+    "en": "mirror",
+    "fr": "miroir",
+    "theme": "maison"
+  },
+  {
+    "en": "clock",
+    "fr": "horloge",
+    "theme": "maison"
+  },
+  {
+    "en": "key",
+    "fr": "clé",
+    "theme": "maison"
+  },
+  {
+    "en": "garden",
+    "fr": "jardin",
+    "theme": "maison"
+  },
+  {
+    "en": "garage",
+    "fr": "garage",
+    "theme": "maison"
+  },
+  {
+    "en": "stairs",
+    "fr": "escalier",
+    "theme": "maison"
+  },
+  {
+    "en": "carpet",
+    "fr": "tapis",
+    "theme": "maison"
+  },
+  {
+    "en": "pillow",
+    "fr": "oreiller",
+    "theme": "maison"
+  },
+  {
+    "en": "blanket",
+    "fr": "couverture",
+    "theme": "maison"
+  },
+  {
+    "en": "towel",
+    "fr": "serviette",
+    "theme": "maison"
+  },
+  {
+    "en": "soap",
+    "fr": "savon",
+    "theme": "maison"
+  },
+  {
+    "en": "brush",
+    "fr": "brosse",
+    "theme": "maison"
+  },
+  {
+    "en": "clothes",
+    "fr": "vêtements",
+    "theme": "vetements"
+  },
+  {
+    "en": "shirt",
+    "fr": "chemise",
+    "theme": "vetements"
+  },
+  {
+    "en": "t-shirt",
+    "fr": "t-shirt",
+    "theme": "vetements"
+  },
+  {
+    "en": "pants",
+    "fr": "pantalon",
+    "theme": "vetements"
+  },
+  {
+    "en": "jeans",
+    "fr": "jean",
+    "theme": "vetements"
+  },
+  {
+    "en": "dress",
+    "fr": "robe",
+    "theme": "vetements"
+  },
+  {
+    "en": "skirt",
+    "fr": "jupe",
+    "theme": "vetements"
+  },
+  {
+    "en": "coat",
+    "fr": "manteau",
+    "theme": "vetements"
+  },
+  {
+    "en": "jacket",
+    "fr": "veste",
+    "theme": "vetements"
+  },
+  {
+    "en": "sweater",
+    "fr": "pull",
+    "theme": "vetements"
+  },
+  {
+    "en": "shoes",
+    "fr": "chaussures",
+    "theme": "vetements"
+  },
+  {
+    "en": "boots",
+    "fr": "bottes",
+    "theme": "vetements"
+  },
+  {
+    "en": "socks",
+    "fr": "chaussettes",
+    "theme": "vetements"
+  },
+  {
+    "en": "hat",
+    "fr": "chapeau",
+    "theme": "vetements"
+  },
+  {
+    "en": "cap",
+    "fr": "casquette",
+    "theme": "vetements"
+  },
+  {
+    "en": "scarf",
+    "fr": "écharpe",
+    "theme": "vetements"
+  },
+  {
+    "en": "gloves",
+    "fr": "gants",
+    "theme": "vetements"
+  },
+  {
+    "en": "belt",
+    "fr": "ceinture",
+    "theme": "vetements"
+  },
+  {
+    "en": "tie",
+    "fr": "cravate",
+    "theme": "vetements"
+  },
+  {
+    "en": "bag",
+    "fr": "sac",
+    "theme": "vetements"
+  },
+  {
+    "en": "watch",
+    "fr": "montre",
+    "theme": "vetements"
+  },
+  {
+    "en": "ring",
+    "fr": "bague",
+    "theme": "vetements"
+  },
+  {
+    "en": "glasses",
+    "fr": "lunettes",
+    "theme": "vetements"
+  },
+  {
+    "en": "umbrella",
+    "fr": "parapluie",
+    "theme": "vetements"
+  },
+  {
+    "en": "pocket",
+    "fr": "poche",
+    "theme": "vetements"
+  },
+  {
+    "en": "day",
+    "fr": "jour",
+    "theme": "temps"
+  },
+  {
+    "en": "week",
+    "fr": "semaine",
+    "theme": "temps"
+  },
+  {
+    "en": "month",
+    "fr": "mois",
+    "theme": "temps"
+  },
+  {
+    "en": "year",
+    "fr": "année",
+    "theme": "temps"
+  },
+  {
+    "en": "hour",
+    "fr": "heure",
+    "theme": "temps"
+  },
+  {
+    "en": "minute",
+    "fr": "minute",
+    "theme": "temps"
+  },
+  {
+    "en": "second time",
+    "fr": "seconde",
+    "theme": "temps"
+  },
+  {
+    "en": "morning",
+    "fr": "matin",
+    "theme": "temps"
+  },
+  {
+    "en": "afternoon",
+    "fr": "après-midi",
+    "theme": "temps"
+  },
+  {
+    "en": "evening",
+    "fr": "soir",
+    "theme": "temps"
+  },
+  {
+    "en": "night",
+    "fr": "nuit",
+    "theme": "temps"
+  },
+  {
+    "en": "today",
+    "fr": "aujourd'hui",
+    "theme": "temps"
+  },
+  {
+    "en": "tomorrow",
+    "fr": "demain",
+    "theme": "temps"
+  },
+  {
+    "en": "yesterday",
+    "fr": "hier",
+    "theme": "temps"
+  },
+  {
+    "en": "now",
+    "fr": "maintenant",
+    "theme": "temps"
+  },
+  {
+    "en": "later",
+    "fr": "plus tard",
+    "theme": "temps"
+  },
+  {
+    "en": "monday",
+    "fr": "lundi",
+    "theme": "temps"
+  },
+  {
+    "en": "tuesday",
+    "fr": "mardi",
+    "theme": "temps"
+  },
+  {
+    "en": "wednesday",
+    "fr": "mercredi",
+    "theme": "temps"
+  },
+  {
+    "en": "thursday",
+    "fr": "jeudi",
+    "theme": "temps"
+  },
+  {
+    "en": "friday",
+    "fr": "vendredi",
+    "theme": "temps"
+  },
+  {
+    "en": "saturday",
+    "fr": "samedi",
+    "theme": "temps"
+  },
+  {
+    "en": "sunday",
+    "fr": "dimanche",
+    "theme": "temps"
+  },
+  {
+    "en": "january",
+    "fr": "janvier",
+    "theme": "temps"
+  },
+  {
+    "en": "february",
+    "fr": "février",
+    "theme": "temps"
+  },
+  {
+    "en": "march",
+    "fr": "mars",
+    "theme": "temps"
+  },
+  {
+    "en": "april",
+    "fr": "avril",
+    "theme": "temps"
+  },
+  {
+    "en": "may",
+    "fr": "mai",
+    "theme": "temps"
+  },
+  {
+    "en": "june",
+    "fr": "juin",
+    "theme": "temps"
+  },
+  {
+    "en": "july",
+    "fr": "juillet",
+    "theme": "temps"
+  },
+  {
+    "en": "august",
+    "fr": "août",
+    "theme": "temps"
+  },
+  {
+    "en": "september",
+    "fr": "septembre",
+    "theme": "temps"
+  },
+  {
+    "en": "october",
+    "fr": "octobre",
+    "theme": "temps"
+  },
+  {
+    "en": "november",
+    "fr": "novembre",
+    "theme": "temps"
+  },
+  {
+    "en": "december",
+    "fr": "décembre",
+    "theme": "temps"
+  },
+  {
+    "en": "be",
+    "fr": "être",
+    "theme": "verbes"
+  },
+  {
+    "en": "have",
+    "fr": "avoir",
+    "theme": "verbes"
+  },
+  {
+    "en": "do",
+    "fr": "faire",
+    "theme": "verbes"
+  },
+  {
+    "en": "go",
+    "fr": "aller",
+    "theme": "verbes"
+  },
+  {
+    "en": "come",
+    "fr": "venir",
+    "theme": "verbes"
+  },
+  {
+    "en": "eat",
+    "fr": "manger",
+    "theme": "verbes"
+  },
+  {
+    "en": "drink",
+    "fr": "boire",
+    "theme": "verbes"
+  },
+  {
+    "en": "sleep",
+    "fr": "dormir",
+    "theme": "verbes"
+  },
+  {
+    "en": "wake up",
+    "fr": "se réveiller",
+    "theme": "verbes"
+  },
+  {
+    "en": "walk",
+    "fr": "marcher",
+    "theme": "verbes"
+  },
+  {
+    "en": "run",
+    "fr": "courir",
+    "theme": "verbes"
+  },
+  {
+    "en": "sit",
+    "fr": "s'asseoir",
+    "theme": "verbes"
+  },
+  {
+    "en": "stand",
+    "fr": "se lever",
+    "theme": "verbes"
+  },
+  {
+    "en": "speak",
+    "fr": "parler",
+    "theme": "verbes"
+  },
+  {
+    "en": "say",
+    "fr": "dire",
+    "theme": "verbes"
+  },
+  {
+    "en": "tell",
+    "fr": "raconter",
+    "theme": "verbes"
+  },
+  {
+    "en": "listen",
+    "fr": "écouter",
+    "theme": "verbes"
+  },
+  {
+    "en": "hear",
+    "fr": "entendre",
+    "theme": "verbes"
+  },
+  {
+    "en": "see",
+    "fr": "voir",
+    "theme": "verbes"
+  },
+  {
+    "en": "look",
+    "fr": "regarder",
+    "theme": "verbes"
+  },
+  {
+    "en": "watch",
+    "fr": "observer",
+    "theme": "verbes"
+  },
+  {
+    "en": "read",
+    "fr": "lire",
+    "theme": "verbes"
+  },
+  {
+    "en": "write",
+    "fr": "écrire",
+    "theme": "verbes"
+  },
+  {
+    "en": "learn",
+    "fr": "apprendre",
+    "theme": "verbes"
+  },
+  {
+    "en": "study",
+    "fr": "étudier",
+    "theme": "verbes"
+  },
+  {
+    "en": "work",
+    "fr": "travailler",
+    "theme": "verbes"
+  },
+  {
+    "en": "play",
+    "fr": "jouer",
+    "theme": "verbes"
+  },
+  {
+    "en": "think",
+    "fr": "penser",
+    "theme": "verbes"
+  },
+  {
+    "en": "know",
+    "fr": "savoir",
+    "theme": "verbes"
+  },
+  {
+    "en": "understand",
+    "fr": "comprendre",
+    "theme": "verbes"
+  },
+  {
+    "en": "remember",
+    "fr": "se souvenir",
+    "theme": "verbes"
+  },
+  {
+    "en": "forget",
+    "fr": "oublier",
+    "theme": "verbes"
+  },
+  {
+    "en": "love",
+    "fr": "aimer",
+    "theme": "verbes"
+  },
+  {
+    "en": "like",
+    "fr": "aimer bien",
+    "theme": "verbes"
+  },
+  {
+    "en": "want",
+    "fr": "vouloir",
+    "theme": "verbes"
+  },
+  {
+    "en": "need",
+    "fr": "avoir besoin",
+    "theme": "verbes"
+  },
+  {
+    "en": "give",
+    "fr": "donner",
+    "theme": "verbes"
+  },
+  {
+    "en": "take",
+    "fr": "prendre",
+    "theme": "verbes"
+  },
+  {
+    "en": "buy",
+    "fr": "acheter",
+    "theme": "verbes"
+  },
+  {
+    "en": "sell",
+    "fr": "vendre",
+    "theme": "verbes"
+  },
+  {
+    "en": "open",
+    "fr": "ouvrir",
+    "theme": "verbes"
+  },
+  {
+    "en": "close",
+    "fr": "fermer",
+    "theme": "verbes"
+  },
+  {
+    "en": "start",
+    "fr": "commencer",
+    "theme": "verbes"
+  },
+  {
+    "en": "finish",
+    "fr": "finir",
+    "theme": "verbes"
+  },
+  {
+    "en": "help",
+    "fr": "aider",
+    "theme": "verbes"
+  },
+  {
+    "en": "try",
+    "fr": "essayer",
+    "theme": "verbes"
+  },
+  {
+    "en": "use",
+    "fr": "utiliser",
+    "theme": "verbes"
+  },
+  {
+    "en": "find",
+    "fr": "trouver",
+    "theme": "verbes"
+  },
+  {
+    "en": "lose",
+    "fr": "perdre",
+    "theme": "verbes"
+  },
+  {
+    "en": "win",
+    "fr": "gagner",
+    "theme": "verbes"
+  },
+  {
+    "en": "laugh",
+    "fr": "rire",
+    "theme": "verbes"
+  },
+  {
+    "en": "cry",
+    "fr": "pleurer",
+    "theme": "verbes"
+  },
+  {
+    "en": "sing",
+    "fr": "chanter",
+    "theme": "verbes"
+  },
+  {
+    "en": "dance",
+    "fr": "danser",
+    "theme": "verbes"
+  },
+  {
+    "en": "cook",
+    "fr": "cuisiner",
+    "theme": "verbes"
+  },
+  {
+    "en": "clean",
+    "fr": "nettoyer",
+    "theme": "verbes"
+  },
+  {
+    "en": "wash",
+    "fr": "laver",
+    "theme": "verbes"
+  },
+  {
+    "en": "drive",
+    "fr": "conduire",
+    "theme": "verbes"
+  },
+  {
+    "en": "fly",
+    "fr": "voler",
+    "theme": "verbes"
+  },
+  {
+    "en": "swim",
+    "fr": "nager",
+    "theme": "verbes"
+  },
+  {
+    "en": "good",
+    "fr": "bon",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "bad",
+    "fr": "mauvais",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "big",
+    "fr": "grand",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "small",
+    "fr": "petit",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "tall",
+    "fr": "haut",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "short",
+    "fr": "court",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "long",
+    "fr": "long",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "new",
+    "fr": "nouveau",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "old",
+    "fr": "vieux",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "young",
+    "fr": "jeune",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "hot",
+    "fr": "chaud",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "cold",
+    "fr": "froid",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "happy",
+    "fr": "heureux",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "sad",
+    "fr": "triste",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "fast",
+    "fr": "rapide",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "slow",
+    "fr": "lent",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "easy",
+    "fr": "facile",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "hard",
+    "fr": "difficile",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "beautiful",
+    "fr": "beau",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "ugly",
+    "fr": "laid",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "rich",
+    "fr": "riche",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "poor",
+    "fr": "pauvre",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "strong",
+    "fr": "fort",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "weak",
+    "fr": "faible",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "clean adj",
+    "fr": "propre",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "dirty",
+    "fr": "sale",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "full",
+    "fr": "plein",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "empty",
+    "fr": "vide",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "open adj",
+    "fr": "ouvert",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "closed",
+    "fr": "fermé",
+    "theme": "adjectifs"
+  },
+  {
+    "en": "school",
+    "fr": "école",
+    "theme": "ecole"
+  },
+  {
+    "en": "student",
+    "fr": "étudiant",
+    "theme": "ecole"
+  },
+  {
+    "en": "teacher",
+    "fr": "professeur",
+    "theme": "ecole"
+  },
+  {
+    "en": "class",
+    "fr": "classe",
+    "theme": "ecole"
+  },
+  {
+    "en": "lesson",
+    "fr": "leçon",
+    "theme": "ecole"
+  },
+  {
+    "en": "book",
+    "fr": "livre",
+    "theme": "ecole"
+  },
+  {
+    "en": "notebook",
+    "fr": "cahier",
+    "theme": "ecole"
+  },
+  {
+    "en": "pen",
+    "fr": "stylo",
+    "theme": "ecole"
+  },
+  {
+    "en": "pencil",
+    "fr": "crayon",
+    "theme": "ecole"
+  },
+  {
+    "en": "paper",
+    "fr": "papier",
+    "theme": "ecole"
+  },
+  {
+    "en": "bag school",
+    "fr": "cartable",
+    "theme": "ecole"
+  },
+  {
+    "en": "desk",
+    "fr": "bureau",
+    "theme": "ecole"
+  },
+  {
+    "en": "chair school",
+    "fr": "chaise",
+    "theme": "ecole"
+  },
+  {
+    "en": "blackboard",
+    "fr": "tableau",
+    "theme": "ecole"
+  },
+  {
+    "en": "homework",
+    "fr": "devoirs",
+    "theme": "ecole"
+  },
+  {
+    "en": "exam",
+    "fr": "examen",
+    "theme": "ecole"
+  },
+  {
+    "en": "test",
+    "fr": "test",
+    "theme": "ecole"
+  },
+  {
+    "en": "question",
+    "fr": "question",
+    "theme": "ecole"
+  },
+  {
+    "en": "answer",
+    "fr": "réponse",
+    "theme": "ecole"
+  },
+  {
+    "en": "word",
+    "fr": "mot",
+    "theme": "ecole"
+  },
+  {
+    "en": "sentence",
+    "fr": "phrase",
+    "theme": "ecole"
+  },
+  {
+    "en": "language",
+    "fr": "langue",
+    "theme": "ecole"
+  },
+  {
+    "en": "english",
+    "fr": "anglais",
+    "theme": "ecole"
+  },
+  {
+    "en": "french",
+    "fr": "français",
+    "theme": "ecole"
+  },
+  {
+    "en": "university",
+    "fr": "université",
+    "theme": "ecole"
+  },
+  {
+    "en": "sport",
+    "fr": "sport",
+    "theme": "sports"
+  },
+  {
+    "en": "football",
+    "fr": "football",
+    "theme": "sports"
+  },
+  {
+    "en": "basketball",
+    "fr": "basketball",
+    "theme": "sports"
+  },
+  {
+    "en": "tennis",
+    "fr": "tennis",
+    "theme": "sports"
+  },
+  {
+    "en": "swimming",
+    "fr": "natation",
+    "theme": "sports"
+  },
+  {
+    "en": "running",
+    "fr": "course",
+    "theme": "sports"
+  },
+  {
+    "en": "cycling",
+    "fr": "cyclisme",
+    "theme": "sports"
+  },
+  {
+    "en": "game",
+    "fr": "jeu",
+    "theme": "sports"
+  },
+  {
+    "en": "team",
+    "fr": "équipe",
+    "theme": "sports"
+  },
+  {
+    "en": "player",
+    "fr": "joueur",
+    "theme": "sports"
+  },
+  {
+    "en": "ball",
+    "fr": "ballon",
+    "theme": "sports"
+  },
+  {
+    "en": "music",
+    "fr": "musique",
+    "theme": "sports"
+  },
+  {
+    "en": "song",
+    "fr": "chanson",
+    "theme": "sports"
+  },
+  {
+    "en": "movie",
+    "fr": "film",
+    "theme": "sports"
+  },
+  {
+    "en": "film",
+    "fr": "film",
+    "theme": "sports"
+  },
+  {
+    "en": "dance hobby",
+    "fr": "danse",
+    "theme": "sports"
+  },
+  {
+    "en": "hobby",
+    "fr": "passe-temps",
+    "theme": "sports"
+  },
+  {
+    "en": "travel",
+    "fr": "voyager",
+    "theme": "sports"
+  },
+  {
+    "en": "party",
+    "fr": "fête",
+    "theme": "sports"
+  },
+  {
+    "en": "holiday",
+    "fr": "vacances",
+    "theme": "sports"
+  },
+  {
+    "en": "car",
+    "fr": "voiture",
+    "theme": "lieux"
+  },
+  {
+    "en": "bus",
+    "fr": "bus",
+    "theme": "lieux"
+  },
+  {
+    "en": "train",
+    "fr": "train",
+    "theme": "lieux"
+  },
+  {
+    "en": "plane",
+    "fr": "avion",
+    "theme": "lieux"
+  },
+  {
+    "en": "boat",
+    "fr": "bateau",
+    "theme": "lieux"
+  },
+  {
+    "en": "bike",
+    "fr": "vélo",
+    "theme": "lieux"
+  },
+  {
+    "en": "taxi",
+    "fr": "taxi",
+    "theme": "lieux"
+  },
+  {
+    "en": "road",
+    "fr": "route",
+    "theme": "lieux"
+  },
+  {
+    "en": "street",
+    "fr": "rue",
+    "theme": "lieux"
+  },
+  {
+    "en": "city",
+    "fr": "ville",
+    "theme": "lieux"
+  },
+  {
+    "en": "village",
+    "fr": "village",
+    "theme": "lieux"
+  },
+  {
+    "en": "country",
+    "fr": "pays",
+    "theme": "lieux"
+  },
+  {
+    "en": "shop",
+    "fr": "magasin",
+    "theme": "lieux"
+  },
+  {
+    "en": "market",
+    "fr": "marché",
+    "theme": "lieux"
+  },
+  {
+    "en": "hospital",
+    "fr": "hôpital",
+    "theme": "lieux"
+  },
+  {
+    "en": "doctor",
+    "fr": "médecin",
+    "theme": "lieux"
+  },
+  {
+    "en": "pharmacy",
+    "fr": "pharmacie",
+    "theme": "lieux"
+  },
+  {
+    "en": "bank",
+    "fr": "banque",
+    "theme": "lieux"
+  },
+  {
+    "en": "post office",
+    "fr": "bureau de poste",
+    "theme": "lieux"
+  },
+  {
+    "en": "library",
+    "fr": "bibliothèque",
+    "theme": "lieux"
+  },
+  {
+    "en": "museum",
+    "fr": "musée",
+    "theme": "lieux"
+  },
+  {
+    "en": "park",
+    "fr": "parc",
+    "theme": "lieux"
+  },
+  {
+    "en": "beach",
+    "fr": "plage",
+    "theme": "lieux"
+  },
+  {
+    "en": "mountain",
+    "fr": "montagne",
+    "theme": "lieux"
+  },
+  {
+    "en": "river",
+    "fr": "rivière",
+    "theme": "lieux"
+  },
+  {
+    "en": "sea",
+    "fr": "mer",
+    "theme": "lieux"
+  },
+  {
+    "en": "forest",
+    "fr": "forêt",
+    "theme": "lieux"
+  },
+  {
+    "en": "country side",
+    "fr": "campagne",
+    "theme": "lieux"
+  },
+  {
+    "en": "place",
+    "fr": "endroit",
+    "theme": "lieux"
+  },
+  {
+    "en": "world",
+    "fr": "monde",
+    "theme": "lieux"
+  },
+  {
+    "en": "emotion",
+    "fr": "émotion",
+    "theme": "emotions"
+  },
+  {
+    "en": "joy",
+    "fr": "joie",
+    "theme": "emotions"
+  },
+  {
+    "en": "sadness",
+    "fr": "tristesse",
+    "theme": "emotions"
+  },
+  {
+    "en": "anger",
+    "fr": "colère",
+    "theme": "emotions"
+  },
+  {
+    "en": "fear",
+    "fr": "peur",
+    "theme": "emotions"
+  },
+  {
+    "en": "surprise",
+    "fr": "surprise",
+    "theme": "emotions"
+  },
+  {
+    "en": "love emotion",
+    "fr": "amour",
+    "theme": "emotions"
+  },
+  {
+    "en": "hate",
+    "fr": "haine",
+    "theme": "emotions"
+  },
+  {
+    "en": "excited",
+    "fr": "excité",
+    "theme": "emotions"
+  },
+  {
+    "en": "tired",
+    "fr": "fatigué",
+    "theme": "emotions"
+  },
+  {
+    "en": "bored",
+    "fr": "ennuyé",
+    "theme": "emotions"
+  },
+  {
+    "en": "proud",
+    "fr": "fier",
+    "theme": "emotions"
+  },
+  {
+    "en": "worried",
+    "fr": "inquiet",
+    "theme": "emotions"
+  },
+  {
+    "en": "calm",
+    "fr": "calme",
+    "theme": "emotions"
+  },
+  {
+    "en": "nervous",
+    "fr": "nerveux",
+    "theme": "emotions"
+  }
+];
 
-    // ----- Famille & personnes (30) -----
-    {en:"family",fr:"famille",theme:"famille"},
-    {en:"mother",fr:"mère",theme:"famille"},
-    {en:"father",fr:"père",theme:"famille"},
-    {en:"mom",fr:"maman",theme:"famille"},
-    {en:"dad",fr:"papa",theme:"famille"},
-    {en:"brother",fr:"frère",theme:"famille"},
-    {en:"sister",fr:"sœur",theme:"famille"},
-    {en:"son",fr:"fils",theme:"famille"},
-    {en:"daughter",fr:"fille",theme:"famille"},
-    {en:"child",fr:"enfant",theme:"famille"},
-    {en:"baby",fr:"bébé",theme:"famille"},
-    {en:"grandmother",fr:"grand-mère",theme:"famille"},
-    {en:"grandfather",fr:"grand-père",theme:"famille"},
-    {en:"grandparents",fr:"grands-parents",theme:"famille"},
-    {en:"uncle",fr:"oncle",theme:"famille"},
-    {en:"aunt",fr:"tante",theme:"famille"},
-    {en:"cousin",fr:"cousin(e)",theme:"famille"},
-    {en:"parents",fr:"parents",theme:"famille"},
-    {en:"husband",fr:"mari",theme:"famille"},
-    {en:"wife",fr:"épouse",theme:"famille"},
-    {en:"man",fr:"homme",theme:"famille"},
-    {en:"woman",fr:"femme",theme:"famille"},
-    {en:"boy",fr:"garçon",theme:"famille"},
-    {en:"girl",fr:"fille",theme:"famille"},
-    {en:"people",fr:"gens",theme:"famille"},
-    {en:"person",fr:"personne",theme:"famille"},
-    {en:"friend",fr:"ami",theme:"famille"},
-    {en:"neighbor",fr:"voisin",theme:"famille"},
-    {en:"name",fr:"nom",theme:"famille"},
-    {en:"age",fr:"âge",theme:"famille"},
-
-    // ----- Nombres (30) -----
-    {en:"zero",fr:"zéro",theme:"nombres"},
-    {en:"one",fr:"un",theme:"nombres"},
-    {en:"two",fr:"deux",theme:"nombres"},
-    {en:"three",fr:"trois",theme:"nombres"},
-    {en:"four",fr:"quatre",theme:"nombres"},
-    {en:"five",fr:"cinq",theme:"nombres"},
-    {en:"six",fr:"six",theme:"nombres"},
-    {en:"seven",fr:"sept",theme:"nombres"},
-    {en:"eight",fr:"huit",theme:"nombres"},
-    {en:"nine",fr:"neuf",theme:"nombres"},
-    {en:"ten",fr:"dix",theme:"nombres"},
-    {en:"eleven",fr:"onze",theme:"nombres"},
-    {en:"twelve",fr:"douze",theme:"nombres"},
-    {en:"thirteen",fr:"treize",theme:"nombres"},
-    {en:"twenty",fr:"vingt",theme:"nombres"},
-    {en:"thirty",fr:"trente",theme:"nombres"},
-    {en:"forty",fr:"quarante",theme:"nombres"},
-    {en:"fifty",fr:"cinquante",theme:"nombres"},
-    {en:"hundred",fr:"cent",theme:"nombres"},
-    {en:"thousand",fr:"mille",theme:"nombres"},
-    {en:"million",fr:"million",theme:"nombres"},
-    {en:"first",fr:"premier",theme:"nombres"},
-    {en:"second",fr:"deuxième",theme:"nombres"},
-    {en:"third",fr:"troisième",theme:"nombres"},
-    {en:"half",fr:"moitié",theme:"nombres"},
-    {en:"number",fr:"nombre",theme:"nombres"},
-    {en:"many",fr:"beaucoup",theme:"nombres"},
-    {en:"few",fr:"peu",theme:"nombres"},
-    {en:"some",fr:"quelques",theme:"nombres"},
-    {en:"all",fr:"tout",theme:"nombres"},
-
-    // ----- Couleurs (15) -----
-    {en:"color",fr:"couleur",theme:"couleurs"},
-    {en:"red",fr:"rouge",theme:"couleurs"},
-    {en:"blue",fr:"bleu",theme:"couleurs"},
-    {en:"green",fr:"vert",theme:"couleurs"},
-    {en:"yellow",fr:"jaune",theme:"couleurs"},
-    {en:"black",fr:"noir",theme:"couleurs"},
-    {en:"white",fr:"blanc",theme:"couleurs"},
-    {en:"orange",fr:"orange",theme:"couleurs"},
-    {en:"purple",fr:"violet",theme:"couleurs"},
-    {en:"pink",fr:"rose",theme:"couleurs"},
-    {en:"brown",fr:"marron",theme:"couleurs"},
-    {en:"gray",fr:"gris",theme:"couleurs"},
-    {en:"gold",fr:"or",theme:"couleurs"},
-    {en:"silver",fr:"argent",theme:"couleurs"},
-    {en:"dark",fr:"sombre",theme:"couleurs"},
-
-    // ----- Nourriture & boissons (40) -----
-    {en:"food",fr:"nourriture",theme:"nourriture"},
-    {en:"water",fr:"eau",theme:"nourriture"},
-    {en:"bread",fr:"pain",theme:"nourriture"},
-    {en:"milk",fr:"lait",theme:"nourriture"},
-    {en:"coffee",fr:"café",theme:"nourriture"},
-    {en:"tea",fr:"thé",theme:"nourriture"},
-    {en:"juice",fr:"jus",theme:"nourriture"},
-    {en:"apple",fr:"pomme",theme:"nourriture"},
-    {en:"banana",fr:"banane",theme:"nourriture"},
-    {en:"orange fruit",fr:"orange (fruit)",theme:"nourriture"},
-    {en:"grape",fr:"raisin",theme:"nourriture"},
-    {en:"strawberry",fr:"fraise",theme:"nourriture"},
-    {en:"lemon",fr:"citron",theme:"nourriture"},
-    {en:"meat",fr:"viande",theme:"nourriture"},
-    {en:"chicken",fr:"poulet",theme:"nourriture"},
-    {en:"beef",fr:"bœuf",theme:"nourriture"},
-    {en:"fish",fr:"poisson",theme:"nourriture"},
-    {en:"egg",fr:"œuf",theme:"nourriture"},
-    {en:"cheese",fr:"fromage",theme:"nourriture"},
-    {en:"butter",fr:"beurre",theme:"nourriture"},
-    {en:"rice",fr:"riz",theme:"nourriture"},
-    {en:"pasta",fr:"pâtes",theme:"nourriture"},
-    {en:"potato",fr:"pomme de terre",theme:"nourriture"},
-    {en:"tomato",fr:"tomate",theme:"nourriture"},
-    {en:"carrot",fr:"carotte",theme:"nourriture"},
-    {en:"onion",fr:"oignon",theme:"nourriture"},
-    {en:"salad",fr:"salade",theme:"nourriture"},
-    {en:"soup",fr:"soupe",theme:"nourriture"},
-    {en:"sandwich",fr:"sandwich",theme:"nourriture"},
-    {en:"pizza",fr:"pizza",theme:"nourriture"},
-    {en:"cake",fr:"gâteau",theme:"nourriture"},
-    {en:"sugar",fr:"sucre",theme:"nourriture"},
-    {en:"salt",fr:"sel",theme:"nourriture"},
-    {en:"pepper",fr:"poivre",theme:"nourriture"},
-    {en:"oil",fr:"huile",theme:"nourriture"},
-    {en:"breakfast",fr:"petit-déjeuner",theme:"nourriture"},
-    {en:"lunch",fr:"déjeuner",theme:"nourriture"},
-    {en:"dinner",fr:"dîner",theme:"nourriture"},
-    {en:"meal",fr:"repas",theme:"nourriture"},
-    {en:"fruit",fr:"fruit",theme:"nourriture"},
-
-    // ----- Animaux (30) -----
-    {en:"animal",fr:"animal",theme:"animaux"},
-    {en:"dog",fr:"chien",theme:"animaux"},
-    {en:"cat",fr:"chat",theme:"animaux"},
-    {en:"bird",fr:"oiseau",theme:"animaux"},
-    {en:"horse",fr:"cheval",theme:"animaux"},
-    {en:"cow",fr:"vache",theme:"animaux"},
-    {en:"pig",fr:"cochon",theme:"animaux"},
-    {en:"sheep",fr:"mouton",theme:"animaux"},
-    {en:"goat",fr:"chèvre",theme:"animaux"},
-    {en:"rabbit",fr:"lapin",theme:"animaux"},
-    {en:"mouse",fr:"souris",theme:"animaux"},
-    {en:"elephant",fr:"éléphant",theme:"animaux"},
-    {en:"lion",fr:"lion",theme:"animaux"},
-    {en:"tiger",fr:"tigre",theme:"animaux"},
-    {en:"monkey",fr:"singe",theme:"animaux"},
-    {en:"bear",fr:"ours",theme:"animaux"},
-    {en:"wolf",fr:"loup",theme:"animaux"},
-    {en:"fox",fr:"renard",theme:"animaux"},
-    {en:"duck",fr:"canard",theme:"animaux"},
-    {en:"chicken animal",fr:"poule",theme:"animaux"},
-    {en:"bee",fr:"abeille",theme:"animaux"},
-    {en:"butterfly",fr:"papillon",theme:"animaux"},
-    {en:"ant",fr:"fourmi",theme:"animaux"},
-    {en:"snake",fr:"serpent",theme:"animaux"},
-    {en:"frog",fr:"grenouille",theme:"animaux"},
-    {en:"turtle",fr:"tortue",theme:"animaux"},
-    {en:"dolphin",fr:"dauphin",theme:"animaux"},
-    {en:"whale",fr:"baleine",theme:"animaux"},
-    {en:"shark",fr:"requin",theme:"animaux"},
-    {en:"penguin",fr:"pingouin",theme:"animaux"},
-
-    // ----- Corps humain (25) -----
-    {en:"body",fr:"corps",theme:"corps"},
-    {en:"head",fr:"tête",theme:"corps"},
-    {en:"hair",fr:"cheveux",theme:"corps"},
-    {en:"face",fr:"visage",theme:"corps"},
-    {en:"eye",fr:"œil",theme:"corps"},
-    {en:"ear",fr:"oreille",theme:"corps"},
-    {en:"nose",fr:"nez",theme:"corps"},
-    {en:"mouth",fr:"bouche",theme:"corps"},
-    {en:"tooth",fr:"dent",theme:"corps"},
-    {en:"tongue",fr:"langue",theme:"corps"},
-    {en:"neck",fr:"cou",theme:"corps"},
-    {en:"shoulder",fr:"épaule",theme:"corps"},
-    {en:"arm",fr:"bras",theme:"corps"},
-    {en:"hand",fr:"main",theme:"corps"},
-    {en:"finger",fr:"doigt",theme:"corps"},
-    {en:"leg",fr:"jambe",theme:"corps"},
-    {en:"foot",fr:"pied",theme:"corps"},
-    {en:"knee",fr:"genou",theme:"corps"},
-    {en:"back",fr:"dos",theme:"corps"},
-    {en:"chest",fr:"poitrine",theme:"corps"},
-    {en:"heart",fr:"cœur",theme:"corps"},
-    {en:"stomach",fr:"estomac",theme:"corps"},
-    {en:"skin",fr:"peau",theme:"corps"},
-    {en:"bone",fr:"os",theme:"corps"},
-    {en:"blood",fr:"sang",theme:"corps"},
-
-    // ----- Maison (30) -----
-    {en:"house",fr:"maison",theme:"maison"},
-    {en:"home",fr:"chez soi",theme:"maison"},
-    {en:"room",fr:"pièce",theme:"maison"},
-    {en:"kitchen",fr:"cuisine",theme:"maison"},
-    {en:"bedroom",fr:"chambre",theme:"maison"},
-    {en:"bathroom",fr:"salle de bain",theme:"maison"},
-    {en:"living room",fr:"salon",theme:"maison"},
-    {en:"door",fr:"porte",theme:"maison"},
-    {en:"window",fr:"fenêtre",theme:"maison"},
-    {en:"wall",fr:"mur",theme:"maison"},
-    {en:"floor",fr:"sol",theme:"maison"},
-    {en:"ceiling",fr:"plafond",theme:"maison"},
-    {en:"roof",fr:"toit",theme:"maison"},
-    {en:"table",fr:"table",theme:"maison"},
-    {en:"chair",fr:"chaise",theme:"maison"},
-    {en:"bed",fr:"lit",theme:"maison"},
-    {en:"sofa",fr:"canapé",theme:"maison"},
-    {en:"lamp",fr:"lampe",theme:"maison"},
-    {en:"mirror",fr:"miroir",theme:"maison"},
-    {en:"clock",fr:"horloge",theme:"maison"},
-    {en:"key",fr:"clé",theme:"maison"},
-    {en:"garden",fr:"jardin",theme:"maison"},
-    {en:"garage",fr:"garage",theme:"maison"},
-    {en:"stairs",fr:"escalier",theme:"maison"},
-    {en:"carpet",fr:"tapis",theme:"maison"},
-    {en:"pillow",fr:"oreiller",theme:"maison"},
-    {en:"blanket",fr:"couverture",theme:"maison"},
-    {en:"towel",fr:"serviette",theme:"maison"},
-    {en:"soap",fr:"savon",theme:"maison"},
-    {en:"brush",fr:"brosse",theme:"maison"},
-
-    // ----- Vêtements (25) -----
-    {en:"clothes",fr:"vêtements",theme:"vetements"},
-    {en:"shirt",fr:"chemise",theme:"vetements"},
-    {en:"t-shirt",fr:"t-shirt",theme:"vetements"},
-    {en:"pants",fr:"pantalon",theme:"vetements"},
-    {en:"jeans",fr:"jean",theme:"vetements"},
-    {en:"dress",fr:"robe",theme:"vetements"},
-    {en:"skirt",fr:"jupe",theme:"vetements"},
-    {en:"coat",fr:"manteau",theme:"vetements"},
-    {en:"jacket",fr:"veste",theme:"vetements"},
-    {en:"sweater",fr:"pull",theme:"vetements"},
-    {en:"shoes",fr:"chaussures",theme:"vetements"},
-    {en:"boots",fr:"bottes",theme:"vetements"},
-    {en:"socks",fr:"chaussettes",theme:"vetements"},
-    {en:"hat",fr:"chapeau",theme:"vetements"},
-    {en:"cap",fr:"casquette",theme:"vetements"},
-    {en:"scarf",fr:"écharpe",theme:"vetements"},
-    {en:"gloves",fr:"gants",theme:"vetements"},
-    {en:"belt",fr:"ceinture",theme:"vetements"},
-    {en:"tie",fr:"cravate",theme:"vetements"},
-    {en:"bag",fr:"sac",theme:"vetements"},
-    {en:"watch",fr:"montre",theme:"vetements"},
-    {en:"ring",fr:"bague",theme:"vetements"},
-    {en:"glasses",fr:"lunettes",theme:"vetements"},
-    {en:"umbrella",fr:"parapluie",theme:"vetements"},
-    {en:"pocket",fr:"poche",theme:"vetements"},
-
-    // ----- Jours, mois, temps (30) -----
-    {en:"day",fr:"jour",theme:"temps"},
-    {en:"week",fr:"semaine",theme:"temps"},
-    {en:"month",fr:"mois",theme:"temps"},
-    {en:"year",fr:"année",theme:"temps"},
-    {en:"hour",fr:"heure",theme:"temps"},
-    {en:"minute",fr:"minute",theme:"temps"},
-    {en:"second time",fr:"seconde",theme:"temps"},
-    {en:"morning",fr:"matin",theme:"temps"},
-    {en:"afternoon",fr:"après-midi",theme:"temps"},
-    {en:"evening",fr:"soir",theme:"temps"},
-    {en:"night",fr:"nuit",theme:"temps"},
-    {en:"today",fr:"aujourd'hui",theme:"temps"},
-    {en:"tomorrow",fr:"demain",theme:"temps"},
-    {en:"yesterday",fr:"hier",theme:"temps"},
-    {en:"now",fr:"maintenant",theme:"temps"},
-    {en:"later",fr:"plus tard",theme:"temps"},
-    {en:"monday",fr:"lundi",theme:"temps"},
-    {en:"tuesday",fr:"mardi",theme:"temps"},
-    {en:"wednesday",fr:"mercredi",theme:"temps"},
-    {en:"thursday",fr:"jeudi",theme:"temps"},
-    {en:"friday",fr:"vendredi",theme:"temps"},
-    {en:"saturday",fr:"samedi",theme:"temps"},
-    {en:"sunday",fr:"dimanche",theme:"temps"},
-    {en:"january",fr:"janvier",theme:"temps"},
-    {en:"february",fr:"février",theme:"temps"},
-    {en:"march",fr:"mars",theme:"temps"},
-    {en:"april",fr:"avril",theme:"temps"},
-    {en:"may",fr:"mai",theme:"temps"},
-    {en:"june",fr:"juin",theme:"temps"},
-    {en:"july",fr:"juillet",theme:"temps"},
-    {en:"august",fr:"août",theme:"temps"},
-    {en:"september",fr:"septembre",theme:"temps"},
-    {en:"october",fr:"octobre",theme:"temps"},
-    {en:"november",fr:"novembre",theme:"temps"},
-    {en:"december",fr:"décembre",theme:"temps"},
-
-    // ----- Verbes de base (60) -----
-    {en:"be",fr:"être",theme:"verbes"},
-    {en:"have",fr:"avoir",theme:"verbes"},
-    {en:"do",fr:"faire",theme:"verbes"},
-    {en:"go",fr:"aller",theme:"verbes"},
-    {en:"come",fr:"venir",theme:"verbes"},
-    {en:"eat",fr:"manger",theme:"verbes"},
-    {en:"drink",fr:"boire",theme:"verbes"},
-    {en:"sleep",fr:"dormir",theme:"verbes"},
-    {en:"wake up",fr:"se réveiller",theme:"verbes"},
-    {en:"walk",fr:"marcher",theme:"verbes"},
-    {en:"run",fr:"courir",theme:"verbes"},
-    {en:"sit",fr:"s'asseoir",theme:"verbes"},
-    {en:"stand",fr:"se lever",theme:"verbes"},
-    {en:"speak",fr:"parler",theme:"verbes"},
-    {en:"say",fr:"dire",theme:"verbes"},
-    {en:"tell",fr:"raconter",theme:"verbes"},
-    {en:"listen",fr:"écouter",theme:"verbes"},
-    {en:"hear",fr:"entendre",theme:"verbes"},
-    {en:"see",fr:"voir",theme:"verbes"},
-    {en:"look",fr:"regarder",theme:"verbes"},
-    {en:"watch",fr:"observer",theme:"verbes"},
-    {en:"read",fr:"lire",theme:"verbes"},
-    {en:"write",fr:"écrire",theme:"verbes"},
-    {en:"learn",fr:"apprendre",theme:"verbes"},
-    {en:"study",fr:"étudier",theme:"verbes"},
-    {en:"work",fr:"travailler",theme:"verbes"},
-    {en:"play",fr:"jouer",theme:"verbes"},
-    {en:"think",fr:"penser",theme:"verbes"},
-    {en:"know",fr:"savoir",theme:"verbes"},
-    {en:"understand",fr:"comprendre",theme:"verbes"},
-    {en:"remember",fr:"se souvenir",theme:"verbes"},
-    {en:"forget",fr:"oublier",theme:"verbes"},
-    {en:"love",fr:"aimer",theme:"verbes"},
-    {en:"like",fr:"aimer bien",theme:"verbes"},
-    {en:"want",fr:"vouloir",theme:"verbes"},
-    {en:"need",fr:"avoir besoin",theme:"verbes"},
-    {en:"give",fr:"donner",theme:"verbes"},
-    {en:"take",fr:"prendre",theme:"verbes"},
-    {en:"buy",fr:"acheter",theme:"verbes"},
-    {en:"sell",fr:"vendre",theme:"verbes"},
-    {en:"open",fr:"ouvrir",theme:"verbes"},
-    {en:"close",fr:"fermer",theme:"verbes"},
-    {en:"start",fr:"commencer",theme:"verbes"},
-    {en:"finish",fr:"finir",theme:"verbes"},
-    {en:"help",fr:"aider",theme:"verbes"},
-    {en:"try",fr:"essayer",theme:"verbes"},
-    {en:"use",fr:"utiliser",theme:"verbes"},
-    {en:"find",fr:"trouver",theme:"verbes"},
-    {en:"lose",fr:"perdre",theme:"verbes"},
-    {en:"win",fr:"gagner",theme:"verbes"},
-    {en:"laugh",fr:"rire",theme:"verbes"},
-    {en:"cry",fr:"pleurer",theme:"verbes"},
-    {en:"sing",fr:"chanter",theme:"verbes"},
-    {en:"dance",fr:"danser",theme:"verbes"},
-    {en:"cook",fr:"cuisiner",theme:"verbes"},
-    {en:"clean",fr:"nettoyer",theme:"verbes"},
-    {en:"wash",fr:"laver",theme:"verbes"},
-    {en:"drive",fr:"conduire",theme:"verbes"},
-    {en:"fly",fr:"voler",theme:"verbes"},
-    {en:"swim",fr:"nager",theme:"verbes"},
-
-    // ----- Adjectifs de base (30) -----
-    {en:"good",fr:"bon",theme:"adjectifs"},
-    {en:"bad",fr:"mauvais",theme:"adjectifs"},
-    {en:"big",fr:"grand",theme:"adjectifs"},
-    {en:"small",fr:"petit",theme:"adjectifs"},
-    {en:"tall",fr:"haut",theme:"adjectifs"},
-    {en:"short",fr:"court",theme:"adjectifs"},
-    {en:"long",fr:"long",theme:"adjectifs"},
-    {en:"new",fr:"nouveau",theme:"adjectifs"},
-    {en:"old",fr:"vieux",theme:"adjectifs"},
-    {en:"young",fr:"jeune",theme:"adjectifs"},
-    {en:"hot",fr:"chaud",theme:"adjectifs"},
-    {en:"cold",fr:"froid",theme:"adjectifs"},
-    {en:"happy",fr:"heureux",theme:"adjectifs"},
-    {en:"sad",fr:"triste",theme:"adjectifs"},
-    {en:"fast",fr:"rapide",theme:"adjectifs"},
-    {en:"slow",fr:"lent",theme:"adjectifs"},
-    {en:"easy",fr:"facile",theme:"adjectifs"},
-    {en:"hard",fr:"difficile",theme:"adjectifs"},
-    {en:"beautiful",fr:"beau",theme:"adjectifs"},
-    {en:"ugly",fr:"laid",theme:"adjectifs"},
-    {en:"rich",fr:"riche",theme:"adjectifs"},
-    {en:"poor",fr:"pauvre",theme:"adjectifs"},
-    {en:"strong",fr:"fort",theme:"adjectifs"},
-    {en:"weak",fr:"faible",theme:"adjectifs"},
-    {en:"clean adj",fr:"propre",theme:"adjectifs"},
-    {en:"dirty",fr:"sale",theme:"adjectifs"},
-    {en:"full",fr:"plein",theme:"adjectifs"},
-    {en:"empty",fr:"vide",theme:"adjectifs"},
-    {en:"open adj",fr:"ouvert",theme:"adjectifs"},
-    {en:"closed",fr:"fermé",theme:"adjectifs"},
-
-    // ----- École & éducation (25) -----
-    {en:"school",fr:"école",theme:"ecole"},
-    {en:"student",fr:"étudiant",theme:"ecole"},
-    {en:"teacher",fr:"professeur",theme:"ecole"},
-    {en:"class",fr:"classe",theme:"ecole"},
-    {en:"lesson",fr:"leçon",theme:"ecole"},
-    {en:"book",fr:"livre",theme:"ecole"},
-    {en:"notebook",fr:"cahier",theme:"ecole"},
-    {en:"pen",fr:"stylo",theme:"ecole"},
-    {en:"pencil",fr:"crayon",theme:"ecole"},
-    {en:"paper",fr:"papier",theme:"ecole"},
-    {en:"bag school",fr:"cartable",theme:"ecole"},
-    {en:"desk",fr:"bureau",theme:"ecole"},
-    {en:"chair school",fr:"chaise",theme:"ecole"},
-    {en:"blackboard",fr:"tableau",theme:"ecole"},
-    {en:"homework",fr:"devoirs",theme:"ecole"},
-    {en:"exam",fr:"examen",theme:"ecole"},
-    {en:"test",fr:"test",theme:"ecole"},
-    {en:"question",fr:"question",theme:"ecole"},
-    {en:"answer",fr:"réponse",theme:"ecole"},
-    {en:"word",fr:"mot",theme:"ecole"},
-    {en:"sentence",fr:"phrase",theme:"ecole"},
-    {en:"language",fr:"langue",theme:"ecole"},
-    {en:"english",fr:"anglais",theme:"ecole"},
-    {en:"french",fr:"français",theme:"ecole"},
-    {en:"university",fr:"université",theme:"ecole"},
-
-    // ----- Sports & loisirs (20) -----
-    {en:"sport",fr:"sport",theme:"sports"},
-    {en:"football",fr:"football",theme:"sports"},
-    {en:"basketball",fr:"basketball",theme:"sports"},
-    {en:"tennis",fr:"tennis",theme:"sports"},
-    {en:"swimming",fr:"natation",theme:"sports"},
-    {en:"running",fr:"course",theme:"sports"},
-    {en:"cycling",fr:"cyclisme",theme:"sports"},
-    {en:"game",fr:"jeu",theme:"sports"},
-    {en:"team",fr:"équipe",theme:"sports"},
-    {en:"player",fr:"joueur",theme:"sports"},
-    {en:"ball",fr:"ballon",theme:"sports"},
-    {en:"music",fr:"musique",theme:"sports"},
-    {en:"song",fr:"chanson",theme:"sports"},
-    {en:"movie",fr:"film",theme:"sports"},
-    {en:"film",fr:"film",theme:"sports"},
-    {en:"dance hobby",fr:"danse",theme:"sports"},
-    {en:"hobby",fr:"passe-temps",theme:"sports"},
-    {en:"travel",fr:"voyager",theme:"sports"},
-    {en:"party",fr:"fête",theme:"sports"},
-    {en:"holiday",fr:"vacances",theme:"sports"},
-
-    // ----- Transports & lieux (30) -----
-    {en:"car",fr:"voiture",theme:"lieux"},
-    {en:"bus",fr:"bus",theme:"lieux"},
-    {en:"train",fr:"train",theme:"lieux"},
-    {en:"plane",fr:"avion",theme:"lieux"},
-    {en:"boat",fr:"bateau",theme:"lieux"},
-    {en:"bike",fr:"vélo",theme:"lieux"},
-    {en:"taxi",fr:"taxi",theme:"lieux"},
-    {en:"road",fr:"route",theme:"lieux"},
-    {en:"street",fr:"rue",theme:"lieux"},
-    {en:"city",fr:"ville",theme:"lieux"},
-    {en:"village",fr:"village",theme:"lieux"},
-    {en:"country",fr:"pays",theme:"lieux"},
-    {en:"shop",fr:"magasin",theme:"lieux"},
-    {en:"market",fr:"marché",theme:"lieux"},
-    {en:"hospital",fr:"hôpital",theme:"lieux"},
-    {en:"doctor",fr:"médecin",theme:"lieux"},
-    {en:"pharmacy",fr:"pharmacie",theme:"lieux"},
-    {en:"bank",fr:"banque",theme:"lieux"},
-    {en:"post office",fr:"bureau de poste",theme:"lieux"},
-    {en:"library",fr:"bibliothèque",theme:"lieux"},
-    {en:"museum",fr:"musée",theme:"lieux"},
-    {en:"park",fr:"parc",theme:"lieux"},
-    {en:"beach",fr:"plage",theme:"lieux"},
-    {en:"mountain",fr:"montagne",theme:"lieux"},
-    {en:"river",fr:"rivière",theme:"lieux"},
-    {en:"sea",fr:"mer",theme:"lieux"},
-    {en:"forest",fr:"forêt",theme:"lieux"},
-    {en:"country side",fr:"campagne",theme:"lieux"},
-    {en:"place",fr:"endroit",theme:"lieux"},
-    {en:"world",fr:"monde",theme:"lieux"},
-
-    // ----- Émotions (15) -----
-    {en:"emotion",fr:"émotion",theme:"emotions"},
-    {en:"joy",fr:"joie",theme:"emotions"},
-    {en:"sadness",fr:"tristesse",theme:"emotions"},
-    {en:"anger",fr:"colère",theme:"emotions"},
-    {en:"fear",fr:"peur",theme:"emotions"},
-    {en:"surprise",fr:"surprise",theme:"emotions"},
-    {en:"love emotion",fr:"amour",theme:"emotions"},
-    {en:"hate",fr:"haine",theme:"emotions"},
-    {en:"excited",fr:"excité",theme:"emotions"},
-    {en:"tired",fr:"fatigué",theme:"emotions"},
-    {en:"bored",fr:"ennuyé",theme:"emotions"},
-    {en:"proud",fr:"fier",theme:"emotions"},
-    {en:"worried",fr:"inquiet",theme:"emotions"},
-    {en:"calm",fr:"calme",theme:"emotions"},
-    {en:"nervous",fr:"nerveux",theme:"emotions"}
-  ];
-
-  // ============================================================
-  // NIVEAU A2 — 500 mots
-  // ============================================================
+  // ========== A2 — 350 mots ==========
   const A2 = [
-    // ----- Voyage (40) -----
-    {en:"travel",fr:"voyage",theme:"voyage"},
-    {en:"airport",fr:"aéroport",theme:"voyage"},
-    {en:"station",fr:"gare",theme:"voyage"},
-    {en:"ticket",fr:"billet",theme:"voyage"},
-    {en:"passport",fr:"passeport",theme:"voyage"},
-    {en:"luggage",fr:"bagages",theme:"voyage"},
-    {en:"suitcase",fr:"valise",theme:"voyage"},
-    {en:"flight",fr:"vol",theme:"voyage"},
-    {en:"hotel",fr:"hôtel",theme:"voyage"},
-    {en:"reservation",fr:"réservation",theme:"voyage"},
-    {en:"destination",fr:"destination",theme:"voyage"},
-    {en:"journey",fr:"trajet",theme:"voyage"},
-    {en:"trip",fr:"voyage court",theme:"voyage"},
-    {en:"tourist",fr:"touriste",theme:"voyage"},
-    {en:"guide",fr:"guide",theme:"voyage"},
-    {en:"map",fr:"carte",theme:"voyage"},
-    {en:"souvenir",fr:"souvenir",theme:"voyage"},
-    {en:"camera",fr:"appareil photo",theme:"voyage"},
-    {en:"visa",fr:"visa",theme:"voyage"},
-    {en:"customs",fr:"douane",theme:"voyage"},
-    {en:"departure",fr:"départ",theme:"voyage"},
-    {en:"arrival",fr:"arrivée",theme:"voyage"},
-    {en:"delay",fr:"retard",theme:"voyage"},
-    {en:"platform",fr:"quai",theme:"voyage"},
-    {en:"gate",fr:"porte d'embarquement",theme:"voyage"},
-    {en:"seat",fr:"siège",theme:"voyage"},
-    {en:"window seat",fr:"place côté fenêtre",theme:"voyage"},
-    {en:"board",fr:"embarquer",theme:"voyage"},
-    {en:"land",fr:"atterrir",theme:"voyage"},
-    {en:"pack",fr:"faire ses bagages",theme:"voyage"},
-    {en:"abroad",fr:"à l'étranger",theme:"voyage"},
-    {en:"foreign",fr:"étranger",theme:"voyage"},
-    {en:"local",fr:"local",theme:"voyage"},
-    {en:"tour",fr:"visite",theme:"voyage"},
-    {en:"sightseeing",fr:"tourisme",theme:"voyage"},
-    {en:"beach vacation",fr:"vacances à la plage",theme:"voyage"},
-    {en:"adventure",fr:"aventure",theme:"voyage"},
-    {en:"explore",fr:"explorer",theme:"voyage"},
-    {en:"discover",fr:"découvrir",theme:"voyage"},
-    {en:"return",fr:"retourner",theme:"voyage"},
+  {
+    "en": "travel",
+    "fr": "voyage",
+    "theme": "voyage"
+  },
+  {
+    "en": "airport",
+    "fr": "aéroport",
+    "theme": "voyage"
+  },
+  {
+    "en": "station",
+    "fr": "gare",
+    "theme": "voyage"
+  },
+  {
+    "en": "ticket",
+    "fr": "billet",
+    "theme": "voyage"
+  },
+  {
+    "en": "passport",
+    "fr": "passeport",
+    "theme": "voyage"
+  },
+  {
+    "en": "luggage",
+    "fr": "bagages",
+    "theme": "voyage"
+  },
+  {
+    "en": "suitcase",
+    "fr": "valise",
+    "theme": "voyage"
+  },
+  {
+    "en": "flight",
+    "fr": "vol",
+    "theme": "voyage"
+  },
+  {
+    "en": "hotel",
+    "fr": "hôtel",
+    "theme": "voyage"
+  },
+  {
+    "en": "reservation",
+    "fr": "réservation",
+    "theme": "voyage"
+  },
+  {
+    "en": "destination",
+    "fr": "destination",
+    "theme": "voyage"
+  },
+  {
+    "en": "journey",
+    "fr": "trajet",
+    "theme": "voyage"
+  },
+  {
+    "en": "trip",
+    "fr": "voyage court",
+    "theme": "voyage"
+  },
+  {
+    "en": "tourist",
+    "fr": "touriste",
+    "theme": "voyage"
+  },
+  {
+    "en": "guide",
+    "fr": "guide",
+    "theme": "voyage"
+  },
+  {
+    "en": "map",
+    "fr": "carte",
+    "theme": "voyage"
+  },
+  {
+    "en": "souvenir",
+    "fr": "souvenir",
+    "theme": "voyage"
+  },
+  {
+    "en": "camera",
+    "fr": "appareil photo",
+    "theme": "voyage"
+  },
+  {
+    "en": "visa",
+    "fr": "visa",
+    "theme": "voyage"
+  },
+  {
+    "en": "customs",
+    "fr": "douane",
+    "theme": "voyage"
+  },
+  {
+    "en": "departure",
+    "fr": "départ",
+    "theme": "voyage"
+  },
+  {
+    "en": "arrival",
+    "fr": "arrivée",
+    "theme": "voyage"
+  },
+  {
+    "en": "delay",
+    "fr": "retard",
+    "theme": "voyage"
+  },
+  {
+    "en": "platform",
+    "fr": "quai",
+    "theme": "voyage"
+  },
+  {
+    "en": "gate",
+    "fr": "porte d'embarquement",
+    "theme": "voyage"
+  },
+  {
+    "en": "seat",
+    "fr": "siège",
+    "theme": "voyage"
+  },
+  {
+    "en": "window seat",
+    "fr": "place côté fenêtre",
+    "theme": "voyage"
+  },
+  {
+    "en": "board",
+    "fr": "embarquer",
+    "theme": "voyage"
+  },
+  {
+    "en": "land",
+    "fr": "atterrir",
+    "theme": "voyage"
+  },
+  {
+    "en": "pack",
+    "fr": "faire ses bagages",
+    "theme": "voyage"
+  },
+  {
+    "en": "abroad",
+    "fr": "à l'étranger",
+    "theme": "voyage"
+  },
+  {
+    "en": "foreign",
+    "fr": "étranger",
+    "theme": "voyage"
+  },
+  {
+    "en": "local",
+    "fr": "local",
+    "theme": "voyage"
+  },
+  {
+    "en": "tour",
+    "fr": "visite",
+    "theme": "voyage"
+  },
+  {
+    "en": "sightseeing",
+    "fr": "tourisme",
+    "theme": "voyage"
+  },
+  {
+    "en": "beach vacation",
+    "fr": "vacances à la plage",
+    "theme": "voyage"
+  },
+  {
+    "en": "adventure",
+    "fr": "aventure",
+    "theme": "voyage"
+  },
+  {
+    "en": "explore",
+    "fr": "explorer",
+    "theme": "voyage"
+  },
+  {
+    "en": "discover",
+    "fr": "découvrir",
+    "theme": "voyage"
+  },
+  {
+    "en": "return",
+    "fr": "retourner",
+    "theme": "voyage"
+  },
+  {
+    "en": "weather",
+    "fr": "météo",
+    "theme": "meteo"
+  },
+  {
+    "en": "sunny",
+    "fr": "ensoleillé",
+    "theme": "meteo"
+  },
+  {
+    "en": "rainy",
+    "fr": "pluvieux",
+    "theme": "meteo"
+  },
+  {
+    "en": "cloudy",
+    "fr": "nuageux",
+    "theme": "meteo"
+  },
+  {
+    "en": "windy",
+    "fr": "venteux",
+    "theme": "meteo"
+  },
+  {
+    "en": "snowy",
+    "fr": "neigeux",
+    "theme": "meteo"
+  },
+  {
+    "en": "storm",
+    "fr": "orage",
+    "theme": "meteo"
+  },
+  {
+    "en": "rain",
+    "fr": "pluie",
+    "theme": "meteo"
+  },
+  {
+    "en": "snow",
+    "fr": "neige",
+    "theme": "meteo"
+  },
+  {
+    "en": "wind",
+    "fr": "vent",
+    "theme": "meteo"
+  },
+  {
+    "en": "cloud",
+    "fr": "nuage",
+    "theme": "meteo"
+  },
+  {
+    "en": "sun",
+    "fr": "soleil",
+    "theme": "meteo"
+  },
+  {
+    "en": "moon",
+    "fr": "lune",
+    "theme": "meteo"
+  },
+  {
+    "en": "star",
+    "fr": "étoile",
+    "theme": "meteo"
+  },
+  {
+    "en": "sky",
+    "fr": "ciel",
+    "theme": "meteo"
+  },
+  {
+    "en": "temperature",
+    "fr": "température",
+    "theme": "meteo"
+  },
+  {
+    "en": "degree",
+    "fr": "degré",
+    "theme": "meteo"
+  },
+  {
+    "en": "hot weather",
+    "fr": "chaud",
+    "theme": "meteo"
+  },
+  {
+    "en": "cold weather",
+    "fr": "froid",
+    "theme": "meteo"
+  },
+  {
+    "en": "forecast",
+    "fr": "prévisions",
+    "theme": "meteo"
+  },
+  {
+    "en": "restaurant",
+    "fr": "restaurant",
+    "theme": "restaurant"
+  },
+  {
+    "en": "menu",
+    "fr": "carte",
+    "theme": "restaurant"
+  },
+  {
+    "en": "waiter",
+    "fr": "serveur",
+    "theme": "restaurant"
+  },
+  {
+    "en": "waitress",
+    "fr": "serveuse",
+    "theme": "restaurant"
+  },
+  {
+    "en": "bill",
+    "fr": "addition",
+    "theme": "restaurant"
+  },
+  {
+    "en": "tip",
+    "fr": "pourboire",
+    "theme": "restaurant"
+  },
+  {
+    "en": "order",
+    "fr": "commander",
+    "theme": "restaurant"
+  },
+  {
+    "en": "table for two",
+    "fr": "table pour deux",
+    "theme": "restaurant"
+  },
+  {
+    "en": "starter",
+    "fr": "entrée",
+    "theme": "restaurant"
+  },
+  {
+    "en": "main course",
+    "fr": "plat principal",
+    "theme": "restaurant"
+  },
+  {
+    "en": "dessert",
+    "fr": "dessert",
+    "theme": "restaurant"
+  },
+  {
+    "en": "drink",
+    "fr": "boisson",
+    "theme": "restaurant"
+  },
+  {
+    "en": "delicious",
+    "fr": "délicieux",
+    "theme": "restaurant"
+  },
+  {
+    "en": "spicy",
+    "fr": "épicé",
+    "theme": "restaurant"
+  },
+  {
+    "en": "sweet",
+    "fr": "sucré",
+    "theme": "restaurant"
+  },
+  {
+    "en": "salty",
+    "fr": "salé",
+    "theme": "restaurant"
+  },
+  {
+    "en": "sour",
+    "fr": "acide",
+    "theme": "restaurant"
+  },
+  {
+    "en": "bitter",
+    "fr": "amer",
+    "theme": "restaurant"
+  },
+  {
+    "en": "fresh",
+    "fr": "frais",
+    "theme": "restaurant"
+  },
+  {
+    "en": "frozen",
+    "fr": "congelé",
+    "theme": "restaurant"
+  },
+  {
+    "en": "grilled",
+    "fr": "grillé",
+    "theme": "restaurant"
+  },
+  {
+    "en": "fried",
+    "fr": "frit",
+    "theme": "restaurant"
+  },
+  {
+    "en": "baked",
+    "fr": "cuit au four",
+    "theme": "restaurant"
+  },
+  {
+    "en": "boiled",
+    "fr": "bouilli",
+    "theme": "restaurant"
+  },
+  {
+    "en": "raw",
+    "fr": "cru",
+    "theme": "restaurant"
+  },
+  {
+    "en": "vegetarian",
+    "fr": "végétarien",
+    "theme": "restaurant"
+  },
+  {
+    "en": "hungry",
+    "fr": "affamé",
+    "theme": "restaurant"
+  },
+  {
+    "en": "thirsty",
+    "fr": "assoiffé",
+    "theme": "restaurant"
+  },
+  {
+    "en": "recipe",
+    "fr": "recette",
+    "theme": "restaurant"
+  },
+  {
+    "en": "ingredient",
+    "fr": "ingrédient",
+    "theme": "restaurant"
+  },
+  {
+    "en": "knife",
+    "fr": "couteau",
+    "theme": "restaurant"
+  },
+  {
+    "en": "fork",
+    "fr": "fourchette",
+    "theme": "restaurant"
+  },
+  {
+    "en": "spoon",
+    "fr": "cuillère",
+    "theme": "restaurant"
+  },
+  {
+    "en": "plate",
+    "fr": "assiette",
+    "theme": "restaurant"
+  },
+  {
+    "en": "glass",
+    "fr": "verre",
+    "theme": "restaurant"
+  },
+  {
+    "en": "shop",
+    "fr": "magasin",
+    "theme": "shopping"
+  },
+  {
+    "en": "shopping",
+    "fr": "courses",
+    "theme": "shopping"
+  },
+  {
+    "en": "customer",
+    "fr": "client",
+    "theme": "shopping"
+  },
+  {
+    "en": "cashier",
+    "fr": "caissier",
+    "theme": "shopping"
+  },
+  {
+    "en": "price",
+    "fr": "prix",
+    "theme": "shopping"
+  },
+  {
+    "en": "cheap",
+    "fr": "bon marché",
+    "theme": "shopping"
+  },
+  {
+    "en": "expensive",
+    "fr": "cher",
+    "theme": "shopping"
+  },
+  {
+    "en": "discount",
+    "fr": "réduction",
+    "theme": "shopping"
+  },
+  {
+    "en": "sale",
+    "fr": "soldes",
+    "theme": "shopping"
+  },
+  {
+    "en": "receipt",
+    "fr": "reçu",
+    "theme": "shopping"
+  },
+  {
+    "en": "cash",
+    "fr": "espèces",
+    "theme": "shopping"
+  },
+  {
+    "en": "credit card",
+    "fr": "carte de crédit",
+    "theme": "shopping"
+  },
+  {
+    "en": "change",
+    "fr": "monnaie",
+    "theme": "shopping"
+  },
+  {
+    "en": "size",
+    "fr": "taille",
+    "theme": "shopping"
+  },
+  {
+    "en": "try on",
+    "fr": "essayer",
+    "theme": "shopping"
+  },
+  {
+    "en": "fit",
+    "fr": "aller (taille)",
+    "theme": "shopping"
+  },
+  {
+    "en": "buy",
+    "fr": "acheter",
+    "theme": "shopping"
+  },
+  {
+    "en": "pay",
+    "fr": "payer",
+    "theme": "shopping"
+  },
+  {
+    "en": "spend",
+    "fr": "dépenser",
+    "theme": "shopping"
+  },
+  {
+    "en": "save money",
+    "fr": "économiser",
+    "theme": "shopping"
+  },
+  {
+    "en": "market",
+    "fr": "marché",
+    "theme": "shopping"
+  },
+  {
+    "en": "supermarket",
+    "fr": "supermarché",
+    "theme": "shopping"
+  },
+  {
+    "en": "bakery",
+    "fr": "boulangerie",
+    "theme": "shopping"
+  },
+  {
+    "en": "butcher",
+    "fr": "boucherie",
+    "theme": "shopping"
+  },
+  {
+    "en": "mall",
+    "fr": "centre commercial",
+    "theme": "shopping"
+  },
+  {
+    "en": "health",
+    "fr": "santé",
+    "theme": "sante"
+  },
+  {
+    "en": "sick",
+    "fr": "malade",
+    "theme": "sante"
+  },
+  {
+    "en": "ill",
+    "fr": "malade",
+    "theme": "sante"
+  },
+  {
+    "en": "healthy",
+    "fr": "sain",
+    "theme": "sante"
+  },
+  {
+    "en": "doctor",
+    "fr": "médecin",
+    "theme": "sante"
+  },
+  {
+    "en": "nurse",
+    "fr": "infirmière",
+    "theme": "sante"
+  },
+  {
+    "en": "hospital",
+    "fr": "hôpital",
+    "theme": "sante"
+  },
+  {
+    "en": "medicine",
+    "fr": "médicament",
+    "theme": "sante"
+  },
+  {
+    "en": "pill",
+    "fr": "pilule",
+    "theme": "sante"
+  },
+  {
+    "en": "pain",
+    "fr": "douleur",
+    "theme": "sante"
+  },
+  {
+    "en": "headache",
+    "fr": "mal de tête",
+    "theme": "sante"
+  },
+  {
+    "en": "stomachache",
+    "fr": "mal au ventre",
+    "theme": "sante"
+  },
+  {
+    "en": "toothache",
+    "fr": "mal aux dents",
+    "theme": "sante"
+  },
+  {
+    "en": "fever",
+    "fr": "fièvre",
+    "theme": "sante"
+  },
+  {
+    "en": "cough",
+    "fr": "toux",
+    "theme": "sante"
+  },
+  {
+    "en": "cold ill",
+    "fr": "rhume",
+    "theme": "sante"
+  },
+  {
+    "en": "flu",
+    "fr": "grippe",
+    "theme": "sante"
+  },
+  {
+    "en": "allergy",
+    "fr": "allergie",
+    "theme": "sante"
+  },
+  {
+    "en": "injury",
+    "fr": "blessure",
+    "theme": "sante"
+  },
+  {
+    "en": "tired",
+    "fr": "fatigué",
+    "theme": "sante"
+  },
+  {
+    "en": "rest",
+    "fr": "repos",
+    "theme": "sante"
+  },
+  {
+    "en": "sleep",
+    "fr": "sommeil",
+    "theme": "sante"
+  },
+  {
+    "en": "exercise",
+    "fr": "exercice",
+    "theme": "sante"
+  },
+  {
+    "en": "diet",
+    "fr": "régime",
+    "theme": "sante"
+  },
+  {
+    "en": "appointment",
+    "fr": "rendez-vous",
+    "theme": "sante"
+  },
+  {
+    "en": "emergency",
+    "fr": "urgence",
+    "theme": "sante"
+  },
+  {
+    "en": "ambulance",
+    "fr": "ambulance",
+    "theme": "sante"
+  },
+  {
+    "en": "pharmacy",
+    "fr": "pharmacie",
+    "theme": "sante"
+  },
+  {
+    "en": "prescription",
+    "fr": "ordonnance",
+    "theme": "sante"
+  },
+  {
+    "en": "recover",
+    "fr": "guérir",
+    "theme": "sante"
+  },
+  {
+    "en": "job",
+    "fr": "emploi",
+    "theme": "travail"
+  },
+  {
+    "en": "work",
+    "fr": "travail",
+    "theme": "travail"
+  },
+  {
+    "en": "office",
+    "fr": "bureau",
+    "theme": "travail"
+  },
+  {
+    "en": "boss",
+    "fr": "patron",
+    "theme": "travail"
+  },
+  {
+    "en": "employee",
+    "fr": "employé",
+    "theme": "travail"
+  },
+  {
+    "en": "employer",
+    "fr": "employeur",
+    "theme": "travail"
+  },
+  {
+    "en": "colleague",
+    "fr": "collègue",
+    "theme": "travail"
+  },
+  {
+    "en": "meeting",
+    "fr": "réunion",
+    "theme": "travail"
+  },
+  {
+    "en": "project",
+    "fr": "projet",
+    "theme": "travail"
+  },
+  {
+    "en": "deadline",
+    "fr": "date limite",
+    "theme": "travail"
+  },
+  {
+    "en": "salary",
+    "fr": "salaire",
+    "theme": "travail"
+  },
+  {
+    "en": "contract",
+    "fr": "contrat",
+    "theme": "travail"
+  },
+  {
+    "en": "interview",
+    "fr": "entretien",
+    "theme": "travail"
+  },
+  {
+    "en": "resume",
+    "fr": "CV",
+    "theme": "travail"
+  },
+  {
+    "en": "experience",
+    "fr": "expérience",
+    "theme": "travail"
+  },
+  {
+    "en": "skill",
+    "fr": "compétence",
+    "theme": "travail"
+  },
+  {
+    "en": "task",
+    "fr": "tâche",
+    "theme": "travail"
+  },
+  {
+    "en": "report",
+    "fr": "rapport",
+    "theme": "travail"
+  },
+  {
+    "en": "email",
+    "fr": "courriel",
+    "theme": "travail"
+  },
+  {
+    "en": "computer",
+    "fr": "ordinateur",
+    "theme": "travail"
+  },
+  {
+    "en": "phone",
+    "fr": "téléphone",
+    "theme": "travail"
+  },
+  {
+    "en": "customer work",
+    "fr": "client",
+    "theme": "travail"
+  },
+  {
+    "en": "part-time",
+    "fr": "à temps partiel",
+    "theme": "travail"
+  },
+  {
+    "en": "full-time",
+    "fr": "à temps plein",
+    "theme": "travail"
+  },
+  {
+    "en": "retire",
+    "fr": "retraite",
+    "theme": "travail"
+  },
+  {
+    "en": "promotion",
+    "fr": "promotion",
+    "theme": "travail"
+  },
+  {
+    "en": "training",
+    "fr": "formation",
+    "theme": "travail"
+  },
+  {
+    "en": "internship",
+    "fr": "stage",
+    "theme": "travail"
+  },
+  {
+    "en": "freelance",
+    "fr": "indépendant",
+    "theme": "travail"
+  },
+  {
+    "en": "unemployed",
+    "fr": "au chômage",
+    "theme": "travail"
+  },
+  {
+    "en": "city",
+    "fr": "ville",
+    "theme": "ville"
+  },
+  {
+    "en": "town",
+    "fr": "ville",
+    "theme": "ville"
+  },
+  {
+    "en": "village",
+    "fr": "village",
+    "theme": "ville"
+  },
+  {
+    "en": "street",
+    "fr": "rue",
+    "theme": "ville"
+  },
+  {
+    "en": "avenue",
+    "fr": "avenue",
+    "theme": "ville"
+  },
+  {
+    "en": "square",
+    "fr": "place",
+    "theme": "ville"
+  },
+  {
+    "en": "building",
+    "fr": "immeuble",
+    "theme": "ville"
+  },
+  {
+    "en": "bridge",
+    "fr": "pont",
+    "theme": "ville"
+  },
+  {
+    "en": "traffic",
+    "fr": "circulation",
+    "theme": "ville"
+  },
+  {
+    "en": "traffic light",
+    "fr": "feu",
+    "theme": "ville"
+  },
+  {
+    "en": "crosswalk",
+    "fr": "passage piéton",
+    "theme": "ville"
+  },
+  {
+    "en": "sidewalk",
+    "fr": "trottoir",
+    "theme": "ville"
+  },
+  {
+    "en": "subway",
+    "fr": "métro",
+    "theme": "ville"
+  },
+  {
+    "en": "bus stop",
+    "fr": "arrêt de bus",
+    "theme": "ville"
+  },
+  {
+    "en": "parking",
+    "fr": "parking",
+    "theme": "ville"
+  },
+  {
+    "en": "cafe",
+    "fr": "café",
+    "theme": "ville"
+  },
+  {
+    "en": "movie theater",
+    "fr": "cinéma",
+    "theme": "ville"
+  },
+  {
+    "en": "church",
+    "fr": "église",
+    "theme": "ville"
+  },
+  {
+    "en": "police",
+    "fr": "police",
+    "theme": "ville"
+  },
+  {
+    "en": "fire station",
+    "fr": "caserne de pompiers",
+    "theme": "ville"
+  },
+  {
+    "en": "government",
+    "fr": "gouvernement",
+    "theme": "ville"
+  },
+  {
+    "en": "town hall",
+    "fr": "mairie",
+    "theme": "ville"
+  },
+  {
+    "en": "library town",
+    "fr": "bibliothèque",
+    "theme": "ville"
+  },
+  {
+    "en": "stadium",
+    "fr": "stade",
+    "theme": "ville"
+  },
+  {
+    "en": "zoo",
+    "fr": "zoo",
+    "theme": "ville"
+  },
+  {
+    "en": "nature",
+    "fr": "nature",
+    "theme": "nature"
+  },
+  {
+    "en": "tree",
+    "fr": "arbre",
+    "theme": "nature"
+  },
+  {
+    "en": "flower",
+    "fr": "fleur",
+    "theme": "nature"
+  },
+  {
+    "en": "grass",
+    "fr": "herbe",
+    "theme": "nature"
+  },
+  {
+    "en": "leaf",
+    "fr": "feuille",
+    "theme": "nature"
+  },
+  {
+    "en": "plant",
+    "fr": "plante",
+    "theme": "nature"
+  },
+  {
+    "en": "seed",
+    "fr": "graine",
+    "theme": "nature"
+  },
+  {
+    "en": "root",
+    "fr": "racine",
+    "theme": "nature"
+  },
+  {
+    "en": "branch",
+    "fr": "branche",
+    "theme": "nature"
+  },
+  {
+    "en": "forest",
+    "fr": "forêt",
+    "theme": "nature"
+  },
+  {
+    "en": "mountain",
+    "fr": "montagne",
+    "theme": "nature"
+  },
+  {
+    "en": "hill",
+    "fr": "colline",
+    "theme": "nature"
+  },
+  {
+    "en": "valley",
+    "fr": "vallée",
+    "theme": "nature"
+  },
+  {
+    "en": "lake",
+    "fr": "lac",
+    "theme": "nature"
+  },
+  {
+    "en": "river",
+    "fr": "rivière",
+    "theme": "nature"
+  },
+  {
+    "en": "ocean",
+    "fr": "océan",
+    "theme": "nature"
+  },
+  {
+    "en": "island",
+    "fr": "île",
+    "theme": "nature"
+  },
+  {
+    "en": "desert",
+    "fr": "désert",
+    "theme": "nature"
+  },
+  {
+    "en": "sand",
+    "fr": "sable",
+    "theme": "nature"
+  },
+  {
+    "en": "stone",
+    "fr": "pierre",
+    "theme": "nature"
+  },
+  {
+    "en": "earth",
+    "fr": "terre",
+    "theme": "nature"
+  },
+  {
+    "en": "air",
+    "fr": "air",
+    "theme": "nature"
+  },
+  {
+    "en": "fire",
+    "fr": "feu",
+    "theme": "nature"
+  },
+  {
+    "en": "environment",
+    "fr": "environnement",
+    "theme": "nature"
+  },
+  {
+    "en": "animal wild",
+    "fr": "animal sauvage",
+    "theme": "nature"
+  },
+  {
+    "en": "technology",
+    "fr": "technologie",
+    "theme": "technologie"
+  },
+  {
+    "en": "computer",
+    "fr": "ordinateur",
+    "theme": "technologie"
+  },
+  {
+    "en": "phone",
+    "fr": "téléphone",
+    "theme": "technologie"
+  },
+  {
+    "en": "smartphone",
+    "fr": "smartphone",
+    "theme": "technologie"
+  },
+  {
+    "en": "tablet",
+    "fr": "tablette",
+    "theme": "technologie"
+  },
+  {
+    "en": "screen",
+    "fr": "écran",
+    "theme": "technologie"
+  },
+  {
+    "en": "keyboard",
+    "fr": "clavier",
+    "theme": "technologie"
+  },
+  {
+    "en": "mouse tech",
+    "fr": "souris",
+    "theme": "technologie"
+  },
+  {
+    "en": "internet",
+    "fr": "internet",
+    "theme": "technologie"
+  },
+  {
+    "en": "website",
+    "fr": "site web",
+    "theme": "technologie"
+  },
+  {
+    "en": "email",
+    "fr": "email",
+    "theme": "technologie"
+  },
+  {
+    "en": "password",
+    "fr": "mot de passe",
+    "theme": "technologie"
+  },
+  {
+    "en": "download",
+    "fr": "télécharger",
+    "theme": "technologie"
+  },
+  {
+    "en": "upload",
+    "fr": "téléverser",
+    "theme": "technologie"
+  },
+  {
+    "en": "click",
+    "fr": "cliquer",
+    "theme": "technologie"
+  },
+  {
+    "en": "search",
+    "fr": "rechercher",
+    "theme": "technologie"
+  },
+  {
+    "en": "app",
+    "fr": "application",
+    "theme": "technologie"
+  },
+  {
+    "en": "message",
+    "fr": "message",
+    "theme": "technologie"
+  },
+  {
+    "en": "photo",
+    "fr": "photo",
+    "theme": "technologie"
+  },
+  {
+    "en": "video",
+    "fr": "vidéo",
+    "theme": "technologie"
+  },
+  {
+    "en": "charger",
+    "fr": "chargeur",
+    "theme": "technologie"
+  },
+  {
+    "en": "battery",
+    "fr": "batterie",
+    "theme": "technologie"
+  },
+  {
+    "en": "wifi",
+    "fr": "wifi",
+    "theme": "technologie"
+  },
+  {
+    "en": "network",
+    "fr": "réseau",
+    "theme": "technologie"
+  },
+  {
+    "en": "device",
+    "fr": "appareil",
+    "theme": "technologie"
+  },
+  {
+    "en": "right",
+    "fr": "droite",
+    "theme": "directions"
+  },
+  {
+    "en": "left",
+    "fr": "gauche",
+    "theme": "directions"
+  },
+  {
+    "en": "straight",
+    "fr": "tout droit",
+    "theme": "directions"
+  },
+  {
+    "en": "up",
+    "fr": "en haut",
+    "theme": "directions"
+  },
+  {
+    "en": "down",
+    "fr": "en bas",
+    "theme": "directions"
+  },
+  {
+    "en": "north",
+    "fr": "nord",
+    "theme": "directions"
+  },
+  {
+    "en": "south",
+    "fr": "sud",
+    "theme": "directions"
+  },
+  {
+    "en": "east",
+    "fr": "est",
+    "theme": "directions"
+  },
+  {
+    "en": "west",
+    "fr": "ouest",
+    "theme": "directions"
+  },
+  {
+    "en": "behind",
+    "fr": "derrière",
+    "theme": "directions"
+  },
+  {
+    "en": "in front of",
+    "fr": "devant",
+    "theme": "directions"
+  },
+  {
+    "en": "next to",
+    "fr": "à côté de",
+    "theme": "directions"
+  },
+  {
+    "en": "between",
+    "fr": "entre",
+    "theme": "directions"
+  },
+  {
+    "en": "near",
+    "fr": "près",
+    "theme": "directions"
+  },
+  {
+    "en": "far",
+    "fr": "loin",
+    "theme": "directions"
+  },
+  {
+    "en": "inside",
+    "fr": "à l'intérieur",
+    "theme": "directions"
+  },
+  {
+    "en": "outside",
+    "fr": "à l'extérieur",
+    "theme": "directions"
+  },
+  {
+    "en": "above",
+    "fr": "au-dessus",
+    "theme": "directions"
+  },
+  {
+    "en": "below",
+    "fr": "en dessous",
+    "theme": "directions"
+  },
+  {
+    "en": "corner",
+    "fr": "coin",
+    "theme": "directions"
+  },
+  {
+    "en": "money",
+    "fr": "argent",
+    "theme": "argent"
+  },
+  {
+    "en": "price",
+    "fr": "prix",
+    "theme": "argent"
+  },
+  {
+    "en": "cost",
+    "fr": "coût",
+    "theme": "argent"
+  },
+  {
+    "en": "pay",
+    "fr": "payer",
+    "theme": "argent"
+  },
+  {
+    "en": "buy",
+    "fr": "acheter",
+    "theme": "argent"
+  },
+  {
+    "en": "sell",
+    "fr": "vendre",
+    "theme": "argent"
+  },
+  {
+    "en": "bank",
+    "fr": "banque",
+    "theme": "argent"
+  },
+  {
+    "en": "account",
+    "fr": "compte",
+    "theme": "argent"
+  },
+  {
+    "en": "card",
+    "fr": "carte",
+    "theme": "argent"
+  },
+  {
+    "en": "cash",
+    "fr": "espèces",
+    "theme": "argent"
+  },
+  {
+    "en": "coin",
+    "fr": "pièce",
+    "theme": "argent"
+  },
+  {
+    "en": "bill money",
+    "fr": "billet",
+    "theme": "argent"
+  },
+  {
+    "en": "change money",
+    "fr": "monnaie",
+    "theme": "argent"
+  },
+  {
+    "en": "salary",
+    "fr": "salaire",
+    "theme": "argent"
+  },
+  {
+    "en": "save",
+    "fr": "économiser",
+    "theme": "argent"
+  },
+  {
+    "en": "spend",
+    "fr": "dépenser",
+    "theme": "argent"
+  },
+  {
+    "en": "borrow",
+    "fr": "emprunter",
+    "theme": "argent"
+  },
+  {
+    "en": "lend",
+    "fr": "prêter",
+    "theme": "argent"
+  },
+  {
+    "en": "owe",
+    "fr": "devoir",
+    "theme": "argent"
+  },
+  {
+    "en": "rich",
+    "fr": "riche",
+    "theme": "argent"
+  },
+  {
+    "en": "poor",
+    "fr": "pauvre",
+    "theme": "argent"
+  },
+  {
+    "en": "cheap",
+    "fr": "pas cher",
+    "theme": "argent"
+  },
+  {
+    "en": "expensive",
+    "fr": "cher",
+    "theme": "argent"
+  },
+  {
+    "en": "free",
+    "fr": "gratuit",
+    "theme": "argent"
+  },
+  {
+    "en": "tax",
+    "fr": "taxe",
+    "theme": "argent"
+  },
+  {
+    "en": "hobby",
+    "fr": "passe-temps",
+    "theme": "hobbies"
+  },
+  {
+    "en": "reading",
+    "fr": "lecture",
+    "theme": "hobbies"
+  },
+  {
+    "en": "writing",
+    "fr": "écriture",
+    "theme": "hobbies"
+  },
+  {
+    "en": "painting",
+    "fr": "peinture",
+    "theme": "hobbies"
+  },
+  {
+    "en": "drawing",
+    "fr": "dessin",
+    "theme": "hobbies"
+  },
+  {
+    "en": "photography",
+    "fr": "photographie",
+    "theme": "hobbies"
+  },
+  {
+    "en": "cooking",
+    "fr": "cuisine",
+    "theme": "hobbies"
+  },
+  {
+    "en": "gardening",
+    "fr": "jardinage",
+    "theme": "hobbies"
+  },
+  {
+    "en": "fishing",
+    "fr": "pêche",
+    "theme": "hobbies"
+  },
+  {
+    "en": "hiking",
+    "fr": "randonnée",
+    "theme": "hobbies"
+  },
+  {
+    "en": "camping",
+    "fr": "camping",
+    "theme": "hobbies"
+  },
+  {
+    "en": "traveling",
+    "fr": "voyager",
+    "theme": "hobbies"
+  },
+  {
+    "en": "shopping",
+    "fr": "shopping",
+    "theme": "hobbies"
+  },
+  {
+    "en": "gaming",
+    "fr": "jeux vidéo",
+    "theme": "hobbies"
+  },
+  {
+    "en": "singing",
+    "fr": "chanter",
+    "theme": "hobbies"
+  },
+  {
+    "en": "dancing",
+    "fr": "danser",
+    "theme": "hobbies"
+  },
+  {
+    "en": "playing music",
+    "fr": "jouer de la musique",
+    "theme": "hobbies"
+  },
+  {
+    "en": "watching TV",
+    "fr": "regarder la télé",
+    "theme": "hobbies"
+  },
+  {
+    "en": "collecting",
+    "fr": "collectionner",
+    "theme": "hobbies"
+  },
+  {
+    "en": "volunteering",
+    "fr": "bénévolat",
+    "theme": "hobbies"
+  },
+  {
+    "en": "sleeve",
+    "fr": "manche",
+    "theme": "vetements-detail"
+  },
+  {
+    "en": "collar",
+    "fr": "col",
+    "theme": "vetements-detail"
+  },
+  {
+    "en": "button",
+    "fr": "bouton",
+    "theme": "vetements-detail"
+  },
+  {
+    "en": "zipper",
+    "fr": "fermeture éclair",
+    "theme": "vetements-detail"
+  },
+  {
+    "en": "pocket",
+    "fr": "poche",
+    "theme": "vetements-detail"
+  },
+  {
+    "en": "lace",
+    "fr": "lacet",
+    "theme": "vetements-detail"
+  },
+  {
+    "en": "heel",
+    "fr": "talon",
+    "theme": "vetements-detail"
+  },
+  {
+    "en": "cotton",
+    "fr": "coton",
+    "theme": "vetements-detail"
+  },
+  {
+    "en": "wool",
+    "fr": "laine",
+    "theme": "vetements-detail"
+  },
+  {
+    "en": "leather",
+    "fr": "cuir",
+    "theme": "vetements-detail"
+  },
+  {
+    "en": "silk",
+    "fr": "soie",
+    "theme": "vetements-detail"
+  },
+  {
+    "en": "pattern",
+    "fr": "motif",
+    "theme": "vetements-detail"
+  },
+  {
+    "en": "striped",
+    "fr": "rayé",
+    "theme": "vetements-detail"
+  },
+  {
+    "en": "plain",
+    "fr": "uni",
+    "theme": "vetements-detail"
+  },
+  {
+    "en": "loose",
+    "fr": "ample",
+    "theme": "vetements-detail"
+  },
+  {
+    "en": "coach",
+    "fr": "entraîneur",
+    "theme": "sports-detail"
+  },
+  {
+    "en": "match",
+    "fr": "match",
+    "theme": "sports-detail"
+  },
+  {
+    "en": "championship",
+    "fr": "championnat",
+    "theme": "sports-detail"
+  },
+  {
+    "en": "score",
+    "fr": "score",
+    "theme": "sports-detail"
+  },
+  {
+    "en": "goal",
+    "fr": "but",
+    "theme": "sports-detail"
+  },
+  {
+    "en": "referee",
+    "fr": "arbitre",
+    "theme": "sports-detail"
+  },
+  {
+    "en": "stadium",
+    "fr": "stade",
+    "theme": "sports-detail"
+  },
+  {
+    "en": "fan",
+    "fr": "fan",
+    "theme": "sports-detail"
+  },
+  {
+    "en": "practice",
+    "fr": "entraînement",
+    "theme": "sports-detail"
+  },
+  {
+    "en": "train",
+    "fr": "s'entraîner",
+    "theme": "sports-detail"
+  },
+  {
+    "en": "win",
+    "fr": "gagner",
+    "theme": "sports-detail"
+  },
+  {
+    "en": "lose",
+    "fr": "perdre",
+    "theme": "sports-detail"
+  },
+  {
+    "en": "tie",
+    "fr": "égalité",
+    "theme": "sports-detail"
+  },
+  {
+    "en": "tournament",
+    "fr": "tournoi",
+    "theme": "sports-detail"
+  },
+  {
+    "en": "athlete",
+    "fr": "athlète",
+    "theme": "sports-detail"
+  }
+];
 
-    // ----- Météo (20) -----
-    {en:"weather",fr:"météo",theme:"meteo"},
-    {en:"sunny",fr:"ensoleillé",theme:"meteo"},
-    {en:"rainy",fr:"pluvieux",theme:"meteo"},
-    {en:"cloudy",fr:"nuageux",theme:"meteo"},
-    {en:"windy",fr:"venteux",theme:"meteo"},
-    {en:"snowy",fr:"neigeux",theme:"meteo"},
-    {en:"storm",fr:"orage",theme:"meteo"},
-    {en:"rain",fr:"pluie",theme:"meteo"},
-    {en:"snow",fr:"neige",theme:"meteo"},
-    {en:"wind",fr:"vent",theme:"meteo"},
-    {en:"cloud",fr:"nuage",theme:"meteo"},
-    {en:"sun",fr:"soleil",theme:"meteo"},
-    {en:"moon",fr:"lune",theme:"meteo"},
-    {en:"star",fr:"étoile",theme:"meteo"},
-    {en:"sky",fr:"ciel",theme:"meteo"},
-    {en:"temperature",fr:"température",theme:"meteo"},
-    {en:"degree",fr:"degré",theme:"meteo"},
-    {en:"hot weather",fr:"chaud",theme:"meteo"},
-    {en:"cold weather",fr:"froid",theme:"meteo"},
-    {en:"forecast",fr:"prévisions",theme:"meteo"},
-
-    // ----- Restaurant & cuisine (35) -----
-    {en:"restaurant",fr:"restaurant",theme:"restaurant"},
-    {en:"menu",fr:"carte",theme:"restaurant"},
-    {en:"waiter",fr:"serveur",theme:"restaurant"},
-    {en:"waitress",fr:"serveuse",theme:"restaurant"},
-    {en:"bill",fr:"addition",theme:"restaurant"},
-    {en:"tip",fr:"pourboire",theme:"restaurant"},
-    {en:"order",fr:"commander",theme:"restaurant"},
-    {en:"table for two",fr:"table pour deux",theme:"restaurant"},
-    {en:"starter",fr:"entrée",theme:"restaurant"},
-    {en:"main course",fr:"plat principal",theme:"restaurant"},
-    {en:"dessert",fr:"dessert",theme:"restaurant"},
-    {en:"drink",fr:"boisson",theme:"restaurant"},
-    {en:"delicious",fr:"délicieux",theme:"restaurant"},
-    {en:"spicy",fr:"épicé",theme:"restaurant"},
-    {en:"sweet",fr:"sucré",theme:"restaurant"},
-    {en:"salty",fr:"salé",theme:"restaurant"},
-    {en:"sour",fr:"acide",theme:"restaurant"},
-    {en:"bitter",fr:"amer",theme:"restaurant"},
-    {en:"fresh",fr:"frais",theme:"restaurant"},
-    {en:"frozen",fr:"congelé",theme:"restaurant"},
-    {en:"grilled",fr:"grillé",theme:"restaurant"},
-    {en:"fried",fr:"frit",theme:"restaurant"},
-    {en:"baked",fr:"cuit au four",theme:"restaurant"},
-    {en:"boiled",fr:"bouilli",theme:"restaurant"},
-    {en:"raw",fr:"cru",theme:"restaurant"},
-    {en:"vegetarian",fr:"végétarien",theme:"restaurant"},
-    {en:"hungry",fr:"affamé",theme:"restaurant"},
-    {en:"thirsty",fr:"assoiffé",theme:"restaurant"},
-    {en:"recipe",fr:"recette",theme:"restaurant"},
-    {en:"ingredient",fr:"ingrédient",theme:"restaurant"},
-    {en:"knife",fr:"couteau",theme:"restaurant"},
-    {en:"fork",fr:"fourchette",theme:"restaurant"},
-    {en:"spoon",fr:"cuillère",theme:"restaurant"},
-    {en:"plate",fr:"assiette",theme:"restaurant"},
-    {en:"glass",fr:"verre",theme:"restaurant"},
-
-    // ----- Magasin & shopping (25) -----
-    {en:"shop",fr:"magasin",theme:"shopping"},
-    {en:"shopping",fr:"courses",theme:"shopping"},
-    {en:"customer",fr:"client",theme:"shopping"},
-    {en:"cashier",fr:"caissier",theme:"shopping"},
-    {en:"price",fr:"prix",theme:"shopping"},
-    {en:"cheap",fr:"bon marché",theme:"shopping"},
-    {en:"expensive",fr:"cher",theme:"shopping"},
-    {en:"discount",fr:"réduction",theme:"shopping"},
-    {en:"sale",fr:"soldes",theme:"shopping"},
-    {en:"receipt",fr:"reçu",theme:"shopping"},
-    {en:"cash",fr:"espèces",theme:"shopping"},
-    {en:"credit card",fr:"carte de crédit",theme:"shopping"},
-    {en:"change",fr:"monnaie",theme:"shopping"},
-    {en:"size",fr:"taille",theme:"shopping"},
-    {en:"try on",fr:"essayer",theme:"shopping"},
-    {en:"fit",fr:"aller (taille)",theme:"shopping"},
-    {en:"buy",fr:"acheter",theme:"shopping"},
-    {en:"pay",fr:"payer",theme:"shopping"},
-    {en:"spend",fr:"dépenser",theme:"shopping"},
-    {en:"save money",fr:"économiser",theme:"shopping"},
-    {en:"market",fr:"marché",theme:"shopping"},
-    {en:"supermarket",fr:"supermarché",theme:"shopping"},
-    {en:"bakery",fr:"boulangerie",theme:"shopping"},
-    {en:"butcher",fr:"boucherie",theme:"shopping"},
-    {en:"mall",fr:"centre commercial",theme:"shopping"},
-
-    // ----- Santé (30) -----
-    {en:"health",fr:"santé",theme:"sante"},
-    {en:"sick",fr:"malade",theme:"sante"},
-    {en:"ill",fr:"malade",theme:"sante"},
-    {en:"healthy",fr:"sain",theme:"sante"},
-    {en:"doctor",fr:"médecin",theme:"sante"},
-    {en:"nurse",fr:"infirmière",theme:"sante"},
-    {en:"hospital",fr:"hôpital",theme:"sante"},
-    {en:"medicine",fr:"médicament",theme:"sante"},
-    {en:"pill",fr:"pilule",theme:"sante"},
-    {en:"pain",fr:"douleur",theme:"sante"},
-    {en:"headache",fr:"mal de tête",theme:"sante"},
-    {en:"stomachache",fr:"mal au ventre",theme:"sante"},
-    {en:"toothache",fr:"mal aux dents",theme:"sante"},
-    {en:"fever",fr:"fièvre",theme:"sante"},
-    {en:"cough",fr:"toux",theme:"sante"},
-    {en:"cold ill",fr:"rhume",theme:"sante"},
-    {en:"flu",fr:"grippe",theme:"sante"},
-    {en:"allergy",fr:"allergie",theme:"sante"},
-    {en:"injury",fr:"blessure",theme:"sante"},
-    {en:"tired",fr:"fatigué",theme:"sante"},
-    {en:"rest",fr:"repos",theme:"sante"},
-    {en:"sleep",fr:"sommeil",theme:"sante"},
-    {en:"exercise",fr:"exercice",theme:"sante"},
-    {en:"diet",fr:"régime",theme:"sante"},
-    {en:"appointment",fr:"rendez-vous",theme:"sante"},
-    {en:"emergency",fr:"urgence",theme:"sante"},
-    {en:"ambulance",fr:"ambulance",theme:"sante"},
-    {en:"pharmacy",fr:"pharmacie",theme:"sante"},
-    {en:"prescription",fr:"ordonnance",theme:"sante"},
-    {en:"recover",fr:"guérir",theme:"sante"},
-
-    // ----- Travail (30) -----
-    {en:"job",fr:"emploi",theme:"travail"},
-    {en:"work",fr:"travail",theme:"travail"},
-    {en:"office",fr:"bureau",theme:"travail"},
-    {en:"boss",fr:"patron",theme:"travail"},
-    {en:"employee",fr:"employé",theme:"travail"},
-    {en:"employer",fr:"employeur",theme:"travail"},
-    {en:"colleague",fr:"collègue",theme:"travail"},
-    {en:"meeting",fr:"réunion",theme:"travail"},
-    {en:"project",fr:"projet",theme:"travail"},
-    {en:"deadline",fr:"date limite",theme:"travail"},
-    {en:"salary",fr:"salaire",theme:"travail"},
-    {en:"contract",fr:"contrat",theme:"travail"},
-    {en:"interview",fr:"entretien",theme:"travail"},
-    {en:"resume",fr:"CV",theme:"travail"},
-    {en:"experience",fr:"expérience",theme:"travail"},
-    {en:"skill",fr:"compétence",theme:"travail"},
-    {en:"task",fr:"tâche",theme:"travail"},
-    {en:"report",fr:"rapport",theme:"travail"},
-    {en:"email",fr:"courriel",theme:"travail"},
-    {en:"computer",fr:"ordinateur",theme:"travail"},
-    {en:"phone",fr:"téléphone",theme:"travail"},
-    {en:"customer work",fr:"client",theme:"travail"},
-    {en:"part-time",fr:"à temps partiel",theme:"travail"},
-    {en:"full-time",fr:"à temps plein",theme:"travail"},
-    {en:"retire",fr:"retraite",theme:"travail"},
-    {en:"promotion",fr:"promotion",theme:"travail"},
-    {en:"training",fr:"formation",theme:"travail"},
-    {en:"internship",fr:"stage",theme:"travail"},
-    {en:"freelance",fr:"indépendant",theme:"travail"},
-    {en:"unemployed",fr:"au chômage",theme:"travail"},
-
-    // ----- Ville (25) -----
-    {en:"city",fr:"ville",theme:"ville"},
-    {en:"town",fr:"ville",theme:"ville"},
-    {en:"village",fr:"village",theme:"ville"},
-    {en:"street",fr:"rue",theme:"ville"},
-    {en:"avenue",fr:"avenue",theme:"ville"},
-    {en:"square",fr:"place",theme:"ville"},
-    {en:"building",fr:"immeuble",theme:"ville"},
-    {en:"bridge",fr:"pont",theme:"ville"},
-    {en:"traffic",fr:"circulation",theme:"ville"},
-    {en:"traffic light",fr:"feu",theme:"ville"},
-    {en:"crosswalk",fr:"passage piéton",theme:"ville"},
-    {en:"sidewalk",fr:"trottoir",theme:"ville"},
-    {en:"subway",fr:"métro",theme:"ville"},
-    {en:"bus stop",fr:"arrêt de bus",theme:"ville"},
-    {en:"parking",fr:"parking",theme:"ville"},
-    {en:"cafe",fr:"café",theme:"ville"},
-    {en:"movie theater",fr:"cinéma",theme:"ville"},
-    {en:"church",fr:"église",theme:"ville"},
-    {en:"police",fr:"police",theme:"ville"},
-    {en:"fire station",fr:"caserne de pompiers",theme:"ville"},
-    {en:"government",fr:"gouvernement",theme:"ville"},
-    {en:"town hall",fr:"mairie",theme:"ville"},
-    {en:"library town",fr:"bibliothèque",theme:"ville"},
-    {en:"stadium",fr:"stade",theme:"ville"},
-    {en:"zoo",fr:"zoo",theme:"ville"},
-
-    // ----- Nature (25) -----
-    {en:"nature",fr:"nature",theme:"nature"},
-    {en:"tree",fr:"arbre",theme:"nature"},
-    {en:"flower",fr:"fleur",theme:"nature"},
-    {en:"grass",fr:"herbe",theme:"nature"},
-    {en:"leaf",fr:"feuille",theme:"nature"},
-    {en:"plant",fr:"plante",theme:"nature"},
-    {en:"seed",fr:"graine",theme:"nature"},
-    {en:"root",fr:"racine",theme:"nature"},
-    {en:"branch",fr:"branche",theme:"nature"},
-    {en:"forest",fr:"forêt",theme:"nature"},
-    {en:"mountain",fr:"montagne",theme:"nature"},
-    {en:"hill",fr:"colline",theme:"nature"},
-    {en:"valley",fr:"vallée",theme:"nature"},
-    {en:"lake",fr:"lac",theme:"nature"},
-    {en:"river",fr:"rivière",theme:"nature"},
-    {en:"ocean",fr:"océan",theme:"nature"},
-    {en:"island",fr:"île",theme:"nature"},
-    {en:"desert",fr:"désert",theme:"nature"},
-    {en:"sand",fr:"sable",theme:"nature"},
-    {en:"stone",fr:"pierre",theme:"nature"},
-    {en:"earth",fr:"terre",theme:"nature"},
-    {en:"air",fr:"air",theme:"nature"},
-    {en:"fire",fr:"feu",theme:"nature"},
-    {en:"environment",fr:"environnement",theme:"nature"},
-    {en:"animal wild",fr:"animal sauvage",theme:"nature"},
-
-    // ----- Technologie base (25) -----
-    {en:"technology",fr:"technologie",theme:"technologie"},
-    {en:"computer",fr:"ordinateur",theme:"technologie"},
-    {en:"phone",fr:"téléphone",theme:"technologie"},
-    {en:"smartphone",fr:"smartphone",theme:"technologie"},
-    {en:"tablet",fr:"tablette",theme:"technologie"},
-    {en:"screen",fr:"écran",theme:"technologie"},
-    {en:"keyboard",fr:"clavier",theme:"technologie"},
-    {en:"mouse tech",fr:"souris",theme:"technologie"},
-    {en:"internet",fr:"internet",theme:"technologie"},
-    {en:"website",fr:"site web",theme:"technologie"},
-    {en:"email",fr:"email",theme:"technologie"},
-    {en:"password",fr:"mot de passe",theme:"technologie"},
-    {en:"download",fr:"télécharger",theme:"technologie"},
-    {en:"upload",fr:"téléverser",theme:"technologie"},
-    {en:"click",fr:"cliquer",theme:"technologie"},
-    {en:"search",fr:"rechercher",theme:"technologie"},
-    {en:"app",fr:"application",theme:"technologie"},
-    {en:"message",fr:"message",theme:"technologie"},
-    {en:"photo",fr:"photo",theme:"technologie"},
-    {en:"video",fr:"vidéo",theme:"technologie"},
-    {en:"charger",fr:"chargeur",theme:"technologie"},
-    {en:"battery",fr:"batterie",theme:"technologie"},
-    {en:"wifi",fr:"wifi",theme:"technologie"},
-    {en:"network",fr:"réseau",theme:"technologie"},
-    {en:"device",fr:"appareil",theme:"technologie"},
-
-    // ----- Directions (20) -----
-    {en:"right",fr:"droite",theme:"directions"},
-    {en:"left",fr:"gauche",theme:"directions"},
-    {en:"straight",fr:"tout droit",theme:"directions"},
-    {en:"up",fr:"en haut",theme:"directions"},
-    {en:"down",fr:"en bas",theme:"directions"},
-    {en:"north",fr:"nord",theme:"directions"},
-    {en:"south",fr:"sud",theme:"directions"},
-    {en:"east",fr:"est",theme:"directions"},
-    {en:"west",fr:"ouest",theme:"directions"},
-    {en:"behind",fr:"derrière",theme:"directions"},
-    {en:"in front of",fr:"devant",theme:"directions"},
-    {en:"next to",fr:"à côté de",theme:"directions"},
-    {en:"between",fr:"entre",theme:"directions"},
-    {en:"near",fr:"près",theme:"directions"},
-    {en:"far",fr:"loin",theme:"directions"},
-    {en:"inside",fr:"à l'intérieur",theme:"directions"},
-    {en:"outside",fr:"à l'extérieur",theme:"directions"},
-    {en:"above",fr:"au-dessus",theme:"directions"},
-    {en:"below",fr:"en dessous",theme:"directions"},
-    {en:"corner",fr:"coin",theme:"directions"},
-
-    // ----- Argent (25) -----
-    {en:"money",fr:"argent",theme:"argent"},
-    {en:"price",fr:"prix",theme:"argent"},
-    {en:"cost",fr:"coût",theme:"argent"},
-    {en:"pay",fr:"payer",theme:"argent"},
-    {en:"buy",fr:"acheter",theme:"argent"},
-    {en:"sell",fr:"vendre",theme:"argent"},
-    {en:"bank",fr:"banque",theme:"argent"},
-    {en:"account",fr:"compte",theme:"argent"},
-    {en:"card",fr:"carte",theme:"argent"},
-    {en:"cash",fr:"espèces",theme:"argent"},
-    {en:"coin",fr:"pièce",theme:"argent"},
-    {en:"bill money",fr:"billet",theme:"argent"},
-    {en:"change money",fr:"monnaie",theme:"argent"},
-    {en:"salary",fr:"salaire",theme:"argent"},
-    {en:"save",fr:"économiser",theme:"argent"},
-    {en:"spend",fr:"dépenser",theme:"argent"},
-    {en:"borrow",fr:"emprunter",theme:"argent"},
-    {en:"lend",fr:"prêter",theme:"argent"},
-    {en:"owe",fr:"devoir",theme:"argent"},
-    {en:"rich",fr:"riche",theme:"argent"},
-    {en:"poor",fr:"pauvre",theme:"argent"},
-    {en:"cheap",fr:"pas cher",theme:"argent"},
-    {en:"expensive",fr:"cher",theme:"argent"},
-    {en:"free",fr:"gratuit",theme:"argent"},
-    {en:"tax",fr:"taxe",theme:"argent"},
-
-    // ----- Hobbies (20) -----
-    {en:"hobby",fr:"passe-temps",theme:"hobbies"},
-    {en:"reading",fr:"lecture",theme:"hobbies"},
-    {en:"writing",fr:"écriture",theme:"hobbies"},
-    {en:"painting",fr:"peinture",theme:"hobbies"},
-    {en:"drawing",fr:"dessin",theme:"hobbies"},
-    {en:"photography",fr:"photographie",theme:"hobbies"},
-    {en:"cooking",fr:"cuisine",theme:"hobbies"},
-    {en:"gardening",fr:"jardinage",theme:"hobbies"},
-    {en:"fishing",fr:"pêche",theme:"hobbies"},
-    {en:"hiking",fr:"randonnée",theme:"hobbies"},
-    {en:"camping",fr:"camping",theme:"hobbies"},
-    {en:"traveling",fr:"voyager",theme:"hobbies"},
-    {en:"shopping",fr:"shopping",theme:"hobbies"},
-    {en:"gaming",fr:"jeux vidéo",theme:"hobbies"},
-    {en:"singing",fr:"chanter",theme:"hobbies"},
-    {en:"dancing",fr:"danser",theme:"hobbies"},
-    {en:"playing music",fr:"jouer de la musique",theme:"hobbies"},
-    {en:"watching TV",fr:"regarder la télé",theme:"hobbies"},
-    {en:"collecting",fr:"collectionner",theme:"hobbies"},
-    {en:"volunteering",fr:"bénévolat",theme:"hobbies"},
-
-    // ----- Vêtements détails (15) -----
-    {en:"sleeve",fr:"manche",theme:"vetements-detail"},
-    {en:"collar",fr:"col",theme:"vetements-detail"},
-    {en:"button",fr:"bouton",theme:"vetements-detail"},
-    {en:"zipper",fr:"fermeture éclair",theme:"vetements-detail"},
-    {en:"pocket",fr:"poche",theme:"vetements-detail"},
-    {en:"lace",fr:"lacet",theme:"vetements-detail"},
-    {en:"heel",fr:"talon",theme:"vetements-detail"},
-    {en:"cotton",fr:"coton",theme:"vetements-detail"},
-    {en:"wool",fr:"laine",theme:"vetements-detail"},
-    {en:"leather",fr:"cuir",theme:"vetements-detail"},
-    {en:"silk",fr:"soie",theme:"vetements-detail"},
-    {en:"pattern",fr:"motif",theme:"vetements-detail"},
-    {en:"striped",fr:"rayé",theme:"vetements-detail"},
-    {en:"plain",fr:"uni",theme:"vetements-detail"},
-    {en:"loose",fr:"ample",theme:"vetements-detail"},
-
-    // ----- Sports détails (15) -----
-    {en:"coach",fr:"entraîneur",theme:"sports-detail"},
-    {en:"match",fr:"match",theme:"sports-detail"},
-    {en:"championship",fr:"championnat",theme:"sports-detail"},
-    {en:"score",fr:"score",theme:"sports-detail"},
-    {en:"goal",fr:"but",theme:"sports-detail"},
-    {en:"referee",fr:"arbitre",theme:"sports-detail"},
-    {en:"stadium",fr:"stade",theme:"sports-detail"},
-    {en:"fan",fr:"fan",theme:"sports-detail"},
-    {en:"practice",fr:"entraînement",theme:"sports-detail"},
-    {en:"train",fr:"s'entraîner",theme:"sports-detail"},
-    {en:"win",fr:"gagner",theme:"sports-detail"},
-    {en:"lose",fr:"perdre",theme:"sports-detail"},
-    {en:"tie",fr:"égalité",theme:"sports-detail"},
-    {en:"tournament",fr:"tournoi",theme:"sports-detail"},
-    {en:"athlete",fr:"athlète",theme:"sports-detail"}
-  ];
-
-  // ============================================================
-  // NIVEAU B1 — 600 mots
-  // ============================================================
+  // ========== B1 — 442 mots ==========
   const B1 = [
-    // ----- Travail avancé (40) -----
-    {en:"career",fr:"carrière",theme:"travail-avance"},
-    {en:"profession",fr:"profession",theme:"travail-avance"},
-    {en:"occupation",fr:"métier",theme:"travail-avance"},
-    {en:"management",fr:"gestion",theme:"travail-avance"},
-    {en:"manager",fr:"gérant",theme:"travail-avance"},
-    {en:"supervisor",fr:"superviseur",theme:"travail-avance"},
-    {en:"department",fr:"service",theme:"travail-avance"},
-    {en:"company",fr:"entreprise",theme:"travail-avance"},
-    {en:"business",fr:"affaires",theme:"travail-avance"},
-    {en:"client",fr:"client",theme:"travail-avance"},
-    {en:"supplier",fr:"fournisseur",theme:"travail-avance"},
-    {en:"partnership",fr:"partenariat",theme:"travail-avance"},
-    {en:"negotiation",fr:"négociation",theme:"travail-avance"},
-    {en:"agreement",fr:"accord",theme:"travail-avance"},
-    {en:"proposal",fr:"proposition",theme:"travail-avance"},
-    {en:"strategy",fr:"stratégie",theme:"travail-avance"},
-    {en:"goal",fr:"objectif",theme:"travail-avance"},
-    {en:"achievement",fr:"réussite",theme:"travail-avance"},
-    {en:"performance",fr:"performance",theme:"travail-avance"},
-    {en:"efficiency",fr:"efficacité",theme:"travail-avance"},
-    {en:"productivity",fr:"productivité",theme:"travail-avance"},
-    {en:"quality",fr:"qualité",theme:"travail-avance"},
-    {en:"responsibility",fr:"responsabilité",theme:"travail-avance"},
-    {en:"authority",fr:"autorité",theme:"travail-avance"},
-    {en:"decision",fr:"décision",theme:"travail-avance"},
-    {en:"opportunity",fr:"opportunité",theme:"travail-avance"},
-    {en:"challenge",fr:"défi",theme:"travail-avance"},
-    {en:"problem",fr:"problème",theme:"travail-avance"},
-    {en:"solution",fr:"solution",theme:"travail-avance"},
-    {en:"improvement",fr:"amélioration",theme:"travail-avance"},
-    {en:"development",fr:"développement",theme:"travail-avance"},
-    {en:"growth",fr:"croissance",theme:"travail-avance"},
-    {en:"success",fr:"succès",theme:"travail-avance"},
-    {en:"failure",fr:"échec",theme:"travail-avance"},
-    {en:"effort",fr:"effort",theme:"travail-avance"},
-    {en:"result",fr:"résultat",theme:"travail-avance"},
-    {en:"benefit",fr:"avantage",theme:"travail-avance"},
-    {en:"advantage",fr:"avantage",theme:"travail-avance"},
-    {en:"disadvantage",fr:"inconvénient",theme:"travail-avance"},
-    {en:"risk",fr:"risque",theme:"travail-avance"},
+  {
+    "en": "career",
+    "fr": "carrière",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "profession",
+    "fr": "profession",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "occupation",
+    "fr": "métier",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "management",
+    "fr": "gestion",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "manager",
+    "fr": "gérant",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "supervisor",
+    "fr": "superviseur",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "department",
+    "fr": "service",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "company",
+    "fr": "entreprise",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "business",
+    "fr": "affaires",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "client",
+    "fr": "client",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "supplier",
+    "fr": "fournisseur",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "partnership",
+    "fr": "partenariat",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "negotiation",
+    "fr": "négociation",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "agreement",
+    "fr": "accord",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "proposal",
+    "fr": "proposition",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "strategy",
+    "fr": "stratégie",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "goal",
+    "fr": "objectif",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "achievement",
+    "fr": "réussite",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "performance",
+    "fr": "performance",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "efficiency",
+    "fr": "efficacité",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "productivity",
+    "fr": "productivité",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "quality",
+    "fr": "qualité",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "responsibility",
+    "fr": "responsabilité",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "authority",
+    "fr": "autorité",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "decision",
+    "fr": "décision",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "opportunity",
+    "fr": "opportunité",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "challenge",
+    "fr": "défi",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "problem",
+    "fr": "problème",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "solution",
+    "fr": "solution",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "improvement",
+    "fr": "amélioration",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "development",
+    "fr": "développement",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "growth",
+    "fr": "croissance",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "success",
+    "fr": "succès",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "failure",
+    "fr": "échec",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "effort",
+    "fr": "effort",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "result",
+    "fr": "résultat",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "benefit",
+    "fr": "avantage",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "advantage",
+    "fr": "avantage",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "disadvantage",
+    "fr": "inconvénient",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "risk",
+    "fr": "risque",
+    "theme": "travail-avance"
+  },
+  {
+    "en": "education",
+    "fr": "éducation",
+    "theme": "etudes"
+  },
+  {
+    "en": "knowledge",
+    "fr": "connaissance",
+    "theme": "etudes"
+  },
+  {
+    "en": "research",
+    "fr": "recherche",
+    "theme": "etudes"
+  },
+  {
+    "en": "science",
+    "fr": "science",
+    "theme": "etudes"
+  },
+  {
+    "en": "scientist",
+    "fr": "scientifique",
+    "theme": "etudes"
+  },
+  {
+    "en": "experiment",
+    "fr": "expérience",
+    "theme": "etudes"
+  },
+  {
+    "en": "theory",
+    "fr": "théorie",
+    "theme": "etudes"
+  },
+  {
+    "en": "hypothesis",
+    "fr": "hypothèse",
+    "theme": "etudes"
+  },
+  {
+    "en": "evidence",
+    "fr": "preuve",
+    "theme": "etudes"
+  },
+  {
+    "en": "proof",
+    "fr": "preuve",
+    "theme": "etudes"
+  },
+  {
+    "en": "data",
+    "fr": "données",
+    "theme": "etudes"
+  },
+  {
+    "en": "analysis",
+    "fr": "analyse",
+    "theme": "etudes"
+  },
+  {
+    "en": "conclusion",
+    "fr": "conclusion",
+    "theme": "etudes"
+  },
+  {
+    "en": "argument",
+    "fr": "argument",
+    "theme": "etudes"
+  },
+  {
+    "en": "opinion",
+    "fr": "opinion",
+    "theme": "etudes"
+  },
+  {
+    "en": "discussion",
+    "fr": "discussion",
+    "theme": "etudes"
+  },
+  {
+    "en": "presentation",
+    "fr": "présentation",
+    "theme": "etudes"
+  },
+  {
+    "en": "essay",
+    "fr": "essai",
+    "theme": "etudes"
+  },
+  {
+    "en": "report",
+    "fr": "rapport",
+    "theme": "etudes"
+  },
+  {
+    "en": "summary",
+    "fr": "résumé",
+    "theme": "etudes"
+  },
+  {
+    "en": "degree",
+    "fr": "diplôme",
+    "theme": "etudes"
+  },
+  {
+    "en": "bachelor",
+    "fr": "licence",
+    "theme": "etudes"
+  },
+  {
+    "en": "master",
+    "fr": "master",
+    "theme": "etudes"
+  },
+  {
+    "en": "doctorate",
+    "fr": "doctorat",
+    "theme": "etudes"
+  },
+  {
+    "en": "scholarship",
+    "fr": "bourse",
+    "theme": "etudes"
+  },
+  {
+    "en": "tuition",
+    "fr": "frais de scolarité",
+    "theme": "etudes"
+  },
+  {
+    "en": "lecture",
+    "fr": "cours magistral",
+    "theme": "etudes"
+  },
+  {
+    "en": "seminar",
+    "fr": "séminaire",
+    "theme": "etudes"
+  },
+  {
+    "en": "assignment",
+    "fr": "devoir",
+    "theme": "etudes"
+  },
+  {
+    "en": "grade",
+    "fr": "note",
+    "theme": "etudes"
+  },
+  {
+    "en": "certificate",
+    "fr": "certificat",
+    "theme": "etudes"
+  },
+  {
+    "en": "qualification",
+    "fr": "qualification",
+    "theme": "etudes"
+  },
+  {
+    "en": "curriculum",
+    "fr": "programme",
+    "theme": "etudes"
+  },
+  {
+    "en": "subject",
+    "fr": "matière",
+    "theme": "etudes"
+  },
+  {
+    "en": "mathematics",
+    "fr": "mathématiques",
+    "theme": "etudes"
+  },
+  {
+    "en": "history",
+    "fr": "histoire",
+    "theme": "etudes"
+  },
+  {
+    "en": "geography",
+    "fr": "géographie",
+    "theme": "etudes"
+  },
+  {
+    "en": "literature",
+    "fr": "littérature",
+    "theme": "etudes"
+  },
+  {
+    "en": "philosophy",
+    "fr": "philosophie",
+    "theme": "etudes"
+  },
+  {
+    "en": "psychology",
+    "fr": "psychologie",
+    "theme": "etudes"
+  },
+  {
+    "en": "society",
+    "fr": "société",
+    "theme": "societe"
+  },
+  {
+    "en": "community",
+    "fr": "communauté",
+    "theme": "societe"
+  },
+  {
+    "en": "culture",
+    "fr": "culture",
+    "theme": "societe"
+  },
+  {
+    "en": "tradition",
+    "fr": "tradition",
+    "theme": "societe"
+  },
+  {
+    "en": "custom",
+    "fr": "coutume",
+    "theme": "societe"
+  },
+  {
+    "en": "religion",
+    "fr": "religion",
+    "theme": "societe"
+  },
+  {
+    "en": "politics",
+    "fr": "politique",
+    "theme": "societe"
+  },
+  {
+    "en": "government",
+    "fr": "gouvernement",
+    "theme": "societe"
+  },
+  {
+    "en": "president",
+    "fr": "président",
+    "theme": "societe"
+  },
+  {
+    "en": "minister",
+    "fr": "ministre",
+    "theme": "societe"
+  },
+  {
+    "en": "election",
+    "fr": "élection",
+    "theme": "societe"
+  },
+  {
+    "en": "vote",
+    "fr": "vote",
+    "theme": "societe"
+  },
+  {
+    "en": "democracy",
+    "fr": "démocratie",
+    "theme": "societe"
+  },
+  {
+    "en": "law",
+    "fr": "loi",
+    "theme": "societe"
+  },
+  {
+    "en": "justice",
+    "fr": "justice",
+    "theme": "societe"
+  },
+  {
+    "en": "freedom",
+    "fr": "liberté",
+    "theme": "societe"
+  },
+  {
+    "en": "equality",
+    "fr": "égalité",
+    "theme": "societe"
+  },
+  {
+    "en": "rights",
+    "fr": "droits",
+    "theme": "societe"
+  },
+  {
+    "en": "citizen",
+    "fr": "citoyen",
+    "theme": "societe"
+  },
+  {
+    "en": "population",
+    "fr": "population",
+    "theme": "societe"
+  },
+  {
+    "en": "peace",
+    "fr": "paix",
+    "theme": "societe"
+  },
+  {
+    "en": "war",
+    "fr": "guerre",
+    "theme": "societe"
+  },
+  {
+    "en": "conflict",
+    "fr": "conflit",
+    "theme": "societe"
+  },
+  {
+    "en": "poverty",
+    "fr": "pauvreté",
+    "theme": "societe"
+  },
+  {
+    "en": "wealth",
+    "fr": "richesse",
+    "theme": "societe"
+  },
+  {
+    "en": "inequality",
+    "fr": "inégalité",
+    "theme": "societe"
+  },
+  {
+    "en": "discrimination",
+    "fr": "discrimination",
+    "theme": "societe"
+  },
+  {
+    "en": "charity",
+    "fr": "charité",
+    "theme": "societe"
+  },
+  {
+    "en": "volunteer",
+    "fr": "bénévole",
+    "theme": "societe"
+  },
+  {
+    "en": "generation",
+    "fr": "génération",
+    "theme": "societe"
+  },
+  {
+    "en": "youth",
+    "fr": "jeunesse",
+    "theme": "societe"
+  },
+  {
+    "en": "elderly",
+    "fr": "personnes âgées",
+    "theme": "societe"
+  },
+  {
+    "en": "minority",
+    "fr": "minorité",
+    "theme": "societe"
+  },
+  {
+    "en": "majority",
+    "fr": "majorité",
+    "theme": "societe"
+  },
+  {
+    "en": "public",
+    "fr": "public",
+    "theme": "societe"
+  },
+  {
+    "en": "private",
+    "fr": "privé",
+    "theme": "societe"
+  },
+  {
+    "en": "social",
+    "fr": "social",
+    "theme": "societe"
+  },
+  {
+    "en": "economic",
+    "fr": "économique",
+    "theme": "societe"
+  },
+  {
+    "en": "political",
+    "fr": "politique",
+    "theme": "societe"
+  },
+  {
+    "en": "cultural",
+    "fr": "culturel",
+    "theme": "societe"
+  },
+  {
+    "en": "global",
+    "fr": "mondial",
+    "theme": "societe"
+  },
+  {
+    "en": "local",
+    "fr": "local",
+    "theme": "societe"
+  },
+  {
+    "en": "environment",
+    "fr": "environnement",
+    "theme": "environnement"
+  },
+  {
+    "en": "nature",
+    "fr": "nature",
+    "theme": "environnement"
+  },
+  {
+    "en": "climate",
+    "fr": "climat",
+    "theme": "environnement"
+  },
+  {
+    "en": "climate change",
+    "fr": "changement climatique",
+    "theme": "environnement"
+  },
+  {
+    "en": "pollution",
+    "fr": "pollution",
+    "theme": "environnement"
+  },
+  {
+    "en": "pollution air",
+    "fr": "pollution de l'air",
+    "theme": "environnement"
+  },
+  {
+    "en": "pollution water",
+    "fr": "pollution de l'eau",
+    "theme": "environnement"
+  },
+  {
+    "en": "recycling",
+    "fr": "recyclage",
+    "theme": "environnement"
+  },
+  {
+    "en": "waste",
+    "fr": "déchets",
+    "theme": "environnement"
+  },
+  {
+    "en": "energy",
+    "fr": "énergie",
+    "theme": "environnement"
+  },
+  {
+    "en": "solar",
+    "fr": "solaire",
+    "theme": "environnement"
+  },
+  {
+    "en": "wind energy",
+    "fr": "éolien",
+    "theme": "environnement"
+  },
+  {
+    "en": "renewable",
+    "fr": "renouvelable",
+    "theme": "environnement"
+  },
+  {
+    "en": "fossil fuel",
+    "fr": "combustible fossile",
+    "theme": "environnement"
+  },
+  {
+    "en": "carbon",
+    "fr": "carbone",
+    "theme": "environnement"
+  },
+  {
+    "en": "emission",
+    "fr": "émission",
+    "theme": "environnement"
+  },
+  {
+    "en": "greenhouse",
+    "fr": "serre",
+    "theme": "environnement"
+  },
+  {
+    "en": "ecosystem",
+    "fr": "écosystème",
+    "theme": "environnement"
+  },
+  {
+    "en": "species",
+    "fr": "espèce",
+    "theme": "environnement"
+  },
+  {
+    "en": "endangered",
+    "fr": "en voie de disparition",
+    "theme": "environnement"
+  },
+  {
+    "en": "extinction",
+    "fr": "extinction",
+    "theme": "environnement"
+  },
+  {
+    "en": "conservation",
+    "fr": "conservation",
+    "theme": "environnement"
+  },
+  {
+    "en": "sustainable",
+    "fr": "durable",
+    "theme": "environnement"
+  },
+  {
+    "en": "planet",
+    "fr": "planète",
+    "theme": "environnement"
+  },
+  {
+    "en": "earth",
+    "fr": "Terre",
+    "theme": "environnement"
+  },
+  {
+    "en": "ocean",
+    "fr": "océan",
+    "theme": "environnement"
+  },
+  {
+    "en": "forest",
+    "fr": "forêt",
+    "theme": "environnement"
+  },
+  {
+    "en": "desert",
+    "fr": "désert",
+    "theme": "environnement"
+  },
+  {
+    "en": "drought",
+    "fr": "sécheresse",
+    "theme": "environnement"
+  },
+  {
+    "en": "flood",
+    "fr": "inondation",
+    "theme": "environnement"
+  },
+  {
+    "en": "disease",
+    "fr": "maladie",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "illness",
+    "fr": "maladie",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "treatment",
+    "fr": "traitement",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "cure",
+    "fr": "remède",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "surgery",
+    "fr": "chirurgie",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "operation",
+    "fr": "opération",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "vaccine",
+    "fr": "vaccin",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "virus",
+    "fr": "virus",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "bacteria",
+    "fr": "bactérie",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "infection",
+    "fr": "infection",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "symptom",
+    "fr": "symptôme",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "diagnosis",
+    "fr": "diagnostic",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "prescription",
+    "fr": "ordonnance",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "pharmacy",
+    "fr": "pharmacie",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "nutrition",
+    "fr": "nutrition",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "vitamin",
+    "fr": "vitamine",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "protein",
+    "fr": "protéine",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "calorie",
+    "fr": "calorie",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "fitness",
+    "fr": "forme physique",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "mental health",
+    "fr": "santé mentale",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "stress",
+    "fr": "stress",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "anxiety",
+    "fr": "anxiété",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "depression",
+    "fr": "dépression",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "therapy",
+    "fr": "thérapie",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "wellness",
+    "fr": "bien-être",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "prevention",
+    "fr": "prévention",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "hygiene",
+    "fr": "hygiène",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "emergency",
+    "fr": "urgence",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "first aid",
+    "fr": "premiers secours",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "recovery",
+    "fr": "rétablissement",
+    "theme": "sante-avance"
+  },
+  {
+    "en": "media",
+    "fr": "médias",
+    "theme": "medias"
+  },
+  {
+    "en": "news",
+    "fr": "actualités",
+    "theme": "medias"
+  },
+  {
+    "en": "newspaper",
+    "fr": "journal",
+    "theme": "medias"
+  },
+  {
+    "en": "magazine",
+    "fr": "magazine",
+    "theme": "medias"
+  },
+  {
+    "en": "journalist",
+    "fr": "journaliste",
+    "theme": "medias"
+  },
+  {
+    "en": "article",
+    "fr": "article",
+    "theme": "medias"
+  },
+  {
+    "en": "headline",
+    "fr": "titre",
+    "theme": "medias"
+  },
+  {
+    "en": "interview media",
+    "fr": "interview",
+    "theme": "medias"
+  },
+  {
+    "en": "report media",
+    "fr": "reportage",
+    "theme": "medias"
+  },
+  {
+    "en": "broadcast",
+    "fr": "diffusion",
+    "theme": "medias"
+  },
+  {
+    "en": "television",
+    "fr": "télévision",
+    "theme": "medias"
+  },
+  {
+    "en": "radio",
+    "fr": "radio",
+    "theme": "medias"
+  },
+  {
+    "en": "internet",
+    "fr": "internet",
+    "theme": "medias"
+  },
+  {
+    "en": "social media",
+    "fr": "réseaux sociaux",
+    "theme": "medias"
+  },
+  {
+    "en": "post",
+    "fr": "publication",
+    "theme": "medias"
+  },
+  {
+    "en": "comment",
+    "fr": "commentaire",
+    "theme": "medias"
+  },
+  {
+    "en": "share",
+    "fr": "partager",
+    "theme": "medias"
+  },
+  {
+    "en": "like",
+    "fr": "aimer",
+    "theme": "medias"
+  },
+  {
+    "en": "subscribe",
+    "fr": "s'abonner",
+    "theme": "medias"
+  },
+  {
+    "en": "follow",
+    "fr": "suivre",
+    "theme": "medias"
+  },
+  {
+    "en": "viral",
+    "fr": "viral",
+    "theme": "medias"
+  },
+  {
+    "en": "influencer",
+    "fr": "influenceur",
+    "theme": "medias"
+  },
+  {
+    "en": "advertisement",
+    "fr": "publicité",
+    "theme": "medias"
+  },
+  {
+    "en": "advertising",
+    "fr": "publicité",
+    "theme": "medias"
+  },
+  {
+    "en": "audience",
+    "fr": "public",
+    "theme": "medias"
+  },
+  {
+    "en": "viewer",
+    "fr": "spectateur",
+    "theme": "medias"
+  },
+  {
+    "en": "listener",
+    "fr": "auditeur",
+    "theme": "medias"
+  },
+  {
+    "en": "reader",
+    "fr": "lecteur",
+    "theme": "medias"
+  },
+  {
+    "en": "source",
+    "fr": "source",
+    "theme": "medias"
+  },
+  {
+    "en": "information",
+    "fr": "information",
+    "theme": "medias"
+  },
+  {
+    "en": "relationship",
+    "fr": "relation",
+    "theme": "relations"
+  },
+  {
+    "en": "friendship",
+    "fr": "amitié",
+    "theme": "relations"
+  },
+  {
+    "en": "love",
+    "fr": "amour",
+    "theme": "relations"
+  },
+  {
+    "en": "marriage",
+    "fr": "mariage",
+    "theme": "relations"
+  },
+  {
+    "en": "divorce",
+    "fr": "divorce",
+    "theme": "relations"
+  },
+  {
+    "en": "dating",
+    "fr": "rendez-vous",
+    "theme": "relations"
+  },
+  {
+    "en": "couple",
+    "fr": "couple",
+    "theme": "relations"
+  },
+  {
+    "en": "partner",
+    "fr": "partenaire",
+    "theme": "relations"
+  },
+  {
+    "en": "colleague",
+    "fr": "collègue",
+    "theme": "relations"
+  },
+  {
+    "en": "neighbor",
+    "fr": "voisin",
+    "theme": "relations"
+  },
+  {
+    "en": "trust",
+    "fr": "confiance",
+    "theme": "relations"
+  },
+  {
+    "en": "respect",
+    "fr": "respect",
+    "theme": "relations"
+  },
+  {
+    "en": "honesty",
+    "fr": "honnêteté",
+    "theme": "relations"
+  },
+  {
+    "en": "loyalty",
+    "fr": "loyauté",
+    "theme": "relations"
+  },
+  {
+    "en": "support",
+    "fr": "soutien",
+    "theme": "relations"
+  },
+  {
+    "en": "conflict",
+    "fr": "conflit",
+    "theme": "relations"
+  },
+  {
+    "en": "argument",
+    "fr": "dispute",
+    "theme": "relations"
+  },
+  {
+    "en": "forgiveness",
+    "fr": "pardon",
+    "theme": "relations"
+  },
+  {
+    "en": "communication",
+    "fr": "communication",
+    "theme": "relations"
+  },
+  {
+    "en": "understanding",
+    "fr": "compréhension",
+    "theme": "relations"
+  },
+  {
+    "en": "tolerance",
+    "fr": "tolérance",
+    "theme": "relations"
+  },
+  {
+    "en": "empathy",
+    "fr": "empathie",
+    "theme": "relations"
+  },
+  {
+    "en": "sympathy",
+    "fr": "sympathie",
+    "theme": "relations"
+  },
+  {
+    "en": "jealousy",
+    "fr": "jalousie",
+    "theme": "relations"
+  },
+  {
+    "en": "envy",
+    "fr": "envie",
+    "theme": "relations"
+  },
+  {
+    "en": "kindness",
+    "fr": "gentillesse",
+    "theme": "relations"
+  },
+  {
+    "en": "generosity",
+    "fr": "générosité",
+    "theme": "relations"
+  },
+  {
+    "en": "selfish",
+    "fr": "égoïste",
+    "theme": "relations"
+  },
+  {
+    "en": "generous",
+    "fr": "généreux",
+    "theme": "relations"
+  },
+  {
+    "en": "polite",
+    "fr": "poli",
+    "theme": "relations"
+  },
+  {
+    "en": "opinion",
+    "fr": "opinion",
+    "theme": "opinions"
+  },
+  {
+    "en": "belief",
+    "fr": "croyance",
+    "theme": "opinions"
+  },
+  {
+    "en": "attitude",
+    "fr": "attitude",
+    "theme": "opinions"
+  },
+  {
+    "en": "thought",
+    "fr": "pensée",
+    "theme": "opinions"
+  },
+  {
+    "en": "idea",
+    "fr": "idée",
+    "theme": "opinions"
+  },
+  {
+    "en": "feeling",
+    "fr": "sentiment",
+    "theme": "opinions"
+  },
+  {
+    "en": "mood",
+    "fr": "humeur",
+    "theme": "opinions"
+  },
+  {
+    "en": "agree",
+    "fr": "être d'accord",
+    "theme": "opinions"
+  },
+  {
+    "en": "disagree",
+    "fr": "ne pas être d'accord",
+    "theme": "opinions"
+  },
+  {
+    "en": "support",
+    "fr": "soutenir",
+    "theme": "opinions"
+  },
+  {
+    "en": "oppose",
+    "fr": "s'opposer",
+    "theme": "opinions"
+  },
+  {
+    "en": "argue",
+    "fr": "argumenter",
+    "theme": "opinions"
+  },
+  {
+    "en": "convince",
+    "fr": "convaincre",
+    "theme": "opinions"
+  },
+  {
+    "en": "persuade",
+    "fr": "persuader",
+    "theme": "opinions"
+  },
+  {
+    "en": "believe",
+    "fr": "croire",
+    "theme": "opinions"
+  },
+  {
+    "en": "doubt",
+    "fr": "douter",
+    "theme": "opinions"
+  },
+  {
+    "en": "hope",
+    "fr": "espérer",
+    "theme": "opinions"
+  },
+  {
+    "en": "wish",
+    "fr": "souhaiter",
+    "theme": "opinions"
+  },
+  {
+    "en": "fear",
+    "fr": "craindre",
+    "theme": "opinions"
+  },
+  {
+    "en": "worry",
+    "fr": "s'inquiéter",
+    "theme": "opinions"
+  },
+  {
+    "en": "care",
+    "fr": "se soucier",
+    "theme": "opinions"
+  },
+  {
+    "en": "prefer",
+    "fr": "préférer",
+    "theme": "opinions"
+  },
+  {
+    "en": "suggest",
+    "fr": "suggérer",
+    "theme": "opinions"
+  },
+  {
+    "en": "recommend",
+    "fr": "recommander",
+    "theme": "opinions"
+  },
+  {
+    "en": "complain",
+    "fr": "se plaindre",
+    "theme": "opinions"
+  },
+  {
+    "en": "praise",
+    "fr": "louer",
+    "theme": "opinions"
+  },
+  {
+    "en": "criticize",
+    "fr": "critiquer",
+    "theme": "opinions"
+  },
+  {
+    "en": "respect opinion",
+    "fr": "respecter",
+    "theme": "opinions"
+  },
+  {
+    "en": "admire",
+    "fr": "admirer",
+    "theme": "opinions"
+  },
+  {
+    "en": "celebrate",
+    "fr": "célébrer",
+    "theme": "opinions"
+  },
+  {
+    "en": "software",
+    "fr": "logiciel",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "hardware",
+    "fr": "matériel",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "database",
+    "fr": "base de données",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "network",
+    "fr": "réseau",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "server",
+    "fr": "serveur",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "cloud",
+    "fr": "cloud",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "data",
+    "fr": "données",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "algorithm",
+    "fr": "algorithme",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "program",
+    "fr": "programme",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "programming",
+    "fr": "programmation",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "code",
+    "fr": "code",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "developer",
+    "fr": "développeur",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "engineer",
+    "fr": "ingénieur",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "artificial intelligence",
+    "fr": "intelligence artificielle",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "machine learning",
+    "fr": "apprentissage automatique",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "robot",
+    "fr": "robot",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "automation",
+    "fr": "automatisation",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "innovation",
+    "fr": "innovation",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "invention",
+    "fr": "invention",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "patent",
+    "fr": "brevet",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "device",
+    "fr": "appareil",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "gadget",
+    "fr": "gadget",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "update",
+    "fr": "mise à jour",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "install",
+    "fr": "installer",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "backup",
+    "fr": "sauvegarde",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "secure",
+    "fr": "sécurisé",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "privacy",
+    "fr": "confidentialité",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "hacker",
+    "fr": "pirate",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "cyber",
+    "fr": "cyber",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "digital",
+    "fr": "numérique",
+    "theme": "technologie-avance"
+  },
+  {
+    "en": "economy",
+    "fr": "économie",
+    "theme": "economie"
+  },
+  {
+    "en": "market",
+    "fr": "marché",
+    "theme": "economie"
+  },
+  {
+    "en": "trade",
+    "fr": "commerce",
+    "theme": "economie"
+  },
+  {
+    "en": "industry",
+    "fr": "industrie",
+    "theme": "economie"
+  },
+  {
+    "en": "manufacturing",
+    "fr": "fabrication",
+    "theme": "economie"
+  },
+  {
+    "en": "production",
+    "fr": "production",
+    "theme": "economie"
+  },
+  {
+    "en": "consumption",
+    "fr": "consommation",
+    "theme": "economie"
+  },
+  {
+    "en": "demand",
+    "fr": "demande",
+    "theme": "economie"
+  },
+  {
+    "en": "supply",
+    "fr": "offre",
+    "theme": "economie"
+  },
+  {
+    "en": "price",
+    "fr": "prix",
+    "theme": "economie"
+  },
+  {
+    "en": "inflation",
+    "fr": "inflation",
+    "theme": "economie"
+  },
+  {
+    "en": "recession",
+    "fr": "récession",
+    "theme": "economie"
+  },
+  {
+    "en": "investment",
+    "fr": "investissement",
+    "theme": "economie"
+  },
+  {
+    "en": "capital",
+    "fr": "capital",
+    "theme": "economie"
+  },
+  {
+    "en": "profit",
+    "fr": "profit",
+    "theme": "economie"
+  },
+  {
+    "en": "loss",
+    "fr": "perte",
+    "theme": "economie"
+  },
+  {
+    "en": "tax",
+    "fr": "impôt",
+    "theme": "economie"
+  },
+  {
+    "en": "income",
+    "fr": "revenu",
+    "theme": "economie"
+  },
+  {
+    "en": "expense",
+    "fr": "dépense",
+    "theme": "economie"
+  },
+  {
+    "en": "budget",
+    "fr": "budget",
+    "theme": "economie"
+  },
+  {
+    "en": "loan",
+    "fr": "prêt",
+    "theme": "economie"
+  },
+  {
+    "en": "debt",
+    "fr": "dette",
+    "theme": "economie"
+  },
+  {
+    "en": "credit",
+    "fr": "crédit",
+    "theme": "economie"
+  },
+  {
+    "en": "stock",
+    "fr": "action",
+    "theme": "economie"
+  },
+  {
+    "en": "share market",
+    "fr": "part",
+    "theme": "economie"
+  },
+  {
+    "en": "bank",
+    "fr": "banque",
+    "theme": "economie"
+  },
+  {
+    "en": "currency",
+    "fr": "devise",
+    "theme": "economie"
+  },
+  {
+    "en": "exchange",
+    "fr": "échange",
+    "theme": "economie"
+  },
+  {
+    "en": "wealth",
+    "fr": "richesse",
+    "theme": "economie"
+  },
+  {
+    "en": "poverty",
+    "fr": "pauvreté",
+    "theme": "economie"
+  },
+  {
+    "en": "policy",
+    "fr": "politique",
+    "theme": "politique"
+  },
+  {
+    "en": "political",
+    "fr": "politique",
+    "theme": "politique"
+  },
+  {
+    "en": "democracy",
+    "fr": "démocratie",
+    "theme": "politique"
+  },
+  {
+    "en": "dictatorship",
+    "fr": "dictature",
+    "theme": "politique"
+  },
+  {
+    "en": "monarchy",
+    "fr": "monarchie",
+    "theme": "politique"
+  },
+  {
+    "en": "republic",
+    "fr": "république",
+    "theme": "politique"
+  },
+  {
+    "en": "parliament",
+    "fr": "parlement",
+    "theme": "politique"
+  },
+  {
+    "en": "senate",
+    "fr": "sénat",
+    "theme": "politique"
+  },
+  {
+    "en": "constitution",
+    "fr": "constitution",
+    "theme": "politique"
+  },
+  {
+    "en": "law",
+    "fr": "loi",
+    "theme": "politique"
+  },
+  {
+    "en": "bill law",
+    "fr": "projet de loi",
+    "theme": "politique"
+  },
+  {
+    "en": "vote",
+    "fr": "vote",
+    "theme": "politique"
+  },
+  {
+    "en": "campaign",
+    "fr": "campagne",
+    "theme": "politique"
+  },
+  {
+    "en": "candidate",
+    "fr": "candidat",
+    "theme": "politique"
+  },
+  {
+    "en": "elect",
+    "fr": "élire",
+    "theme": "politique"
+  },
+  {
+    "en": "ballot",
+    "fr": "bulletin",
+    "theme": "politique"
+  },
+  {
+    "en": "majority",
+    "fr": "majorité",
+    "theme": "politique"
+  },
+  {
+    "en": "opposition",
+    "fr": "opposition",
+    "theme": "politique"
+  },
+  {
+    "en": "party",
+    "fr": "parti",
+    "theme": "politique"
+  },
+  {
+    "en": "leader",
+    "fr": "dirigeant",
+    "theme": "politique"
+  },
+  {
+    "en": "citizen",
+    "fr": "citoyen",
+    "theme": "politique"
+  },
+  {
+    "en": "state",
+    "fr": "état",
+    "theme": "politique"
+  },
+  {
+    "en": "nation",
+    "fr": "nation",
+    "theme": "politique"
+  },
+  {
+    "en": "sovereignty",
+    "fr": "souveraineté",
+    "theme": "politique"
+  },
+  {
+    "en": "treaty",
+    "fr": "traité",
+    "theme": "politique"
+  },
+  {
+    "en": "diplomacy",
+    "fr": "diplomatie",
+    "theme": "politique"
+  },
+  {
+    "en": "ambassador",
+    "fr": "ambassadeur",
+    "theme": "politique"
+  },
+  {
+    "en": "negotiation",
+    "fr": "négociation",
+    "theme": "politique"
+  },
+  {
+    "en": "compromise",
+    "fr": "compromis",
+    "theme": "politique"
+  },
+  {
+    "en": "reform",
+    "fr": "réforme",
+    "theme": "politique"
+  },
+  {
+    "en": "physics",
+    "fr": "physique",
+    "theme": "science"
+  },
+  {
+    "en": "chemistry",
+    "fr": "chimie",
+    "theme": "science"
+  },
+  {
+    "en": "biology",
+    "fr": "biologie",
+    "theme": "science"
+  },
+  {
+    "en": "astronomy",
+    "fr": "astronomie",
+    "theme": "science"
+  },
+  {
+    "en": "geology",
+    "fr": "géologie",
+    "theme": "science"
+  },
+  {
+    "en": "molecule",
+    "fr": "molécule",
+    "theme": "science"
+  },
+  {
+    "en": "atom",
+    "fr": "atome",
+    "theme": "science"
+  },
+  {
+    "en": "element",
+    "fr": "élément",
+    "theme": "science"
+  },
+  {
+    "en": "energy",
+    "fr": "énergie",
+    "theme": "science"
+  },
+  {
+    "en": "force",
+    "fr": "force",
+    "theme": "science"
+  },
+  {
+    "en": "mass",
+    "fr": "masse",
+    "theme": "science"
+  },
+  {
+    "en": "gravity",
+    "fr": "gravité",
+    "theme": "science"
+  },
+  {
+    "en": "electricity",
+    "fr": "électricité",
+    "theme": "science"
+  },
+  {
+    "en": "magnet",
+    "fr": "aimant",
+    "theme": "science"
+  },
+  {
+    "en": "light",
+    "fr": "lumière",
+    "theme": "science"
+  },
+  {
+    "en": "sound",
+    "fr": "son",
+    "theme": "science"
+  },
+  {
+    "en": "heat",
+    "fr": "chaleur",
+    "theme": "science"
+  },
+  {
+    "en": "cell",
+    "fr": "cellule",
+    "theme": "science"
+  },
+  {
+    "en": "gene",
+    "fr": "gène",
+    "theme": "science"
+  },
+  {
+    "en": "evolution",
+    "fr": "évolution",
+    "theme": "science"
+  },
+  {
+    "en": "destination",
+    "fr": "destination",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "itinerary",
+    "fr": "itinéraire",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "accommodation",
+    "fr": "hébergement",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "hostel",
+    "fr": "auberge",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "resort",
+    "fr": "complexe hôtelier",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "cruise",
+    "fr": "croisière",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "backpacking",
+    "fr": "voyage sac à dos",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "excursion",
+    "fr": "excursion",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "landmark",
+    "fr": "monument",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "monument",
+    "fr": "monument",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "heritage",
+    "fr": "patrimoine",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "culture",
+    "fr": "culture",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "cuisine",
+    "fr": "cuisine",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "souvenir",
+    "fr": "souvenir",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "customs",
+    "fr": "douane",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "itinerary",
+    "fr": "programme",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "insurance",
+    "fr": "assurance",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "currency exchange",
+    "fr": "bureau de change",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "board pass",
+    "fr": "carte d'embarquement",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "layover",
+    "fr": "escale",
+    "theme": "voyage-avance"
+  },
+  {
+    "en": "achieve",
+    "fr": "atteindre",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "accomplish",
+    "fr": "accomplir",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "adapt",
+    "fr": "s'adapter",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "admit",
+    "fr": "admettre",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "adopt",
+    "fr": "adopter",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "advance",
+    "fr": "avancer",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "affect",
+    "fr": "affecter",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "afford",
+    "fr": "se permettre",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "allow",
+    "fr": "permettre",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "announce",
+    "fr": "annoncer",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "appear",
+    "fr": "apparaître",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "apply",
+    "fr": "postuler",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "appreciate",
+    "fr": "apprécier",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "approach",
+    "fr": "approcher",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "approve",
+    "fr": "approuver",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "argue",
+    "fr": "argumenter",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "arrange",
+    "fr": "organiser",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "assume",
+    "fr": "supposer",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "attach",
+    "fr": "attacher",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "attempt",
+    "fr": "tenter",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "attend",
+    "fr": "assister",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "attract",
+    "fr": "attirer",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "avoid",
+    "fr": "éviter",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "behave",
+    "fr": "se comporter",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "belong",
+    "fr": "appartenir",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "benefit",
+    "fr": "bénéficier",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "blame",
+    "fr": "blâmer",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "celebrate",
+    "fr": "célébrer",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "challenge",
+    "fr": "défier",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "choose",
+    "fr": "choisir",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "claim",
+    "fr": "prétendre",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "combine",
+    "fr": "combiner",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "commit",
+    "fr": "s'engager",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "communicate",
+    "fr": "communiquer",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "compare",
+    "fr": "comparer",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "compete",
+    "fr": "concourir",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "complain",
+    "fr": "se plaindre",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "concentrate",
+    "fr": "se concentrer",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "conclude",
+    "fr": "conclure",
+    "theme": "verbes-avances"
+  },
+  {
+    "en": "confirm",
+    "fr": "confirmer",
+    "theme": "verbes-avances"
+  }
+];
 
-    // ----- Études avancées (40) -----
-    {en:"education",fr:"éducation",theme:"etudes"},
-    {en:"knowledge",fr:"connaissance",theme:"etudes"},
-    {en:"research",fr:"recherche",theme:"etudes"},
-    {en:"science",fr:"science",theme:"etudes"},
-    {en:"scientist",fr:"scientifique",theme:"etudes"},
-    {en:"experiment",fr:"expérience",theme:"etudes"},
-    {en:"theory",fr:"théorie",theme:"etudes"},
-    {en:"hypothesis",fr:"hypothèse",theme:"etudes"},
-    {en:"evidence",fr:"preuve",theme:"etudes"},
-    {en:"proof",fr:"preuve",theme:"etudes"},
-    {en:"data",fr:"données",theme:"etudes"},
-    {en:"analysis",fr:"analyse",theme:"etudes"},
-    {en:"conclusion",fr:"conclusion",theme:"etudes"},
-    {en:"argument",fr:"argument",theme:"etudes"},
-    {en:"opinion",fr:"opinion",theme:"etudes"},
-    {en:"discussion",fr:"discussion",theme:"etudes"},
-    {en:"presentation",fr:"présentation",theme:"etudes"},
-    {en:"essay",fr:"essai",theme:"etudes"},
-    {en:"report",fr:"rapport",theme:"etudes"},
-    {en:"summary",fr:"résumé",theme:"etudes"},
-    {en:"degree",fr:"diplôme",theme:"etudes"},
-    {en:"bachelor",fr:"licence",theme:"etudes"},
-    {en:"master",fr:"master",theme:"etudes"},
-    {en:"doctorate",fr:"doctorat",theme:"etudes"},
-    {en:"scholarship",fr:"bourse",theme:"etudes"},
-    {en:"tuition",fr:"frais de scolarité",theme:"etudes"},
-    {en:"lecture",fr:"cours magistral",theme:"etudes"},
-    {en:"seminar",fr:"séminaire",theme:"etudes"},
-    {en:"assignment",fr:"devoir",theme:"etudes"},
-    {en:"grade",fr:"note",theme:"etudes"},
-    {en:"certificate",fr:"certificat",theme:"etudes"},
-    {en:"qualification",fr:"qualification",theme:"etudes"},
-    {en:"curriculum",fr:"programme",theme:"etudes"},
-    {en:"subject",fr:"matière",theme:"etudes"},
-    {en:"mathematics",fr:"mathématiques",theme:"etudes"},
-    {en:"history",fr:"histoire",theme:"etudes"},
-    {en:"geography",fr:"géographie",theme:"etudes"},
-    {en:"literature",fr:"littérature",theme:"etudes"},
-    {en:"philosophy",fr:"philosophie",theme:"etudes"},
-    {en:"psychology",fr:"psychologie",theme:"etudes"},
-
-    // ----- Société (40) -----
-    {en:"society",fr:"société",theme:"societe"},
-    {en:"community",fr:"communauté",theme:"societe"},
-    {en:"culture",fr:"culture",theme:"societe"},
-    {en:"tradition",fr:"tradition",theme:"societe"},
-    {en:"custom",fr:"coutume",theme:"societe"},
-    {en:"religion",fr:"religion",theme:"societe"},
-    {en:"politics",fr:"politique",theme:"societe"},
-    {en:"government",fr:"gouvernement",theme:"societe"},
-    {en:"president",fr:"président",theme:"societe"},
-    {en:"minister",fr:"ministre",theme:"societe"},
-    {en:"election",fr:"élection",theme:"societe"},
-    {en:"vote",fr:"vote",theme:"societe"},
-    {en:"democracy",fr:"démocratie",theme:"societe"},
-    {en:"law",fr:"loi",theme:"societe"},
-    {en:"justice",fr:"justice",theme:"societe"},
-    {en:"freedom",fr:"liberté",theme:"societe"},
-    {en:"equality",fr:"égalité",theme:"societe"},
-    {en:"rights",fr:"droits",theme:"societe"},
-    {en:"citizen",fr:"citoyen",theme:"societe"},
-    {en:"population",fr:"population",theme:"societe"},
-    {en:"peace",fr:"paix",theme:"societe"},
-    {en:"war",fr:"guerre",theme:"societe"},
-    {en:"conflict",fr:"conflit",theme:"societe"},
-    {en:"poverty",fr:"pauvreté",theme:"societe"},
-    {en:"wealth",fr:"richesse",theme:"societe"},
-    {en:"inequality",fr:"inégalité",theme:"societe"},
-    {en:"discrimination",fr:"discrimination",theme:"societe"},
-    {en:"charity",fr:"charité",theme:"societe"},
-    {en:"volunteer",fr:"bénévole",theme:"societe"},
-    {en:"generation",fr:"génération",theme:"societe"},
-    {en:"youth",fr:"jeunesse",theme:"societe"},
-    {en:"elderly",fr:"personnes âgées",theme:"societe"},
-    {en:"minority",fr:"minorité",theme:"societe"},
-    {en:"majority",fr:"majorité",theme:"societe"},
-    {en:"public",fr:"public",theme:"societe"},
-    {en:"private",fr:"privé",theme:"societe"},
-    {en:"social",fr:"social",theme:"societe"},
-    {en:"economic",fr:"économique",theme:"societe"},
-    {en:"political",fr:"politique",theme:"societe"},
-    {en:"cultural",fr:"culturel",theme:"societe"},
-    {en:"global",fr:"mondial",theme:"societe"},
-    {en:"local",fr:"local",theme:"societe"},
-
-    // ----- Environnement (30) -----
-    {en:"environment",fr:"environnement",theme:"environnement"},
-    {en:"nature",fr:"nature",theme:"environnement"},
-    {en:"climate",fr:"climat",theme:"environnement"},
-    {en:"climate change",fr:"changement climatique",theme:"environnement"},
-    {en:"pollution",fr:"pollution",theme:"environnement"},
-    {en:"pollution air",fr:"pollution de l'air",theme:"environnement"},
-    {en:"pollution water",fr:"pollution de l'eau",theme:"environnement"},
-    {en:"recycling",fr:"recyclage",theme:"environnement"},
-    {en:"waste",fr:"déchets",theme:"environnement"},
-    {en:"energy",fr:"énergie",theme:"environnement"},
-    {en:"solar",fr:"solaire",theme:"environnement"},
-    {en:"wind energy",fr:"éolien",theme:"environnement"},
-    {en:"renewable",fr:"renouvelable",theme:"environnement"},
-    {en:"fossil fuel",fr:"combustible fossile",theme:"environnement"},
-    {en:"carbon",fr:"carbone",theme:"environnement"},
-    {en:"emission",fr:"émission",theme:"environnement"},
-    {en:"greenhouse",fr:"serre",theme:"environnement"},
-    {en:"ecosystem",fr:"écosystème",theme:"environnement"},
-    {en:"species",fr:"espèce",theme:"environnement"},
-    {en:"endangered",fr:"en voie de disparition",theme:"environnement"},
-    {en:"extinction",fr:"extinction",theme:"environnement"},
-    {en:"conservation",fr:"conservation",theme:"environnement"},
-    {en:"sustainable",fr:"durable",theme:"environnement"},
-    {en:"planet",fr:"planète",theme:"environnement"},
-    {en:"earth",fr:"Terre",theme:"environnement"},
-    {en:"ocean",fr:"océan",theme:"environnement"},
-    {en:"forest",fr:"forêt",theme:"environnement"},
-    {en:"desert",fr:"désert",theme:"environnement"},
-    {en:"drought",fr:"sécheresse",theme:"environnement"},
-    {en:"flood",fr:"inondation",theme:"environnement"},
-
-    // ----- Santé avancé (30) -----
-    {en:"disease",fr:"maladie",theme:"sante-avance"},
-    {en:"illness",fr:"maladie",theme:"sante-avance"},
-    {en:"treatment",fr:"traitement",theme:"sante-avance"},
-    {en:"cure",fr:"remède",theme:"sante-avance"},
-    {en:"surgery",fr:"chirurgie",theme:"sante-avance"},
-    {en:"operation",fr:"opération",theme:"sante-avance"},
-    {en:"vaccine",fr:"vaccin",theme:"sante-avance"},
-    {en:"virus",fr:"virus",theme:"sante-avance"},
-    {en:"bacteria",fr:"bactérie",theme:"sante-avance"},
-    {en:"infection",fr:"infection",theme:"sante-avance"},
-    {en:"symptom",fr:"symptôme",theme:"sante-avance"},
-    {en:"diagnosis",fr:"diagnostic",theme:"sante-avance"},
-    {en:"prescription",fr:"ordonnance",theme:"sante-avance"},
-    {en:"pharmacy",fr:"pharmacie",theme:"sante-avance"},
-    {en:"nutrition",fr:"nutrition",theme:"sante-avance"},
-    {en:"vitamin",fr:"vitamine",theme:"sante-avance"},
-    {en:"protein",fr:"protéine",theme:"sante-avance"},
-    {en:"calorie",fr:"calorie",theme:"sante-avance"},
-    {en:"fitness",fr:"forme physique",theme:"sante-avance"},
-    {en:"mental health",fr:"santé mentale",theme:"sante-avance"},
-    {en:"stress",fr:"stress",theme:"sante-avance"},
-    {en:"anxiety",fr:"anxiété",theme:"sante-avance"},
-    {en:"depression",fr:"dépression",theme:"sante-avance"},
-    {en:"therapy",fr:"thérapie",theme:"sante-avance"},
-    {en:"wellness",fr:"bien-être",theme:"sante-avance"},
-    {en:"prevention",fr:"prévention",theme:"sante-avance"},
-    {en:"hygiene",fr:"hygiène",theme:"sante-avance"},
-    {en:"emergency",fr:"urgence",theme:"sante-avance"},
-    {en:"first aid",fr:"premiers secours",theme:"sante-avance"},
-    {en:"recovery",fr:"rétablissement",theme:"sante-avance"},
-
-    // ----- Médias (30) -----
-    {en:"media",fr:"médias",theme:"medias"},
-    {en:"news",fr:"actualités",theme:"medias"},
-    {en:"newspaper",fr:"journal",theme:"medias"},
-    {en:"magazine",fr:"magazine",theme:"medias"},
-    {en:"journalist",fr:"journaliste",theme:"medias"},
-    {en:"article",fr:"article",theme:"medias"},
-    {en:"headline",fr:"titre",theme:"medias"},
-    {en:"interview media",fr:"interview",theme:"medias"},
-    {en:"report media",fr:"reportage",theme:"medias"},
-    {en:"broadcast",fr:"diffusion",theme:"medias"},
-    {en:"television",fr:"télévision",theme:"medias"},
-    {en:"radio",fr:"radio",theme:"medias"},
-    {en:"internet",fr:"internet",theme:"medias"},
-    {en:"social media",fr:"réseaux sociaux",theme:"medias"},
-    {en:"post",fr:"publication",theme:"medias"},
-    {en:"comment",fr:"commentaire",theme:"medias"},
-    {en:"share",fr:"partager",theme:"medias"},
-    {en:"like",fr:"aimer",theme:"medias"},
-    {en:"subscribe",fr:"s'abonner",theme:"medias"},
-    {en:"follow",fr:"suivre",theme:"medias"},
-    {en:"viral",fr:"viral",theme:"medias"},
-    {en:"influencer",fr:"influenceur",theme:"medias"},
-    {en:"advertisement",fr:"publicité",theme:"medias"},
-    {en:"advertising",fr:"publicité",theme:"medias"},
-    {en:"audience",fr:"public",theme:"medias"},
-    {en:"viewer",fr:"spectateur",theme:"medias"},
-    {en:"listener",fr:"auditeur",theme:"medias"},
-    {en:"reader",fr:"lecteur",theme:"medias"},
-    {en:"source",fr:"source",theme:"medias"},
-    {en:"information",fr:"information",theme:"medias"},
-
-    // ----- Relations (30) -----
-    {en:"relationship",fr:"relation",theme:"relations"},
-    {en:"friendship",fr:"amitié",theme:"relations"},
-    {en:"love",fr:"amour",theme:"relations"},
-    {en:"marriage",fr:"mariage",theme:"relations"},
-    {en:"divorce",fr:"divorce",theme:"relations"},
-    {en:"dating",fr:"rendez-vous",theme:"relations"},
-    {en:"couple",fr:"couple",theme:"relations"},
-    {en:"partner",fr:"partenaire",theme:"relations"},
-    {en:"colleague",fr:"collègue",theme:"relations"},
-    {en:"neighbor",fr:"voisin",theme:"relations"},
-    {en:"trust",fr:"confiance",theme:"relations"},
-    {en:"respect",fr:"respect",theme:"relations"},
-    {en:"honesty",fr:"honnêteté",theme:"relations"},
-    {en:"loyalty",fr:"loyauté",theme:"relations"},
-    {en:"support",fr:"soutien",theme:"relations"},
-    {en:"conflict",fr:"conflit",theme:"relations"},
-    {en:"argument",fr:"dispute",theme:"relations"},
-    {en:"forgiveness",fr:"pardon",theme:"relations"},
-    {en:"communication",fr:"communication",theme:"relations"},
-    {en:"understanding",fr:"compréhension",theme:"relations"},
-    {en:"tolerance",fr:"tolérance",theme:"relations"},
-    {en:"empathy",fr:"empathie",theme:"relations"},
-    {en:"sympathy",fr:"sympathie",theme:"relations"},
-    {en:"jealousy",fr:"jalousie",theme:"relations"},
-    {en:"envy",fr:"envie",theme:"relations"},
-    {en:"kindness",fr:"gentillesse",theme:"relations"},
-    {en:"generosity",fr:"générosité",theme:"relations"},
-    {en:"selfish",fr:"égoïste",theme:"relations"},
-    {en:"generous",fr:"généreux",theme:"relations"},
-    {en:"polite",fr:"poli",theme:"relations"},
-
-    // ----- Opinions & sentiments (30) -----
-    {en:"opinion",fr:"opinion",theme:"opinions"},
-    {en:"belief",fr:"croyance",theme:"opinions"},
-    {en:"attitude",fr:"attitude",theme:"opinions"},
-    {en:"thought",fr:"pensée",theme:"opinions"},
-    {en:"idea",fr:"idée",theme:"opinions"},
-    {en:"feeling",fr:"sentiment",theme:"opinions"},
-    {en:"mood",fr:"humeur",theme:"opinions"},
-    {en:"agree",fr:"être d'accord",theme:"opinions"},
-    {en:"disagree",fr:"ne pas être d'accord",theme:"opinions"},
-    {en:"support",fr:"soutenir",theme:"opinions"},
-    {en:"oppose",fr:"s'opposer",theme:"opinions"},
-    {en:"argue",fr:"argumenter",theme:"opinions"},
-    {en:"convince",fr:"convaincre",theme:"opinions"},
-    {en:"persuade",fr:"persuader",theme:"opinions"},
-    {en:"believe",fr:"croire",theme:"opinions"},
-    {en:"doubt",fr:"douter",theme:"opinions"},
-    {en:"hope",fr:"espérer",theme:"opinions"},
-    {en:"wish",fr:"souhaiter",theme:"opinions"},
-    {en:"fear",fr:"craindre",theme:"opinions"},
-    {en:"worry",fr:"s'inquiéter",theme:"opinions"},
-    {en:"care",fr:"se soucier",theme:"opinions"},
-    {en:"prefer",fr:"préférer",theme:"opinions"},
-    {en:"suggest",fr:"suggérer",theme:"opinions"},
-    {en:"recommend",fr:"recommander",theme:"opinions"},
-    {en:"complain",fr:"se plaindre",theme:"opinions"},
-    {en:"praise",fr:"louer",theme:"opinions"},
-    {en:"criticize",fr:"critiquer",theme:"opinions"},
-    {en:"respect opinion",fr:"respecter",theme:"opinions"},
-    {en:"admire",fr:"admirer",theme:"opinions"},
-    {en:"celebrate",fr:"célébrer",theme:"opinions"},
-
-    // ----- Technologie avancée (30) -----
-    {en:"software",fr:"logiciel",theme:"technologie-avance"},
-    {en:"hardware",fr:"matériel",theme:"technologie-avance"},
-    {en:"database",fr:"base de données",theme:"technologie-avance"},
-    {en:"network",fr:"réseau",theme:"technologie-avance"},
-    {en:"server",fr:"serveur",theme:"technologie-avance"},
-    {en:"cloud",fr:"cloud",theme:"technologie-avance"},
-    {en:"data",fr:"données",theme:"technologie-avance"},
-    {en:"algorithm",fr:"algorithme",theme:"technologie-avance"},
-    {en:"program",fr:"programme",theme:"technologie-avance"},
-    {en:"programming",fr:"programmation",theme:"technologie-avance"},
-    {en:"code",fr:"code",theme:"technologie-avance"},
-    {en:"developer",fr:"développeur",theme:"technologie-avance"},
-    {en:"engineer",fr:"ingénieur",theme:"technologie-avance"},
-    {en:"artificial intelligence",fr:"intelligence artificielle",theme:"technologie-avance"},
-    {en:"machine learning",fr:"apprentissage automatique",theme:"technologie-avance"},
-    {en:"robot",fr:"robot",theme:"technologie-avance"},
-    {en:"automation",fr:"automatisation",theme:"technologie-avance"},
-    {en:"innovation",fr:"innovation",theme:"technologie-avance"},
-    {en:"invention",fr:"invention",theme:"technologie-avance"},
-    {en:"patent",fr:"brevet",theme:"technologie-avance"},
-    {en:"device",fr:"appareil",theme:"technologie-avance"},
-    {en:"gadget",fr:"gadget",theme:"technologie-avance"},
-    {en:"update",fr:"mise à jour",theme:"technologie-avance"},
-    {en:"install",fr:"installer",theme:"technologie-avance"},
-    {en:"backup",fr:"sauvegarde",theme:"technologie-avance"},
-    {en:"secure",fr:"sécurisé",theme:"technologie-avance"},
-    {en:"privacy",fr:"confidentialité",theme:"technologie-avance"},
-    {en:"hacker",fr:"pirate",theme:"technologie-avance"},
-    {en:"cyber",fr:"cyber",theme:"technologie-avance"},
-    {en:"digital",fr:"numérique",theme:"technologie-avance"},
-
-    // ----- Économie (30) -----
-    {en:"economy",fr:"économie",theme:"economie"},
-    {en:"market",fr:"marché",theme:"economie"},
-    {en:"trade",fr:"commerce",theme:"economie"},
-    {en:"industry",fr:"industrie",theme:"economie"},
-    {en:"manufacturing",fr:"fabrication",theme:"economie"},
-    {en:"production",fr:"production",theme:"economie"},
-    {en:"consumption",fr:"consommation",theme:"economie"},
-    {en:"demand",fr:"demande",theme:"economie"},
-    {en:"supply",fr:"offre",theme:"economie"},
-    {en:"price",fr:"prix",theme:"economie"},
-    {en:"inflation",fr:"inflation",theme:"economie"},
-    {en:"recession",fr:"récession",theme:"economie"},
-    {en:"investment",fr:"investissement",theme:"economie"},
-    {en:"capital",fr:"capital",theme:"economie"},
-    {en:"profit",fr:"profit",theme:"economie"},
-    {en:"loss",fr:"perte",theme:"economie"},
-    {en:"tax",fr:"impôt",theme:"economie"},
-    {en:"income",fr:"revenu",theme:"economie"},
-    {en:"expense",fr:"dépense",theme:"economie"},
-    {en:"budget",fr:"budget",theme:"economie"},
-    {en:"loan",fr:"prêt",theme:"economie"},
-    {en:"debt",fr:"dette",theme:"economie"},
-    {en:"credit",fr:"crédit",theme:"economie"},
-    {en:"stock",fr:"action",theme:"economie"},
-    {en:"share market",fr:"part",theme:"economie"},
-    {en:"bank",fr:"banque",theme:"economie"},
-    {en:"currency",fr:"devise",theme:"economie"},
-    {en:"exchange",fr:"échange",theme:"economie"},
-    {en:"wealth",fr:"richesse",theme:"economie"},
-    {en:"poverty",fr:"pauvreté",theme:"economie"},
-
-    // ----- Politique (30) -----
-    {en:"policy",fr:"politique",theme:"politique"},
-    {en:"political",fr:"politique",theme:"politique"},
-    {en:"democracy",fr:"démocratie",theme:"politique"},
-    {en:"dictatorship",fr:"dictature",theme:"politique"},
-    {en:"monarchy",fr:"monarchie",theme:"politique"},
-    {en:"republic",fr:"république",theme:"politique"},
-    {en:"parliament",fr:"parlement",theme:"politique"},
-    {en:"senate",fr:"sénat",theme:"politique"},
-    {en:"constitution",fr:"constitution",theme:"politique"},
-    {en:"law",fr:"loi",theme:"politique"},
-    {en:"bill law",fr:"projet de loi",theme:"politique"},
-    {en:"vote",fr:"vote",theme:"politique"},
-    {en:"campaign",fr:"campagne",theme:"politique"},
-    {en:"candidate",fr:"candidat",theme:"politique"},
-    {en:"elect",fr:"élire",theme:"politique"},
-    {en:"ballot",fr:"bulletin",theme:"politique"},
-    {en:"majority",fr:"majorité",theme:"politique"},
-    {en:"opposition",fr:"opposition",theme:"politique"},
-    {en:"party",fr:"parti",theme:"politique"},
-    {en:"leader",fr:"dirigeant",theme:"politique"},
-    {en:"citizen",fr:"citoyen",theme:"politique"},
-    {en:"state",fr:"état",theme:"politique"},
-    {en:"nation",fr:"nation",theme:"politique"},
-    {en:"sovereignty",fr:"souveraineté",theme:"politique"},
-    {en:"treaty",fr:"traité",theme:"politique"},
-    {en:"diplomacy",fr:"diplomatie",theme:"politique"},
-    {en:"ambassador",fr:"ambassadeur",theme:"politique"},
-    {en:"negotiation",fr:"négociation",theme:"politique"},
-    {en:"compromise",fr:"compromis",theme:"politique"},
-    {en:"reform",fr:"réforme",theme:"politique"},
-
-    // ----- Science base (20) -----
-    {en:"physics",fr:"physique",theme:"science"},
-    {en:"chemistry",fr:"chimie",theme:"science"},
-    {en:"biology",fr:"biologie",theme:"science"},
-    {en:"astronomy",fr:"astronomie",theme:"science"},
-    {en:"geology",fr:"géologie",theme:"science"},
-    {en:"molecule",fr:"molécule",theme:"science"},
-    {en:"atom",fr:"atome",theme:"science"},
-    {en:"element",fr:"élément",theme:"science"},
-    {en:"energy",fr:"énergie",theme:"science"},
-    {en:"force",fr:"force",theme:"science"},
-    {en:"mass",fr:"masse",theme:"science"},
-    {en:"gravity",fr:"gravité",theme:"science"},
-    {en:"electricity",fr:"électricité",theme:"science"},
-    {en:"magnet",fr:"aimant",theme:"science"},
-    {en:"light",fr:"lumière",theme:"science"},
-    {en:"sound",fr:"son",theme:"science"},
-    {en:"heat",fr:"chaleur",theme:"science"},
-    {en:"cell",fr:"cellule",theme:"science"},
-    {en:"gene",fr:"gène",theme:"science"},
-    {en:"evolution",fr:"évolution",theme:"science"},
-
-    // ----- Voyage avancé (20) -----
-    {en:"destination",fr:"destination",theme:"voyage-avance"},
-    {en:"itinerary",fr:"itinéraire",theme:"voyage-avance"},
-    {en:"accommodation",fr:"hébergement",theme:"voyage-avance"},
-    {en:"hostel",fr:"auberge",theme:"voyage-avance"},
-    {en:"resort",fr:"complexe hôtelier",theme:"voyage-avance"},
-    {en:"cruise",fr:"croisière",theme:"voyage-avance"},
-    {en:"backpacking",fr:"voyage sac à dos",theme:"voyage-avance"},
-    {en:"excursion",fr:"excursion",theme:"voyage-avance"},
-    {en:"landmark",fr:"monument",theme:"voyage-avance"},
-    {en:"monument",fr:"monument",theme:"voyage-avance"},
-    {en:"heritage",fr:"patrimoine",theme:"voyage-avance"},
-    {en:"culture",fr:"culture",theme:"voyage-avance"},
-    {en:"cuisine",fr:"cuisine",theme:"voyage-avance"},
-    {en:"souvenir",fr:"souvenir",theme:"voyage-avance"},
-    {en:"customs",fr:"douane",theme:"voyage-avance"},
-    {en:"itinerary",fr:"programme",theme:"voyage-avance"},
-    {en:"insurance",fr:"assurance",theme:"voyage-avance"},
-    {en:"currency exchange",fr:"bureau de change",theme:"voyage-avance"},
-    {en:"board pass",fr:"carte d'embarquement",theme:"voyage-avance"},
-    {en:"layover",fr:"escale",theme:"voyage-avance"},
-
-    // ----- Verbes avancés (40) -----
-    {en:"achieve",fr:"atteindre",theme:"verbes-avances"},
-    {en:"accomplish",fr:"accomplir",theme:"verbes-avances"},
-    {en:"adapt",fr:"s'adapter",theme:"verbes-avances"},
-    {en:"admit",fr:"admettre",theme:"verbes-avances"},
-    {en:"adopt",fr:"adopter",theme:"verbes-avances"},
-    {en:"advance",fr:"avancer",theme:"verbes-avances"},
-    {en:"affect",fr:"affecter",theme:"verbes-avances"},
-    {en:"afford",fr:"se permettre",theme:"verbes-avances"},
-    {en:"allow",fr:"permettre",theme:"verbes-avances"},
-    {en:"announce",fr:"annoncer",theme:"verbes-avances"},
-    {en:"appear",fr:"apparaître",theme:"verbes-avances"},
-    {en:"apply",fr:"postuler",theme:"verbes-avances"},
-    {en:"appreciate",fr:"apprécier",theme:"verbes-avances"},
-    {en:"approach",fr:"approcher",theme:"verbes-avances"},
-    {en:"approve",fr:"approuver",theme:"verbes-avances"},
-    {en:"argue",fr:"argumenter",theme:"verbes-avances"},
-    {en:"arrange",fr:"organiser",theme:"verbes-avances"},
-    {en:"assume",fr:"supposer",theme:"verbes-avances"},
-    {en:"attach",fr:"attacher",theme:"verbes-avances"},
-    {en:"attempt",fr:"tenter",theme:"verbes-avances"},
-    {en:"attend",fr:"assister",theme:"verbes-avances"},
-    {en:"attract",fr:"attirer",theme:"verbes-avances"},
-    {en:"avoid",fr:"éviter",theme:"verbes-avances"},
-    {en:"behave",fr:"se comporter",theme:"verbes-avances"},
-    {en:"belong",fr:"appartenir",theme:"verbes-avances"},
-    {en:"benefit",fr:"bénéficier",theme:"verbes-avances"},
-    {en:"blame",fr:"blâmer",theme:"verbes-avances"},
-    {en:"celebrate",fr:"célébrer",theme:"verbes-avances"},
-    {en:"challenge",fr:"défier",theme:"verbes-avances"},
-    {en:"choose",fr:"choisir",theme:"verbes-avances"},
-    {en:"claim",fr:"prétendre",theme:"verbes-avances"},
-    {en:"combine",fr:"combiner",theme:"verbes-avances"},
-    {en:"commit",fr:"s'engager",theme:"verbes-avances"},
-    {en:"communicate",fr:"communiquer",theme:"verbes-avances"},
-    {en:"compare",fr:"comparer",theme:"verbes-avances"},
-    {en:"compete",fr:"concourir",theme:"verbes-avances"},
-    {en:"complain",fr:"se plaindre",theme:"verbes-avances"},
-    {en:"concentrate",fr:"se concentrer",theme:"verbes-avances"},
-    {en:"conclude",fr:"conclure",theme:"verbes-avances"},
-    {en:"confirm",fr:"confirmer",theme:"verbes-avances"}
-  ];
-
-  // ============================================================
-  // NIVEAU B2 — 600 mots
-  // ============================================================
+  // ========== B2 — 350 mots ==========
   const B2 = [
-    // ----- Business (40) -----
-    {en:"entrepreneur",fr:"entrepreneur",theme:"business"},
-    {en:"startup",fr:"startup",theme:"business"},
-    {en:"innovation",fr:"innovation",theme:"business"},
-    {en:"acquisition",fr:"acquisition",theme:"business"},
-    {en:"merger",fr:"fusion",theme:"business"},
-    {en:"stakeholder",fr:"partie prenante",theme:"business"},
-    {en:"shareholder",fr:"actionnaire",theme:"business"},
-    {en:"board",fr:"conseil",theme:"business"},
-    {en:"CEO",fr:"PDG",theme:"business"},
-    {en:"executive",fr:"cadre dirigeant",theme:"business"},
-    {en:"revenue",fr:"revenu",theme:"business"},
-    {en:"turnover",fr:"chiffre d'affaires",theme:"business"},
-    {en:"profit margin",fr:"marge bénéficiaire",theme:"business"},
-    {en:"loss",fr:"perte",theme:"business"},
-    {en:"bankruptcy",fr:"faillite",theme:"business"},
-    {en:"expansion",fr:"expansion",theme:"business"},
-    {en:"competition",fr:"concurrence",theme:"business"},
-    {en:"competitor",fr:"concurrent",theme:"business"},
-    {en:"brand",fr:"marque",theme:"business"},
-    {en:"marketing",fr:"marketing",theme:"business"},
-    {en:"advertising",fr:"publicité",theme:"business"},
-    {en:"promotion",fr:"promotion",theme:"business"},
-    {en:"campaign",fr:"campagne",theme:"business"},
-    {en:"customer service",fr:"service client",theme:"business"},
-    {en:"quality control",fr:"contrôle qualité",theme:"business"},
-    {en:"outsourcing",fr:"externalisation",theme:"business"},
-    {en:"supply chain",fr:"chaîne d'approvisionnement",theme:"business"},
-    {en:"logistics",fr:"logistique",theme:"business"},
-    {en:"inventory",fr:"inventaire",theme:"business"},
-    {en:"warehouse",fr:"entrepôt",theme:"business"},
-    {en:"contract",fr:"contrat",theme:"business"},
-    {en:"negotiation",fr:"négociation",theme:"business"},
-    {en:"deal",fr:"accord",theme:"business"},
-    {en:"partnership",fr:"partenariat",theme:"business"},
-    {en:"investment",fr:"investissement",theme:"business"},
-    {en:"portfolio",fr:"portefeuille",theme:"business"},
-    {en:"dividend",fr:"dividende",theme:"business"},
-    {en:"valuation",fr:"évaluation",theme:"business"},
-    {en:"forecast",fr:"prévision",theme:"business"},
-    {en:"budget",fr:"budget",theme:"business"},
+  {
+    "en": "entrepreneur",
+    "fr": "entrepreneur",
+    "theme": "business"
+  },
+  {
+    "en": "startup",
+    "fr": "startup",
+    "theme": "business"
+  },
+  {
+    "en": "innovation",
+    "fr": "innovation",
+    "theme": "business"
+  },
+  {
+    "en": "acquisition",
+    "fr": "acquisition",
+    "theme": "business"
+  },
+  {
+    "en": "merger",
+    "fr": "fusion",
+    "theme": "business"
+  },
+  {
+    "en": "stakeholder",
+    "fr": "partie prenante",
+    "theme": "business"
+  },
+  {
+    "en": "shareholder",
+    "fr": "actionnaire",
+    "theme": "business"
+  },
+  {
+    "en": "board",
+    "fr": "conseil",
+    "theme": "business"
+  },
+  {
+    "en": "CEO",
+    "fr": "PDG",
+    "theme": "business"
+  },
+  {
+    "en": "executive",
+    "fr": "cadre dirigeant",
+    "theme": "business"
+  },
+  {
+    "en": "revenue",
+    "fr": "revenu",
+    "theme": "business"
+  },
+  {
+    "en": "turnover",
+    "fr": "chiffre d'affaires",
+    "theme": "business"
+  },
+  {
+    "en": "profit margin",
+    "fr": "marge bénéficiaire",
+    "theme": "business"
+  },
+  {
+    "en": "loss",
+    "fr": "perte",
+    "theme": "business"
+  },
+  {
+    "en": "bankruptcy",
+    "fr": "faillite",
+    "theme": "business"
+  },
+  {
+    "en": "expansion",
+    "fr": "expansion",
+    "theme": "business"
+  },
+  {
+    "en": "competition",
+    "fr": "concurrence",
+    "theme": "business"
+  },
+  {
+    "en": "competitor",
+    "fr": "concurrent",
+    "theme": "business"
+  },
+  {
+    "en": "brand",
+    "fr": "marque",
+    "theme": "business"
+  },
+  {
+    "en": "marketing",
+    "fr": "marketing",
+    "theme": "business"
+  },
+  {
+    "en": "advertising",
+    "fr": "publicité",
+    "theme": "business"
+  },
+  {
+    "en": "promotion",
+    "fr": "promotion",
+    "theme": "business"
+  },
+  {
+    "en": "campaign",
+    "fr": "campagne",
+    "theme": "business"
+  },
+  {
+    "en": "customer service",
+    "fr": "service client",
+    "theme": "business"
+  },
+  {
+    "en": "quality control",
+    "fr": "contrôle qualité",
+    "theme": "business"
+  },
+  {
+    "en": "outsourcing",
+    "fr": "externalisation",
+    "theme": "business"
+  },
+  {
+    "en": "supply chain",
+    "fr": "chaîne d'approvisionnement",
+    "theme": "business"
+  },
+  {
+    "en": "logistics",
+    "fr": "logistique",
+    "theme": "business"
+  },
+  {
+    "en": "inventory",
+    "fr": "inventaire",
+    "theme": "business"
+  },
+  {
+    "en": "warehouse",
+    "fr": "entrepôt",
+    "theme": "business"
+  },
+  {
+    "en": "contract",
+    "fr": "contrat",
+    "theme": "business"
+  },
+  {
+    "en": "negotiation",
+    "fr": "négociation",
+    "theme": "business"
+  },
+  {
+    "en": "deal",
+    "fr": "accord",
+    "theme": "business"
+  },
+  {
+    "en": "partnership",
+    "fr": "partenariat",
+    "theme": "business"
+  },
+  {
+    "en": "investment",
+    "fr": "investissement",
+    "theme": "business"
+  },
+  {
+    "en": "portfolio",
+    "fr": "portefeuille",
+    "theme": "business"
+  },
+  {
+    "en": "dividend",
+    "fr": "dividende",
+    "theme": "business"
+  },
+  {
+    "en": "valuation",
+    "fr": "évaluation",
+    "theme": "business"
+  },
+  {
+    "en": "forecast",
+    "fr": "prévision",
+    "theme": "business"
+  },
+  {
+    "en": "budget",
+    "fr": "budget",
+    "theme": "business"
+  },
+  {
+    "en": "sovereignty",
+    "fr": "souveraineté",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "legislation",
+    "fr": "législation",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "amendment",
+    "fr": "amendement",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "referendum",
+    "fr": "référendum",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "coalition",
+    "fr": "coalition",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "lobby",
+    "fr": "lobby",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "corruption",
+    "fr": "corruption",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "transparency",
+    "fr": "transparence",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "accountability",
+    "fr": "responsabilité",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "bureaucracy",
+    "fr": "bureaucratie",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "ideology",
+    "fr": "idéologie",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "liberal",
+    "fr": "libéral",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "conservative",
+    "fr": "conservateur",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "socialism",
+    "fr": "socialisme",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "capitalism",
+    "fr": "capitalisme",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "nationalism",
+    "fr": "nationalisme",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "globalization",
+    "fr": "mondialisation",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "diplomacy",
+    "fr": "diplomatie",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "sanction",
+    "fr": "sanction",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "treaty",
+    "fr": "traité",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "alliance",
+    "fr": "alliance",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "summit",
+    "fr": "sommet",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "policy",
+    "fr": "politique",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "regulation",
+    "fr": "réglementation",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "citizenship",
+    "fr": "citoyenneté",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "suffrage",
+    "fr": "suffrage",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "gerrymandering",
+    "fr": "manipulation électorale",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "propaganda",
+    "fr": "propagande",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "censorship",
+    "fr": "censure",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "activism",
+    "fr": "militantisme",
+    "theme": "politique-avance"
+  },
+  {
+    "en": "macroeconomics",
+    "fr": "macroéconomie",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "microeconomics",
+    "fr": "microéconomie",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "GDP",
+    "fr": "PIB",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "unemployment",
+    "fr": "chômage",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "interest rate",
+    "fr": "taux d'intérêt",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "mortgage",
+    "fr": "hypothèque",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "asset",
+    "fr": "actif",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "liability",
+    "fr": "passif",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "equity",
+    "fr": "capitaux propres",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "bond",
+    "fr": "obligation",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "commodity",
+    "fr": "matière première",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "speculation",
+    "fr": "spéculation",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "monopoly",
+    "fr": "monopole",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "oligopoly",
+    "fr": "oligopole",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "tariff",
+    "fr": "tarif douanier",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "subsidy",
+    "fr": "subvention",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "deficit",
+    "fr": "déficit",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "surplus",
+    "fr": "excédent",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "fiscal",
+    "fr": "fiscal",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "monetary",
+    "fr": "monétaire",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "austerity",
+    "fr": "austérité",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "stimulus",
+    "fr": "relance",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "entrepreneurship",
+    "fr": "esprit d'entreprise",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "privatization",
+    "fr": "privatisation",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "nationalization",
+    "fr": "nationalisation",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "deregulation",
+    "fr": "déréglementation",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "capitalism",
+    "fr": "capitalisme",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "market economy",
+    "fr": "économie de marché",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "trade war",
+    "fr": "guerre commerciale",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "emerging market",
+    "fr": "marché émergent",
+    "theme": "economie-avance"
+  },
+  {
+    "en": "quantum",
+    "fr": "quantique",
+    "theme": "science-avance"
+  },
+  {
+    "en": "relativity",
+    "fr": "relativité",
+    "theme": "science-avance"
+  },
+  {
+    "en": "particle",
+    "fr": "particule",
+    "theme": "science-avance"
+  },
+  {
+    "en": "molecule",
+    "fr": "molécule",
+    "theme": "science-avance"
+  },
+  {
+    "en": "compound",
+    "fr": "composé",
+    "theme": "science-avance"
+  },
+  {
+    "en": "reaction",
+    "fr": "réaction",
+    "theme": "science-avance"
+  },
+  {
+    "en": "catalyst",
+    "fr": "catalyseur",
+    "theme": "science-avance"
+  },
+  {
+    "en": "enzyme",
+    "fr": "enzyme",
+    "theme": "science-avance"
+  },
+  {
+    "en": "protein",
+    "fr": "protéine",
+    "theme": "science-avance"
+  },
+  {
+    "en": "DNA",
+    "fr": "ADN",
+    "theme": "science-avance"
+  },
+  {
+    "en": "genome",
+    "fr": "génome",
+    "theme": "science-avance"
+  },
+  {
+    "en": "mutation",
+    "fr": "mutation",
+    "theme": "science-avance"
+  },
+  {
+    "en": "organism",
+    "fr": "organisme",
+    "theme": "science-avance"
+  },
+  {
+    "en": "species",
+    "fr": "espèce",
+    "theme": "science-avance"
+  },
+  {
+    "en": "ecosystem",
+    "fr": "écosystème",
+    "theme": "science-avance"
+  },
+  {
+    "en": "biodiversity",
+    "fr": "biodiversité",
+    "theme": "science-avance"
+  },
+  {
+    "en": "neuron",
+    "fr": "neurone",
+    "theme": "science-avance"
+  },
+  {
+    "en": "brain",
+    "fr": "cerveau",
+    "theme": "science-avance"
+  },
+  {
+    "en": "cognitive",
+    "fr": "cognitif",
+    "theme": "science-avance"
+  },
+  {
+    "en": "consciousness",
+    "fr": "conscience",
+    "theme": "science-avance"
+  },
+  {
+    "en": "perception",
+    "fr": "perception",
+    "theme": "science-avance"
+  },
+  {
+    "en": "behavior",
+    "fr": "comportement",
+    "theme": "science-avance"
+  },
+  {
+    "en": "stimulus",
+    "fr": "stimulus",
+    "theme": "science-avance"
+  },
+  {
+    "en": "response",
+    "fr": "réponse",
+    "theme": "science-avance"
+  },
+  {
+    "en": "adaptation",
+    "fr": "adaptation",
+    "theme": "science-avance"
+  },
+  {
+    "en": "natural selection",
+    "fr": "sélection naturelle",
+    "theme": "science-avance"
+  },
+  {
+    "en": "symbiosis",
+    "fr": "symbiose",
+    "theme": "science-avance"
+  },
+  {
+    "en": "metabolism",
+    "fr": "métabolisme",
+    "theme": "science-avance"
+  },
+  {
+    "en": "photosynthesis",
+    "fr": "photosynthèse",
+    "theme": "science-avance"
+  },
+  {
+    "en": "respiration",
+    "fr": "respiration",
+    "theme": "science-avance"
+  },
+  {
+    "en": "justice",
+    "fr": "justice",
+    "theme": "droit"
+  },
+  {
+    "en": "court",
+    "fr": "tribunal",
+    "theme": "droit"
+  },
+  {
+    "en": "judge",
+    "fr": "juge",
+    "theme": "droit"
+  },
+  {
+    "en": "jury",
+    "fr": "jury",
+    "theme": "droit"
+  },
+  {
+    "en": "lawyer",
+    "fr": "avocat",
+    "theme": "droit"
+  },
+  {
+    "en": "attorney",
+    "fr": "avocat",
+    "theme": "droit"
+  },
+  {
+    "en": "prosecutor",
+    "fr": "procureur",
+    "theme": "droit"
+  },
+  {
+    "en": "defendant",
+    "fr": "défendeur",
+    "theme": "droit"
+  },
+  {
+    "en": "plaintiff",
+    "fr": "plaignant",
+    "theme": "droit"
+  },
+  {
+    "en": "witness",
+    "fr": "témoin",
+    "theme": "droit"
+  },
+  {
+    "en": "evidence",
+    "fr": "preuve",
+    "theme": "droit"
+  },
+  {
+    "en": "testimony",
+    "fr": "témoignage",
+    "theme": "droit"
+  },
+  {
+    "en": "verdict",
+    "fr": "verdict",
+    "theme": "droit"
+  },
+  {
+    "en": "sentence",
+    "fr": "peine",
+    "theme": "droit"
+  },
+  {
+    "en": "guilty",
+    "fr": "coupable",
+    "theme": "droit"
+  },
+  {
+    "en": "innocent",
+    "fr": "innocent",
+    "theme": "droit"
+  },
+  {
+    "en": "crime",
+    "fr": "crime",
+    "theme": "droit"
+  },
+  {
+    "en": "criminal",
+    "fr": "criminel",
+    "theme": "droit"
+  },
+  {
+    "en": "victim",
+    "fr": "victime",
+    "theme": "droit"
+  },
+  {
+    "en": "theft",
+    "fr": "vol",
+    "theme": "droit"
+  },
+  {
+    "en": "murder",
+    "fr": "meurtre",
+    "theme": "droit"
+  },
+  {
+    "en": "fraud",
+    "fr": "fraude",
+    "theme": "droit"
+  },
+  {
+    "en": "assault",
+    "fr": "agression",
+    "theme": "droit"
+  },
+  {
+    "en": "robbery",
+    "fr": "cambriolage",
+    "theme": "droit"
+  },
+  {
+    "en": "contract",
+    "fr": "contrat",
+    "theme": "droit"
+  },
+  {
+    "en": "agreement",
+    "fr": "accord",
+    "theme": "droit"
+  },
+  {
+    "en": "liability",
+    "fr": "responsabilité",
+    "theme": "droit"
+  },
+  {
+    "en": "copyright",
+    "fr": "droit d'auteur",
+    "theme": "droit"
+  },
+  {
+    "en": "patent",
+    "fr": "brevet",
+    "theme": "droit"
+  },
+  {
+    "en": "trademark",
+    "fr": "marque déposée",
+    "theme": "droit"
+  },
+  {
+    "en": "philosophy",
+    "fr": "philosophie",
+    "theme": "philosophie"
+  },
+  {
+    "en": "ethics",
+    "fr": "éthique",
+    "theme": "philosophie"
+  },
+  {
+    "en": "morality",
+    "fr": "moralité",
+    "theme": "philosophie"
+  },
+  {
+    "en": "logic",
+    "fr": "logique",
+    "theme": "philosophie"
+  },
+  {
+    "en": "reason",
+    "fr": "raison",
+    "theme": "philosophie"
+  },
+  {
+    "en": "truth",
+    "fr": "vérité",
+    "theme": "philosophie"
+  },
+  {
+    "en": "knowledge",
+    "fr": "connaissance",
+    "theme": "philosophie"
+  },
+  {
+    "en": "reality",
+    "fr": "réalité",
+    "theme": "philosophie"
+  },
+  {
+    "en": "existence",
+    "fr": "existence",
+    "theme": "philosophie"
+  },
+  {
+    "en": "consciousness",
+    "fr": "conscience",
+    "theme": "philosophie"
+  },
+  {
+    "en": "free will",
+    "fr": "libre arbitre",
+    "theme": "philosophie"
+  },
+  {
+    "en": "determinism",
+    "fr": "déterminisme",
+    "theme": "philosophie"
+  },
+  {
+    "en": "metaphysics",
+    "fr": "métaphysique",
+    "theme": "philosophie"
+  },
+  {
+    "en": "epistemology",
+    "fr": "épistémologie",
+    "theme": "philosophie"
+  },
+  {
+    "en": "ontology",
+    "fr": "ontologie",
+    "theme": "philosophie"
+  },
+  {
+    "en": "dialectic",
+    "fr": "dialectique",
+    "theme": "philosophie"
+  },
+  {
+    "en": "paradox",
+    "fr": "paradoxe",
+    "theme": "philosophie"
+  },
+  {
+    "en": "wisdom",
+    "fr": "sagesse",
+    "theme": "philosophie"
+  },
+  {
+    "en": "virtue",
+    "fr": "vertu",
+    "theme": "philosophie"
+  },
+  {
+    "en": "vice",
+    "fr": "vice",
+    "theme": "philosophie"
+  },
+  {
+    "en": "happiness",
+    "fr": "bonheur",
+    "theme": "philosophie"
+  },
+  {
+    "en": "meaning",
+    "fr": "sens",
+    "theme": "philosophie"
+  },
+  {
+    "en": "purpose",
+    "fr": "but",
+    "theme": "philosophie"
+  },
+  {
+    "en": "freedom",
+    "fr": "liberté",
+    "theme": "philosophie"
+  },
+  {
+    "en": "justice",
+    "fr": "justice",
+    "theme": "philosophie"
+  },
+  {
+    "en": "beauty",
+    "fr": "beauté",
+    "theme": "philosophie"
+  },
+  {
+    "en": "sublime",
+    "fr": "sublime",
+    "theme": "philosophie"
+  },
+  {
+    "en": "idealism",
+    "fr": "idéalisme",
+    "theme": "philosophie"
+  },
+  {
+    "en": "materialism",
+    "fr": "matérialisme",
+    "theme": "philosophie"
+  },
+  {
+    "en": "pragmatism",
+    "fr": "pragmatisme",
+    "theme": "philosophie"
+  },
+  {
+    "en": "artist",
+    "fr": "artiste",
+    "theme": "art"
+  },
+  {
+    "en": "painting",
+    "fr": "peinture",
+    "theme": "art"
+  },
+  {
+    "en": "sculpture",
+    "fr": "sculpture",
+    "theme": "art"
+  },
+  {
+    "en": "architecture",
+    "fr": "architecture",
+    "theme": "art"
+  },
+  {
+    "en": "literature",
+    "fr": "littérature",
+    "theme": "art"
+  },
+  {
+    "en": "poetry",
+    "fr": "poésie",
+    "theme": "art"
+  },
+  {
+    "en": "novel",
+    "fr": "roman",
+    "theme": "art"
+  },
+  {
+    "en": "play",
+    "fr": "pièce de théâtre",
+    "theme": "art"
+  },
+  {
+    "en": "theater",
+    "fr": "théâtre",
+    "theme": "art"
+  },
+  {
+    "en": "cinema",
+    "fr": "cinéma",
+    "theme": "art"
+  },
+  {
+    "en": "director",
+    "fr": "réalisateur",
+    "theme": "art"
+  },
+  {
+    "en": "actor",
+    "fr": "acteur",
+    "theme": "art"
+  },
+  {
+    "en": "actress",
+    "fr": "actrice",
+    "theme": "art"
+  },
+  {
+    "en": "script",
+    "fr": "scénario",
+    "theme": "art"
+  },
+  {
+    "en": "scene",
+    "fr": "scène",
+    "theme": "art"
+  },
+  {
+    "en": "performance",
+    "fr": "représentation",
+    "theme": "art"
+  },
+  {
+    "en": "audience",
+    "fr": "public",
+    "theme": "art"
+  },
+  {
+    "en": "masterpiece",
+    "fr": "chef-d'œuvre",
+    "theme": "art"
+  },
+  {
+    "en": "exhibition",
+    "fr": "exposition",
+    "theme": "art"
+  },
+  {
+    "en": "gallery",
+    "fr": "galerie",
+    "theme": "art"
+  },
+  {
+    "en": "museum",
+    "fr": "musée",
+    "theme": "art"
+  },
+  {
+    "en": "composer",
+    "fr": "compositeur",
+    "theme": "art"
+  },
+  {
+    "en": "symphony",
+    "fr": "symphonie",
+    "theme": "art"
+  },
+  {
+    "en": "concert",
+    "fr": "concert",
+    "theme": "art"
+  },
+  {
+    "en": "opera",
+    "fr": "opéra",
+    "theme": "art"
+  },
+  {
+    "en": "ballet",
+    "fr": "ballet",
+    "theme": "art"
+  },
+  {
+    "en": "choreography",
+    "fr": "chorégraphie",
+    "theme": "art"
+  },
+  {
+    "en": "photography",
+    "fr": "photographie",
+    "theme": "art"
+  },
+  {
+    "en": "design",
+    "fr": "design",
+    "theme": "art"
+  },
+  {
+    "en": "aesthetic",
+    "fr": "esthétique",
+    "theme": "art"
+  },
+  {
+    "en": "psychology",
+    "fr": "psychologie",
+    "theme": "psychologie"
+  },
+  {
+    "en": "behavior",
+    "fr": "comportement",
+    "theme": "psychologie"
+  },
+  {
+    "en": "emotion",
+    "fr": "émotion",
+    "theme": "psychologie"
+  },
+  {
+    "en": "cognition",
+    "fr": "cognition",
+    "theme": "psychologie"
+  },
+  {
+    "en": "personality",
+    "fr": "personnalité",
+    "theme": "psychologie"
+  },
+  {
+    "en": "intelligence",
+    "fr": "intelligence",
+    "theme": "psychologie"
+  },
+  {
+    "en": "memory",
+    "fr": "mémoire",
+    "theme": "psychologie"
+  },
+  {
+    "en": "perception",
+    "fr": "perception",
+    "theme": "psychologie"
+  },
+  {
+    "en": "motivation",
+    "fr": "motivation",
+    "theme": "psychologie"
+  },
+  {
+    "en": "attitude",
+    "fr": "attitude",
+    "theme": "psychologie"
+  },
+  {
+    "en": "stress",
+    "fr": "stress",
+    "theme": "psychologie"
+  },
+  {
+    "en": "trauma",
+    "fr": "traumatisme",
+    "theme": "psychologie"
+  },
+  {
+    "en": "therapy",
+    "fr": "thérapie",
+    "theme": "psychologie"
+  },
+  {
+    "en": "depression",
+    "fr": "dépression",
+    "theme": "psychologie"
+  },
+  {
+    "en": "anxiety",
+    "fr": "anxiété",
+    "theme": "psychologie"
+  },
+  {
+    "en": "empathy",
+    "fr": "empathie",
+    "theme": "psychologie"
+  },
+  {
+    "en": "resilience",
+    "fr": "résilience",
+    "theme": "psychologie"
+  },
+  {
+    "en": "self-esteem",
+    "fr": "estime de soi",
+    "theme": "psychologie"
+  },
+  {
+    "en": "unconscious",
+    "fr": "inconscient",
+    "theme": "psychologie"
+  },
+  {
+    "en": "conditioning",
+    "fr": "conditionnement",
+    "theme": "psychologie"
+  },
+  {
+    "en": "diagnosis",
+    "fr": "diagnostic",
+    "theme": "medecine"
+  },
+  {
+    "en": "symptom",
+    "fr": "symptôme",
+    "theme": "medecine"
+  },
+  {
+    "en": "treatment",
+    "fr": "traitement",
+    "theme": "medecine"
+  },
+  {
+    "en": "therapy",
+    "fr": "thérapie",
+    "theme": "medecine"
+  },
+  {
+    "en": "surgery",
+    "fr": "chirurgie",
+    "theme": "medecine"
+  },
+  {
+    "en": "patient",
+    "fr": "patient",
+    "theme": "medecine"
+  },
+  {
+    "en": "hospital",
+    "fr": "hôpital",
+    "theme": "medecine"
+  },
+  {
+    "en": "clinic",
+    "fr": "clinique",
+    "theme": "medecine"
+  },
+  {
+    "en": "physician",
+    "fr": "médecin",
+    "theme": "medecine"
+  },
+  {
+    "en": "surgeon",
+    "fr": "chirurgien",
+    "theme": "medecine"
+  },
+  {
+    "en": "nurse",
+    "fr": "infirmière",
+    "theme": "medecine"
+  },
+  {
+    "en": "pharmacist",
+    "fr": "pharmacien",
+    "theme": "medecine"
+  },
+  {
+    "en": "prescription",
+    "fr": "ordonnance",
+    "theme": "medecine"
+  },
+  {
+    "en": "antibiotic",
+    "fr": "antibiotique",
+    "theme": "medecine"
+  },
+  {
+    "en": "vaccine",
+    "fr": "vaccin",
+    "theme": "medecine"
+  },
+  {
+    "en": "virus",
+    "fr": "virus",
+    "theme": "medecine"
+  },
+  {
+    "en": "bacteria",
+    "fr": "bactérie",
+    "theme": "medecine"
+  },
+  {
+    "en": "infection",
+    "fr": "infection",
+    "theme": "medecine"
+  },
+  {
+    "en": "chronic",
+    "fr": "chronique",
+    "theme": "medecine"
+  },
+  {
+    "en": "immune",
+    "fr": "immunitaire",
+    "theme": "medecine"
+  },
+  {
+    "en": "journalism",
+    "fr": "journalisme",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "press",
+    "fr": "presse",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "broadcast",
+    "fr": "diffusion",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "documentary",
+    "fr": "documentaire",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "interview",
+    "fr": "entrevue",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "editorial",
+    "fr": "éditorial",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "censorship",
+    "fr": "censure",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "propaganda",
+    "fr": "propagande",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "misinformation",
+    "fr": "désinformation",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "fake news",
+    "fr": "fausses nouvelles",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "bias",
+    "fr": "partialité",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "objectivity",
+    "fr": "objectivité",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "source",
+    "fr": "source",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "investigation",
+    "fr": "enquête",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "leak",
+    "fr": "fuite",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "whistleblower",
+    "fr": "lanceur d'alerte",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "journalist",
+    "fr": "journaliste",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "reporter",
+    "fr": "reporter",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "anchor",
+    "fr": "présentateur",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "paparazzi",
+    "fr": "paparazzi",
+    "theme": "medias-avances"
+  },
+  {
+    "en": "pedagogy",
+    "fr": "pédagogie",
+    "theme": "education-avance"
+  },
+  {
+    "en": "curriculum",
+    "fr": "programme d'études",
+    "theme": "education-avance"
+  },
+  {
+    "en": "assessment",
+    "fr": "évaluation",
+    "theme": "education-avance"
+  },
+  {
+    "en": "evaluation",
+    "fr": "évaluation",
+    "theme": "education-avance"
+  },
+  {
+    "en": "scholarship",
+    "fr": "bourse",
+    "theme": "education-avance"
+  },
+  {
+    "en": "fellowship",
+    "fr": "bourse de recherche",
+    "theme": "education-avance"
+  },
+  {
+    "en": "dissertation",
+    "fr": "thèse",
+    "theme": "education-avance"
+  },
+  {
+    "en": "thesis",
+    "fr": "mémoire",
+    "theme": "education-avance"
+  },
+  {
+    "en": "research",
+    "fr": "recherche",
+    "theme": "education-avance"
+  },
+  {
+    "en": "publication",
+    "fr": "publication",
+    "theme": "education-avance"
+  },
+  {
+    "en": "peer review",
+    "fr": "évaluation par les pairs",
+    "theme": "education-avance"
+  },
+  {
+    "en": "academic",
+    "fr": "académique",
+    "theme": "education-avance"
+  },
+  {
+    "en": "faculty",
+    "fr": "faculté",
+    "theme": "education-avance"
+  },
+  {
+    "en": "dean",
+    "fr": "doyen",
+    "theme": "education-avance"
+  },
+  {
+    "en": "professor",
+    "fr": "professeur",
+    "theme": "education-avance"
+  },
+  {
+    "en": "lecturer",
+    "fr": "chargé de cours",
+    "theme": "education-avance"
+  },
+  {
+    "en": "tutor",
+    "fr": "tuteur",
+    "theme": "education-avance"
+  },
+  {
+    "en": "mentor",
+    "fr": "mentor",
+    "theme": "education-avance"
+  },
+  {
+    "en": "literacy",
+    "fr": "alphabétisation",
+    "theme": "education-avance"
+  },
+  {
+    "en": "numeracy",
+    "fr": "numératie",
+    "theme": "education-avance"
+  },
+  {
+    "en": "finance",
+    "fr": "finance",
+    "theme": "finance"
+  },
+  {
+    "en": "banking",
+    "fr": "banque",
+    "theme": "finance"
+  },
+  {
+    "en": "accounting",
+    "fr": "comptabilité",
+    "theme": "finance"
+  },
+  {
+    "en": "audit",
+    "fr": "audit",
+    "theme": "finance"
+  },
+  {
+    "en": "balance sheet",
+    "fr": "bilan",
+    "theme": "finance"
+  },
+  {
+    "en": "cash flow",
+    "fr": "flux de trésorerie",
+    "theme": "finance"
+  },
+  {
+    "en": "capital",
+    "fr": "capital",
+    "theme": "finance"
+  },
+  {
+    "en": "debt",
+    "fr": "dette",
+    "theme": "finance"
+  },
+  {
+    "en": "equity",
+    "fr": "capitaux propres",
+    "theme": "finance"
+  },
+  {
+    "en": "credit",
+    "fr": "crédit",
+    "theme": "finance"
+  },
+  {
+    "en": "loan",
+    "fr": "prêt",
+    "theme": "finance"
+  },
+  {
+    "en": "interest",
+    "fr": "intérêt",
+    "theme": "finance"
+  },
+  {
+    "en": "mortgage",
+    "fr": "hypothèque",
+    "theme": "finance"
+  },
+  {
+    "en": "collateral",
+    "fr": "garantie",
+    "theme": "finance"
+  },
+  {
+    "en": "insurance",
+    "fr": "assurance",
+    "theme": "finance"
+  },
+  {
+    "en": "premium",
+    "fr": "prime",
+    "theme": "finance"
+  },
+  {
+    "en": "policy",
+    "fr": "police",
+    "theme": "finance"
+  },
+  {
+    "en": "claim",
+    "fr": "réclamation",
+    "theme": "finance"
+  },
+  {
+    "en": "deductible",
+    "fr": "franchise",
+    "theme": "finance"
+  },
+  {
+    "en": "coverage",
+    "fr": "couverture",
+    "theme": "finance"
+  },
+  {
+    "en": "asset",
+    "fr": "actif",
+    "theme": "finance"
+  },
+  {
+    "en": "liability",
+    "fr": "passif",
+    "theme": "finance"
+  },
+  {
+    "en": "liquidity",
+    "fr": "liquidité",
+    "theme": "finance"
+  },
+  {
+    "en": "solvency",
+    "fr": "solvabilité",
+    "theme": "finance"
+  },
+  {
+    "en": "yield",
+    "fr": "rendement",
+    "theme": "finance"
+  },
+  {
+    "en": "return",
+    "fr": "retour",
+    "theme": "finance"
+  },
+  {
+    "en": "risk",
+    "fr": "risque",
+    "theme": "finance"
+  },
+  {
+    "en": "hedge",
+    "fr": "couverture",
+    "theme": "finance"
+  },
+  {
+    "en": "derivative",
+    "fr": "produit dérivé",
+    "theme": "finance"
+  },
+  {
+    "en": "speculation",
+    "fr": "spéculation",
+    "theme": "finance"
+  },
+  {
+    "en": "comprehensive",
+    "fr": "complet",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "substantial",
+    "fr": "substantiel",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "significant",
+    "fr": "significatif",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "essential",
+    "fr": "essentiel",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "crucial",
+    "fr": "crucial",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "vital",
+    "fr": "vital",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "inevitable",
+    "fr": "inévitable",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "controversial",
+    "fr": "controversé",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "ambiguous",
+    "fr": "ambigu",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "profound",
+    "fr": "profond",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "reluctant",
+    "fr": "réticent",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "consistent",
+    "fr": "cohérent",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "overwhelming",
+    "fr": "accablant",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "compelling",
+    "fr": "convaincant",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "subtle",
+    "fr": "subtil",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "sustainable",
+    "fr": "durable",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "breakthrough",
+    "fr": "percée",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "innovative",
+    "fr": "innovant",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "efficient",
+    "fr": "efficace",
+    "theme": "adjectifs-avances"
+  },
+  {
+    "en": "adequate",
+    "fr": "adéquat",
+    "theme": "adjectifs-avances"
+  }
+];
 
-    // ----- Politique avancé (30) -----
-    {en:"sovereignty",fr:"souveraineté",theme:"politique-avance"},
-    {en:"legislation",fr:"législation",theme:"politique-avance"},
-    {en:"amendment",fr:"amendement",theme:"politique-avance"},
-    {en:"referendum",fr:"référendum",theme:"politique-avance"},
-    {en:"coalition",fr:"coalition",theme:"politique-avance"},
-    {en:"lobby",fr:"lobby",theme:"politique-avance"},
-    {en:"corruption",fr:"corruption",theme:"politique-avance"},
-    {en:"transparency",fr:"transparence",theme:"politique-avance"},
-    {en:"accountability",fr:"responsabilité",theme:"politique-avance"},
-    {en:"bureaucracy",fr:"bureaucratie",theme:"politique-avance"},
-    {en:"ideology",fr:"idéologie",theme:"politique-avance"},
-    {en:"liberal",fr:"libéral",theme:"politique-avance"},
-    {en:"conservative",fr:"conservateur",theme:"politique-avance"},
-    {en:"socialism",fr:"socialisme",theme:"politique-avance"},
-    {en:"capitalism",fr:"capitalisme",theme:"politique-avance"},
-    {en:"nationalism",fr:"nationalisme",theme:"politique-avance"},
-    {en:"globalization",fr:"mondialisation",theme:"politique-avance"},
-    {en:"diplomacy",fr:"diplomatie",theme:"politique-avance"},
-    {en:"sanction",fr:"sanction",theme:"politique-avance"},
-    {en:"treaty",fr:"traité",theme:"politique-avance"},
-    {en:"alliance",fr:"alliance",theme:"politique-avance"},
-    {en:"summit",fr:"sommet",theme:"politique-avance"},
-    {en:"policy",fr:"politique",theme:"politique-avance"},
-    {en:"regulation",fr:"réglementation",theme:"politique-avance"},
-    {en:"citizenship",fr:"citoyenneté",theme:"politique-avance"},
-    {en:"suffrage",fr:"suffrage",theme:"politique-avance"},
-    {en:"gerrymandering",fr:"manipulation électorale",theme:"politique-avance"},
-    {en:"propaganda",fr:"propagande",theme:"politique-avance"},
-    {en:"censorship",fr:"censure",theme:"politique-avance"},
-    {en:"activism",fr:"militantisme",theme:"politique-avance"},
-
-    // ----- Économie avancé (30) -----
-    {en:"macroeconomics",fr:"macroéconomie",theme:"economie-avance"},
-    {en:"microeconomics",fr:"microéconomie",theme:"economie-avance"},
-    {en:"GDP",fr:"PIB",theme:"economie-avance"},
-    {en:"unemployment",fr:"chômage",theme:"economie-avance"},
-    {en:"interest rate",fr:"taux d'intérêt",theme:"economie-avance"},
-    {en:"mortgage",fr:"hypothèque",theme:"economie-avance"},
-    {en:"asset",fr:"actif",theme:"economie-avance"},
-    {en:"liability",fr:"passif",theme:"economie-avance"},
-    {en:"equity",fr:"capitaux propres",theme:"economie-avance"},
-    {en:"bond",fr:"obligation",theme:"economie-avance"},
-    {en:"commodity",fr:"matière première",theme:"economie-avance"},
-    {en:"speculation",fr:"spéculation",theme:"economie-avance"},
-    {en:"monopoly",fr:"monopole",theme:"economie-avance"},
-    {en:"oligopoly",fr:"oligopole",theme:"economie-avance"},
-    {en:"tariff",fr:"tarif douanier",theme:"economie-avance"},
-    {en:"subsidy",fr:"subvention",theme:"economie-avance"},
-    {en:"deficit",fr:"déficit",theme:"economie-avance"},
-    {en:"surplus",fr:"excédent",theme:"economie-avance"},
-    {en:"fiscal",fr:"fiscal",theme:"economie-avance"},
-    {en:"monetary",fr:"monétaire",theme:"economie-avance"},
-    {en:"austerity",fr:"austérité",theme:"economie-avance"},
-    {en:"stimulus",fr:"relance",theme:"economie-avance"},
-    {en:"entrepreneurship",fr:"esprit d'entreprise",theme:"economie-avance"},
-    {en:"privatization",fr:"privatisation",theme:"economie-avance"},
-    {en:"nationalization",fr:"nationalisation",theme:"economie-avance"},
-    {en:"deregulation",fr:"déréglementation",theme:"economie-avance"},
-    {en:"capitalism",fr:"capitalisme",theme:"economie-avance"},
-    {en:"market economy",fr:"économie de marché",theme:"economie-avance"},
-    {en:"trade war",fr:"guerre commerciale",theme:"economie-avance"},
-    {en:"emerging market",fr:"marché émergent",theme:"economie-avance"},
-
-    // ----- Science avancé (30) -----
-    {en:"quantum",fr:"quantique",theme:"science-avance"},
-    {en:"relativity",fr:"relativité",theme:"science-avance"},
-    {en:"particle",fr:"particule",theme:"science-avance"},
-    {en:"molecule",fr:"molécule",theme:"science-avance"},
-    {en:"compound",fr:"composé",theme:"science-avance"},
-    {en:"reaction",fr:"réaction",theme:"science-avance"},
-    {en:"catalyst",fr:"catalyseur",theme:"science-avance"},
-    {en:"enzyme",fr:"enzyme",theme:"science-avance"},
-    {en:"protein",fr:"protéine",theme:"science-avance"},
-    {en:"DNA",fr:"ADN",theme:"science-avance"},
-    {en:"genome",fr:"génome",theme:"science-avance"},
-    {en:"mutation",fr:"mutation",theme:"science-avance"},
-    {en:"organism",fr:"organisme",theme:"science-avance"},
-    {en:"species",fr:"espèce",theme:"science-avance"},
-    {en:"ecosystem",fr:"écosystème",theme:"science-avance"},
-    {en:"biodiversity",fr:"biodiversité",theme:"science-avance"},
-    {en:"neuron",fr:"neurone",theme:"science-avance"},
-    {en:"brain",fr:"cerveau",theme:"science-avance"},
-    {en:"cognitive",fr:"cognitif",theme:"science-avance"},
-    {en:"consciousness",fr:"conscience",theme:"science-avance"},
-    {en:"perception",fr:"perception",theme:"science-avance"},
-    {en:"behavior",fr:"comportement",theme:"science-avance"},
-    {en:"stimulus",fr:"stimulus",theme:"science-avance"},
-    {en:"response",fr:"réponse",theme:"science-avance"},
-    {en:"adaptation",fr:"adaptation",theme:"science-avance"},
-    {en:"natural selection",fr:"sélection naturelle",theme:"science-avance"},
-    {en:"symbiosis",fr:"symbiose",theme:"science-avance"},
-    {en:"metabolism",fr:"métabolisme",theme:"science-avance"},
-    {en:"photosynthesis",fr:"photosynthèse",theme:"science-avance"},
-    {en:"respiration",fr:"respiration",theme:"science-avance"},
-
-    // ----- Droit (30) -----
-    {en:"justice",fr:"justice",theme:"droit"},
-    {en:"court",fr:"tribunal",theme:"droit"},
-    {en:"judge",fr:"juge",theme:"droit"},
-    {en:"jury",fr:"jury",theme:"droit"},
-    {en:"lawyer",fr:"avocat",theme:"droit"},
-    {en:"attorney",fr:"avocat",theme:"droit"},
-    {en:"prosecutor",fr:"procureur",theme:"droit"},
-    {en:"defendant",fr:"défendeur",theme:"droit"},
-    {en:"plaintiff",fr:"plaignant",theme:"droit"},
-    {en:"witness",fr:"témoin",theme:"droit"},
-    {en:"evidence",fr:"preuve",theme:"droit"},
-    {en:"testimony",fr:"témoignage",theme:"droit"},
-    {en:"verdict",fr:"verdict",theme:"droit"},
-    {en:"sentence",fr:"peine",theme:"droit"},
-    {en:"guilty",fr:"coupable",theme:"droit"},
-    {en:"innocent",fr:"innocent",theme:"droit"},
-    {en:"crime",fr:"crime",theme:"droit"},
-    {en:"criminal",fr:"criminel",theme:"droit"},
-    {en:"victim",fr:"victime",theme:"droit"},
-    {en:"theft",fr:"vol",theme:"droit"},
-    {en:"murder",fr:"meurtre",theme:"droit"},
-    {en:"fraud",fr:"fraude",theme:"droit"},
-    {en:"assault",fr:"agression",theme:"droit"},
-    {en:"robbery",fr:"cambriolage",theme:"droit"},
-    {en:"contract",fr:"contrat",theme:"droit"},
-    {en:"agreement",fr:"accord",theme:"droit"},
-    {en:"liability",fr:"responsabilité",theme:"droit"},
-    {en:"copyright",fr:"droit d'auteur",theme:"droit"},
-    {en:"patent",fr:"brevet",theme:"droit"},
-    {en:"trademark",fr:"marque déposée",theme:"droit"},
-
-    // ----- Philosophie (30) -----
-    {en:"philosophy",fr:"philosophie",theme:"philosophie"},
-    {en:"ethics",fr:"éthique",theme:"philosophie"},
-    {en:"morality",fr:"moralité",theme:"philosophie"},
-    {en:"logic",fr:"logique",theme:"philosophie"},
-    {en:"reason",fr:"raison",theme:"philosophie"},
-    {en:"truth",fr:"vérité",theme:"philosophie"},
-    {en:"knowledge",fr:"connaissance",theme:"philosophie"},
-    {en:"reality",fr:"réalité",theme:"philosophie"},
-    {en:"existence",fr:"existence",theme:"philosophie"},
-    {en:"consciousness",fr:"conscience",theme:"philosophie"},
-    {en:"free will",fr:"libre arbitre",theme:"philosophie"},
-    {en:"determinism",fr:"déterminisme",theme:"philosophie"},
-    {en:"metaphysics",fr:"métaphysique",theme:"philosophie"},
-    {en:"epistemology",fr:"épistémologie",theme:"philosophie"},
-    {en:"ontology",fr:"ontologie",theme:"philosophie"},
-    {en:"dialectic",fr:"dialectique",theme:"philosophie"},
-    {en:"paradox",fr:"paradoxe",theme:"philosophie"},
-    {en:"wisdom",fr:"sagesse",theme:"philosophie"},
-    {en:"virtue",fr:"vertu",theme:"philosophie"},
-    {en:"vice",fr:"vice",theme:"philosophie"},
-    {en:"happiness",fr:"bonheur",theme:"philosophie"},
-    {en:"meaning",fr:"sens",theme:"philosophie"},
-    {en:"purpose",fr:"but",theme:"philosophie"},
-    {en:"freedom",fr:"liberté",theme:"philosophie"},
-    {en:"justice",fr:"justice",theme:"philosophie"},
-    {en:"beauty",fr:"beauté",theme:"philosophie"},
-    {en:"sublime",fr:"sublime",theme:"philosophie"},
-    {en:"idealism",fr:"idéalisme",theme:"philosophie"},
-    {en:"materialism",fr:"matérialisme",theme:"philosophie"},
-    {en:"pragmatism",fr:"pragmatisme",theme:"philosophie"},
-
-    // ----- Art & culture (30) -----
-    {en:"artist",fr:"artiste",theme:"art"},
-    {en:"painting",fr:"peinture",theme:"art"},
-    {en:"sculpture",fr:"sculpture",theme:"art"},
-    {en:"architecture",fr:"architecture",theme:"art"},
-    {en:"literature",fr:"littérature",theme:"art"},
-    {en:"poetry",fr:"poésie",theme:"art"},
-    {en:"novel",fr:"roman",theme:"art"},
-    {en:"play",fr:"pièce de théâtre",theme:"art"},
-    {en:"theater",fr:"théâtre",theme:"art"},
-    {en:"cinema",fr:"cinéma",theme:"art"},
-    {en:"director",fr:"réalisateur",theme:"art"},
-    {en:"actor",fr:"acteur",theme:"art"},
-    {en:"actress",fr:"actrice",theme:"art"},
-    {en:"script",fr:"scénario",theme:"art"},
-    {en:"scene",fr:"scène",theme:"art"},
-    {en:"performance",fr:"représentation",theme:"art"},
-    {en:"audience",fr:"public",theme:"art"},
-    {en:"masterpiece",fr:"chef-d'œuvre",theme:"art"},
-    {en:"exhibition",fr:"exposition",theme:"art"},
-    {en:"gallery",fr:"galerie",theme:"art"},
-    {en:"museum",fr:"musée",theme:"art"},
-    {en:"composer",fr:"compositeur",theme:"art"},
-    {en:"symphony",fr:"symphonie",theme:"art"},
-    {en:"concert",fr:"concert",theme:"art"},
-    {en:"opera",fr:"opéra",theme:"art"},
-    {en:"ballet",fr:"ballet",theme:"art"},
-    {en:"choreography",fr:"chorégraphie",theme:"art"},
-    {en:"photography",fr:"photographie",theme:"art"},
-    {en:"design",fr:"design",theme:"art"},
-    {en:"aesthetic",fr:"esthétique",theme:"art"},
-
-    // ----- Psychologie (20) -----
-    {en:"psychology",fr:"psychologie",theme:"psychologie"},
-    {en:"behavior",fr:"comportement",theme:"psychologie"},
-    {en:"emotion",fr:"émotion",theme:"psychologie"},
-    {en:"cognition",fr:"cognition",theme:"psychologie"},
-    {en:"personality",fr:"personnalité",theme:"psychologie"},
-    {en:"intelligence",fr:"intelligence",theme:"psychologie"},
-    {en:"memory",fr:"mémoire",theme:"psychologie"},
-    {en:"perception",fr:"perception",theme:"psychologie"},
-    {en:"motivation",fr:"motivation",theme:"psychologie"},
-    {en:"attitude",fr:"attitude",theme:"psychologie"},
-    {en:"stress",fr:"stress",theme:"psychologie"},
-    {en:"trauma",fr:"traumatisme",theme:"psychologie"},
-    {en:"therapy",fr:"thérapie",theme:"psychologie"},
-    {en:"depression",fr:"dépression",theme:"psychologie"},
-    {en:"anxiety",fr:"anxiété",theme:"psychologie"},
-    {en:"empathy",fr:"empathie",theme:"psychologie"},
-    {en:"resilience",fr:"résilience",theme:"psychologie"},
-    {en:"self-esteem",fr:"estime de soi",theme:"psychologie"},
-    {en:"unconscious",fr:"inconscient",theme:"psychologie"},
-    {en:"conditioning",fr:"conditionnement",theme:"psychologie"},
-
-    // ----- Médecine (20) -----
-    {en:"diagnosis",fr:"diagnostic",theme:"medecine"},
-    {en:"symptom",fr:"symptôme",theme:"medecine"},
-    {en:"treatment",fr:"traitement",theme:"medecine"},
-    {en:"therapy",fr:"thérapie",theme:"medecine"},
-    {en:"surgery",fr:"chirurgie",theme:"medecine"},
-    {en:"patient",fr:"patient",theme:"medecine"},
-    {en:"hospital",fr:"hôpital",theme:"medecine"},
-    {en:"clinic",fr:"clinique",theme:"medecine"},
-    {en:"physician",fr:"médecin",theme:"medecine"},
-    {en:"surgeon",fr:"chirurgien",theme:"medecine"},
-    {en:"nurse",fr:"infirmière",theme:"medecine"},
-    {en:"pharmacist",fr:"pharmacien",theme:"medecine"},
-    {en:"prescription",fr:"ordonnance",theme:"medecine"},
-    {en:"antibiotic",fr:"antibiotique",theme:"medecine"},
-    {en:"vaccine",fr:"vaccin",theme:"medecine"},
-    {en:"virus",fr:"virus",theme:"medecine"},
-    {en:"bacteria",fr:"bactérie",theme:"medecine"},
-    {en:"infection",fr:"infection",theme:"medecine"},
-    {en:"chronic",fr:"chronique",theme:"medecine"},
-    {en:"immune",fr:"immunitaire",theme:"medecine"},
-
-    // ----- Médias avancés (20) -----
-    {en:"journalism",fr:"journalisme",theme:"medias-avances"},
-    {en:"press",fr:"presse",theme:"medias-avances"},
-    {en:"broadcast",fr:"diffusion",theme:"medias-avances"},
-    {en:"documentary",fr:"documentaire",theme:"medias-avances"},
-    {en:"interview",fr:"entrevue",theme:"medias-avances"},
-    {en:"editorial",fr:"éditorial",theme:"medias-avances"},
-    {en:"censorship",fr:"censure",theme:"medias-avances"},
-    {en:"propaganda",fr:"propagande",theme:"medias-avances"},
-    {en:"misinformation",fr:"désinformation",theme:"medias-avances"},
-    {en:"fake news",fr:"fausses nouvelles",theme:"medias-avances"},
-    {en:"bias",fr:"partialité",theme:"medias-avances"},
-    {en:"objectivity",fr:"objectivité",theme:"medias-avances"},
-    {en:"source",fr:"source",theme:"medias-avances"},
-    {en:"investigation",fr:"enquête",theme:"medias-avances"},
-    {en:"leak",fr:"fuite",theme:"medias-avances"},
-    {en:"whistleblower",fr:"lanceur d'alerte",theme:"medias-avances"},
-    {en:"journalist",fr:"journaliste",theme:"medias-avances"},
-    {en:"reporter",fr:"reporter",theme:"medias-avances"},
-    {en:"anchor",fr:"présentateur",theme:"medias-avances"},
-    {en:"paparazzi",fr:"paparazzi",theme:"medias-avances"},
-
-    // ----- Éducation avancée (20) -----
-    {en:"pedagogy",fr:"pédagogie",theme:"education-avance"},
-    {en:"curriculum",fr:"programme d'études",theme:"education-avance"},
-    {en:"assessment",fr:"évaluation",theme:"education-avance"},
-    {en:"evaluation",fr:"évaluation",theme:"education-avance"},
-    {en:"scholarship",fr:"bourse",theme:"education-avance"},
-    {en:"fellowship",fr:"bourse de recherche",theme:"education-avance"},
-    {en:"dissertation",fr:"thèse",theme:"education-avance"},
-    {en:"thesis",fr:"mémoire",theme:"education-avance"},
-    {en:"research",fr:"recherche",theme:"education-avance"},
-    {en:"publication",fr:"publication",theme:"education-avance"},
-    {en:"peer review",fr:"évaluation par les pairs",theme:"education-avance"},
-    {en:"academic",fr:"académique",theme:"education-avance"},
-    {en:"faculty",fr:"faculté",theme:"education-avance"},
-    {en:"dean",fr:"doyen",theme:"education-avance"},
-    {en:"professor",fr:"professeur",theme:"education-avance"},
-    {en:"lecturer",fr:"chargé de cours",theme:"education-avance"},
-    {en:"tutor",fr:"tuteur",theme:"education-avance"},
-    {en:"mentor",fr:"mentor",theme:"education-avance"},
-    {en:"literacy",fr:"alphabétisation",theme:"education-avance"},
-    {en:"numeracy",fr:"numératie",theme:"education-avance"},
-
-    // ----- Finance (30) -----
-    {en:"finance",fr:"finance",theme:"finance"},
-    {en:"banking",fr:"banque",theme:"finance"},
-    {en:"accounting",fr:"comptabilité",theme:"finance"},
-    {en:"audit",fr:"audit",theme:"finance"},
-    {en:"balance sheet",fr:"bilan",theme:"finance"},
-    {en:"cash flow",fr:"flux de trésorerie",theme:"finance"},
-    {en:"capital",fr:"capital",theme:"finance"},
-    {en:"debt",fr:"dette",theme:"finance"},
-    {en:"equity",fr:"capitaux propres",theme:"finance"},
-    {en:"credit",fr:"crédit",theme:"finance"},
-    {en:"loan",fr:"prêt",theme:"finance"},
-    {en:"interest",fr:"intérêt",theme:"finance"},
-    {en:"mortgage",fr:"hypothèque",theme:"finance"},
-    {en:"collateral",fr:"garantie",theme:"finance"},
-    {en:"insurance",fr:"assurance",theme:"finance"},
-    {en:"premium",fr:"prime",theme:"finance"},
-    {en:"policy",fr:"police",theme:"finance"},
-    {en:"claim",fr:"réclamation",theme:"finance"},
-    {en:"deductible",fr:"franchise",theme:"finance"},
-    {en:"coverage",fr:"couverture",theme:"finance"},
-    {en:"asset",fr:"actif",theme:"finance"},
-    {en:"liability",fr:"passif",theme:"finance"},
-    {en:"liquidity",fr:"liquidité",theme:"finance"},
-    {en:"solvency",fr:"solvabilité",theme:"finance"},
-    {en:"yield",fr:"rendement",theme:"finance"},
-    {en:"return",fr:"retour",theme:"finance"},
-    {en:"risk",fr:"risque",theme:"finance"},
-    {en:"hedge",fr:"couverture",theme:"finance"},
-    {en:"derivative",fr:"produit dérivé",theme:"finance"},
-    {en:"speculation",fr:"spéculation",theme:"finance"},
-
-    // ----- Adjectifs avancés (20) -----
-    {en:"comprehensive",fr:"complet",theme:"adjectifs-avances"},
-    {en:"substantial",fr:"substantiel",theme:"adjectifs-avances"},
-    {en:"significant",fr:"significatif",theme:"adjectifs-avances"},
-    {en:"essential",fr:"essentiel",theme:"adjectifs-avances"},
-    {en:"crucial",fr:"crucial",theme:"adjectifs-avances"},
-    {en:"vital",fr:"vital",theme:"adjectifs-avances"},
-    {en:"inevitable",fr:"inévitable",theme:"adjectifs-avances"},
-    {en:"controversial",fr:"controversé",theme:"adjectifs-avances"},
-    {en:"ambiguous",fr:"ambigu",theme:"adjectifs-avances"},
-    {en:"profound",fr:"profond",theme:"adjectifs-avances"},
-    {en:"reluctant",fr:"réticent",theme:"adjectifs-avances"},
-    {en:"consistent",fr:"cohérent",theme:"adjectifs-avances"},
-    {en:"overwhelming",fr:"accablant",theme:"adjectifs-avances"},
-    {en:"compelling",fr:"convaincant",theme:"adjectifs-avances"},
-    {en:"subtle",fr:"subtil",theme:"adjectifs-avances"},
-    {en:"sustainable",fr:"durable",theme:"adjectifs-avances"},
-    {en:"breakthrough",fr:"percée",theme:"adjectifs-avances"},
-    {en:"innovative",fr:"innovant",theme:"adjectifs-avances"},
-    {en:"efficient",fr:"efficace",theme:"adjectifs-avances"},
-    {en:"adequate",fr:"adéquat",theme:"adjectifs-avances"}
-  ];
-
-  // ============================================================
-  // NIVEAU C1 — 500 mots
-  // ============================================================
+  // ========== C1 — 190 mots ==========
   const C1 = [
-    {en:"ubiquitous",fr:"omniprésent",theme:"academique"},
-    {en:"meticulous",fr:"méticuleux",theme:"academique"},
-    {en:"resilience",fr:"résilience",theme:"academique"},
-    {en:"discrepancy",fr:"divergence",theme:"academique"},
-    {en:"paradigm",fr:"paradigme",theme:"academique"},
-    {en:"scrutiny",fr:"examen minutieux",theme:"academique"},
-    {en:"consensus",fr:"consensus",theme:"academique"},
-    {en:"notwithstanding",fr:"nonobstant",theme:"academique"},
-    {en:"juxtaposition",fr:"juxtaposition",theme:"academique"},
-    {en:"inherent",fr:"inhérent",theme:"academique"},
-    {en:"coherent",fr:"cohérent",theme:"academique"},
-    {en:"pertinent",fr:"pertinent",theme:"academique"},
-    {en:"ambiguous",fr:"ambigu",theme:"academique"},
-    {en:"explicit",fr:"explicite",theme:"academique"},
-    {en:"implicit",fr:"implicite",theme:"academique"},
-    {en:"comprehensive",fr:"complet",theme:"academique"},
-    {en:"concise",fr:"concis",theme:"academique"},
-    {en:"elaborate",fr:"élaboré",theme:"academique"},
-    {en:"substantiate",fr:"étayer",theme:"academique"},
-    {en:"hypothesize",fr:"émettre une hypothèse",theme:"academique"},
-    {en:"correlate",fr:"établir une corrélation",theme:"academique"},
-    {en:"deduce",fr:"déduire",theme:"academique"},
-    {en:"infer",fr:"inférer",theme:"academique"},
-    {en:"synthesize",fr:"synthétiser",theme:"academique"},
-    {en:"analyze",fr:"analyser",theme:"academique"},
-    {en:"evaluate",fr:"évaluer",theme:"academique"},
-    {en:"critique",fr:"critiquer",theme:"academique"},
-    {en:"validate",fr:"valider",theme:"academique"},
-    {en:"refute",fr:"réfuter",theme:"academique"},
-    {en:"advocate",fr:"préconiser",theme:"academique"},
-    {en:"articulate",fr:"articuler",theme:"academique"},
-    {en:"convey",fr:"transmettre",theme:"academique"},
-    {en:"illustrate",fr:"illustrer",theme:"academique"},
-    {en:"demonstrate",fr:"démontrer",theme:"academique"},
-    {en:"substantial",fr:"substantiel",theme:"academique"},
-    {en:"marginal",fr:"marginal",theme:"academique"},
-    {en:"predominant",fr:"prédominant",theme:"academique"},
-    {en:"preliminary",fr:"préliminaire",theme:"academique"},
-    {en:"conclusive",fr:"concluant",theme:"academique"},
-    {en:"empirical",fr:"empirique",theme:"academique"},
+  {
+    "en": "ubiquitous",
+    "fr": "omniprésent",
+    "theme": "academique"
+  },
+  {
+    "en": "meticulous",
+    "fr": "méticuleux",
+    "theme": "academique"
+  },
+  {
+    "en": "resilience",
+    "fr": "résilience",
+    "theme": "academique"
+  },
+  {
+    "en": "discrepancy",
+    "fr": "divergence",
+    "theme": "academique"
+  },
+  {
+    "en": "paradigm",
+    "fr": "paradigme",
+    "theme": "academique"
+  },
+  {
+    "en": "scrutiny",
+    "fr": "examen minutieux",
+    "theme": "academique"
+  },
+  {
+    "en": "consensus",
+    "fr": "consensus",
+    "theme": "academique"
+  },
+  {
+    "en": "notwithstanding",
+    "fr": "nonobstant",
+    "theme": "academique"
+  },
+  {
+    "en": "juxtaposition",
+    "fr": "juxtaposition",
+    "theme": "academique"
+  },
+  {
+    "en": "inherent",
+    "fr": "inhérent",
+    "theme": "academique"
+  },
+  {
+    "en": "coherent",
+    "fr": "cohérent",
+    "theme": "academique"
+  },
+  {
+    "en": "pertinent",
+    "fr": "pertinent",
+    "theme": "academique"
+  },
+  {
+    "en": "ambiguous",
+    "fr": "ambigu",
+    "theme": "academique"
+  },
+  {
+    "en": "explicit",
+    "fr": "explicite",
+    "theme": "academique"
+  },
+  {
+    "en": "implicit",
+    "fr": "implicite",
+    "theme": "academique"
+  },
+  {
+    "en": "comprehensive",
+    "fr": "complet",
+    "theme": "academique"
+  },
+  {
+    "en": "concise",
+    "fr": "concis",
+    "theme": "academique"
+  },
+  {
+    "en": "elaborate",
+    "fr": "élaboré",
+    "theme": "academique"
+  },
+  {
+    "en": "substantiate",
+    "fr": "étayer",
+    "theme": "academique"
+  },
+  {
+    "en": "hypothesize",
+    "fr": "émettre une hypothèse",
+    "theme": "academique"
+  },
+  {
+    "en": "correlate",
+    "fr": "établir une corrélation",
+    "theme": "academique"
+  },
+  {
+    "en": "deduce",
+    "fr": "déduire",
+    "theme": "academique"
+  },
+  {
+    "en": "infer",
+    "fr": "inférer",
+    "theme": "academique"
+  },
+  {
+    "en": "synthesize",
+    "fr": "synthétiser",
+    "theme": "academique"
+  },
+  {
+    "en": "analyze",
+    "fr": "analyser",
+    "theme": "academique"
+  },
+  {
+    "en": "evaluate",
+    "fr": "évaluer",
+    "theme": "academique"
+  },
+  {
+    "en": "critique",
+    "fr": "critiquer",
+    "theme": "academique"
+  },
+  {
+    "en": "validate",
+    "fr": "valider",
+    "theme": "academique"
+  },
+  {
+    "en": "refute",
+    "fr": "réfuter",
+    "theme": "academique"
+  },
+  {
+    "en": "advocate",
+    "fr": "préconiser",
+    "theme": "academique"
+  },
+  {
+    "en": "articulate",
+    "fr": "articuler",
+    "theme": "academique"
+  },
+  {
+    "en": "convey",
+    "fr": "transmettre",
+    "theme": "academique"
+  },
+  {
+    "en": "illustrate",
+    "fr": "illustrer",
+    "theme": "academique"
+  },
+  {
+    "en": "demonstrate",
+    "fr": "démontrer",
+    "theme": "academique"
+  },
+  {
+    "en": "substantial",
+    "fr": "substantiel",
+    "theme": "academique"
+  },
+  {
+    "en": "marginal",
+    "fr": "marginal",
+    "theme": "academique"
+  },
+  {
+    "en": "predominant",
+    "fr": "prédominant",
+    "theme": "academique"
+  },
+  {
+    "en": "preliminary",
+    "fr": "préliminaire",
+    "theme": "academique"
+  },
+  {
+    "en": "conclusive",
+    "fr": "concluant",
+    "theme": "academique"
+  },
+  {
+    "en": "empirical",
+    "fr": "empirique",
+    "theme": "academique"
+  },
+  {
+    "en": "leverage",
+    "fr": "tirer parti",
+    "theme": "professionnel"
+  },
+  {
+    "en": "optimize",
+    "fr": "optimiser",
+    "theme": "professionnel"
+  },
+  {
+    "en": "streamline",
+    "fr": "rationaliser",
+    "theme": "professionnel"
+  },
+  {
+    "en": "benchmark",
+    "fr": "référence",
+    "theme": "professionnel"
+  },
+  {
+    "en": "milestone",
+    "fr": "jalon",
+    "theme": "professionnel"
+  },
+  {
+    "en": "deliverable",
+    "fr": "livrable",
+    "theme": "professionnel"
+  },
+  {
+    "en": "stakeholder",
+    "fr": "partie prenante",
+    "theme": "professionnel"
+  },
+  {
+    "en": "initiative",
+    "fr": "initiative",
+    "theme": "professionnel"
+  },
+  {
+    "en": "accountability",
+    "fr": "responsabilité",
+    "theme": "professionnel"
+  },
+  {
+    "en": "autonomy",
+    "fr": "autonomie",
+    "theme": "professionnel"
+  },
+  {
+    "en": "collaboration",
+    "fr": "collaboration",
+    "theme": "professionnel"
+  },
+  {
+    "en": "synergy",
+    "fr": "synergie",
+    "theme": "professionnel"
+  },
+  {
+    "en": "scalability",
+    "fr": "évolutivité",
+    "theme": "professionnel"
+  },
+  {
+    "en": "feasibility",
+    "fr": "faisabilité",
+    "theme": "professionnel"
+  },
+  {
+    "en": "sustainability",
+    "fr": "durabilité",
+    "theme": "professionnel"
+  },
+  {
+    "en": "competency",
+    "fr": "compétence",
+    "theme": "professionnel"
+  },
+  {
+    "en": "proficiency",
+    "fr": "maîtrise",
+    "theme": "professionnel"
+  },
+  {
+    "en": "expertise",
+    "fr": "expertise",
+    "theme": "professionnel"
+  },
+  {
+    "en": "efficiency",
+    "fr": "efficacité",
+    "theme": "professionnel"
+  },
+  {
+    "en": "productivity",
+    "fr": "productivité",
+    "theme": "professionnel"
+  },
+  {
+    "en": "eloquent",
+    "fr": "éloquent",
+    "theme": "litteraire"
+  },
+  {
+    "en": "poignant",
+    "fr": "poignant",
+    "theme": "litteraire"
+  },
+  {
+    "en": "evocative",
+    "fr": "évocateur",
+    "theme": "litteraire"
+  },
+  {
+    "en": "poetic",
+    "fr": "poétique",
+    "theme": "litteraire"
+  },
+  {
+    "en": "lyrical",
+    "fr": "lyrique",
+    "theme": "litteraire"
+  },
+  {
+    "en": "narrative",
+    "fr": "narratif",
+    "theme": "litteraire"
+  },
+  {
+    "en": "protagonist",
+    "fr": "protagoniste",
+    "theme": "litteraire"
+  },
+  {
+    "en": "antagonist",
+    "fr": "antagoniste",
+    "theme": "litteraire"
+  },
+  {
+    "en": "metaphor",
+    "fr": "métaphore",
+    "theme": "litteraire"
+  },
+  {
+    "en": "simile",
+    "fr": "comparaison",
+    "theme": "litteraire"
+  },
+  {
+    "en": "allegory",
+    "fr": "allégorie",
+    "theme": "litteraire"
+  },
+  {
+    "en": "irony",
+    "fr": "ironie",
+    "theme": "litteraire"
+  },
+  {
+    "en": "satire",
+    "fr": "satire",
+    "theme": "litteraire"
+  },
+  {
+    "en": "symbolism",
+    "fr": "symbolisme",
+    "theme": "litteraire"
+  },
+  {
+    "en": "imagery",
+    "fr": "imagerie",
+    "theme": "litteraire"
+  },
+  {
+    "en": "quantitative",
+    "fr": "quantitatif",
+    "theme": "scientifique"
+  },
+  {
+    "en": "qualitative",
+    "fr": "qualitatif",
+    "theme": "scientifique"
+  },
+  {
+    "en": "methodology",
+    "fr": "méthodologie",
+    "theme": "scientifique"
+  },
+  {
+    "en": "framework",
+    "fr": "cadre",
+    "theme": "scientifique"
+  },
+  {
+    "en": "variable",
+    "fr": "variable",
+    "theme": "scientifique"
+  },
+  {
+    "en": "parameter",
+    "fr": "paramètre",
+    "theme": "scientifique"
+  },
+  {
+    "en": "threshold",
+    "fr": "seuil",
+    "theme": "scientifique"
+  },
+  {
+    "en": "trajectory",
+    "fr": "trajectoire",
+    "theme": "scientifique"
+  },
+  {
+    "en": "equilibrium",
+    "fr": "équilibre",
+    "theme": "scientifique"
+  },
+  {
+    "en": "entropy",
+    "fr": "entropie",
+    "theme": "scientifique"
+  },
+  {
+    "en": "catalyst",
+    "fr": "catalyseur",
+    "theme": "scientifique"
+  },
+  {
+    "en": "mechanism",
+    "fr": "mécanisme",
+    "theme": "scientifique"
+  },
+  {
+    "en": "phenomenon",
+    "fr": "phénomène",
+    "theme": "scientifique"
+  },
+  {
+    "en": "anomaly",
+    "fr": "anomalie",
+    "theme": "scientifique"
+  },
+  {
+    "en": "correlation",
+    "fr": "corrélation",
+    "theme": "scientifique"
+  },
+  {
+    "en": "allege",
+    "fr": "alléguer",
+    "theme": "journalistique"
+  },
+  {
+    "en": "purport",
+    "fr": "prétendre",
+    "theme": "journalistique"
+  },
+  {
+    "en": "disclose",
+    "fr": "divulguer",
+    "theme": "journalistique"
+  },
+  {
+    "en": "unveil",
+    "fr": "dévoiler",
+    "theme": "journalistique"
+  },
+  {
+    "en": "expose",
+    "fr": "révéler",
+    "theme": "journalistique"
+  },
+  {
+    "en": "scrutinize",
+    "fr": "examiner",
+    "theme": "journalistique"
+  },
+  {
+    "en": "corroborate",
+    "fr": "corroborer",
+    "theme": "journalistique"
+  },
+  {
+    "en": "contradict",
+    "fr": "contredire",
+    "theme": "journalistique"
+  },
+  {
+    "en": "speculate",
+    "fr": "spéculer",
+    "theme": "journalistique"
+  },
+  {
+    "en": "substantiate",
+    "fr": "étayer",
+    "theme": "journalistique"
+  },
+  {
+    "en": "jurisdiction",
+    "fr": "juridiction",
+    "theme": "juridique"
+  },
+  {
+    "en": "statute",
+    "fr": "statut",
+    "theme": "juridique"
+  },
+  {
+    "en": "precedent",
+    "fr": "précédent",
+    "theme": "juridique"
+  },
+  {
+    "en": "litigation",
+    "fr": "litige",
+    "theme": "juridique"
+  },
+  {
+    "en": "arbitration",
+    "fr": "arbitrage",
+    "theme": "juridique"
+  },
+  {
+    "en": "compliance",
+    "fr": "conformité",
+    "theme": "juridique"
+  },
+  {
+    "en": "liability",
+    "fr": "responsabilité",
+    "theme": "juridique"
+  },
+  {
+    "en": "indemnity",
+    "fr": "indemnité",
+    "theme": "juridique"
+  },
+  {
+    "en": "breach",
+    "fr": "violation",
+    "theme": "juridique"
+  },
+  {
+    "en": "remedy",
+    "fr": "recours",
+    "theme": "juridique"
+  },
+  {
+    "en": "pathology",
+    "fr": "pathologie",
+    "theme": "medical"
+  },
+  {
+    "en": "etiology",
+    "fr": "étiologie",
+    "theme": "medical"
+  },
+  {
+    "en": "prognosis",
+    "fr": "pronostic",
+    "theme": "medical"
+  },
+  {
+    "en": "syndrome",
+    "fr": "syndrome",
+    "theme": "medical"
+  },
+  {
+    "en": "chronic",
+    "fr": "chronique",
+    "theme": "medical"
+  },
+  {
+    "en": "acute",
+    "fr": "aigu",
+    "theme": "medical"
+  },
+  {
+    "en": "benign",
+    "fr": "bénin",
+    "theme": "medical"
+  },
+  {
+    "en": "malignant",
+    "fr": "malin",
+    "theme": "medical"
+  },
+  {
+    "en": "inflammation",
+    "fr": "inflammation",
+    "theme": "medical"
+  },
+  {
+    "en": "metastasis",
+    "fr": "métastase",
+    "theme": "medical"
+  },
+  {
+    "en": "infrastructure",
+    "fr": "infrastructure",
+    "theme": "technique"
+  },
+  {
+    "en": "protocol",
+    "fr": "protocole",
+    "theme": "technique"
+  },
+  {
+    "en": "interface",
+    "fr": "interface",
+    "theme": "technique"
+  },
+  {
+    "en": "architecture",
+    "fr": "architecture",
+    "theme": "technique"
+  },
+  {
+    "en": "implementation",
+    "fr": "mise en œuvre",
+    "theme": "technique"
+  },
+  {
+    "en": "configuration",
+    "fr": "configuration",
+    "theme": "technique"
+  },
+  {
+    "en": "integration",
+    "fr": "intégration",
+    "theme": "technique"
+  },
+  {
+    "en": "deployment",
+    "fr": "déploiement",
+    "theme": "technique"
+  },
+  {
+    "en": "maintenance",
+    "fr": "maintenance",
+    "theme": "technique"
+  },
+  {
+    "en": "optimization",
+    "fr": "optimisation",
+    "theme": "technique"
+  },
+  {
+    "en": "phenomenology",
+    "fr": "phénoménologie",
+    "theme": "philosophique"
+  },
+  {
+    "en": "existentialism",
+    "fr": "existentialisme",
+    "theme": "philosophique"
+  },
+  {
+    "en": "pragmatism",
+    "fr": "pragmatisme",
+    "theme": "philosophique"
+  },
+  {
+    "en": "empiricism",
+    "fr": "empirisme",
+    "theme": "philosophique"
+  },
+  {
+    "en": "rationalism",
+    "fr": "rationalisme",
+    "theme": "philosophique"
+  },
+  {
+    "en": "determinism",
+    "fr": "déterminisme",
+    "theme": "philosophique"
+  },
+  {
+    "en": "relativism",
+    "fr": "relativisme",
+    "theme": "philosophique"
+  },
+  {
+    "en": "absolutism",
+    "fr": "absolutisme",
+    "theme": "philosophique"
+  },
+  {
+    "en": "dialectic",
+    "fr": "dialectique",
+    "theme": "philosophique"
+  },
+  {
+    "en": "transcendence",
+    "fr": "transcendance",
+    "theme": "philosophique"
+  },
+  {
+    "en": "persuasion",
+    "fr": "persuasion",
+    "theme": "rhetorique"
+  },
+  {
+    "en": "argumentation",
+    "fr": "argumentation",
+    "theme": "rhetorique"
+  },
+  {
+    "en": "rhetoric",
+    "fr": "rhétorique",
+    "theme": "rhetorique"
+  },
+  {
+    "en": "discourse",
+    "fr": "discours",
+    "theme": "rhetorique"
+  },
+  {
+    "en": "eloquence",
+    "fr": "éloquence",
+    "theme": "rhetorique"
+  },
+  {
+    "en": "emphatic",
+    "fr": "emphatique",
+    "theme": "rhetorique"
+  },
+  {
+    "en": "assertive",
+    "fr": "assertif",
+    "theme": "rhetorique"
+  },
+  {
+    "en": "conciliatory",
+    "fr": "conciliant",
+    "theme": "rhetorique"
+  },
+  {
+    "en": "contentious",
+    "fr": "contentieux",
+    "theme": "rhetorique"
+  },
+  {
+    "en": "polemical",
+    "fr": "polémique",
+    "theme": "rhetorique"
+  },
+  {
+    "en": "substantiate",
+    "fr": "étayer",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "corroborate",
+    "fr": "corroborer",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "exacerbate",
+    "fr": "exacerber",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "alleviate",
+    "fr": "atténuer",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "mitigate",
+    "fr": "atténuer",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "facilitate",
+    "fr": "faciliter",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "implement",
+    "fr": "mettre en œuvre",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "integrate",
+    "fr": "intégrer",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "consolidate",
+    "fr": "consolider",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "differentiate",
+    "fr": "différencier",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "elaborate",
+    "fr": "développer",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "encompass",
+    "fr": "englober",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "underscore",
+    "fr": "souligner",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "highlight",
+    "fr": "mettre en évidence",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "outline",
+    "fr": "décrire",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "delineate",
+    "fr": "délimiter",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "illustrate",
+    "fr": "illustrer",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "exemplify",
+    "fr": "exemplifier",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "demonstrate",
+    "fr": "démontrer",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "validate",
+    "fr": "valider",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "verify",
+    "fr": "vérifier",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "substantiate",
+    "fr": "justifier",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "advocate",
+    "fr": "préconiser",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "endorse",
+    "fr": "appuyer",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "condone",
+    "fr": "tolérer",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "denounce",
+    "fr": "dénoncer",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "deny",
+    "fr": "nier",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "acknowledge",
+    "fr": "reconnaître",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "concede",
+    "fr": "concéder",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "contest",
+    "fr": "contester",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "dispute",
+    "fr": "contester",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "refute",
+    "fr": "réfuter",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "rebut",
+    "fr": "réfuter",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "contradict",
+    "fr": "contredire",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "discredit",
+    "fr": "discréditer",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "undermine",
+    "fr": "miner",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "weaken",
+    "fr": "affaiblir",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "reinforce",
+    "fr": "renforcer",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "strengthen",
+    "fr": "renforcer",
+    "theme": "verbes-c1"
+  },
+  {
+    "en": "bolster",
+    "fr": "renforcer",
+    "theme": "verbes-c1"
+  }
+];
 
-    // Professionnel
-    {en:"leverage",fr:"tirer parti",theme:"professionnel"},
-    {en:"optimize",fr:"optimiser",theme:"professionnel"},
-    {en:"streamline",fr:"rationaliser",theme:"professionnel"},
-    {en:"benchmark",fr:"référence",theme:"professionnel"},
-    {en:"milestone",fr:"jalon",theme:"professionnel"},
-    {en:"deliverable",fr:"livrable",theme:"professionnel"},
-    {en:"stakeholder",fr:"partie prenante",theme:"professionnel"},
-    {en:"initiative",fr:"initiative",theme:"professionnel"},
-    {en:"accountability",fr:"responsabilité",theme:"professionnel"},
-    {en:"autonomy",fr:"autonomie",theme:"professionnel"},
-    {en:"collaboration",fr:"collaboration",theme:"professionnel"},
-    {en:"synergy",fr:"synergie",theme:"professionnel"},
-    {en:"scalability",fr:"évolutivité",theme:"professionnel"},
-    {en:"feasibility",fr:"faisabilité",theme:"professionnel"},
-    {en:"sustainability",fr:"durabilité",theme:"professionnel"},
-    {en:"competency",fr:"compétence",theme:"professionnel"},
-    {en:"proficiency",fr:"maîtrise",theme:"professionnel"},
-    {en:"expertise",fr:"expertise",theme:"professionnel"},
-    {en:"efficiency",fr:"efficacité",theme:"professionnel"},
-    {en:"productivity",fr:"productivité",theme:"professionnel"},
-
-    // Littéraire
-    {en:"eloquent",fr:"éloquent",theme:"litteraire"},
-    {en:"poignant",fr:"poignant",theme:"litteraire"},
-    {en:"evocative",fr:"évocateur",theme:"litteraire"},
-    {en:"poetic",fr:"poétique",theme:"litteraire"},
-    {en:"lyrical",fr:"lyrique",theme:"litteraire"},
-    {en:"narrative",fr:"narratif",theme:"litteraire"},
-    {en:"protagonist",fr:"protagoniste",theme:"litteraire"},
-    {en:"antagonist",fr:"antagoniste",theme:"litteraire"},
-    {en:"metaphor",fr:"métaphore",theme:"litteraire"},
-    {en:"simile",fr:"comparaison",theme:"litteraire"},
-    {en:"allegory",fr:"allégorie",theme:"litteraire"},
-    {en:"irony",fr:"ironie",theme:"litteraire"},
-    {en:"satire",fr:"satire",theme:"litteraire"},
-    {en:"symbolism",fr:"symbolisme",theme:"litteraire"},
-    {en:"imagery",fr:"imagerie",theme:"litteraire"},
-
-    // Scientifique
-    {en:"quantitative",fr:"quantitatif",theme:"scientifique"},
-    {en:"qualitative",fr:"qualitatif",theme:"scientifique"},
-    {en:"methodology",fr:"méthodologie",theme:"scientifique"},
-    {en:"framework",fr:"cadre",theme:"scientifique"},
-    {en:"variable",fr:"variable",theme:"scientifique"},
-    {en:"parameter",fr:"paramètre",theme:"scientifique"},
-    {en:"threshold",fr:"seuil",theme:"scientifique"},
-    {en:"trajectory",fr:"trajectoire",theme:"scientifique"},
-    {en:"equilibrium",fr:"équilibre",theme:"scientifique"},
-    {en:"entropy",fr:"entropie",theme:"scientifique"},
-    {en:"catalyst",fr:"catalyseur",theme:"scientifique"},
-    {en:"mechanism",fr:"mécanisme",theme:"scientifique"},
-    {en:"phenomenon",fr:"phénomène",theme:"scientifique"},
-    {en:"anomaly",fr:"anomalie",theme:"scientifique"},
-    {en:"correlation",fr:"corrélation",theme:"scientifique"},
-
-    // Journalistique
-    {en:"allege",fr:"alléguer",theme:"journalistique"},
-    {en:"purport",fr:"prétendre",theme:"journalistique"},
-    {en:"disclose",fr:"divulguer",theme:"journalistique"},
-    {en:"unveil",fr:"dévoiler",theme:"journalistique"},
-    {en:"expose",fr:"révéler",theme:"journalistique"},
-    {en:"scrutinize",fr:"examiner",theme:"journalistique"},
-    {en:"corroborate",fr:"corroborer",theme:"journalistique"},
-    {en:"contradict",fr:"contredire",theme:"journalistique"},
-    {en:"speculate",fr:"spéculer",theme:"journalistique"},
-    {en:"substantiate",fr:"étayer",theme:"journalistique"},
-
-    // Juridique
-    {en:"jurisdiction",fr:"juridiction",theme:"juridique"},
-    {en:"statute",fr:"statut",theme:"juridique"},
-    {en:"precedent",fr:"précédent",theme:"juridique"},
-    {en:"litigation",fr:"litige",theme:"juridique"},
-    {en:"arbitration",fr:"arbitrage",theme:"juridique"},
-    {en:"compliance",fr:"conformité",theme:"juridique"},
-    {en:"liability",fr:"responsabilité",theme:"juridique"},
-    {en:"indemnity",fr:"indemnité",theme:"juridique"},
-    {en:"breach",fr:"violation",theme:"juridique"},
-    {en:"remedy",fr:"recours",theme:"juridique"},
-
-    // Médical
-    {en:"pathology",fr:"pathologie",theme:"medical"},
-    {en:"etiology",fr:"étiologie",theme:"medical"},
-    {en:"prognosis",fr:"pronostic",theme:"medical"},
-    {en:"syndrome",fr:"syndrome",theme:"medical"},
-    {en:"chronic",fr:"chronique",theme:"medical"},
-    {en:"acute",fr:"aigu",theme:"medical"},
-    {en:"benign",fr:"bénin",theme:"medical"},
-    {en:"malignant",fr:"malin",theme:"medical"},
-    {en:"inflammation",fr:"inflammation",theme:"medical"},
-    {en:"metastasis",fr:"métastase",theme:"medical"},
-
-    // Technique
-    {en:"infrastructure",fr:"infrastructure",theme:"technique"},
-    {en:"protocol",fr:"protocole",theme:"technique"},
-    {en:"interface",fr:"interface",theme:"technique"},
-    {en:"architecture",fr:"architecture",theme:"technique"},
-    {en:"implementation",fr:"mise en œuvre",theme:"technique"},
-    {en:"configuration",fr:"configuration",theme:"technique"},
-    {en:"integration",fr:"intégration",theme:"technique"},
-    {en:"deployment",fr:"déploiement",theme:"technique"},
-    {en:"maintenance",fr:"maintenance",theme:"technique"},
-    {en:"optimization",fr:"optimisation",theme:"technique"},
-
-    // Philosophique
-    {en:"phenomenology",fr:"phénoménologie",theme:"philosophique"},
-    {en:"existentialism",fr:"existentialisme",theme:"philosophique"},
-    {en:"pragmatism",fr:"pragmatisme",theme:"philosophique"},
-    {en:"empiricism",fr:"empirisme",theme:"philosophique"},
-    {en:"rationalism",fr:"rationalisme",theme:"philosophique"},
-    {en:"determinism",fr:"déterminisme",theme:"philosophique"},
-    {en:"relativism",fr:"relativisme",theme:"philosophique"},
-    {en:"absolutism",fr:"absolutisme",theme:"philosophique"},
-    {en:"dialectic",fr:"dialectique",theme:"philosophique"},
-    {en:"transcendence",fr:"transcendance",theme:"philosophique"},
-
-    // Rhétorique
-    {en:"persuasion",fr:"persuasion",theme:"rhetorique"},
-    {en:"argumentation",fr:"argumentation",theme:"rhetorique"},
-    {en:"rhetoric",fr:"rhétorique",theme:"rhetorique"},
-    {en:"discourse",fr:"discours",theme:"rhetorique"},
-    {en:"eloquence",fr:"éloquence",theme:"rhetorique"},
-    {en:"emphatic",fr:"emphatique",theme:"rhetorique"},
-    {en:"assertive",fr:"assertif",theme:"rhetorique"},
-    {en:"conciliatory",fr:"conciliant",theme:"rhetorique"},
-    {en:"contentious",fr:"contentieux",theme:"rhetorique"},
-    {en:"polemical",fr:"polémique",theme:"rhetorique"},
-
-    // Verbes C1
-    {en:"substantiate",fr:"étayer",theme:"verbes-c1"},
-    {en:"corroborate",fr:"corroborer",theme:"verbes-c1"},
-    {en:"exacerbate",fr:"exacerber",theme:"verbes-c1"},
-    {en:"alleviate",fr:"atténuer",theme:"verbes-c1"},
-    {en:"mitigate",fr:"atténuer",theme:"verbes-c1"},
-    {en:"facilitate",fr:"faciliter",theme:"verbes-c1"},
-    {en:"implement",fr:"mettre en œuvre",theme:"verbes-c1"},
-    {en:"integrate",fr:"intégrer",theme:"verbes-c1"},
-    {en:"consolidate",fr:"consolider",theme:"verbes-c1"},
-    {en:"differentiate",fr:"différencier",theme:"verbes-c1"},
-    {en:"elaborate",fr:"développer",theme:"verbes-c1"},
-    {en:"encompass",fr:"englober",theme:"verbes-c1"},
-    {en:"underscore",fr:"souligner",theme:"verbes-c1"},
-    {en:"highlight",fr:"mettre en évidence",theme:"verbes-c1"},
-    {en:"outline",fr:"décrire",theme:"verbes-c1"},
-    {en:"delineate",fr:"délimiter",theme:"verbes-c1"},
-    {en:"illustrate",fr:"illustrer",theme:"verbes-c1"},
-    {en:"exemplify",fr:"exemplifier",theme:"verbes-c1"},
-    {en:"demonstrate",fr:"démontrer",theme:"verbes-c1"},
-    {en:"validate",fr:"valider",theme:"verbes-c1"},
-    {en:"verify",fr:"vérifier",theme:"verbes-c1"},
-    {en:"substantiate",fr:"justifier",theme:"verbes-c1"},
-    {en:"advocate",fr:"préconiser",theme:"verbes-c1"},
-    {en:"endorse",fr:"appuyer",theme:"verbes-c1"},
-    {en:"condone",fr:"tolérer",theme:"verbes-c1"},
-    {en:"denounce",fr:"dénoncer",theme:"verbes-c1"},
-    {en:"deny",fr:"nier",theme:"verbes-c1"},
-    {en:"acknowledge",fr:"reconnaître",theme:"verbes-c1"},
-    {en:"concede",fr:"concéder",theme:"verbes-c1"},
-    {en:"contest",fr:"contester",theme:"verbes-c1"},
-    {en:"dispute",fr:"contester",theme:"verbes-c1"},
-    {en:"refute",fr:"réfuter",theme:"verbes-c1"},
-    {en:"rebut",fr:"réfuter",theme:"verbes-c1"},
-    {en:"contradict",fr:"contredire",theme:"verbes-c1"},
-    {en:"discredit",fr:"discréditer",theme:"verbes-c1"},
-    {en:"undermine",fr:"miner",theme:"verbes-c1"},
-    {en:"weaken",fr:"affaiblir",theme:"verbes-c1"},
-    {en:"reinforce",fr:"renforcer",theme:"verbes-c1"},
-    {en:"strengthen",fr:"renforcer",theme:"verbes-c1"},
-    {en:"bolster",fr:"renforcer",theme:"verbes-c1"}
-  ];
-
-  // ============================================================
-  // NIVEAU C2 — 300 mots
-  // ============================================================
+  // ========== C2 — 140 mots ==========
   const C2 = [
-    {en:"serendipity",fr:"heureux hasard",theme:"litteraire-avance"},
-    {en:"quintessential",fr:"par excellence",theme:"litteraire-avance"},
-    {en:"ephemeral",fr:"éphémère",theme:"litteraire-avance"},
-    {en:"idiosyncrasy",fr:"idiosyncrasie",theme:"litteraire-avance"},
-    {en:"esoteric",fr:"ésotérique",theme:"litteraire-avance"},
-    {en:"perfunctory",fr:"superficiel",theme:"litteraire-avance"},
-    {en:"obfuscate",fr:"obscurcir",theme:"litteraire-avance"},
-    {en:"recalcitrant",fr:"récalcitrant",theme:"litteraire-avance"},
-    {en:"ubiquitous",fr:"omniprésent",theme:"litteraire-avance"},
-    {en:"ineffable",fr:"ineffable",theme:"litteraire-avance"},
-    {en:"inexorable",fr:"inexorable",theme:"litteraire-avance"},
-    {en:"insidious",fr:"insidieux",theme:"litteraire-avance"},
-    {en:"obsequious",fr:"obséquieux",theme:"litteraire-avance"},
-    {en:"sycophantic",fr:"flagorneur",theme:"litteraire-avance"},
-    {en:"magnanimous",fr:"magnanime",theme:"litteraire-avance"},
-    {en:"pusillanimous",fr:"pusillanime",theme:"litteraire-avance"},
-    {en:"mercurial",fr:"capricieux",theme:"litteraire-avance"},
-    {en:"vociferous",fr:"bruyant",theme:"litteraire-avance"},
-    {en:"loquacious",fr:"loquace",theme:"litteraire-avance"},
-    {en:"taciturn",fr:"taciturne",theme:"litteraire-avance"},
-    {en:"erudite",fr:"érudit",theme:"litteraire-avance"},
-    {en:"sagacious",fr:"sagace",theme:"litteraire-avance"},
-    {en:"perspicacious",fr:"perspicace",theme:"litteraire-avance"},
-    {en:"astute",fr:"astucieux",theme:"litteraire-avance"},
-    {en:"canny",fr:"avisé",theme:"litteraire-avance"},
+  {
+    "en": "serendipity",
+    "fr": "heureux hasard",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "quintessential",
+    "fr": "par excellence",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "ephemeral",
+    "fr": "éphémère",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "idiosyncrasy",
+    "fr": "idiosyncrasie",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "esoteric",
+    "fr": "ésotérique",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "perfunctory",
+    "fr": "superficiel",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "obfuscate",
+    "fr": "obscurcir",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "recalcitrant",
+    "fr": "récalcitrant",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "ubiquitous",
+    "fr": "omniprésent",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "ineffable",
+    "fr": "ineffable",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "inexorable",
+    "fr": "inexorable",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "insidious",
+    "fr": "insidieux",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "obsequious",
+    "fr": "obséquieux",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "sycophantic",
+    "fr": "flagorneur",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "magnanimous",
+    "fr": "magnanime",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "pusillanimous",
+    "fr": "pusillanime",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "mercurial",
+    "fr": "capricieux",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "vociferous",
+    "fr": "bruyant",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "loquacious",
+    "fr": "loquace",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "taciturn",
+    "fr": "taciturne",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "erudite",
+    "fr": "érudit",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "sagacious",
+    "fr": "sagace",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "perspicacious",
+    "fr": "perspicace",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "astute",
+    "fr": "astucieux",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "canny",
+    "fr": "avisé",
+    "theme": "litteraire-avance"
+  },
+  {
+    "en": "ephemeral",
+    "fr": "fugace",
+    "theme": "poetique"
+  },
+  {
+    "en": "ethereal",
+    "fr": "éthéré",
+    "theme": "poetique"
+  },
+  {
+    "en": "celestial",
+    "fr": "céleste",
+    "theme": "poetique"
+  },
+  {
+    "en": "luminous",
+    "fr": "lumineux",
+    "theme": "poetique"
+  },
+  {
+    "en": "resplendent",
+    "fr": "resplendissant",
+    "theme": "poetique"
+  },
+  {
+    "en": "sublime",
+    "fr": "sublime",
+    "theme": "poetique"
+  },
+  {
+    "en": "ethereal",
+    "fr": "vaporeux",
+    "theme": "poetique"
+  },
+  {
+    "en": "somber",
+    "fr": "sombre",
+    "theme": "poetique"
+  },
+  {
+    "en": "melancholic",
+    "fr": "mélancolique",
+    "theme": "poetique"
+  },
+  {
+    "en": "serene",
+    "fr": "serein",
+    "theme": "poetique"
+  },
+  {
+    "en": "tranquil",
+    "fr": "tranquille",
+    "theme": "poetique"
+  },
+  {
+    "en": "tumultuous",
+    "fr": "tumultueux",
+    "theme": "poetique"
+  },
+  {
+    "en": "tempestuous",
+    "fr": "orageux",
+    "theme": "poetique"
+  },
+  {
+    "en": "halcyon",
+    "fr": "paisible",
+    "theme": "poetique"
+  },
+  {
+    "en": "bucolic",
+    "fr": "bucolique",
+    "theme": "poetique"
+  },
+  {
+    "en": "epistemology",
+    "fr": "épistémologie",
+    "theme": "philosophique-avance"
+  },
+  {
+    "en": "ontology",
+    "fr": "ontologie",
+    "theme": "philosophique-avance"
+  },
+  {
+    "en": "teleology",
+    "fr": "téléologie",
+    "theme": "philosophique-avance"
+  },
+  {
+    "en": "phenomenology",
+    "fr": "phénoménologie",
+    "theme": "philosophique-avance"
+  },
+  {
+    "en": "hermeneutics",
+    "fr": "herméneutique",
+    "theme": "philosophique-avance"
+  },
+  {
+    "en": "dialectic",
+    "fr": "dialectique",
+    "theme": "philosophique-avance"
+  },
+  {
+    "en": "syllogism",
+    "fr": "syllogisme",
+    "theme": "philosophique-avance"
+  },
+  {
+    "en": "tautology",
+    "fr": "tautologie",
+    "theme": "philosophique-avance"
+  },
+  {
+    "en": "paradox",
+    "fr": "paradoxe",
+    "theme": "philosophique-avance"
+  },
+  {
+    "en": "antinomy",
+    "fr": "antinomie",
+    "theme": "philosophique-avance"
+  },
+  {
+    "en": "aporia",
+    "fr": "aporie",
+    "theme": "philosophique-avance"
+  },
+  {
+    "en": "heuristic",
+    "fr": "heuristique",
+    "theme": "philosophique-avance"
+  },
+  {
+    "en": "a priori",
+    "fr": "a priori",
+    "theme": "philosophique-avance"
+  },
+  {
+    "en": "a posteriori",
+    "fr": "a posteriori",
+    "theme": "philosophique-avance"
+  },
+  {
+    "en": "sublation",
+    "fr": "dépassement",
+    "theme": "philosophique-avance"
+  },
+  {
+    "en": "hypothesis",
+    "fr": "hypothèse",
+    "theme": "scientifique-avance"
+  },
+  {
+    "en": "axiom",
+    "fr": "axiome",
+    "theme": "scientifique-avance"
+  },
+  {
+    "en": "theorem",
+    "fr": "théorème",
+    "theme": "scientifique-avance"
+  },
+  {
+    "en": "corollary",
+    "fr": "corollaire",
+    "theme": "scientifique-avance"
+  },
+  {
+    "en": "paradigm",
+    "fr": "paradigme",
+    "theme": "scientifique-avance"
+  },
+  {
+    "en": "heuristic",
+    "fr": "heuristique",
+    "theme": "scientifique-avance"
+  },
+  {
+    "en": "algorithm",
+    "fr": "algorithme",
+    "theme": "scientifique-avance"
+  },
+  {
+    "en": "stochastic",
+    "fr": "stochastique",
+    "theme": "scientifique-avance"
+  },
+  {
+    "en": "deterministic",
+    "fr": "déterministe",
+    "theme": "scientifique-avance"
+  },
+  {
+    "en": "asymptotic",
+    "fr": "asymptotique",
+    "theme": "scientifique-avance"
+  },
+  {
+    "en": "orthogonal",
+    "fr": "orthogonal",
+    "theme": "scientifique-avance"
+  },
+  {
+    "en": "isomorphic",
+    "fr": "isomorphe",
+    "theme": "scientifique-avance"
+  },
+  {
+    "en": "homogeneous",
+    "fr": "homogène",
+    "theme": "scientifique-avance"
+  },
+  {
+    "en": "heterogeneous",
+    "fr": "hétérogène",
+    "theme": "scientifique-avance"
+  },
+  {
+    "en": "emergent",
+    "fr": "émergent",
+    "theme": "scientifique-avance"
+  },
+  {
+    "en": "jurisprudence",
+    "fr": "jurisprudence",
+    "theme": "juridique-avance"
+  },
+  {
+    "en": "tort",
+    "fr": "délit civil",
+    "theme": "juridique-avance"
+  },
+  {
+    "en": "felony",
+    "fr": "crime",
+    "theme": "juridique-avance"
+  },
+  {
+    "en": "misdemeanor",
+    "fr": "délit",
+    "theme": "juridique-avance"
+  },
+  {
+    "en": "injunction",
+    "fr": "injonction",
+    "theme": "juridique-avance"
+  },
+  {
+    "en": "affidavit",
+    "fr": "affidavit",
+    "theme": "juridique-avance"
+  },
+  {
+    "en": "subpoena",
+    "fr": "citation à comparaître",
+    "theme": "juridique-avance"
+  },
+  {
+    "en": "deposition",
+    "fr": "déposition",
+    "theme": "juridique-avance"
+  },
+  {
+    "en": "adjudicate",
+    "fr": "juger",
+    "theme": "juridique-avance"
+  },
+  {
+    "en": "arbitrate",
+    "fr": "arbitrer",
+    "theme": "juridique-avance"
+  },
+  {
+    "en": "litigate",
+    "fr": "plaider",
+    "theme": "juridique-avance"
+  },
+  {
+    "en": "prosecute",
+    "fr": "poursuivre",
+    "theme": "juridique-avance"
+  },
+  {
+    "en": "acquit",
+    "fr": "acquitter",
+    "theme": "juridique-avance"
+  },
+  {
+    "en": "convict",
+    "fr": "condamner",
+    "theme": "juridique-avance"
+  },
+  {
+    "en": "exonerate",
+    "fr": "disculper",
+    "theme": "juridique-avance"
+  },
+  {
+    "en": "archaic",
+    "fr": "archaïque",
+    "theme": "archaique"
+  },
+  {
+    "en": "obsolete",
+    "fr": "obsolète",
+    "theme": "archaique"
+  },
+  {
+    "en": "anachronism",
+    "fr": "anachronisme",
+    "theme": "archaique"
+  },
+  {
+    "en": "vestige",
+    "fr": "vestige",
+    "theme": "archaique"
+  },
+  {
+    "en": "relic",
+    "fr": "relique",
+    "theme": "archaique"
+  },
+  {
+    "en": "antiquated",
+    "fr": "désuet",
+    "theme": "archaique"
+  },
+  {
+    "en": "quaint",
+    "fr": "pittoresque",
+    "theme": "archaique"
+  },
+  {
+    "en": "antiquated",
+    "fr": "suranné",
+    "theme": "archaique"
+  },
+  {
+    "en": "erstwhile",
+    "fr": "d'autrefois",
+    "theme": "archaique"
+  },
+  {
+    "en": "whilom",
+    "fr": "jadis",
+    "theme": "archaique"
+  },
+  {
+    "en": "cryptography",
+    "fr": "cryptographie",
+    "theme": "technique-specialise"
+  },
+  {
+    "en": "nanotechnology",
+    "fr": "nanotechnologie",
+    "theme": "technique-specialise"
+  },
+  {
+    "en": "biotechnology",
+    "fr": "biotechnologie",
+    "theme": "technique-specialise"
+  },
+  {
+    "en": "semiconductor",
+    "fr": "semi-conducteur",
+    "theme": "technique-specialise"
+  },
+  {
+    "en": "microprocessor",
+    "fr": "microprocesseur",
+    "theme": "technique-specialise"
+  },
+  {
+    "en": "telecommunications",
+    "fr": "télécommunications",
+    "theme": "technique-specialise"
+  },
+  {
+    "en": "satellite",
+    "fr": "satellite",
+    "theme": "technique-specialise"
+  },
+  {
+    "en": "spectroscopy",
+    "fr": "spectroscopie",
+    "theme": "technique-specialise"
+  },
+  {
+    "en": "chromatography",
+    "fr": "chromatographie",
+    "theme": "technique-specialise"
+  },
+  {
+    "en": "calibration",
+    "fr": "étalonnage",
+    "theme": "technique-specialise"
+  },
+  {
+    "en": "granularity",
+    "fr": "granularité",
+    "theme": "technique-specialise"
+  },
+  {
+    "en": "scalability",
+    "fr": "scalabilité",
+    "theme": "technique-specialise"
+  },
+  {
+    "en": "interoperability",
+    "fr": "interopérabilité",
+    "theme": "technique-specialise"
+  },
+  {
+    "en": "virtualization",
+    "fr": "virtualisation",
+    "theme": "technique-specialise"
+  },
+  {
+    "en": "containerization",
+    "fr": "conteneurisation",
+    "theme": "technique-specialise"
+  },
+  {
+    "en": "promulgate",
+    "fr": "promulguer",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "promulgate",
+    "fr": "diffuser",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "disseminate",
+    "fr": "diffuser",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "proliferate",
+    "fr": "proliférer",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "exacerbate",
+    "fr": "exacerber",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "ameliorate",
+    "fr": "améliorer",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "expedite",
+    "fr": "accélérer",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "facilitate",
+    "fr": "faciliter",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "obfuscate",
+    "fr": "obscurcir",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "elucidate",
+    "fr": "élucider",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "elaborate",
+    "fr": "expliciter",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "extrapolate",
+    "fr": "extrapoler",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "hypothesize",
+    "fr": "hypothétiser",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "postulate",
+    "fr": "postuler",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "presuppose",
+    "fr": "présupposer",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "substantiate",
+    "fr": "établir",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "corroborate",
+    "fr": "confirmer",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "disentangle",
+    "fr": "démêler",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "elucidate",
+    "fr": "éclaircir",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "demystify",
+    "fr": "démystifier",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "encapsulate",
+    "fr": "encapsuler",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "epitomize",
+    "fr": "incarner",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "exemplify",
+    "fr": "illustrer",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "personify",
+    "fr": "personnifier",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "reify",
+    "fr": "réifier",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "instantiate",
+    "fr": "instancier",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "problematize",
+    "fr": "problématiser",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "contextualize",
+    "fr": "contextualiser",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "conceptualize",
+    "fr": "conceptualiser",
+    "theme": "verbes-c2"
+  },
+  {
+    "en": "operationalize",
+    "fr": "opérationnaliser",
+    "theme": "verbes-c2"
+  }
+];
 
-    {en:"ephemeral",fr:"fugace",theme:"poetique"},
-    {en:"ethereal",fr:"éthéré",theme:"poetique"},
-    {en:"celestial",fr:"céleste",theme:"poetique"},
-    {en:"luminous",fr:"lumineux",theme:"poetique"},
-    {en:"resplendent",fr:"resplendissant",theme:"poetique"},
-    {en:"sublime",fr:"sublime",theme:"poetique"},
-    {en:"ethereal",fr:"vaporeux",theme:"poetique"},
-    {en:"somber",fr:"sombre",theme:"poetique"},
-    {en:"melancholic",fr:"mélancolique",theme:"poetique"},
-    {en:"serene",fr:"serein",theme:"poetique"},
-    {en:"tranquil",fr:"tranquille",theme:"poetique"},
-    {en:"tumultuous",fr:"tumultueux",theme:"poetique"},
-    {en:"tempestuous",fr:"orageux",theme:"poetique"},
-    {en:"halcyon",fr:"paisible",theme:"poetique"},
-    {en:"bucolic",fr:"bucolique",theme:"poetique"},
+  // ============================================================
+  // DISTRIBUTION DES MOTS PAR NIVEAU (selon leur thème)
+  // ============================================================
+  // Récupérer tous les mots du grand tableau (peu importe son nom)
+  // ============================================================
+// DISTRIBUTION : on a 6 tableaux séparés (A1, A2, B1, B2, C1, C2)
+// On les expose DIRECTEMENT — pas besoin de redistribuer
+// ============================================================
+window.WORDS_A1 = typeof A1 !== 'undefined' ? A1 : [];
+window.WORDS_A2 = typeof A2 !== 'undefined' ? A2 : [];
+window.WORDS_B1 = typeof B1 !== 'undefined' ? B1 : [];
+window.WORDS_B2 = typeof B2 !== 'undefined' ? B2 : [];
+window.WORDS_C1 = typeof C1 !== 'undefined' ? C1 : [];
+window.WORDS_C2 = typeof C2 !== 'undefined' ? C2 : [];
 
-    {en:"epistemology",fr:"épistémologie",theme:"philosophique-avance"},
-    {en:"ontology",fr:"ontologie",theme:"philosophique-avance"},
-    {en:"teleology",fr:"téléologie",theme:"philosophique-avance"},
-    {en:"phenomenology",fr:"phénoménologie",theme:"philosophique-avance"},
-    {en:"hermeneutics",fr:"herméneutique",theme:"philosophique-avance"},
-    {en:"dialectic",fr:"dialectique",theme:"philosophique-avance"},
-    {en:"syllogism",fr:"syllogisme",theme:"philosophique-avance"},
-    {en:"tautology",fr:"tautologie",theme:"philosophique-avance"},
-    {en:"paradox",fr:"paradoxe",theme:"philosophique-avance"},
-    {en:"antinomy",fr:"antinomie",theme:"philosophique-avance"},
-    {en:"aporia",fr:"aporie",theme:"philosophique-avance"},
-    {en:"heuristic",fr:"heuristique",theme:"philosophique-avance"},
-    {en:"a priori",fr:"a priori",theme:"philosophique-avance"},
-    {en:"a posteriori",fr:"a posteriori",theme:"philosophique-avance"},
-    {en:"sublation",fr:"dépassement",theme:"philosophique-avance"},
-
-    {en:"hypothesis",fr:"hypothèse",theme:"scientifique-avance"},
-    {en:"axiom",fr:"axiome",theme:"scientifique-avance"},
-    {en:"theorem",fr:"théorème",theme:"scientifique-avance"},
-    {en:"corollary",fr:"corollaire",theme:"scientifique-avance"},
-    {en:"paradigm",fr:"paradigme",theme:"scientifique-avance"},
-    {en:"heuristic",fr:"heuristique",theme:"scientifique-avance"},
-    {en:"algorithm",fr:"algorithme",theme:"scientifique-avance"},
-    {en:"stochastic",fr:"stochastique",theme:"scientifique-avance"},
-    {en:"deterministic",fr:"déterministe",theme:"scientifique-avance"},
-    {en:"asymptotic",fr:"asymptotique",theme:"scientifique-avance"},
-    {en:"orthogonal",fr:"orthogonal",theme:"scientifique-avance"},
-    {en:"isomorphic",fr:"isomorphe",theme:"scientifique-avance"},
-    {en:"homogeneous",fr:"homogène",theme:"scientifique-avance"},
-    {en:"heterogeneous",fr:"hétérogène",theme:"scientifique-avance"},
-    {en:"emergent",fr:"émergent",theme:"scientifique-avance"},
-
-    {en:"jurisprudence",fr:"jurisprudence",theme:"juridique-avance"},
-    {en:"tort",fr:"délit civil",theme:"juridique-avance"},
-    {en:"felony",fr:"crime",theme:"juridique-avance"},
-    {en:"misdemeanor",fr:"délit",theme:"juridique-avance"},
-    {en:"injunction",fr:"injonction",theme:"juridique-avance"},
-    {en:"affidavit",fr:"affidavit",theme:"juridique-avance"},
-    {en:"subpoena",fr:"citation à comparaître",theme:"juridique-avance"},
-    {en:"deposition",fr:"déposition",theme:"juridique-avance"},
-    {en:"adjudicate",fr:"juger",theme:"juridique-avance"},
-    {en:"arbitrate",fr:"arbitrer",theme:"juridique-avance"},
-    {en:"litigate",fr:"plaider",theme:"juridique-avance"},
-    {en:"prosecute",fr:"poursuivre",theme:"juridique-avance"},
-    {en:"acquit",fr:"acquitter",theme:"juridique-avance"},
-    {en:"convict",fr:"condamner",theme:"juridique-avance"},
-    {en:"exonerate",fr:"disculper",theme:"juridique-avance"},
-
-    {en:"archaic",fr:"archaïque",theme:"archaique"},
-    {en:"obsolete",fr:"obsolète",theme:"archaique"},
-    {en:"anachronism",fr:"anachronisme",theme:"archaique"},
-    {en:"vestige",fr:"vestige",theme:"archaique"},
-    {en:"relic",fr:"relique",theme:"archaique"},
-    {en:"antiquated",fr:"désuet",theme:"archaique"},
-    {en:"quaint",fr:"pittoresque",theme:"archaique"},
-    {en:"antiquated",fr:"suranné",theme:"archaique"},
-    {en:"erstwhile",fr:"d'autrefois",theme:"archaique"},
-    {en:"whilom",fr:"jadis",theme:"archaique"},
-
-    {en:"cryptography",fr:"cryptographie",theme:"technique-specialise"},
-    {en:"nanotechnology",fr:"nanotechnologie",theme:"technique-specialise"},
-    {en:"biotechnology",fr:"biotechnologie",theme:"technique-specialise"},
-    {en:"semiconductor",fr:"semi-conducteur",theme:"technique-specialise"},
-    {en:"microprocessor",fr:"microprocesseur",theme:"technique-specialise"},
-    {en:"telecommunications",fr:"télécommunications",theme:"technique-specialise"},
-    {en:"satellite",fr:"satellite",theme:"technique-specialise"},
-    {en:"spectroscopy",fr:"spectroscopie",theme:"technique-specialise"},
-    {en:"chromatography",fr:"chromatographie",theme:"technique-specialise"},
-    {en:"calibration",fr:"étalonnage",theme:"technique-specialise"},
-    {en:"granularity",fr:"granularité",theme:"technique-specialise"},
-    {en:"scalability",fr:"scalabilité",theme:"technique-specialise"},
-    {en:"interoperability",fr:"interopérabilité",theme:"technique-specialise"},
-    {en:"virtualization",fr:"virtualisation",theme:"technique-specialise"},
-    {en:"containerization",fr:"conteneurisation",theme:"technique-specialise"},
-
-    // Verbes C2
-    {en:"promulgate",fr:"promulguer",theme:"verbes-c2"},
-    {en:"promulgate",fr:"diffuser",theme:"verbes-c2"},
-    {en:"disseminate",fr:"diffuser",theme:"verbes-c2"},
-    {en:"proliferate",fr:"proliférer",theme:"verbes-c2"},
-    {en:"exacerbate",fr:"exacerber",theme:"verbes-c2"},
-    {en:"ameliorate",fr:"améliorer",theme:"verbes-c2"},
-    {en:"expedite",fr:"accélérer",theme:"verbes-c2"},
-    {en:"facilitate",fr:"faciliter",theme:"verbes-c2"},
-    {en:"obfuscate",fr:"obscurcir",theme:"verbes-c2"},
-    {en:"elucidate",fr:"élucider",theme:"verbes-c2"},
-    {en:"elaborate",fr:"expliciter",theme:"verbes-c2"},
-    {en:"extrapolate",fr:"extrapoler",theme:"verbes-c2"},
-    {en:"hypothesize",fr:"hypothétiser",theme:"verbes-c2"},
-    {en:"postulate",fr:"postuler",theme:"verbes-c2"},
-    {en:"presuppose",fr:"présupposer",theme:"verbes-c2"},
-    {en:"substantiate",fr:"établir",theme:"verbes-c2"},
-    {en:"corroborate",fr:"confirmer",theme:"verbes-c2"},
-    {en:"disentangle",fr:"démêler",theme:"verbes-c2"},
-    {en:"elucidate",fr:"éclaircir",theme:"verbes-c2"},
-    {en:"demystify",fr:"démystifier",theme:"verbes-c2"},
-    {en:"encapsulate",fr:"encapsuler",theme:"verbes-c2"},
-    {en:"epitomize",fr:"incarner",theme:"verbes-c2"},
-    {en:"exemplify",fr:"illustrer",theme:"verbes-c2"},
-    {en:"personify",fr:"personnifier",theme:"verbes-c2"},
-    {en:"reify",fr:"réifier",theme:"verbes-c2"},
-    {en:"instantiate",fr:"instancier",theme:"verbes-c2"},
-    {en:"problematize",fr:"problématiser",theme:"verbes-c2"},
-    {en:"contextualize",fr:"contextualiser",theme:"verbes-c2"},
-    {en:"conceptualize",fr:"conceptualiser",theme:"verbes-c2"},
-    {en:"operationalize",fr:"opérationnaliser",theme:"verbes-c2"}
-  ];
-
-  // Exposer globalement
-  window.WORDS_A1 = A1;
-  window.WORDS_A2 = A2;
-  window.WORDS_B1 = B1;
-  window.WORDS_B2 = B2;
-  window.WORDS_C1 = C1;
-  window.WORDS_C2 = C2;
-
-  console.log('📚 Mots chargés :', 
-    A1.length + A2.length + B1.length + B2.length + C1.length + C2.length);
+console.log('📚 Mots chargés :',
+  'A1=' + window.WORDS_A1.length,
+  'A2=' + window.WORDS_A2.length,
+  'B1=' + window.WORDS_B1.length,
+  'B2=' + window.WORDS_B2.length,
+  'C1=' + window.WORDS_C1.length,
+  'C2=' + window.WORDS_C2.length,
+  'TOTAL=' + (
+    window.WORDS_A1.length + window.WORDS_A2.length +
+    window.WORDS_B1.length + window.WORDS_B2.length +
+    window.WORDS_C1.length + window.WORDS_C2.length
+  ));
 })();

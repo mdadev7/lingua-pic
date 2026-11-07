@@ -1,0 +1,11594 @@
+[
+  {
+    "en": "hello",
+    "fr": "bonjour",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "hi",
+    "fr": "salut",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "goodbye",
+    "fr": "au revoir",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "bye",
+    "fr": "bye",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "please",
+    "fr": "s'il vous plaît",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "thank you",
+    "fr": "merci",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "thanks",
+    "fr": "merci",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "sorry",
+    "fr": "désolé",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "excuse me",
+    "fr": "excusez-moi",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "yes",
+    "fr": "oui",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "no",
+    "fr": "non",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "welcome",
+    "fr": "bienvenue",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "good morning",
+    "fr": "bonjour (matin)",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "good afternoon",
+    "fr": "bon après-midi",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "good evening",
+    "fr": "bonsoir",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "good night",
+    "fr": "bonne nuit",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "sir",
+    "fr": "monsieur",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "madam",
+    "fr": "madame",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "how are you",
+    "fr": "comment vas-tu",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "nice to meet you",
+    "fr": "enchanté",
+    "theme": "salutations",
+    "level": "A1"
+  },
+  {
+    "en": "family",
+    "fr": "famille",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "mother",
+    "fr": "mère",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "father",
+    "fr": "père",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "mom",
+    "fr": "maman",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "dad",
+    "fr": "papa",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "brother",
+    "fr": "frère",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "sister",
+    "fr": "sœur",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "son",
+    "fr": "fils",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "daughter",
+    "fr": "fille",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "child",
+    "fr": "enfant",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "baby",
+    "fr": "bébé",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "grandmother",
+    "fr": "grand-mère",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "grandfather",
+    "fr": "grand-père",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "grandparents",
+    "fr": "grands-parents",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "uncle",
+    "fr": "oncle",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "aunt",
+    "fr": "tante",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "cousin",
+    "fr": "cousin(e)",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "parents",
+    "fr": "parents",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "husband",
+    "fr": "mari",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "wife",
+    "fr": "épouse",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "man",
+    "fr": "homme",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "woman",
+    "fr": "femme",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "boy",
+    "fr": "garçon",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "girl",
+    "fr": "fille",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "people",
+    "fr": "gens",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "person",
+    "fr": "personne",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "friend",
+    "fr": "ami",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "neighbor",
+    "fr": "voisin",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "name",
+    "fr": "nom",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "age",
+    "fr": "âge",
+    "theme": "famille",
+    "level": "A1"
+  },
+  {
+    "en": "zero",
+    "fr": "zéro",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "one",
+    "fr": "un",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "two",
+    "fr": "deux",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "three",
+    "fr": "trois",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "four",
+    "fr": "quatre",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "five",
+    "fr": "cinq",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "six",
+    "fr": "six",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "seven",
+    "fr": "sept",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "eight",
+    "fr": "huit",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "nine",
+    "fr": "neuf",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "ten",
+    "fr": "dix",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "eleven",
+    "fr": "onze",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "twelve",
+    "fr": "douze",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "thirteen",
+    "fr": "treize",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "twenty",
+    "fr": "vingt",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "thirty",
+    "fr": "trente",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "forty",
+    "fr": "quarante",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "fifty",
+    "fr": "cinquante",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "hundred",
+    "fr": "cent",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "thousand",
+    "fr": "mille",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "million",
+    "fr": "million",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "first",
+    "fr": "premier",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "second",
+    "fr": "deuxième",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "third",
+    "fr": "troisième",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "half",
+    "fr": "moitié",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "number",
+    "fr": "nombre",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "many",
+    "fr": "beaucoup",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "few",
+    "fr": "peu",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "some",
+    "fr": "quelques",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "all",
+    "fr": "tout",
+    "theme": "nombres",
+    "level": "A1"
+  },
+  {
+    "en": "color",
+    "fr": "couleur",
+    "theme": "couleurs",
+    "level": "A1"
+  },
+  {
+    "en": "red",
+    "fr": "rouge",
+    "theme": "couleurs",
+    "level": "A1"
+  },
+  {
+    "en": "blue",
+    "fr": "bleu",
+    "theme": "couleurs",
+    "level": "A1"
+  },
+  {
+    "en": "green",
+    "fr": "vert",
+    "theme": "couleurs",
+    "level": "A1"
+  },
+  {
+    "en": "yellow",
+    "fr": "jaune",
+    "theme": "couleurs",
+    "level": "A1"
+  },
+  {
+    "en": "black",
+    "fr": "noir",
+    "theme": "couleurs",
+    "level": "A1"
+  },
+  {
+    "en": "white",
+    "fr": "blanc",
+    "theme": "couleurs",
+    "level": "A1"
+  },
+  {
+    "en": "orange",
+    "fr": "orange",
+    "theme": "couleurs",
+    "level": "A1"
+  },
+  {
+    "en": "purple",
+    "fr": "violet",
+    "theme": "couleurs",
+    "level": "A1"
+  },
+  {
+    "en": "pink",
+    "fr": "rose",
+    "theme": "couleurs",
+    "level": "A1"
+  },
+  {
+    "en": "brown",
+    "fr": "marron",
+    "theme": "couleurs",
+    "level": "A1"
+  },
+  {
+    "en": "gray",
+    "fr": "gris",
+    "theme": "couleurs",
+    "level": "A1"
+  },
+  {
+    "en": "gold",
+    "fr": "or",
+    "theme": "couleurs",
+    "level": "A1"
+  },
+  {
+    "en": "silver",
+    "fr": "argent",
+    "theme": "couleurs",
+    "level": "A1"
+  },
+  {
+    "en": "dark",
+    "fr": "sombre",
+    "theme": "couleurs",
+    "level": "A1"
+  },
+  {
+    "en": "food",
+    "fr": "nourriture",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "water",
+    "fr": "eau",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "bread",
+    "fr": "pain",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "milk",
+    "fr": "lait",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "coffee",
+    "fr": "café",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "tea",
+    "fr": "thé",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "juice",
+    "fr": "jus",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "apple",
+    "fr": "pomme",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "banana",
+    "fr": "banane",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "orange fruit",
+    "fr": "orange (fruit)",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "grape",
+    "fr": "raisin",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "strawberry",
+    "fr": "fraise",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "lemon",
+    "fr": "citron",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "meat",
+    "fr": "viande",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "chicken",
+    "fr": "poulet",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "beef",
+    "fr": "bœuf",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "fish",
+    "fr": "poisson",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "egg",
+    "fr": "œuf",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "cheese",
+    "fr": "fromage",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "butter",
+    "fr": "beurre",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "rice",
+    "fr": "riz",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "pasta",
+    "fr": "pâtes",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "potato",
+    "fr": "pomme de terre",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "tomato",
+    "fr": "tomate",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "carrot",
+    "fr": "carotte",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "onion",
+    "fr": "oignon",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "salad",
+    "fr": "salade",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "soup",
+    "fr": "soupe",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "sandwich",
+    "fr": "sandwich",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "pizza",
+    "fr": "pizza",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "cake",
+    "fr": "gâteau",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "sugar",
+    "fr": "sucre",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "salt",
+    "fr": "sel",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "pepper",
+    "fr": "poivre",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "oil",
+    "fr": "huile",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "breakfast",
+    "fr": "petit-déjeuner",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "lunch",
+    "fr": "déjeuner",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "dinner",
+    "fr": "dîner",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "meal",
+    "fr": "repas",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "fruit",
+    "fr": "fruit",
+    "theme": "nourriture",
+    "level": "A1"
+  },
+  {
+    "en": "animal",
+    "fr": "animal",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "dog",
+    "fr": "chien",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "cat",
+    "fr": "chat",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "bird",
+    "fr": "oiseau",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "horse",
+    "fr": "cheval",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "cow",
+    "fr": "vache",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "pig",
+    "fr": "cochon",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "sheep",
+    "fr": "mouton",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "goat",
+    "fr": "chèvre",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "rabbit",
+    "fr": "lapin",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "mouse",
+    "fr": "souris",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "elephant",
+    "fr": "éléphant",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "lion",
+    "fr": "lion",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "tiger",
+    "fr": "tigre",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "monkey",
+    "fr": "singe",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "bear",
+    "fr": "ours",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "wolf",
+    "fr": "loup",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "fox",
+    "fr": "renard",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "duck",
+    "fr": "canard",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "chicken animal",
+    "fr": "poule",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "bee",
+    "fr": "abeille",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "butterfly",
+    "fr": "papillon",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "ant",
+    "fr": "fourmi",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "snake",
+    "fr": "serpent",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "frog",
+    "fr": "grenouille",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "turtle",
+    "fr": "tortue",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "dolphin",
+    "fr": "dauphin",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "whale",
+    "fr": "baleine",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "shark",
+    "fr": "requin",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "penguin",
+    "fr": "pingouin",
+    "theme": "animaux",
+    "level": "A1"
+  },
+  {
+    "en": "body",
+    "fr": "corps",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "head",
+    "fr": "tête",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "hair",
+    "fr": "cheveux",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "face",
+    "fr": "visage",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "eye",
+    "fr": "œil",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "ear",
+    "fr": "oreille",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "nose",
+    "fr": "nez",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "mouth",
+    "fr": "bouche",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "tooth",
+    "fr": "dent",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "tongue",
+    "fr": "langue",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "neck",
+    "fr": "cou",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "shoulder",
+    "fr": "épaule",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "arm",
+    "fr": "bras",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "hand",
+    "fr": "main",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "finger",
+    "fr": "doigt",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "leg",
+    "fr": "jambe",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "foot",
+    "fr": "pied",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "knee",
+    "fr": "genou",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "back",
+    "fr": "dos",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "chest",
+    "fr": "poitrine",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "heart",
+    "fr": "cœur",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "stomach",
+    "fr": "estomac",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "skin",
+    "fr": "peau",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "bone",
+    "fr": "os",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "blood",
+    "fr": "sang",
+    "theme": "corps",
+    "level": "A1"
+  },
+  {
+    "en": "house",
+    "fr": "maison",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "home",
+    "fr": "chez soi",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "room",
+    "fr": "pièce",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "kitchen",
+    "fr": "cuisine",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "bedroom",
+    "fr": "chambre",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "bathroom",
+    "fr": "salle de bain",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "living room",
+    "fr": "salon",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "door",
+    "fr": "porte",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "window",
+    "fr": "fenêtre",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "wall",
+    "fr": "mur",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "floor",
+    "fr": "sol",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "ceiling",
+    "fr": "plafond",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "roof",
+    "fr": "toit",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "table",
+    "fr": "table",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "chair",
+    "fr": "chaise",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "bed",
+    "fr": "lit",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "sofa",
+    "fr": "canapé",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "lamp",
+    "fr": "lampe",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "mirror",
+    "fr": "miroir",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "clock",
+    "fr": "horloge",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "key",
+    "fr": "clé",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "garden",
+    "fr": "jardin",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "garage",
+    "fr": "garage",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "stairs",
+    "fr": "escalier",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "carpet",
+    "fr": "tapis",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "pillow",
+    "fr": "oreiller",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "blanket",
+    "fr": "couverture",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "towel",
+    "fr": "serviette",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "soap",
+    "fr": "savon",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "brush",
+    "fr": "brosse",
+    "theme": "maison",
+    "level": "A1"
+  },
+  {
+    "en": "clothes",
+    "fr": "vêtements",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "shirt",
+    "fr": "chemise",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "t-shirt",
+    "fr": "t-shirt",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "pants",
+    "fr": "pantalon",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "jeans",
+    "fr": "jean",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "dress",
+    "fr": "robe",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "skirt",
+    "fr": "jupe",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "coat",
+    "fr": "manteau",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "jacket",
+    "fr": "veste",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "sweater",
+    "fr": "pull",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "shoes",
+    "fr": "chaussures",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "boots",
+    "fr": "bottes",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "socks",
+    "fr": "chaussettes",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "hat",
+    "fr": "chapeau",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "cap",
+    "fr": "casquette",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "scarf",
+    "fr": "écharpe",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "gloves",
+    "fr": "gants",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "belt",
+    "fr": "ceinture",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "tie",
+    "fr": "cravate",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "bag",
+    "fr": "sac",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "watch",
+    "fr": "montre",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "ring",
+    "fr": "bague",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "glasses",
+    "fr": "lunettes",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "umbrella",
+    "fr": "parapluie",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "pocket",
+    "fr": "poche",
+    "theme": "vetements",
+    "level": "A1"
+  },
+  {
+    "en": "day",
+    "fr": "jour",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "week",
+    "fr": "semaine",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "month",
+    "fr": "mois",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "year",
+    "fr": "année",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "hour",
+    "fr": "heure",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "minute",
+    "fr": "minute",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "second time",
+    "fr": "seconde",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "morning",
+    "fr": "matin",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "afternoon",
+    "fr": "après-midi",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "evening",
+    "fr": "soir",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "night",
+    "fr": "nuit",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "today",
+    "fr": "aujourd'hui",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "tomorrow",
+    "fr": "demain",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "yesterday",
+    "fr": "hier",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "now",
+    "fr": "maintenant",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "later",
+    "fr": "plus tard",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "monday",
+    "fr": "lundi",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "tuesday",
+    "fr": "mardi",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "wednesday",
+    "fr": "mercredi",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "thursday",
+    "fr": "jeudi",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "friday",
+    "fr": "vendredi",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "saturday",
+    "fr": "samedi",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "sunday",
+    "fr": "dimanche",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "january",
+    "fr": "janvier",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "february",
+    "fr": "février",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "march",
+    "fr": "mars",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "april",
+    "fr": "avril",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "may",
+    "fr": "mai",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "june",
+    "fr": "juin",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "july",
+    "fr": "juillet",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "august",
+    "fr": "août",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "september",
+    "fr": "septembre",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "october",
+    "fr": "octobre",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "november",
+    "fr": "novembre",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "december",
+    "fr": "décembre",
+    "theme": "temps",
+    "level": "A1"
+  },
+  {
+    "en": "be",
+    "fr": "être",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "have",
+    "fr": "avoir",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "do",
+    "fr": "faire",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "go",
+    "fr": "aller",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "come",
+    "fr": "venir",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "eat",
+    "fr": "manger",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "drink",
+    "fr": "boire",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "sleep",
+    "fr": "dormir",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "wake up",
+    "fr": "se réveiller",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "walk",
+    "fr": "marcher",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "run",
+    "fr": "courir",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "sit",
+    "fr": "s'asseoir",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "stand",
+    "fr": "se lever",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "speak",
+    "fr": "parler",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "say",
+    "fr": "dire",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "tell",
+    "fr": "raconter",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "listen",
+    "fr": "écouter",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "hear",
+    "fr": "entendre",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "see",
+    "fr": "voir",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "look",
+    "fr": "regarder",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "watch",
+    "fr": "observer",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "read",
+    "fr": "lire",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "write",
+    "fr": "écrire",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "learn",
+    "fr": "apprendre",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "study",
+    "fr": "étudier",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "work",
+    "fr": "travailler",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "play",
+    "fr": "jouer",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "think",
+    "fr": "penser",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "know",
+    "fr": "savoir",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "understand",
+    "fr": "comprendre",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "remember",
+    "fr": "se souvenir",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "forget",
+    "fr": "oublier",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "love",
+    "fr": "aimer",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "like",
+    "fr": "aimer bien",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "want",
+    "fr": "vouloir",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "need",
+    "fr": "avoir besoin",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "give",
+    "fr": "donner",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "take",
+    "fr": "prendre",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "buy",
+    "fr": "acheter",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "sell",
+    "fr": "vendre",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "open",
+    "fr": "ouvrir",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "close",
+    "fr": "fermer",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "start",
+    "fr": "commencer",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "finish",
+    "fr": "finir",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "help",
+    "fr": "aider",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "try",
+    "fr": "essayer",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "use",
+    "fr": "utiliser",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "find",
+    "fr": "trouver",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "lose",
+    "fr": "perdre",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "win",
+    "fr": "gagner",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "laugh",
+    "fr": "rire",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "cry",
+    "fr": "pleurer",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "sing",
+    "fr": "chanter",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "dance",
+    "fr": "danser",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "cook",
+    "fr": "cuisiner",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "clean",
+    "fr": "nettoyer",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "wash",
+    "fr": "laver",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "drive",
+    "fr": "conduire",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "fly",
+    "fr": "voler",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "swim",
+    "fr": "nager",
+    "theme": "verbes",
+    "level": "A1"
+  },
+  {
+    "en": "good",
+    "fr": "bon",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "bad",
+    "fr": "mauvais",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "big",
+    "fr": "grand",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "small",
+    "fr": "petit",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "tall",
+    "fr": "haut",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "short",
+    "fr": "court",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "long",
+    "fr": "long",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "new",
+    "fr": "nouveau",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "old",
+    "fr": "vieux",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "young",
+    "fr": "jeune",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "hot",
+    "fr": "chaud",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "cold",
+    "fr": "froid",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "happy",
+    "fr": "heureux",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "sad",
+    "fr": "triste",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "fast",
+    "fr": "rapide",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "slow",
+    "fr": "lent",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "easy",
+    "fr": "facile",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "hard",
+    "fr": "difficile",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "beautiful",
+    "fr": "beau",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "ugly",
+    "fr": "laid",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "rich",
+    "fr": "riche",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "poor",
+    "fr": "pauvre",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "strong",
+    "fr": "fort",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "weak",
+    "fr": "faible",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "clean adj",
+    "fr": "propre",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "dirty",
+    "fr": "sale",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "full",
+    "fr": "plein",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "empty",
+    "fr": "vide",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "open adj",
+    "fr": "ouvert",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "closed",
+    "fr": "fermé",
+    "theme": "adjectifs",
+    "level": "A1"
+  },
+  {
+    "en": "school",
+    "fr": "école",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "student",
+    "fr": "étudiant",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "teacher",
+    "fr": "professeur",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "class",
+    "fr": "classe",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "lesson",
+    "fr": "leçon",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "book",
+    "fr": "livre",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "notebook",
+    "fr": "cahier",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "pen",
+    "fr": "stylo",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "pencil",
+    "fr": "crayon",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "paper",
+    "fr": "papier",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "bag school",
+    "fr": "cartable",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "desk",
+    "fr": "bureau",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "chair school",
+    "fr": "chaise",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "blackboard",
+    "fr": "tableau",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "homework",
+    "fr": "devoirs",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "exam",
+    "fr": "examen",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "test",
+    "fr": "test",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "question",
+    "fr": "question",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "answer",
+    "fr": "réponse",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "word",
+    "fr": "mot",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "sentence",
+    "fr": "phrase",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "language",
+    "fr": "langue",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "english",
+    "fr": "anglais",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "french",
+    "fr": "français",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "university",
+    "fr": "université",
+    "theme": "ecole",
+    "level": "A1"
+  },
+  {
+    "en": "sport",
+    "fr": "sport",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "football",
+    "fr": "football",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "basketball",
+    "fr": "basketball",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "tennis",
+    "fr": "tennis",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "swimming",
+    "fr": "natation",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "running",
+    "fr": "course",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "cycling",
+    "fr": "cyclisme",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "game",
+    "fr": "jeu",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "team",
+    "fr": "équipe",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "player",
+    "fr": "joueur",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "ball",
+    "fr": "ballon",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "music",
+    "fr": "musique",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "song",
+    "fr": "chanson",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "movie",
+    "fr": "film",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "film",
+    "fr": "film",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "dance hobby",
+    "fr": "danse",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "hobby",
+    "fr": "passe-temps",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "travel",
+    "fr": "voyager",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "party",
+    "fr": "fête",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "holiday",
+    "fr": "vacances",
+    "theme": "sports",
+    "level": "A1"
+  },
+  {
+    "en": "car",
+    "fr": "voiture",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "bus",
+    "fr": "bus",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "train",
+    "fr": "train",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "plane",
+    "fr": "avion",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "boat",
+    "fr": "bateau",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "bike",
+    "fr": "vélo",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "taxi",
+    "fr": "taxi",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "road",
+    "fr": "route",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "street",
+    "fr": "rue",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "city",
+    "fr": "ville",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "village",
+    "fr": "village",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "country",
+    "fr": "pays",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "shop",
+    "fr": "magasin",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "market",
+    "fr": "marché",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "hospital",
+    "fr": "hôpital",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "doctor",
+    "fr": "médecin",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "pharmacy",
+    "fr": "pharmacie",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "bank",
+    "fr": "banque",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "post office",
+    "fr": "bureau de poste",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "library",
+    "fr": "bibliothèque",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "museum",
+    "fr": "musée",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "park",
+    "fr": "parc",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "beach",
+    "fr": "plage",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "mountain",
+    "fr": "montagne",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "river",
+    "fr": "rivière",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "sea",
+    "fr": "mer",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "forest",
+    "fr": "forêt",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "country side",
+    "fr": "campagne",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "place",
+    "fr": "endroit",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "world",
+    "fr": "monde",
+    "theme": "lieux",
+    "level": "A1"
+  },
+  {
+    "en": "emotion",
+    "fr": "émotion",
+    "theme": "emotions",
+    "level": "A1"
+  },
+  {
+    "en": "joy",
+    "fr": "joie",
+    "theme": "emotions",
+    "level": "A1"
+  },
+  {
+    "en": "sadness",
+    "fr": "tristesse",
+    "theme": "emotions",
+    "level": "A1"
+  },
+  {
+    "en": "anger",
+    "fr": "colère",
+    "theme": "emotions",
+    "level": "A1"
+  },
+  {
+    "en": "fear",
+    "fr": "peur",
+    "theme": "emotions",
+    "level": "A1"
+  },
+  {
+    "en": "surprise",
+    "fr": "surprise",
+    "theme": "emotions",
+    "level": "A1"
+  },
+  {
+    "en": "love emotion",
+    "fr": "amour",
+    "theme": "emotions",
+    "level": "A1"
+  },
+  {
+    "en": "hate",
+    "fr": "haine",
+    "theme": "emotions",
+    "level": "A1"
+  },
+  {
+    "en": "excited",
+    "fr": "excité",
+    "theme": "emotions",
+    "level": "A1"
+  },
+  {
+    "en": "tired",
+    "fr": "fatigué",
+    "theme": "emotions",
+    "level": "A1"
+  },
+  {
+    "en": "bored",
+    "fr": "ennuyé",
+    "theme": "emotions",
+    "level": "A1"
+  },
+  {
+    "en": "proud",
+    "fr": "fier",
+    "theme": "emotions",
+    "level": "A1"
+  },
+  {
+    "en": "worried",
+    "fr": "inquiet",
+    "theme": "emotions",
+    "level": "A1"
+  },
+  {
+    "en": "calm",
+    "fr": "calme",
+    "theme": "emotions",
+    "level": "A1"
+  },
+  {
+    "en": "nervous",
+    "fr": "nerveux",
+    "theme": "emotions",
+    "level": "A1"
+  },
+  {
+    "en": "travel",
+    "fr": "voyage",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "airport",
+    "fr": "aéroport",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "station",
+    "fr": "gare",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "ticket",
+    "fr": "billet",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "passport",
+    "fr": "passeport",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "luggage",
+    "fr": "bagages",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "suitcase",
+    "fr": "valise",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "flight",
+    "fr": "vol",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "hotel",
+    "fr": "hôtel",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "reservation",
+    "fr": "réservation",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "destination",
+    "fr": "destination",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "journey",
+    "fr": "trajet",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "trip",
+    "fr": "voyage court",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "tourist",
+    "fr": "touriste",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "guide",
+    "fr": "guide",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "map",
+    "fr": "carte",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "souvenir",
+    "fr": "souvenir",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "camera",
+    "fr": "appareil photo",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "visa",
+    "fr": "visa",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "customs",
+    "fr": "douane",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "departure",
+    "fr": "départ",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "arrival",
+    "fr": "arrivée",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "delay",
+    "fr": "retard",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "platform",
+    "fr": "quai",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "gate",
+    "fr": "porte d'embarquement",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "seat",
+    "fr": "siège",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "window seat",
+    "fr": "place côté fenêtre",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "board",
+    "fr": "embarquer",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "land",
+    "fr": "atterrir",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "pack",
+    "fr": "faire ses bagages",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "abroad",
+    "fr": "à l'étranger",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "foreign",
+    "fr": "étranger",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "local",
+    "fr": "local",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "tour",
+    "fr": "visite",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "sightseeing",
+    "fr": "tourisme",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "beach vacation",
+    "fr": "vacances à la plage",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "adventure",
+    "fr": "aventure",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "explore",
+    "fr": "explorer",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "discover",
+    "fr": "découvrir",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "return",
+    "fr": "retourner",
+    "theme": "voyage",
+    "level": "A2"
+  },
+  {
+    "en": "weather",
+    "fr": "météo",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "sunny",
+    "fr": "ensoleillé",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "rainy",
+    "fr": "pluvieux",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "cloudy",
+    "fr": "nuageux",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "windy",
+    "fr": "venteux",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "snowy",
+    "fr": "neigeux",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "storm",
+    "fr": "orage",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "rain",
+    "fr": "pluie",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "snow",
+    "fr": "neige",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "wind",
+    "fr": "vent",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "cloud",
+    "fr": "nuage",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "sun",
+    "fr": "soleil",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "moon",
+    "fr": "lune",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "star",
+    "fr": "étoile",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "sky",
+    "fr": "ciel",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "temperature",
+    "fr": "température",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "degree",
+    "fr": "degré",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "hot weather",
+    "fr": "chaud",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "cold weather",
+    "fr": "froid",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "forecast",
+    "fr": "prévisions",
+    "theme": "meteo",
+    "level": "A2"
+  },
+  {
+    "en": "restaurant",
+    "fr": "restaurant",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "menu",
+    "fr": "carte",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "waiter",
+    "fr": "serveur",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "waitress",
+    "fr": "serveuse",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "bill",
+    "fr": "addition",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "tip",
+    "fr": "pourboire",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "order",
+    "fr": "commander",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "table for two",
+    "fr": "table pour deux",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "starter",
+    "fr": "entrée",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "main course",
+    "fr": "plat principal",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "dessert",
+    "fr": "dessert",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "drink",
+    "fr": "boisson",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "delicious",
+    "fr": "délicieux",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "spicy",
+    "fr": "épicé",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "sweet",
+    "fr": "sucré",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "salty",
+    "fr": "salé",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "sour",
+    "fr": "acide",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "bitter",
+    "fr": "amer",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "fresh",
+    "fr": "frais",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "frozen",
+    "fr": "congelé",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "grilled",
+    "fr": "grillé",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "fried",
+    "fr": "frit",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "baked",
+    "fr": "cuit au four",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "boiled",
+    "fr": "bouilli",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "raw",
+    "fr": "cru",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "vegetarian",
+    "fr": "végétarien",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "hungry",
+    "fr": "affamé",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "thirsty",
+    "fr": "assoiffé",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "recipe",
+    "fr": "recette",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "ingredient",
+    "fr": "ingrédient",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "knife",
+    "fr": "couteau",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "fork",
+    "fr": "fourchette",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "spoon",
+    "fr": "cuillère",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "plate",
+    "fr": "assiette",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "glass",
+    "fr": "verre",
+    "theme": "restaurant",
+    "level": "A2"
+  },
+  {
+    "en": "shop",
+    "fr": "magasin",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "shopping",
+    "fr": "courses",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "customer",
+    "fr": "client",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "cashier",
+    "fr": "caissier",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "price",
+    "fr": "prix",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "cheap",
+    "fr": "bon marché",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "expensive",
+    "fr": "cher",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "discount",
+    "fr": "réduction",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "sale",
+    "fr": "soldes",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "receipt",
+    "fr": "reçu",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "cash",
+    "fr": "espèces",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "credit card",
+    "fr": "carte de crédit",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "change",
+    "fr": "monnaie",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "size",
+    "fr": "taille",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "try on",
+    "fr": "essayer",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "fit",
+    "fr": "aller (taille)",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "buy",
+    "fr": "acheter",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "pay",
+    "fr": "payer",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "spend",
+    "fr": "dépenser",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "save money",
+    "fr": "économiser",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "market",
+    "fr": "marché",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "supermarket",
+    "fr": "supermarché",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "bakery",
+    "fr": "boulangerie",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "butcher",
+    "fr": "boucherie",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "mall",
+    "fr": "centre commercial",
+    "theme": "shopping",
+    "level": "A2"
+  },
+  {
+    "en": "health",
+    "fr": "santé",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "sick",
+    "fr": "malade",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "ill",
+    "fr": "malade",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "healthy",
+    "fr": "sain",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "doctor",
+    "fr": "médecin",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "nurse",
+    "fr": "infirmière",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "hospital",
+    "fr": "hôpital",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "medicine",
+    "fr": "médicament",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "pill",
+    "fr": "pilule",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "pain",
+    "fr": "douleur",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "headache",
+    "fr": "mal de tête",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "stomachache",
+    "fr": "mal au ventre",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "toothache",
+    "fr": "mal aux dents",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "fever",
+    "fr": "fièvre",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "cough",
+    "fr": "toux",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "cold ill",
+    "fr": "rhume",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "flu",
+    "fr": "grippe",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "allergy",
+    "fr": "allergie",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "injury",
+    "fr": "blessure",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "tired",
+    "fr": "fatigué",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "rest",
+    "fr": "repos",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "sleep",
+    "fr": "sommeil",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "exercise",
+    "fr": "exercice",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "diet",
+    "fr": "régime",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "appointment",
+    "fr": "rendez-vous",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "emergency",
+    "fr": "urgence",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "ambulance",
+    "fr": "ambulance",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "pharmacy",
+    "fr": "pharmacie",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "prescription",
+    "fr": "ordonnance",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "recover",
+    "fr": "guérir",
+    "theme": "sante",
+    "level": "A2"
+  },
+  {
+    "en": "job",
+    "fr": "emploi",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "work",
+    "fr": "travail",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "office",
+    "fr": "bureau",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "boss",
+    "fr": "patron",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "employee",
+    "fr": "employé",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "employer",
+    "fr": "employeur",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "colleague",
+    "fr": "collègue",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "meeting",
+    "fr": "réunion",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "project",
+    "fr": "projet",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "deadline",
+    "fr": "date limite",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "salary",
+    "fr": "salaire",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "contract",
+    "fr": "contrat",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "interview",
+    "fr": "entretien",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "resume",
+    "fr": "CV",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "experience",
+    "fr": "expérience",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "skill",
+    "fr": "compétence",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "task",
+    "fr": "tâche",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "report",
+    "fr": "rapport",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "email",
+    "fr": "courriel",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "computer",
+    "fr": "ordinateur",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "phone",
+    "fr": "téléphone",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "customer work",
+    "fr": "client",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "part-time",
+    "fr": "à temps partiel",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "full-time",
+    "fr": "à temps plein",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "retire",
+    "fr": "retraite",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "promotion",
+    "fr": "promotion",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "training",
+    "fr": "formation",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "internship",
+    "fr": "stage",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "freelance",
+    "fr": "indépendant",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "unemployed",
+    "fr": "au chômage",
+    "theme": "travail",
+    "level": "A2"
+  },
+  {
+    "en": "city",
+    "fr": "ville",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "town",
+    "fr": "ville",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "village",
+    "fr": "village",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "street",
+    "fr": "rue",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "avenue",
+    "fr": "avenue",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "square",
+    "fr": "place",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "building",
+    "fr": "immeuble",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "bridge",
+    "fr": "pont",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "traffic",
+    "fr": "circulation",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "traffic light",
+    "fr": "feu",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "crosswalk",
+    "fr": "passage piéton",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "sidewalk",
+    "fr": "trottoir",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "subway",
+    "fr": "métro",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "bus stop",
+    "fr": "arrêt de bus",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "parking",
+    "fr": "parking",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "cafe",
+    "fr": "café",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "movie theater",
+    "fr": "cinéma",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "church",
+    "fr": "église",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "police",
+    "fr": "police",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "fire station",
+    "fr": "caserne de pompiers",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "government",
+    "fr": "gouvernement",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "town hall",
+    "fr": "mairie",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "library town",
+    "fr": "bibliothèque",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "stadium",
+    "fr": "stade",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "zoo",
+    "fr": "zoo",
+    "theme": "ville",
+    "level": "A2"
+  },
+  {
+    "en": "nature",
+    "fr": "nature",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "tree",
+    "fr": "arbre",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "flower",
+    "fr": "fleur",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "grass",
+    "fr": "herbe",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "leaf",
+    "fr": "feuille",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "plant",
+    "fr": "plante",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "seed",
+    "fr": "graine",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "root",
+    "fr": "racine",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "branch",
+    "fr": "branche",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "forest",
+    "fr": "forêt",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "mountain",
+    "fr": "montagne",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "hill",
+    "fr": "colline",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "valley",
+    "fr": "vallée",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "lake",
+    "fr": "lac",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "river",
+    "fr": "rivière",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "ocean",
+    "fr": "océan",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "island",
+    "fr": "île",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "desert",
+    "fr": "désert",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "sand",
+    "fr": "sable",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "stone",
+    "fr": "pierre",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "earth",
+    "fr": "terre",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "air",
+    "fr": "air",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "fire",
+    "fr": "feu",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "environment",
+    "fr": "environnement",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "animal wild",
+    "fr": "animal sauvage",
+    "theme": "nature",
+    "level": "A2"
+  },
+  {
+    "en": "technology",
+    "fr": "technologie",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "computer",
+    "fr": "ordinateur",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "phone",
+    "fr": "téléphone",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "smartphone",
+    "fr": "smartphone",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "tablet",
+    "fr": "tablette",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "screen",
+    "fr": "écran",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "keyboard",
+    "fr": "clavier",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "mouse tech",
+    "fr": "souris",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "internet",
+    "fr": "internet",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "website",
+    "fr": "site web",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "email",
+    "fr": "email",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "password",
+    "fr": "mot de passe",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "download",
+    "fr": "télécharger",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "upload",
+    "fr": "téléverser",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "click",
+    "fr": "cliquer",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "search",
+    "fr": "rechercher",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "app",
+    "fr": "application",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "message",
+    "fr": "message",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "photo",
+    "fr": "photo",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "video",
+    "fr": "vidéo",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "charger",
+    "fr": "chargeur",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "battery",
+    "fr": "batterie",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "wifi",
+    "fr": "wifi",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "network",
+    "fr": "réseau",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "device",
+    "fr": "appareil",
+    "theme": "technologie",
+    "level": "A2"
+  },
+  {
+    "en": "right",
+    "fr": "droite",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "left",
+    "fr": "gauche",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "straight",
+    "fr": "tout droit",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "up",
+    "fr": "en haut",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "down",
+    "fr": "en bas",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "north",
+    "fr": "nord",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "south",
+    "fr": "sud",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "east",
+    "fr": "est",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "west",
+    "fr": "ouest",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "behind",
+    "fr": "derrière",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "in front of",
+    "fr": "devant",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "next to",
+    "fr": "à côté de",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "between",
+    "fr": "entre",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "near",
+    "fr": "près",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "far",
+    "fr": "loin",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "inside",
+    "fr": "à l'intérieur",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "outside",
+    "fr": "à l'extérieur",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "above",
+    "fr": "au-dessus",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "below",
+    "fr": "en dessous",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "corner",
+    "fr": "coin",
+    "theme": "directions",
+    "level": "A2"
+  },
+  {
+    "en": "money",
+    "fr": "argent",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "price",
+    "fr": "prix",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "cost",
+    "fr": "coût",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "pay",
+    "fr": "payer",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "buy",
+    "fr": "acheter",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "sell",
+    "fr": "vendre",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "bank",
+    "fr": "banque",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "account",
+    "fr": "compte",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "card",
+    "fr": "carte",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "cash",
+    "fr": "espèces",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "coin",
+    "fr": "pièce",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "bill money",
+    "fr": "billet",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "change money",
+    "fr": "monnaie",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "salary",
+    "fr": "salaire",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "save",
+    "fr": "économiser",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "spend",
+    "fr": "dépenser",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "borrow",
+    "fr": "emprunter",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "lend",
+    "fr": "prêter",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "owe",
+    "fr": "devoir",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "rich",
+    "fr": "riche",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "poor",
+    "fr": "pauvre",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "cheap",
+    "fr": "pas cher",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "expensive",
+    "fr": "cher",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "free",
+    "fr": "gratuit",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "tax",
+    "fr": "taxe",
+    "theme": "argent",
+    "level": "A2"
+  },
+  {
+    "en": "hobby",
+    "fr": "passe-temps",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "reading",
+    "fr": "lecture",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "writing",
+    "fr": "écriture",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "painting",
+    "fr": "peinture",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "drawing",
+    "fr": "dessin",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "photography",
+    "fr": "photographie",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "cooking",
+    "fr": "cuisine",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "gardening",
+    "fr": "jardinage",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "fishing",
+    "fr": "pêche",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "hiking",
+    "fr": "randonnée",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "camping",
+    "fr": "camping",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "traveling",
+    "fr": "voyager",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "shopping",
+    "fr": "shopping",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "gaming",
+    "fr": "jeux vidéo",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "singing",
+    "fr": "chanter",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "dancing",
+    "fr": "danser",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "playing music",
+    "fr": "jouer de la musique",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "watching TV",
+    "fr": "regarder la télé",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "collecting",
+    "fr": "collectionner",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "volunteering",
+    "fr": "bénévolat",
+    "theme": "hobbies",
+    "level": "A2"
+  },
+  {
+    "en": "sleeve",
+    "fr": "manche",
+    "theme": "vetements-detail",
+    "level": "A2"
+  },
+  {
+    "en": "collar",
+    "fr": "col",
+    "theme": "vetements-detail",
+    "level": "A2"
+  },
+  {
+    "en": "button",
+    "fr": "bouton",
+    "theme": "vetements-detail",
+    "level": "A2"
+  },
+  {
+    "en": "zipper",
+    "fr": "fermeture éclair",
+    "theme": "vetements-detail",
+    "level": "A2"
+  },
+  {
+    "en": "pocket",
+    "fr": "poche",
+    "theme": "vetements-detail",
+    "level": "A2"
+  },
+  {
+    "en": "lace",
+    "fr": "lacet",
+    "theme": "vetements-detail",
+    "level": "A2"
+  },
+  {
+    "en": "heel",
+    "fr": "talon",
+    "theme": "vetements-detail",
+    "level": "A2"
+  },
+  {
+    "en": "cotton",
+    "fr": "coton",
+    "theme": "vetements-detail",
+    "level": "A2"
+  },
+  {
+    "en": "wool",
+    "fr": "laine",
+    "theme": "vetements-detail",
+    "level": "A2"
+  },
+  {
+    "en": "leather",
+    "fr": "cuir",
+    "theme": "vetements-detail",
+    "level": "A2"
+  },
+  {
+    "en": "silk",
+    "fr": "soie",
+    "theme": "vetements-detail",
+    "level": "A2"
+  },
+  {
+    "en": "pattern",
+    "fr": "motif",
+    "theme": "vetements-detail",
+    "level": "A2"
+  },
+  {
+    "en": "striped",
+    "fr": "rayé",
+    "theme": "vetements-detail",
+    "level": "A2"
+  },
+  {
+    "en": "plain",
+    "fr": "uni",
+    "theme": "vetements-detail",
+    "level": "A2"
+  },
+  {
+    "en": "loose",
+    "fr": "ample",
+    "theme": "vetements-detail",
+    "level": "A2"
+  },
+  {
+    "en": "coach",
+    "fr": "entraîneur",
+    "theme": "sports-detail",
+    "level": "A2"
+  },
+  {
+    "en": "match",
+    "fr": "match",
+    "theme": "sports-detail",
+    "level": "A2"
+  },
+  {
+    "en": "championship",
+    "fr": "championnat",
+    "theme": "sports-detail",
+    "level": "A2"
+  },
+  {
+    "en": "score",
+    "fr": "score",
+    "theme": "sports-detail",
+    "level": "A2"
+  },
+  {
+    "en": "goal",
+    "fr": "but",
+    "theme": "sports-detail",
+    "level": "A2"
+  },
+  {
+    "en": "referee",
+    "fr": "arbitre",
+    "theme": "sports-detail",
+    "level": "A2"
+  },
+  {
+    "en": "stadium",
+    "fr": "stade",
+    "theme": "sports-detail",
+    "level": "A2"
+  },
+  {
+    "en": "fan",
+    "fr": "fan",
+    "theme": "sports-detail",
+    "level": "A2"
+  },
+  {
+    "en": "practice",
+    "fr": "entraînement",
+    "theme": "sports-detail",
+    "level": "A2"
+  },
+  {
+    "en": "train",
+    "fr": "s'entraîner",
+    "theme": "sports-detail",
+    "level": "A2"
+  },
+  {
+    "en": "win",
+    "fr": "gagner",
+    "theme": "sports-detail",
+    "level": "A2"
+  },
+  {
+    "en": "lose",
+    "fr": "perdre",
+    "theme": "sports-detail",
+    "level": "A2"
+  },
+  {
+    "en": "tie",
+    "fr": "égalité",
+    "theme": "sports-detail",
+    "level": "A2"
+  },
+  {
+    "en": "tournament",
+    "fr": "tournoi",
+    "theme": "sports-detail",
+    "level": "A2"
+  },
+  {
+    "en": "athlete",
+    "fr": "athlète",
+    "theme": "sports-detail",
+    "level": "A2"
+  },
+  {
+    "en": "career",
+    "fr": "carrière",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "profession",
+    "fr": "profession",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "occupation",
+    "fr": "métier",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "management",
+    "fr": "gestion",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "manager",
+    "fr": "gérant",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "supervisor",
+    "fr": "superviseur",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "department",
+    "fr": "service",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "company",
+    "fr": "entreprise",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "business",
+    "fr": "affaires",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "client",
+    "fr": "client",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "supplier",
+    "fr": "fournisseur",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "partnership",
+    "fr": "partenariat",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "negotiation",
+    "fr": "négociation",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "agreement",
+    "fr": "accord",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "proposal",
+    "fr": "proposition",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "strategy",
+    "fr": "stratégie",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "goal",
+    "fr": "objectif",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "achievement",
+    "fr": "réussite",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "performance",
+    "fr": "performance",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "efficiency",
+    "fr": "efficacité",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "productivity",
+    "fr": "productivité",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "quality",
+    "fr": "qualité",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "responsibility",
+    "fr": "responsabilité",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "authority",
+    "fr": "autorité",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "decision",
+    "fr": "décision",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "opportunity",
+    "fr": "opportunité",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "challenge",
+    "fr": "défi",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "problem",
+    "fr": "problème",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "solution",
+    "fr": "solution",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "improvement",
+    "fr": "amélioration",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "development",
+    "fr": "développement",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "growth",
+    "fr": "croissance",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "success",
+    "fr": "succès",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "failure",
+    "fr": "échec",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "effort",
+    "fr": "effort",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "result",
+    "fr": "résultat",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "benefit",
+    "fr": "avantage",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "advantage",
+    "fr": "avantage",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "disadvantage",
+    "fr": "inconvénient",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "risk",
+    "fr": "risque",
+    "theme": "travail-avance",
+    "level": "B1"
+  },
+  {
+    "en": "education",
+    "fr": "éducation",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "knowledge",
+    "fr": "connaissance",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "research",
+    "fr": "recherche",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "science",
+    "fr": "science",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "scientist",
+    "fr": "scientifique",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "experiment",
+    "fr": "expérience",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "theory",
+    "fr": "théorie",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "hypothesis",
+    "fr": "hypothèse",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "evidence",
+    "fr": "preuve",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "proof",
+    "fr": "preuve",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "data",
+    "fr": "données",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "analysis",
+    "fr": "analyse",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "conclusion",
+    "fr": "conclusion",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "argument",
+    "fr": "argument",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "opinion",
+    "fr": "opinion",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "discussion",
+    "fr": "discussion",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "presentation",
+    "fr": "présentation",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "essay",
+    "fr": "essai",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "report",
+    "fr": "rapport",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "summary",
+    "fr": "résumé",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "degree",
+    "fr": "diplôme",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "bachelor",
+    "fr": "licence",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "master",
+    "fr": "master",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "doctorate",
+    "fr": "doctorat",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "scholarship",
+    "fr": "bourse",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "tuition",
+    "fr": "frais de scolarité",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "lecture",
+    "fr": "cours magistral",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "seminar",
+    "fr": "séminaire",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "assignment",
+    "fr": "devoir",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "grade",
+    "fr": "note",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "certificate",
+    "fr": "certificat",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "qualification",
+    "fr": "qualification",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "curriculum",
+    "fr": "programme",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "subject",
+    "fr": "matière",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "mathematics",
+    "fr": "mathématiques",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "history",
+    "fr": "histoire",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "geography",
+    "fr": "géographie",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "literature",
+    "fr": "littérature",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "philosophy",
+    "fr": "philosophie",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "psychology",
+    "fr": "psychologie",
+    "theme": "etudes",
+    "level": "B1"
+  },
+  {
+    "en": "society",
+    "fr": "société",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "community",
+    "fr": "communauté",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "culture",
+    "fr": "culture",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "tradition",
+    "fr": "tradition",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "custom",
+    "fr": "coutume",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "religion",
+    "fr": "religion",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "politics",
+    "fr": "politique",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "government",
+    "fr": "gouvernement",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "president",
+    "fr": "président",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "minister",
+    "fr": "ministre",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "election",
+    "fr": "élection",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "vote",
+    "fr": "vote",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "democracy",
+    "fr": "démocratie",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "law",
+    "fr": "loi",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "justice",
+    "fr": "justice",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "freedom",
+    "fr": "liberté",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "equality",
+    "fr": "égalité",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "rights",
+    "fr": "droits",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "citizen",
+    "fr": "citoyen",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "population",
+    "fr": "population",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "peace",
+    "fr": "paix",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "war",
+    "fr": "guerre",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "conflict",
+    "fr": "conflit",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "poverty",
+    "fr": "pauvreté",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "wealth",
+    "fr": "richesse",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "inequality",
+    "fr": "inégalité",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "discrimination",
+    "fr": "discrimination",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "charity",
+    "fr": "charité",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "volunteer",
+    "fr": "bénévole",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "generation",
+    "fr": "génération",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "youth",
+    "fr": "jeunesse",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "elderly",
+    "fr": "personnes âgées",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "minority",
+    "fr": "minorité",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "majority",
+    "fr": "majorité",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "public",
+    "fr": "public",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "private",
+    "fr": "privé",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "social",
+    "fr": "social",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "economic",
+    "fr": "économique",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "political",
+    "fr": "politique",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "cultural",
+    "fr": "culturel",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "global",
+    "fr": "mondial",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "local",
+    "fr": "local",
+    "theme": "societe",
+    "level": "B1"
+  },
+  {
+    "en": "environment",
+    "fr": "environnement",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "nature",
+    "fr": "nature",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "climate",
+    "fr": "climat",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "climate change",
+    "fr": "changement climatique",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "pollution",
+    "fr": "pollution",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "pollution air",
+    "fr": "pollution de l'air",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "pollution water",
+    "fr": "pollution de l'eau",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "recycling",
+    "fr": "recyclage",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "waste",
+    "fr": "déchets",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "energy",
+    "fr": "énergie",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "solar",
+    "fr": "solaire",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "wind energy",
+    "fr": "éolien",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "renewable",
+    "fr": "renouvelable",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "fossil fuel",
+    "fr": "combustible fossile",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "carbon",
+    "fr": "carbone",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "emission",
+    "fr": "émission",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "greenhouse",
+    "fr": "serre",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "ecosystem",
+    "fr": "écosystème",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "species",
+    "fr": "espèce",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "endangered",
+    "fr": "en voie de disparition",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "extinction",
+    "fr": "extinction",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "conservation",
+    "fr": "conservation",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "sustainable",
+    "fr": "durable",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "planet",
+    "fr": "planète",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "earth",
+    "fr": "Terre",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "ocean",
+    "fr": "océan",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "forest",
+    "fr": "forêt",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "desert",
+    "fr": "désert",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "drought",
+    "fr": "sécheresse",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "flood",
+    "fr": "inondation",
+    "theme": "environnement",
+    "level": "B1"
+  },
+  {
+    "en": "disease",
+    "fr": "maladie",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "illness",
+    "fr": "maladie",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "treatment",
+    "fr": "traitement",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "cure",
+    "fr": "remède",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "surgery",
+    "fr": "chirurgie",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "operation",
+    "fr": "opération",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "vaccine",
+    "fr": "vaccin",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "virus",
+    "fr": "virus",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "bacteria",
+    "fr": "bactérie",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "infection",
+    "fr": "infection",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "symptom",
+    "fr": "symptôme",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "diagnosis",
+    "fr": "diagnostic",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "prescription",
+    "fr": "ordonnance",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "pharmacy",
+    "fr": "pharmacie",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "nutrition",
+    "fr": "nutrition",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "vitamin",
+    "fr": "vitamine",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "protein",
+    "fr": "protéine",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "calorie",
+    "fr": "calorie",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "fitness",
+    "fr": "forme physique",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "mental health",
+    "fr": "santé mentale",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "stress",
+    "fr": "stress",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "anxiety",
+    "fr": "anxiété",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "depression",
+    "fr": "dépression",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "therapy",
+    "fr": "thérapie",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "wellness",
+    "fr": "bien-être",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "prevention",
+    "fr": "prévention",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "hygiene",
+    "fr": "hygiène",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "emergency",
+    "fr": "urgence",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "first aid",
+    "fr": "premiers secours",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "recovery",
+    "fr": "rétablissement",
+    "theme": "sante-avance",
+    "level": "B1"
+  },
+  {
+    "en": "media",
+    "fr": "médias",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "news",
+    "fr": "actualités",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "newspaper",
+    "fr": "journal",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "magazine",
+    "fr": "magazine",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "journalist",
+    "fr": "journaliste",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "article",
+    "fr": "article",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "headline",
+    "fr": "titre",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "interview media",
+    "fr": "interview",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "report media",
+    "fr": "reportage",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "broadcast",
+    "fr": "diffusion",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "television",
+    "fr": "télévision",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "radio",
+    "fr": "radio",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "internet",
+    "fr": "internet",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "social media",
+    "fr": "réseaux sociaux",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "post",
+    "fr": "publication",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "comment",
+    "fr": "commentaire",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "share",
+    "fr": "partager",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "like",
+    "fr": "aimer",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "subscribe",
+    "fr": "s'abonner",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "follow",
+    "fr": "suivre",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "viral",
+    "fr": "viral",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "influencer",
+    "fr": "influenceur",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "advertisement",
+    "fr": "publicité",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "advertising",
+    "fr": "publicité",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "audience",
+    "fr": "public",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "viewer",
+    "fr": "spectateur",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "listener",
+    "fr": "auditeur",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "reader",
+    "fr": "lecteur",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "source",
+    "fr": "source",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "information",
+    "fr": "information",
+    "theme": "medias",
+    "level": "B1"
+  },
+  {
+    "en": "relationship",
+    "fr": "relation",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "friendship",
+    "fr": "amitié",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "love",
+    "fr": "amour",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "marriage",
+    "fr": "mariage",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "divorce",
+    "fr": "divorce",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "dating",
+    "fr": "rendez-vous",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "couple",
+    "fr": "couple",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "partner",
+    "fr": "partenaire",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "colleague",
+    "fr": "collègue",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "neighbor",
+    "fr": "voisin",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "trust",
+    "fr": "confiance",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "respect",
+    "fr": "respect",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "honesty",
+    "fr": "honnêteté",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "loyalty",
+    "fr": "loyauté",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "support",
+    "fr": "soutien",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "conflict",
+    "fr": "conflit",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "argument",
+    "fr": "dispute",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "forgiveness",
+    "fr": "pardon",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "communication",
+    "fr": "communication",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "understanding",
+    "fr": "compréhension",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "tolerance",
+    "fr": "tolérance",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "empathy",
+    "fr": "empathie",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "sympathy",
+    "fr": "sympathie",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "jealousy",
+    "fr": "jalousie",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "envy",
+    "fr": "envie",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "kindness",
+    "fr": "gentillesse",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "generosity",
+    "fr": "générosité",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "selfish",
+    "fr": "égoïste",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "generous",
+    "fr": "généreux",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "polite",
+    "fr": "poli",
+    "theme": "relations",
+    "level": "B1"
+  },
+  {
+    "en": "opinion",
+    "fr": "opinion",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "belief",
+    "fr": "croyance",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "attitude",
+    "fr": "attitude",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "thought",
+    "fr": "pensée",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "idea",
+    "fr": "idée",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "feeling",
+    "fr": "sentiment",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "mood",
+    "fr": "humeur",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "agree",
+    "fr": "être d'accord",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "disagree",
+    "fr": "ne pas être d'accord",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "support",
+    "fr": "soutenir",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "oppose",
+    "fr": "s'opposer",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "argue",
+    "fr": "argumenter",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "convince",
+    "fr": "convaincre",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "persuade",
+    "fr": "persuader",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "believe",
+    "fr": "croire",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "doubt",
+    "fr": "douter",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "hope",
+    "fr": "espérer",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "wish",
+    "fr": "souhaiter",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "fear",
+    "fr": "craindre",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "worry",
+    "fr": "s'inquiéter",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "care",
+    "fr": "se soucier",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "prefer",
+    "fr": "préférer",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "suggest",
+    "fr": "suggérer",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "recommend",
+    "fr": "recommander",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "complain",
+    "fr": "se plaindre",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "praise",
+    "fr": "louer",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "criticize",
+    "fr": "critiquer",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "respect opinion",
+    "fr": "respecter",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "admire",
+    "fr": "admirer",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "celebrate",
+    "fr": "célébrer",
+    "theme": "opinions",
+    "level": "B1"
+  },
+  {
+    "en": "software",
+    "fr": "logiciel",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "hardware",
+    "fr": "matériel",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "database",
+    "fr": "base de données",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "network",
+    "fr": "réseau",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "server",
+    "fr": "serveur",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "cloud",
+    "fr": "cloud",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "data",
+    "fr": "données",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "algorithm",
+    "fr": "algorithme",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "program",
+    "fr": "programme",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "programming",
+    "fr": "programmation",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "code",
+    "fr": "code",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "developer",
+    "fr": "développeur",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "engineer",
+    "fr": "ingénieur",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "artificial intelligence",
+    "fr": "intelligence artificielle",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "machine learning",
+    "fr": "apprentissage automatique",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "robot",
+    "fr": "robot",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "automation",
+    "fr": "automatisation",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "innovation",
+    "fr": "innovation",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "invention",
+    "fr": "invention",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "patent",
+    "fr": "brevet",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "device",
+    "fr": "appareil",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "gadget",
+    "fr": "gadget",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "update",
+    "fr": "mise à jour",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "install",
+    "fr": "installer",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "backup",
+    "fr": "sauvegarde",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "secure",
+    "fr": "sécurisé",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "privacy",
+    "fr": "confidentialité",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "hacker",
+    "fr": "pirate",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "cyber",
+    "fr": "cyber",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "digital",
+    "fr": "numérique",
+    "theme": "technologie-avance",
+    "level": "B1"
+  },
+  {
+    "en": "economy",
+    "fr": "économie",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "market",
+    "fr": "marché",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "trade",
+    "fr": "commerce",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "industry",
+    "fr": "industrie",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "manufacturing",
+    "fr": "fabrication",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "production",
+    "fr": "production",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "consumption",
+    "fr": "consommation",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "demand",
+    "fr": "demande",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "supply",
+    "fr": "offre",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "price",
+    "fr": "prix",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "inflation",
+    "fr": "inflation",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "recession",
+    "fr": "récession",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "investment",
+    "fr": "investissement",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "capital",
+    "fr": "capital",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "profit",
+    "fr": "profit",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "loss",
+    "fr": "perte",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "tax",
+    "fr": "impôt",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "income",
+    "fr": "revenu",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "expense",
+    "fr": "dépense",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "budget",
+    "fr": "budget",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "loan",
+    "fr": "prêt",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "debt",
+    "fr": "dette",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "credit",
+    "fr": "crédit",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "stock",
+    "fr": "action",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "share market",
+    "fr": "part",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "bank",
+    "fr": "banque",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "currency",
+    "fr": "devise",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "exchange",
+    "fr": "échange",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "wealth",
+    "fr": "richesse",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "poverty",
+    "fr": "pauvreté",
+    "theme": "economie",
+    "level": "B1"
+  },
+  {
+    "en": "policy",
+    "fr": "politique",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "political",
+    "fr": "politique",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "democracy",
+    "fr": "démocratie",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "dictatorship",
+    "fr": "dictature",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "monarchy",
+    "fr": "monarchie",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "republic",
+    "fr": "république",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "parliament",
+    "fr": "parlement",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "senate",
+    "fr": "sénat",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "constitution",
+    "fr": "constitution",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "law",
+    "fr": "loi",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "bill law",
+    "fr": "projet de loi",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "vote",
+    "fr": "vote",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "campaign",
+    "fr": "campagne",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "candidate",
+    "fr": "candidat",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "elect",
+    "fr": "élire",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "ballot",
+    "fr": "bulletin",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "majority",
+    "fr": "majorité",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "opposition",
+    "fr": "opposition",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "party",
+    "fr": "parti",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "leader",
+    "fr": "dirigeant",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "citizen",
+    "fr": "citoyen",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "state",
+    "fr": "état",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "nation",
+    "fr": "nation",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "sovereignty",
+    "fr": "souveraineté",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "treaty",
+    "fr": "traité",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "diplomacy",
+    "fr": "diplomatie",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "ambassador",
+    "fr": "ambassadeur",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "negotiation",
+    "fr": "négociation",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "compromise",
+    "fr": "compromis",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "reform",
+    "fr": "réforme",
+    "theme": "politique",
+    "level": "B1"
+  },
+  {
+    "en": "physics",
+    "fr": "physique",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "chemistry",
+    "fr": "chimie",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "biology",
+    "fr": "biologie",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "astronomy",
+    "fr": "astronomie",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "geology",
+    "fr": "géologie",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "molecule",
+    "fr": "molécule",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "atom",
+    "fr": "atome",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "element",
+    "fr": "élément",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "energy",
+    "fr": "énergie",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "force",
+    "fr": "force",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "mass",
+    "fr": "masse",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "gravity",
+    "fr": "gravité",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "electricity",
+    "fr": "électricité",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "magnet",
+    "fr": "aimant",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "light",
+    "fr": "lumière",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "sound",
+    "fr": "son",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "heat",
+    "fr": "chaleur",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "cell",
+    "fr": "cellule",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "gene",
+    "fr": "gène",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "evolution",
+    "fr": "évolution",
+    "theme": "science",
+    "level": "B1"
+  },
+  {
+    "en": "destination",
+    "fr": "destination",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "itinerary",
+    "fr": "itinéraire",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "accommodation",
+    "fr": "hébergement",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "hostel",
+    "fr": "auberge",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "resort",
+    "fr": "complexe hôtelier",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "cruise",
+    "fr": "croisière",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "backpacking",
+    "fr": "voyage sac à dos",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "excursion",
+    "fr": "excursion",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "landmark",
+    "fr": "monument",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "monument",
+    "fr": "monument",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "heritage",
+    "fr": "patrimoine",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "culture",
+    "fr": "culture",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "cuisine",
+    "fr": "cuisine",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "souvenir",
+    "fr": "souvenir",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "customs",
+    "fr": "douane",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "itinerary",
+    "fr": "programme",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "insurance",
+    "fr": "assurance",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "currency exchange",
+    "fr": "bureau de change",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "board pass",
+    "fr": "carte d'embarquement",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "layover",
+    "fr": "escale",
+    "theme": "voyage-avance",
+    "level": "B1"
+  },
+  {
+    "en": "achieve",
+    "fr": "atteindre",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "accomplish",
+    "fr": "accomplir",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "adapt",
+    "fr": "s'adapter",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "admit",
+    "fr": "admettre",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "adopt",
+    "fr": "adopter",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "advance",
+    "fr": "avancer",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "affect",
+    "fr": "affecter",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "afford",
+    "fr": "se permettre",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "allow",
+    "fr": "permettre",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "announce",
+    "fr": "annoncer",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "appear",
+    "fr": "apparaître",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "apply",
+    "fr": "postuler",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "appreciate",
+    "fr": "apprécier",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "approach",
+    "fr": "approcher",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "approve",
+    "fr": "approuver",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "argue",
+    "fr": "argumenter",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "arrange",
+    "fr": "organiser",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "assume",
+    "fr": "supposer",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "attach",
+    "fr": "attacher",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "attempt",
+    "fr": "tenter",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "attend",
+    "fr": "assister",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "attract",
+    "fr": "attirer",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "avoid",
+    "fr": "éviter",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "behave",
+    "fr": "se comporter",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "belong",
+    "fr": "appartenir",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "benefit",
+    "fr": "bénéficier",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "blame",
+    "fr": "blâmer",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "celebrate",
+    "fr": "célébrer",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "challenge",
+    "fr": "défier",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "choose",
+    "fr": "choisir",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "claim",
+    "fr": "prétendre",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "combine",
+    "fr": "combiner",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "commit",
+    "fr": "s'engager",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "communicate",
+    "fr": "communiquer",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "compare",
+    "fr": "comparer",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "compete",
+    "fr": "concourir",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "complain",
+    "fr": "se plaindre",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "concentrate",
+    "fr": "se concentrer",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "conclude",
+    "fr": "conclure",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "confirm",
+    "fr": "confirmer",
+    "theme": "verbes-avances",
+    "level": "B1"
+  },
+  {
+    "en": "entrepreneur",
+    "fr": "entrepreneur",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "startup",
+    "fr": "startup",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "innovation",
+    "fr": "innovation",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "acquisition",
+    "fr": "acquisition",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "merger",
+    "fr": "fusion",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "stakeholder",
+    "fr": "partie prenante",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "shareholder",
+    "fr": "actionnaire",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "board",
+    "fr": "conseil",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "CEO",
+    "fr": "PDG",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "executive",
+    "fr": "cadre dirigeant",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "revenue",
+    "fr": "revenu",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "turnover",
+    "fr": "chiffre d'affaires",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "profit margin",
+    "fr": "marge bénéficiaire",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "loss",
+    "fr": "perte",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "bankruptcy",
+    "fr": "faillite",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "expansion",
+    "fr": "expansion",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "competition",
+    "fr": "concurrence",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "competitor",
+    "fr": "concurrent",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "brand",
+    "fr": "marque",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "marketing",
+    "fr": "marketing",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "advertising",
+    "fr": "publicité",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "promotion",
+    "fr": "promotion",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "campaign",
+    "fr": "campagne",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "customer service",
+    "fr": "service client",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "quality control",
+    "fr": "contrôle qualité",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "outsourcing",
+    "fr": "externalisation",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "supply chain",
+    "fr": "chaîne d'approvisionnement",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "logistics",
+    "fr": "logistique",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "inventory",
+    "fr": "inventaire",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "warehouse",
+    "fr": "entrepôt",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "contract",
+    "fr": "contrat",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "negotiation",
+    "fr": "négociation",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "deal",
+    "fr": "accord",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "partnership",
+    "fr": "partenariat",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "investment",
+    "fr": "investissement",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "portfolio",
+    "fr": "portefeuille",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "dividend",
+    "fr": "dividende",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "valuation",
+    "fr": "évaluation",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "forecast",
+    "fr": "prévision",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "budget",
+    "fr": "budget",
+    "theme": "business",
+    "level": "B2"
+  },
+  {
+    "en": "sovereignty",
+    "fr": "souveraineté",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "legislation",
+    "fr": "législation",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "amendment",
+    "fr": "amendement",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "referendum",
+    "fr": "référendum",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "coalition",
+    "fr": "coalition",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "lobby",
+    "fr": "lobby",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "corruption",
+    "fr": "corruption",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "transparency",
+    "fr": "transparence",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "accountability",
+    "fr": "responsabilité",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "bureaucracy",
+    "fr": "bureaucratie",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "ideology",
+    "fr": "idéologie",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "liberal",
+    "fr": "libéral",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "conservative",
+    "fr": "conservateur",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "socialism",
+    "fr": "socialisme",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "capitalism",
+    "fr": "capitalisme",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "nationalism",
+    "fr": "nationalisme",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "globalization",
+    "fr": "mondialisation",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "diplomacy",
+    "fr": "diplomatie",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "sanction",
+    "fr": "sanction",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "treaty",
+    "fr": "traité",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "alliance",
+    "fr": "alliance",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "summit",
+    "fr": "sommet",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "policy",
+    "fr": "politique",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "regulation",
+    "fr": "réglementation",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "citizenship",
+    "fr": "citoyenneté",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "suffrage",
+    "fr": "suffrage",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "gerrymandering",
+    "fr": "manipulation électorale",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "propaganda",
+    "fr": "propagande",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "censorship",
+    "fr": "censure",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "activism",
+    "fr": "militantisme",
+    "theme": "politique-avance",
+    "level": "B2"
+  },
+  {
+    "en": "macroeconomics",
+    "fr": "macroéconomie",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "microeconomics",
+    "fr": "microéconomie",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "GDP",
+    "fr": "PIB",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "unemployment",
+    "fr": "chômage",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "interest rate",
+    "fr": "taux d'intérêt",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "mortgage",
+    "fr": "hypothèque",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "asset",
+    "fr": "actif",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "liability",
+    "fr": "passif",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "equity",
+    "fr": "capitaux propres",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "bond",
+    "fr": "obligation",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "commodity",
+    "fr": "matière première",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "speculation",
+    "fr": "spéculation",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "monopoly",
+    "fr": "monopole",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "oligopoly",
+    "fr": "oligopole",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "tariff",
+    "fr": "tarif douanier",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "subsidy",
+    "fr": "subvention",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "deficit",
+    "fr": "déficit",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "surplus",
+    "fr": "excédent",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "fiscal",
+    "fr": "fiscal",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "monetary",
+    "fr": "monétaire",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "austerity",
+    "fr": "austérité",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "stimulus",
+    "fr": "relance",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "entrepreneurship",
+    "fr": "esprit d'entreprise",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "privatization",
+    "fr": "privatisation",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "nationalization",
+    "fr": "nationalisation",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "deregulation",
+    "fr": "déréglementation",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "capitalism",
+    "fr": "capitalisme",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "market economy",
+    "fr": "économie de marché",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "trade war",
+    "fr": "guerre commerciale",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "emerging market",
+    "fr": "marché émergent",
+    "theme": "economie-avance",
+    "level": "B2"
+  },
+  {
+    "en": "quantum",
+    "fr": "quantique",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "relativity",
+    "fr": "relativité",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "particle",
+    "fr": "particule",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "molecule",
+    "fr": "molécule",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "compound",
+    "fr": "composé",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "reaction",
+    "fr": "réaction",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "catalyst",
+    "fr": "catalyseur",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "enzyme",
+    "fr": "enzyme",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "protein",
+    "fr": "protéine",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "DNA",
+    "fr": "ADN",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "genome",
+    "fr": "génome",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "mutation",
+    "fr": "mutation",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "organism",
+    "fr": "organisme",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "species",
+    "fr": "espèce",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "ecosystem",
+    "fr": "écosystème",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "biodiversity",
+    "fr": "biodiversité",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "neuron",
+    "fr": "neurone",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "brain",
+    "fr": "cerveau",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "cognitive",
+    "fr": "cognitif",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "consciousness",
+    "fr": "conscience",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "perception",
+    "fr": "perception",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "behavior",
+    "fr": "comportement",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "stimulus",
+    "fr": "stimulus",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "response",
+    "fr": "réponse",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "adaptation",
+    "fr": "adaptation",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "natural selection",
+    "fr": "sélection naturelle",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "symbiosis",
+    "fr": "symbiose",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "metabolism",
+    "fr": "métabolisme",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "photosynthesis",
+    "fr": "photosynthèse",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "respiration",
+    "fr": "respiration",
+    "theme": "science-avance",
+    "level": "B2"
+  },
+  {
+    "en": "justice",
+    "fr": "justice",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "court",
+    "fr": "tribunal",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "judge",
+    "fr": "juge",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "jury",
+    "fr": "jury",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "lawyer",
+    "fr": "avocat",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "attorney",
+    "fr": "avocat",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "prosecutor",
+    "fr": "procureur",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "defendant",
+    "fr": "défendeur",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "plaintiff",
+    "fr": "plaignant",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "witness",
+    "fr": "témoin",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "evidence",
+    "fr": "preuve",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "testimony",
+    "fr": "témoignage",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "verdict",
+    "fr": "verdict",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "sentence",
+    "fr": "peine",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "guilty",
+    "fr": "coupable",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "innocent",
+    "fr": "innocent",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "crime",
+    "fr": "crime",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "criminal",
+    "fr": "criminel",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "victim",
+    "fr": "victime",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "theft",
+    "fr": "vol",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "murder",
+    "fr": "meurtre",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "fraud",
+    "fr": "fraude",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "assault",
+    "fr": "agression",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "robbery",
+    "fr": "cambriolage",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "contract",
+    "fr": "contrat",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "agreement",
+    "fr": "accord",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "liability",
+    "fr": "responsabilité",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "copyright",
+    "fr": "droit d'auteur",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "patent",
+    "fr": "brevet",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "trademark",
+    "fr": "marque déposée",
+    "theme": "droit",
+    "level": "B2"
+  },
+  {
+    "en": "philosophy",
+    "fr": "philosophie",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "ethics",
+    "fr": "éthique",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "morality",
+    "fr": "moralité",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "logic",
+    "fr": "logique",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "reason",
+    "fr": "raison",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "truth",
+    "fr": "vérité",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "knowledge",
+    "fr": "connaissance",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "reality",
+    "fr": "réalité",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "existence",
+    "fr": "existence",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "consciousness",
+    "fr": "conscience",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "free will",
+    "fr": "libre arbitre",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "determinism",
+    "fr": "déterminisme",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "metaphysics",
+    "fr": "métaphysique",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "epistemology",
+    "fr": "épistémologie",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "ontology",
+    "fr": "ontologie",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "dialectic",
+    "fr": "dialectique",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "paradox",
+    "fr": "paradoxe",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "wisdom",
+    "fr": "sagesse",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "virtue",
+    "fr": "vertu",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "vice",
+    "fr": "vice",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "happiness",
+    "fr": "bonheur",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "meaning",
+    "fr": "sens",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "purpose",
+    "fr": "but",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "freedom",
+    "fr": "liberté",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "justice",
+    "fr": "justice",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "beauty",
+    "fr": "beauté",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "sublime",
+    "fr": "sublime",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "idealism",
+    "fr": "idéalisme",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "materialism",
+    "fr": "matérialisme",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "pragmatism",
+    "fr": "pragmatisme",
+    "theme": "philosophie",
+    "level": "B2"
+  },
+  {
+    "en": "artist",
+    "fr": "artiste",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "painting",
+    "fr": "peinture",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "sculpture",
+    "fr": "sculpture",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "architecture",
+    "fr": "architecture",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "literature",
+    "fr": "littérature",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "poetry",
+    "fr": "poésie",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "novel",
+    "fr": "roman",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "play",
+    "fr": "pièce de théâtre",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "theater",
+    "fr": "théâtre",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "cinema",
+    "fr": "cinéma",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "director",
+    "fr": "réalisateur",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "actor",
+    "fr": "acteur",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "actress",
+    "fr": "actrice",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "script",
+    "fr": "scénario",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "scene",
+    "fr": "scène",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "performance",
+    "fr": "représentation",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "audience",
+    "fr": "public",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "masterpiece",
+    "fr": "chef-d'œuvre",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "exhibition",
+    "fr": "exposition",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "gallery",
+    "fr": "galerie",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "museum",
+    "fr": "musée",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "composer",
+    "fr": "compositeur",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "symphony",
+    "fr": "symphonie",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "concert",
+    "fr": "concert",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "opera",
+    "fr": "opéra",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "ballet",
+    "fr": "ballet",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "choreography",
+    "fr": "chorégraphie",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "photography",
+    "fr": "photographie",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "design",
+    "fr": "design",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "aesthetic",
+    "fr": "esthétique",
+    "theme": "art",
+    "level": "B2"
+  },
+  {
+    "en": "psychology",
+    "fr": "psychologie",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "behavior",
+    "fr": "comportement",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "emotion",
+    "fr": "émotion",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "cognition",
+    "fr": "cognition",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "personality",
+    "fr": "personnalité",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "intelligence",
+    "fr": "intelligence",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "memory",
+    "fr": "mémoire",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "perception",
+    "fr": "perception",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "motivation",
+    "fr": "motivation",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "attitude",
+    "fr": "attitude",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "stress",
+    "fr": "stress",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "trauma",
+    "fr": "traumatisme",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "therapy",
+    "fr": "thérapie",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "depression",
+    "fr": "dépression",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "anxiety",
+    "fr": "anxiété",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "empathy",
+    "fr": "empathie",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "resilience",
+    "fr": "résilience",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "self-esteem",
+    "fr": "estime de soi",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "unconscious",
+    "fr": "inconscient",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "conditioning",
+    "fr": "conditionnement",
+    "theme": "psychologie",
+    "level": "B2"
+  },
+  {
+    "en": "diagnosis",
+    "fr": "diagnostic",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "symptom",
+    "fr": "symptôme",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "treatment",
+    "fr": "traitement",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "therapy",
+    "fr": "thérapie",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "surgery",
+    "fr": "chirurgie",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "patient",
+    "fr": "patient",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "hospital",
+    "fr": "hôpital",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "clinic",
+    "fr": "clinique",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "physician",
+    "fr": "médecin",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "surgeon",
+    "fr": "chirurgien",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "nurse",
+    "fr": "infirmière",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "pharmacist",
+    "fr": "pharmacien",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "prescription",
+    "fr": "ordonnance",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "antibiotic",
+    "fr": "antibiotique",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "vaccine",
+    "fr": "vaccin",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "virus",
+    "fr": "virus",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "bacteria",
+    "fr": "bactérie",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "infection",
+    "fr": "infection",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "chronic",
+    "fr": "chronique",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "immune",
+    "fr": "immunitaire",
+    "theme": "medecine",
+    "level": "B2"
+  },
+  {
+    "en": "journalism",
+    "fr": "journalisme",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "press",
+    "fr": "presse",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "broadcast",
+    "fr": "diffusion",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "documentary",
+    "fr": "documentaire",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "interview",
+    "fr": "entrevue",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "editorial",
+    "fr": "éditorial",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "censorship",
+    "fr": "censure",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "propaganda",
+    "fr": "propagande",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "misinformation",
+    "fr": "désinformation",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "fake news",
+    "fr": "fausses nouvelles",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "bias",
+    "fr": "partialité",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "objectivity",
+    "fr": "objectivité",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "source",
+    "fr": "source",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "investigation",
+    "fr": "enquête",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "leak",
+    "fr": "fuite",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "whistleblower",
+    "fr": "lanceur d'alerte",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "journalist",
+    "fr": "journaliste",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "reporter",
+    "fr": "reporter",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "anchor",
+    "fr": "présentateur",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "paparazzi",
+    "fr": "paparazzi",
+    "theme": "medias-avances",
+    "level": "B2"
+  },
+  {
+    "en": "pedagogy",
+    "fr": "pédagogie",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "curriculum",
+    "fr": "programme d'études",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "assessment",
+    "fr": "évaluation",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "evaluation",
+    "fr": "évaluation",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "scholarship",
+    "fr": "bourse",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "fellowship",
+    "fr": "bourse de recherche",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "dissertation",
+    "fr": "thèse",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "thesis",
+    "fr": "mémoire",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "research",
+    "fr": "recherche",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "publication",
+    "fr": "publication",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "peer review",
+    "fr": "évaluation par les pairs",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "academic",
+    "fr": "académique",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "faculty",
+    "fr": "faculté",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "dean",
+    "fr": "doyen",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "professor",
+    "fr": "professeur",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "lecturer",
+    "fr": "chargé de cours",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "tutor",
+    "fr": "tuteur",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "mentor",
+    "fr": "mentor",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "literacy",
+    "fr": "alphabétisation",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "numeracy",
+    "fr": "numératie",
+    "theme": "education-avance",
+    "level": "B2"
+  },
+  {
+    "en": "finance",
+    "fr": "finance",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "banking",
+    "fr": "banque",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "accounting",
+    "fr": "comptabilité",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "audit",
+    "fr": "audit",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "balance sheet",
+    "fr": "bilan",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "cash flow",
+    "fr": "flux de trésorerie",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "capital",
+    "fr": "capital",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "debt",
+    "fr": "dette",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "equity",
+    "fr": "capitaux propres",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "credit",
+    "fr": "crédit",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "loan",
+    "fr": "prêt",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "interest",
+    "fr": "intérêt",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "mortgage",
+    "fr": "hypothèque",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "collateral",
+    "fr": "garantie",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "insurance",
+    "fr": "assurance",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "premium",
+    "fr": "prime",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "policy",
+    "fr": "police",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "claim",
+    "fr": "réclamation",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "deductible",
+    "fr": "franchise",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "coverage",
+    "fr": "couverture",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "asset",
+    "fr": "actif",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "liability",
+    "fr": "passif",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "liquidity",
+    "fr": "liquidité",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "solvency",
+    "fr": "solvabilité",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "yield",
+    "fr": "rendement",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "return",
+    "fr": "retour",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "risk",
+    "fr": "risque",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "hedge",
+    "fr": "couverture",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "derivative",
+    "fr": "produit dérivé",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "speculation",
+    "fr": "spéculation",
+    "theme": "finance",
+    "level": "B2"
+  },
+  {
+    "en": "comprehensive",
+    "fr": "complet",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "substantial",
+    "fr": "substantiel",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "significant",
+    "fr": "significatif",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "essential",
+    "fr": "essentiel",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "crucial",
+    "fr": "crucial",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "vital",
+    "fr": "vital",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "inevitable",
+    "fr": "inévitable",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "controversial",
+    "fr": "controversé",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "ambiguous",
+    "fr": "ambigu",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "profound",
+    "fr": "profond",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "reluctant",
+    "fr": "réticent",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "consistent",
+    "fr": "cohérent",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "overwhelming",
+    "fr": "accablant",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "compelling",
+    "fr": "convaincant",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "subtle",
+    "fr": "subtil",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "sustainable",
+    "fr": "durable",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "breakthrough",
+    "fr": "percée",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "innovative",
+    "fr": "innovant",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "efficient",
+    "fr": "efficace",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "adequate",
+    "fr": "adéquat",
+    "theme": "adjectifs-avances",
+    "level": "B2"
+  },
+  {
+    "en": "ubiquitous",
+    "fr": "omniprésent",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "meticulous",
+    "fr": "méticuleux",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "resilience",
+    "fr": "résilience",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "discrepancy",
+    "fr": "divergence",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "paradigm",
+    "fr": "paradigme",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "scrutiny",
+    "fr": "examen minutieux",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "consensus",
+    "fr": "consensus",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "notwithstanding",
+    "fr": "nonobstant",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "juxtaposition",
+    "fr": "juxtaposition",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "inherent",
+    "fr": "inhérent",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "coherent",
+    "fr": "cohérent",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "pertinent",
+    "fr": "pertinent",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "ambiguous",
+    "fr": "ambigu",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "explicit",
+    "fr": "explicite",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "implicit",
+    "fr": "implicite",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "comprehensive",
+    "fr": "complet",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "concise",
+    "fr": "concis",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "elaborate",
+    "fr": "élaboré",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "substantiate",
+    "fr": "étayer",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "hypothesize",
+    "fr": "émettre une hypothèse",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "correlate",
+    "fr": "établir une corrélation",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "deduce",
+    "fr": "déduire",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "infer",
+    "fr": "inférer",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "synthesize",
+    "fr": "synthétiser",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "analyze",
+    "fr": "analyser",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "evaluate",
+    "fr": "évaluer",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "critique",
+    "fr": "critiquer",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "validate",
+    "fr": "valider",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "refute",
+    "fr": "réfuter",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "advocate",
+    "fr": "préconiser",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "articulate",
+    "fr": "articuler",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "convey",
+    "fr": "transmettre",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "illustrate",
+    "fr": "illustrer",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "demonstrate",
+    "fr": "démontrer",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "substantial",
+    "fr": "substantiel",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "marginal",
+    "fr": "marginal",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "predominant",
+    "fr": "prédominant",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "preliminary",
+    "fr": "préliminaire",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "conclusive",
+    "fr": "concluant",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "empirical",
+    "fr": "empirique",
+    "theme": "academique",
+    "level": "C1"
+  },
+  {
+    "en": "leverage",
+    "fr": "tirer parti",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "optimize",
+    "fr": "optimiser",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "streamline",
+    "fr": "rationaliser",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "benchmark",
+    "fr": "référence",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "milestone",
+    "fr": "jalon",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "deliverable",
+    "fr": "livrable",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "stakeholder",
+    "fr": "partie prenante",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "initiative",
+    "fr": "initiative",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "accountability",
+    "fr": "responsabilité",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "autonomy",
+    "fr": "autonomie",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "collaboration",
+    "fr": "collaboration",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "synergy",
+    "fr": "synergie",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "scalability",
+    "fr": "évolutivité",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "feasibility",
+    "fr": "faisabilité",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "sustainability",
+    "fr": "durabilité",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "competency",
+    "fr": "compétence",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "proficiency",
+    "fr": "maîtrise",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "expertise",
+    "fr": "expertise",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "efficiency",
+    "fr": "efficacité",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "productivity",
+    "fr": "productivité",
+    "theme": "professionnel",
+    "level": "C1"
+  },
+  {
+    "en": "eloquent",
+    "fr": "éloquent",
+    "theme": "litteraire",
+    "level": "C1"
+  },
+  {
+    "en": "poignant",
+    "fr": "poignant",
+    "theme": "litteraire",
+    "level": "C1"
+  },
+  {
+    "en": "evocative",
+    "fr": "évocateur",
+    "theme": "litteraire",
+    "level": "C1"
+  },
+  {
+    "en": "poetic",
+    "fr": "poétique",
+    "theme": "litteraire",
+    "level": "C1"
+  },
+  {
+    "en": "lyrical",
+    "fr": "lyrique",
+    "theme": "litteraire",
+    "level": "C1"
+  },
+  {
+    "en": "narrative",
+    "fr": "narratif",
+    "theme": "litteraire",
+    "level": "C1"
+  },
+  {
+    "en": "protagonist",
+    "fr": "protagoniste",
+    "theme": "litteraire",
+    "level": "C1"
+  },
+  {
+    "en": "antagonist",
+    "fr": "antagoniste",
+    "theme": "litteraire",
+    "level": "C1"
+  },
+  {
+    "en": "metaphor",
+    "fr": "métaphore",
+    "theme": "litteraire",
+    "level": "C1"
+  },
+  {
+    "en": "simile",
+    "fr": "comparaison",
+    "theme": "litteraire",
+    "level": "C1"
+  },
+  {
+    "en": "allegory",
+    "fr": "allégorie",
+    "theme": "litteraire",
+    "level": "C1"
+  },
+  {
+    "en": "irony",
+    "fr": "ironie",
+    "theme": "litteraire",
+    "level": "C1"
+  },
+  {
+    "en": "satire",
+    "fr": "satire",
+    "theme": "litteraire",
+    "level": "C1"
+  },
+  {
+    "en": "symbolism",
+    "fr": "symbolisme",
+    "theme": "litteraire",
+    "level": "C1"
+  },
+  {
+    "en": "imagery",
+    "fr": "imagerie",
+    "theme": "litteraire",
+    "level": "C1"
+  },
+  {
+    "en": "quantitative",
+    "fr": "quantitatif",
+    "theme": "scientifique",
+    "level": "C1"
+  },
+  {
+    "en": "qualitative",
+    "fr": "qualitatif",
+    "theme": "scientifique",
+    "level": "C1"
+  },
+  {
+    "en": "methodology",
+    "fr": "méthodologie",
+    "theme": "scientifique",
+    "level": "C1"
+  },
+  {
+    "en": "framework",
+    "fr": "cadre",
+    "theme": "scientifique",
+    "level": "C1"
+  },
+  {
+    "en": "variable",
+    "fr": "variable",
+    "theme": "scientifique",
+    "level": "C1"
+  },
+  {
+    "en": "parameter",
+    "fr": "paramètre",
+    "theme": "scientifique",
+    "level": "C1"
+  },
+  {
+    "en": "threshold",
+    "fr": "seuil",
+    "theme": "scientifique",
+    "level": "C1"
+  },
+  {
+    "en": "trajectory",
+    "fr": "trajectoire",
+    "theme": "scientifique",
+    "level": "C1"
+  },
+  {
+    "en": "equilibrium",
+    "fr": "équilibre",
+    "theme": "scientifique",
+    "level": "C1"
+  },
+  {
+    "en": "entropy",
+    "fr": "entropie",
+    "theme": "scientifique",
+    "level": "C1"
+  },
+  {
+    "en": "catalyst",
+    "fr": "catalyseur",
+    "theme": "scientifique",
+    "level": "C1"
+  },
+  {
+    "en": "mechanism",
+    "fr": "mécanisme",
+    "theme": "scientifique",
+    "level": "C1"
+  },
+  {
+    "en": "phenomenon",
+    "fr": "phénomène",
+    "theme": "scientifique",
+    "level": "C1"
+  },
+  {
+    "en": "anomaly",
+    "fr": "anomalie",
+    "theme": "scientifique",
+    "level": "C1"
+  },
+  {
+    "en": "correlation",
+    "fr": "corrélation",
+    "theme": "scientifique",
+    "level": "C1"
+  },
+  {
+    "en": "allege",
+    "fr": "alléguer",
+    "theme": "journalistique",
+    "level": "C1"
+  },
+  {
+    "en": "purport",
+    "fr": "prétendre",
+    "theme": "journalistique",
+    "level": "C1"
+  },
+  {
+    "en": "disclose",
+    "fr": "divulguer",
+    "theme": "journalistique",
+    "level": "C1"
+  },
+  {
+    "en": "unveil",
+    "fr": "dévoiler",
+    "theme": "journalistique",
+    "level": "C1"
+  },
+  {
+    "en": "expose",
+    "fr": "révéler",
+    "theme": "journalistique",
+    "level": "C1"
+  },
+  {
+    "en": "scrutinize",
+    "fr": "examiner",
+    "theme": "journalistique",
+    "level": "C1"
+  },
+  {
+    "en": "corroborate",
+    "fr": "corroborer",
+    "theme": "journalistique",
+    "level": "C1"
+  },
+  {
+    "en": "contradict",
+    "fr": "contredire",
+    "theme": "journalistique",
+    "level": "C1"
+  },
+  {
+    "en": "speculate",
+    "fr": "spéculer",
+    "theme": "journalistique",
+    "level": "C1"
+  },
+  {
+    "en": "substantiate",
+    "fr": "étayer",
+    "theme": "journalistique",
+    "level": "C1"
+  },
+  {
+    "en": "jurisdiction",
+    "fr": "juridiction",
+    "theme": "juridique",
+    "level": "C1"
+  },
+  {
+    "en": "statute",
+    "fr": "statut",
+    "theme": "juridique",
+    "level": "C1"
+  },
+  {
+    "en": "precedent",
+    "fr": "précédent",
+    "theme": "juridique",
+    "level": "C1"
+  },
+  {
+    "en": "litigation",
+    "fr": "litige",
+    "theme": "juridique",
+    "level": "C1"
+  },
+  {
+    "en": "arbitration",
+    "fr": "arbitrage",
+    "theme": "juridique",
+    "level": "C1"
+  },
+  {
+    "en": "compliance",
+    "fr": "conformité",
+    "theme": "juridique",
+    "level": "C1"
+  },
+  {
+    "en": "liability",
+    "fr": "responsabilité",
+    "theme": "juridique",
+    "level": "C1"
+  },
+  {
+    "en": "indemnity",
+    "fr": "indemnité",
+    "theme": "juridique",
+    "level": "C1"
+  },
+  {
+    "en": "breach",
+    "fr": "violation",
+    "theme": "juridique",
+    "level": "C1"
+  },
+  {
+    "en": "remedy",
+    "fr": "recours",
+    "theme": "juridique",
+    "level": "C1"
+  },
+  {
+    "en": "pathology",
+    "fr": "pathologie",
+    "theme": "medical",
+    "level": "C1"
+  },
+  {
+    "en": "etiology",
+    "fr": "étiologie",
+    "theme": "medical",
+    "level": "C1"
+  },
+  {
+    "en": "prognosis",
+    "fr": "pronostic",
+    "theme": "medical",
+    "level": "C1"
+  },
+  {
+    "en": "syndrome",
+    "fr": "syndrome",
+    "theme": "medical",
+    "level": "C1"
+  },
+  {
+    "en": "chronic",
+    "fr": "chronique",
+    "theme": "medical",
+    "level": "C1"
+  },
+  {
+    "en": "acute",
+    "fr": "aigu",
+    "theme": "medical",
+    "level": "C1"
+  },
+  {
+    "en": "benign",
+    "fr": "bénin",
+    "theme": "medical",
+    "level": "C1"
+  },
+  {
+    "en": "malignant",
+    "fr": "malin",
+    "theme": "medical",
+    "level": "C1"
+  },
+  {
+    "en": "inflammation",
+    "fr": "inflammation",
+    "theme": "medical",
+    "level": "C1"
+  },
+  {
+    "en": "metastasis",
+    "fr": "métastase",
+    "theme": "medical",
+    "level": "C1"
+  },
+  {
+    "en": "infrastructure",
+    "fr": "infrastructure",
+    "theme": "technique",
+    "level": "C1"
+  },
+  {
+    "en": "protocol",
+    "fr": "protocole",
+    "theme": "technique",
+    "level": "C1"
+  },
+  {
+    "en": "interface",
+    "fr": "interface",
+    "theme": "technique",
+    "level": "C1"
+  },
+  {
+    "en": "architecture",
+    "fr": "architecture",
+    "theme": "technique",
+    "level": "C1"
+  },
+  {
+    "en": "implementation",
+    "fr": "mise en œuvre",
+    "theme": "technique",
+    "level": "C1"
+  },
+  {
+    "en": "configuration",
+    "fr": "configuration",
+    "theme": "technique",
+    "level": "C1"
+  },
+  {
+    "en": "integration",
+    "fr": "intégration",
+    "theme": "technique",
+    "level": "C1"
+  },
+  {
+    "en": "deployment",
+    "fr": "déploiement",
+    "theme": "technique",
+    "level": "C1"
+  },
+  {
+    "en": "maintenance",
+    "fr": "maintenance",
+    "theme": "technique",
+    "level": "C1"
+  },
+  {
+    "en": "optimization",
+    "fr": "optimisation",
+    "theme": "technique",
+    "level": "C1"
+  },
+  {
+    "en": "phenomenology",
+    "fr": "phénoménologie",
+    "theme": "philosophique",
+    "level": "C1"
+  },
+  {
+    "en": "existentialism",
+    "fr": "existentialisme",
+    "theme": "philosophique",
+    "level": "C1"
+  },
+  {
+    "en": "pragmatism",
+    "fr": "pragmatisme",
+    "theme": "philosophique",
+    "level": "C1"
+  },
+  {
+    "en": "empiricism",
+    "fr": "empirisme",
+    "theme": "philosophique",
+    "level": "C1"
+  },
+  {
+    "en": "rationalism",
+    "fr": "rationalisme",
+    "theme": "philosophique",
+    "level": "C1"
+  },
+  {
+    "en": "determinism",
+    "fr": "déterminisme",
+    "theme": "philosophique",
+    "level": "C1"
+  },
+  {
+    "en": "relativism",
+    "fr": "relativisme",
+    "theme": "philosophique",
+    "level": "C1"
+  },
+  {
+    "en": "absolutism",
+    "fr": "absolutisme",
+    "theme": "philosophique",
+    "level": "C1"
+  },
+  {
+    "en": "dialectic",
+    "fr": "dialectique",
+    "theme": "philosophique",
+    "level": "C1"
+  },
+  {
+    "en": "transcendence",
+    "fr": "transcendance",
+    "theme": "philosophique",
+    "level": "C1"
+  },
+  {
+    "en": "persuasion",
+    "fr": "persuasion",
+    "theme": "rhetorique",
+    "level": "C1"
+  },
+  {
+    "en": "argumentation",
+    "fr": "argumentation",
+    "theme": "rhetorique",
+    "level": "C1"
+  },
+  {
+    "en": "rhetoric",
+    "fr": "rhétorique",
+    "theme": "rhetorique",
+    "level": "C1"
+  },
+  {
+    "en": "discourse",
+    "fr": "discours",
+    "theme": "rhetorique",
+    "level": "C1"
+  },
+  {
+    "en": "eloquence",
+    "fr": "éloquence",
+    "theme": "rhetorique",
+    "level": "C1"
+  },
+  {
+    "en": "emphatic",
+    "fr": "emphatique",
+    "theme": "rhetorique",
+    "level": "C1"
+  },
+  {
+    "en": "assertive",
+    "fr": "assertif",
+    "theme": "rhetorique",
+    "level": "C1"
+  },
+  {
+    "en": "conciliatory",
+    "fr": "conciliant",
+    "theme": "rhetorique",
+    "level": "C1"
+  },
+  {
+    "en": "contentious",
+    "fr": "contentieux",
+    "theme": "rhetorique",
+    "level": "C1"
+  },
+  {
+    "en": "polemical",
+    "fr": "polémique",
+    "theme": "rhetorique",
+    "level": "C1"
+  },
+  {
+    "en": "substantiate",
+    "fr": "étayer",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "corroborate",
+    "fr": "corroborer",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "exacerbate",
+    "fr": "exacerber",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "alleviate",
+    "fr": "atténuer",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "mitigate",
+    "fr": "atténuer",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "facilitate",
+    "fr": "faciliter",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "implement",
+    "fr": "mettre en œuvre",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "integrate",
+    "fr": "intégrer",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "consolidate",
+    "fr": "consolider",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "differentiate",
+    "fr": "différencier",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "elaborate",
+    "fr": "développer",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "encompass",
+    "fr": "englober",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "underscore",
+    "fr": "souligner",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "highlight",
+    "fr": "mettre en évidence",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "outline",
+    "fr": "décrire",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "delineate",
+    "fr": "délimiter",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "illustrate",
+    "fr": "illustrer",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "exemplify",
+    "fr": "exemplifier",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "demonstrate",
+    "fr": "démontrer",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "validate",
+    "fr": "valider",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "verify",
+    "fr": "vérifier",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "substantiate",
+    "fr": "justifier",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "advocate",
+    "fr": "préconiser",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "endorse",
+    "fr": "appuyer",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "condone",
+    "fr": "tolérer",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "denounce",
+    "fr": "dénoncer",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "deny",
+    "fr": "nier",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "acknowledge",
+    "fr": "reconnaître",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "concede",
+    "fr": "concéder",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "contest",
+    "fr": "contester",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "dispute",
+    "fr": "contester",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "refute",
+    "fr": "réfuter",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "rebut",
+    "fr": "réfuter",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "contradict",
+    "fr": "contredire",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "discredit",
+    "fr": "discréditer",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "undermine",
+    "fr": "miner",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "weaken",
+    "fr": "affaiblir",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "reinforce",
+    "fr": "renforcer",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "strengthen",
+    "fr": "renforcer",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "bolster",
+    "fr": "renforcer",
+    "theme": "verbes-c1",
+    "level": "C1"
+  },
+  {
+    "en": "serendipity",
+    "fr": "heureux hasard",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "quintessential",
+    "fr": "par excellence",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "ephemeral",
+    "fr": "éphémère",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "idiosyncrasy",
+    "fr": "idiosyncrasie",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "esoteric",
+    "fr": "ésotérique",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "perfunctory",
+    "fr": "superficiel",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "obfuscate",
+    "fr": "obscurcir",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "recalcitrant",
+    "fr": "récalcitrant",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "ubiquitous",
+    "fr": "omniprésent",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "ineffable",
+    "fr": "ineffable",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "inexorable",
+    "fr": "inexorable",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "insidious",
+    "fr": "insidieux",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "obsequious",
+    "fr": "obséquieux",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "sycophantic",
+    "fr": "flagorneur",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "magnanimous",
+    "fr": "magnanime",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "pusillanimous",
+    "fr": "pusillanime",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "mercurial",
+    "fr": "capricieux",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "vociferous",
+    "fr": "bruyant",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "loquacious",
+    "fr": "loquace",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "taciturn",
+    "fr": "taciturne",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "erudite",
+    "fr": "érudit",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "sagacious",
+    "fr": "sagace",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "perspicacious",
+    "fr": "perspicace",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "astute",
+    "fr": "astucieux",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "canny",
+    "fr": "avisé",
+    "theme": "litteraire-avance",
+    "level": "C2"
+  },
+  {
+    "en": "ephemeral",
+    "fr": "fugace",
+    "theme": "poetique",
+    "level": "C2"
+  },
+  {
+    "en": "ethereal",
+    "fr": "éthéré",
+    "theme": "poetique",
+    "level": "C2"
+  },
+  {
+    "en": "celestial",
+    "fr": "céleste",
+    "theme": "poetique",
+    "level": "C2"
+  },
+  {
+    "en": "luminous",
+    "fr": "lumineux",
+    "theme": "poetique",
+    "level": "C2"
+  },
+  {
+    "en": "resplendent",
+    "fr": "resplendissant",
+    "theme": "poetique",
+    "level": "C2"
+  },
+  {
+    "en": "sublime",
+    "fr": "sublime",
+    "theme": "poetique",
+    "level": "C2"
+  },
+  {
+    "en": "ethereal",
+    "fr": "vaporeux",
+    "theme": "poetique",
+    "level": "C2"
+  },
+  {
+    "en": "somber",
+    "fr": "sombre",
+    "theme": "poetique",
+    "level": "C2"
+  },
+  {
+    "en": "melancholic",
+    "fr": "mélancolique",
+    "theme": "poetique",
+    "level": "C2"
+  },
+  {
+    "en": "serene",
+    "fr": "serein",
+    "theme": "poetique",
+    "level": "C2"
+  },
+  {
+    "en": "tranquil",
+    "fr": "tranquille",
+    "theme": "poetique",
+    "level": "C2"
+  },
+  {
+    "en": "tumultuous",
+    "fr": "tumultueux",
+    "theme": "poetique",
+    "level": "C2"
+  },
+  {
+    "en": "tempestuous",
+    "fr": "orageux",
+    "theme": "poetique",
+    "level": "C2"
+  },
+  {
+    "en": "halcyon",
+    "fr": "paisible",
+    "theme": "poetique",
+    "level": "C2"
+  },
+  {
+    "en": "bucolic",
+    "fr": "bucolique",
+    "theme": "poetique",
+    "level": "C2"
+  },
+  {
+    "en": "epistemology",
+    "fr": "épistémologie",
+    "theme": "philosophique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "ontology",
+    "fr": "ontologie",
+    "theme": "philosophique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "teleology",
+    "fr": "téléologie",
+    "theme": "philosophique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "phenomenology",
+    "fr": "phénoménologie",
+    "theme": "philosophique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "hermeneutics",
+    "fr": "herméneutique",
+    "theme": "philosophique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "dialectic",
+    "fr": "dialectique",
+    "theme": "philosophique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "syllogism",
+    "fr": "syllogisme",
+    "theme": "philosophique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "tautology",
+    "fr": "tautologie",
+    "theme": "philosophique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "paradox",
+    "fr": "paradoxe",
+    "theme": "philosophique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "antinomy",
+    "fr": "antinomie",
+    "theme": "philosophique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "aporia",
+    "fr": "aporie",
+    "theme": "philosophique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "heuristic",
+    "fr": "heuristique",
+    "theme": "philosophique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "a priori",
+    "fr": "a priori",
+    "theme": "philosophique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "a posteriori",
+    "fr": "a posteriori",
+    "theme": "philosophique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "sublation",
+    "fr": "dépassement",
+    "theme": "philosophique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "hypothesis",
+    "fr": "hypothèse",
+    "theme": "scientifique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "axiom",
+    "fr": "axiome",
+    "theme": "scientifique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "theorem",
+    "fr": "théorème",
+    "theme": "scientifique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "corollary",
+    "fr": "corollaire",
+    "theme": "scientifique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "paradigm",
+    "fr": "paradigme",
+    "theme": "scientifique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "heuristic",
+    "fr": "heuristique",
+    "theme": "scientifique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "algorithm",
+    "fr": "algorithme",
+    "theme": "scientifique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "stochastic",
+    "fr": "stochastique",
+    "theme": "scientifique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "deterministic",
+    "fr": "déterministe",
+    "theme": "scientifique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "asymptotic",
+    "fr": "asymptotique",
+    "theme": "scientifique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "orthogonal",
+    "fr": "orthogonal",
+    "theme": "scientifique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "isomorphic",
+    "fr": "isomorphe",
+    "theme": "scientifique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "homogeneous",
+    "fr": "homogène",
+    "theme": "scientifique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "heterogeneous",
+    "fr": "hétérogène",
+    "theme": "scientifique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "emergent",
+    "fr": "émergent",
+    "theme": "scientifique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "jurisprudence",
+    "fr": "jurisprudence",
+    "theme": "juridique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "tort",
+    "fr": "délit civil",
+    "theme": "juridique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "felony",
+    "fr": "crime",
+    "theme": "juridique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "misdemeanor",
+    "fr": "délit",
+    "theme": "juridique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "injunction",
+    "fr": "injonction",
+    "theme": "juridique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "affidavit",
+    "fr": "affidavit",
+    "theme": "juridique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "subpoena",
+    "fr": "citation à comparaître",
+    "theme": "juridique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "deposition",
+    "fr": "déposition",
+    "theme": "juridique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "adjudicate",
+    "fr": "juger",
+    "theme": "juridique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "arbitrate",
+    "fr": "arbitrer",
+    "theme": "juridique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "litigate",
+    "fr": "plaider",
+    "theme": "juridique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "prosecute",
+    "fr": "poursuivre",
+    "theme": "juridique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "acquit",
+    "fr": "acquitter",
+    "theme": "juridique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "convict",
+    "fr": "condamner",
+    "theme": "juridique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "exonerate",
+    "fr": "disculper",
+    "theme": "juridique-avance",
+    "level": "C2"
+  },
+  {
+    "en": "archaic",
+    "fr": "archaïque",
+    "theme": "archaique",
+    "level": "C2"
+  },
+  {
+    "en": "obsolete",
+    "fr": "obsolète",
+    "theme": "archaique",
+    "level": "C2"
+  },
+  {
+    "en": "anachronism",
+    "fr": "anachronisme",
+    "theme": "archaique",
+    "level": "C2"
+  },
+  {
+    "en": "vestige",
+    "fr": "vestige",
+    "theme": "archaique",
+    "level": "C2"
+  },
+  {
+    "en": "relic",
+    "fr": "relique",
+    "theme": "archaique",
+    "level": "C2"
+  },
+  {
+    "en": "antiquated",
+    "fr": "désuet",
+    "theme": "archaique",
+    "level": "C2"
+  },
+  {
+    "en": "quaint",
+    "fr": "pittoresque",
+    "theme": "archaique",
+    "level": "C2"
+  },
+  {
+    "en": "antiquated",
+    "fr": "suranné",
+    "theme": "archaique",
+    "level": "C2"
+  },
+  {
+    "en": "erstwhile",
+    "fr": "d'autrefois",
+    "theme": "archaique",
+    "level": "C2"
+  },
+  {
+    "en": "whilom",
+    "fr": "jadis",
+    "theme": "archaique",
+    "level": "C2"
+  },
+  {
+    "en": "cryptography",
+    "fr": "cryptographie",
+    "theme": "technique-specialise",
+    "level": "C2"
+  },
+  {
+    "en": "nanotechnology",
+    "fr": "nanotechnologie",
+    "theme": "technique-specialise",
+    "level": "C2"
+  },
+  {
+    "en": "biotechnology",
+    "fr": "biotechnologie",
+    "theme": "technique-specialise",
+    "level": "C2"
+  },
+  {
+    "en": "semiconductor",
+    "fr": "semi-conducteur",
+    "theme": "technique-specialise",
+    "level": "C2"
+  },
+  {
+    "en": "microprocessor",
+    "fr": "microprocesseur",
+    "theme": "technique-specialise",
+    "level": "C2"
+  },
+  {
+    "en": "telecommunications",
+    "fr": "télécommunications",
+    "theme": "technique-specialise",
+    "level": "C2"
+  },
+  {
+    "en": "satellite",
+    "fr": "satellite",
+    "theme": "technique-specialise",
+    "level": "C2"
+  },
+  {
+    "en": "spectroscopy",
+    "fr": "spectroscopie",
+    "theme": "technique-specialise",
+    "level": "C2"
+  },
+  {
+    "en": "chromatography",
+    "fr": "chromatographie",
+    "theme": "technique-specialise",
+    "level": "C2"
+  },
+  {
+    "en": "calibration",
+    "fr": "étalonnage",
+    "theme": "technique-specialise",
+    "level": "C2"
+  },
+  {
+    "en": "granularity",
+    "fr": "granularité",
+    "theme": "technique-specialise",
+    "level": "C2"
+  },
+  {
+    "en": "scalability",
+    "fr": "scalabilité",
+    "theme": "technique-specialise",
+    "level": "C2"
+  },
+  {
+    "en": "interoperability",
+    "fr": "interopérabilité",
+    "theme": "technique-specialise",
+    "level": "C2"
+  },
+  {
+    "en": "virtualization",
+    "fr": "virtualisation",
+    "theme": "technique-specialise",
+    "level": "C2"
+  },
+  {
+    "en": "containerization",
+    "fr": "conteneurisation",
+    "theme": "technique-specialise",
+    "level": "C2"
+  },
+  {
+    "en": "promulgate",
+    "fr": "promulguer",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "promulgate",
+    "fr": "diffuser",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "disseminate",
+    "fr": "diffuser",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "proliferate",
+    "fr": "proliférer",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "exacerbate",
+    "fr": "exacerber",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "ameliorate",
+    "fr": "améliorer",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "expedite",
+    "fr": "accélérer",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "facilitate",
+    "fr": "faciliter",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "obfuscate",
+    "fr": "obscurcir",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "elucidate",
+    "fr": "élucider",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "elaborate",
+    "fr": "expliciter",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "extrapolate",
+    "fr": "extrapoler",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "hypothesize",
+    "fr": "hypothétiser",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "postulate",
+    "fr": "postuler",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "presuppose",
+    "fr": "présupposer",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "substantiate",
+    "fr": "établir",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "corroborate",
+    "fr": "confirmer",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "disentangle",
+    "fr": "démêler",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "elucidate",
+    "fr": "éclaircir",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "demystify",
+    "fr": "démystifier",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "encapsulate",
+    "fr": "encapsuler",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "epitomize",
+    "fr": "incarner",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "exemplify",
+    "fr": "illustrer",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "personify",
+    "fr": "personnifier",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "reify",
+    "fr": "réifier",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "instantiate",
+    "fr": "instancier",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "problematize",
+    "fr": "problématiser",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "contextualize",
+    "fr": "contextualiser",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "conceptualize",
+    "fr": "conceptualiser",
+    "theme": "verbes-c2",
+    "level": "C2"
+  },
+  {
+    "en": "operationalize",
+    "fr": "opérationnaliser",
+    "theme": "verbes-c2",
+    "level": "C2"
+  }
+]

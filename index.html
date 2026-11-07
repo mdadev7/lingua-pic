@@ -6,8 +6,8 @@
 <meta name="theme-color" content="#667eea">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="description" content="Apprenez l'anglais avec quiz, jeux, dictionnaire et reconnaissance IA">
-<title>Learn English</title>
+<meta name="description" content="Apprenez l'anglais avec 3000 mots, quiz, jeux, dictionnaire et reconnaissance IA">
+<title>Lingua Pic — Learn English</title>
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <link rel="stylesheet" href="css/style.css">
@@ -19,10 +19,11 @@
   <div class="header-content">
     <div class="logo">
       <span class="logo-icon">🎓</span>
-      <span class="logo-text">Learn English</span>
+      <span class="logo-text">Lingua Pic</span>
     </div>
     <div class="header-actions">
-      <div class="stat-badge" title="Points">
+      <div class="stat-badge level-badge" id="level-display" title="Niveau">A1</div>
+      <div class="stat-badge" title="XP">
         <span>⭐</span><span id="points-display">0</span>
       </div>
       <div class="stat-badge streak" title="Série de jours">
@@ -35,12 +36,18 @@
 
 <!-- ===== MAIN CONTENT ===== -->
 <main id="app">
-  <!-- HOME -->
+
+  <!-- ============ HOME ============ -->
   <section class="page active" id="page-home">
     <div class="hero">
       <h1>Bonjour ! 👋</h1>
       <p>Prêt à apprendre l'anglais aujourd'hui ?</p>
+      <div class="hero-progress">
+        <div class="hp-bar"><div class="hp-fill" id="xp-progress"></div></div>
+        <div class="hp-text" id="xp-text">0 XP</div>
+      </div>
     </div>
+
     <div class="home-grid">
       <button class="home-card" data-goto="cours">
         <span class="hc-icon">📚</span>
@@ -62,6 +69,11 @@
         <span class="hc-title">Dictionnaire</span>
         <span class="hc-sub">Traduire un mot</span>
       </button>
+      <button class="home-card" data-goto="idioms">
+        <span class="hc-icon">💬</span>
+        <span class="hc-title">Expressions</span>
+        <span class="hc-sub">Idiomes anglais</span>
+      </button>
       <button class="home-card" data-goto="image">
         <span class="hc-icon">📸</span>
         <span class="hc-title">Caméra</span>
@@ -72,21 +84,15 @@
         <span class="hc-title">OCR</span>
         <span class="hc-sub">Lire un texte</span>
       </button>
-      <button class="home-card" data-goto="idioms">
-  <span class="hc-icon">💬</span>
-  <span class="hc-title">Expressions</span>
-  <span class="hc-sub">Idiomes anglais</span>
-</button>
+      <button class="home-card" data-goto="stats">
+        <span class="hc-icon">📊</span>
+        <span class="hc-title">Progression</span>
+        <span class="hc-sub">Niveau & stats</span>
+      </button>
     </div>
   </section>
-<section class="page" id="page-idioms">
-  <div class="page-header">
-    <button class="back-btn" data-goto="home">←</button>
-    <h2>💬 Expressions idiomatiques</h2>
-  </div>
-  <div id="idioms-container"></div>
-</section>
-  <!-- COURS -->
+
+  <!-- ============ COURS ============ -->
   <section class="page" id="page-cours">
     <div class="page-header">
       <button class="back-btn" data-goto="home">←</button>
@@ -95,28 +101,21 @@
     <div id="lessons-container"></div>
   </section>
 
-  <!-- QUIZ -->
+  <!-- ============ QUIZ ============ -->
   <section class="page" id="page-quiz">
     <div class="page-header">
       <button class="back-btn" data-goto="home">←</button>
       <h2>❓ Quiz</h2>
-    </div>
-    <div class="quiz-level-selector">
-      <button class="level-btn active" data-level="all">Tous</button>
-      <button class="level-btn" data-level="beginner">Débutant</button>
-      <button class="level-btn" data-level="intermediate">Intermédiaire</button>
-      <button class="level-btn" data-level="advanced">Avancé</button>
     </div>
     <div class="quiz-progress-bar"><div id="quiz-progress"></div></div>
     <div class="quiz-question" id="quiz-question">Chargement...</div>
     <div class="quiz-options" id="quiz-options"></div>
     <div class="quiz-footer">
       <div class="score" id="quiz-score">Score : 0 / 0</div>
-      <button class="btn primary" onclick="nextQuestion()">Suivant ➡️</button>
     </div>
   </section>
 
-  <!-- MATCHING -->
+  <!-- ============ MATCHING ============ -->
   <section class="page" id="page-matching">
     <div class="page-header">
       <button class="back-btn" data-goto="home">←</button>
@@ -124,67 +123,98 @@
     </div>
     <p class="hint">Cliquez sur un mot anglais puis sur sa traduction.</p>
     <div class="match-grid">
-      <div class="match-col"><h4>🇬🇧 Anglais</h4><div id="col-en"></div></div>
-      <div class="match-col"><h4>🇫🇷 Français</h4><div id="col-fr"></div></div>
+      <div class="match-col">
+        <h4>🇬🇧 Anglais</h4>
+        <div id="col-en"></div>
+      </div>
+      <div class="match-col">
+        <h4>🇫🇷 Français</h4>
+        <div id="col-fr"></div>
+      </div>
     </div>
-    <button class="btn secondary" onclick="initMatching()">🔄 Recommencer</button>
+    <button class="btn primary" onclick="initMatching()" style="width:100%;margin-top:15px;">
+      🔄 Nouvelle partie
+    </button>
     <div class="score" id="match-score"></div>
   </section>
 
-  <!-- DICTIONNAIRE -->
+  <!-- ============ DICTIONNAIRE ============ -->
   <section class="page" id="page-dictionary">
     <div class="page-header">
       <button class="back-btn" data-goto="home">←</button>
       <h2>📖 Dictionnaire</h2>
     </div>
     <div class="search-box">
-      <input type="text" id="dict-input" placeholder="Entrez un mot en anglais ou français..." autocomplete="off">
+      <input type="text" id="dict-input" placeholder="Entrez un mot en anglais..." autocomplete="off">
       <button class="btn primary" onclick="searchWord()">🔍</button>
     </div>
-    <div id="dict-result" class="dict-result"></div>
+    <div id="dict-result" class="dict-result">
+      <p style="color:var(--text-muted);text-align:center;padding:20px;">
+        Tapez un mot pour commencer
+      </p>
+    </div>
     <div class="history-section">
       <h4>🕘 Historique</h4>
       <div id="dict-history" class="history-tags"></div>
     </div>
   </section>
 
-  <!-- IMAGE / CAMERA -->
+  <!-- ============ IDIOMS ============ -->
+  <section class="page" id="page-idioms">
+    <div class="page-header">
+      <button class="back-btn" data-goto="home">←</button>
+      <h2>💬 Expressions idiomatiques</h2>
+    </div>
+    <p class="hint">Cliquez sur une expression pour l'écouter.</p>
+    <div id="idioms-container"></div>
+  </section>
+
+  <!-- ============ IMAGE / CAMERA ============ -->
   <section class="page" id="page-image">
     <div class="page-header">
       <button class="back-btn" data-goto="home">←</button>
       <h2>📸 Reconnaissance d'image</h2>
     </div>
-    <div class="info-banner">💡 L'IA reconnaît les objets. Prenez une photo ou importez une image.</div>
+    <div class="info-banner">
+      💡 L'IA reconnaît les objets. Prenez une photo ou importez une image.
+    </div>
     <div class="camera-controls">
       <button class="btn primary" id="btn-start-cam" onclick="startCamera()">🎥 Caméra</button>
       <button class="btn secondary" id="btn-stop-cam" onclick="stopCamera()" disabled>⏹️ Stop</button>
-      <label class="btn secondary" style="cursor:pointer">📁 Importer
-        <input type="file" accept="image/*" onchange="handleImageUpload(event)" style="display:none">
+      <label class="btn secondary" style="cursor:pointer;">
+        📁 Importer
+        <input type="file" accept="image/*" onchange="handleImageUpload(event)" style="display:none;">
       </label>
     </div>
     <div class="camera-view">
       <video id="video" autoplay playsinline muted></video>
       <canvas id="canvas"></canvas>
     </div>
-    <button class="btn primary full-width" id="btn-analyze" onclick="analyzeFrame()" style="display:none">🔍 Analyser</button>
+    <button class="btn primary full-width" id="btn-analyze" onclick="analyzeFrame()" style="display:none;">
+      🔍 Analyser
+    </button>
     <div class="result-box" id="image-result">
-      <span class="label">Résultat :</span> <span id="image-text">En attente...</span>
+      <span class="label">Résultat :</span>
+      <span id="image-text">En attente...</span>
     </div>
   </section>
 
-  <!-- TEXTE / OCR -->
+  <!-- ============ TEXTE / OCR ============ -->
   <section class="page" id="page-texte">
     <div class="page-header">
       <button class="back-btn" data-goto="home">←</button>
       <h2>📝 OCR — Lire un texte</h2>
     </div>
-    <div class="info-banner">💡 Importez une photo de texte anglais (livre, panneau...)</div>
-    <label class="btn primary full-width" style="cursor:pointer">📁 Choisir une image
-      <input type="file" accept="image/*" onchange="handleOCR(event)" style="display:none">
+    <div class="info-banner">
+      💡 Importez une photo de texte anglais (livre, panneau...)
+    </div>
+    <label class="btn primary full-width" style="cursor:pointer;">
+      📁 Choisir une image
+      <input type="file" accept="image/*" onchange="handleOCR(event)" style="display:none;">
     </label>
     <div class="result-box">
       <span class="label">Texte détecté :</span>
-      <p id="ocr-text" style="margin-top: 8px; white-space: pre-wrap;">En attente...</p>
+      <p id="ocr-text" style="margin-top:8px;white-space:pre-wrap;">En attente...</p>
     </div>
     <div class="ocr-actions">
       <button class="btn primary" onclick="speakText()">🔊 Écouter</button>
@@ -192,39 +222,72 @@
       <button class="btn secondary" onclick="defineOCR()">📖 Définir</button>
     </div>
   </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="page" id="page-stats">
+    <div class="page-header">
+      <button class="back-btn" data-goto="home">←</button>
+      <h2>📊 Ma progression</h2>
+    </div>
+    <div id="stats-content"></div>
+  </section>
+
 </main>
 
 <!-- ===== BOTTOM NAV ===== -->
 <nav class="bottom-nav">
-  <button class="nav-item active" data-goto="home"><span>🏠</span><small>Accueil</small></button>
-  <button class="nav-item" data-goto="cours"><span>📚</span><small>Cours</small></button>
-  <button class="nav-item" data-goto="quiz"><span>❓</span><small>Quiz</small></button>
-  <button class="nav-item" data-goto="dictionary"><span>📖</span><small>Dico</small></button>
-  <button class="nav-item" data-goto="image"><span>📸</span><small>Camera</small></button>
+  <button class="nav-item active" data-goto="home">
+    <span>🏠</span><small>Accueil</small>
+  </button>
+  <button class="nav-item" data-goto="cours">
+    <span>📚</span><small>Cours</small>
+  </button>
+  <button class="nav-item" data-goto="quiz">
+    <span>❓</span><small>Quiz</small>
+  </button>
+  <button class="nav-item" data-goto="dictionary">
+    <span>📖</span><small>Dico</small>
+  </button>
+  <button class="nav-item" data-goto="stats">
+    <span>📊</span><small>Stats</small>
+  </button>
 </nav>
 
 <!-- ===== TOAST ===== -->
 <div id="toast" class="toast"></div>
 
-<!-- ===== LIBRAIRIES ===== -->
+<!-- ===== LIBRAIRIES EXTERNES ===== -->
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.11.0/dist/tf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.0/dist/mobilenet.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
 
-<!-- ===== APP SCRIPTS ===== --> 
- 
+<!-- ===== SCRIPTS APPLICATIFS (ordre important !) ===== -->
+<!-- 1. Speech (utilitaires) -->
+<!-- ===== SCRIPTS APPLICATIFS (ordre important !) ===== -->
+<!-- 1. Speech (utilitaires) -->
 <script src="js/speech.js"></script>
+
+<!-- 2. Données (mots, grammaire, expressions, phrases) -->
 <script src="js/data-words.js"></script>
 <script src="js/data-grammar.js"></script>
 <script src="js/data-idioms.js"></script>
 <script src="js/data-sentences.js"></script>
-<script src="js/data.js"></script>              <!-- ← Data en premier -->
-<script src="js/progression.js"></script>       <!-- ← Progression après -->
+<script src="js/data.js"></script>
+
+<!-- 3. Progression (après data) -->
+<script src="js/progression.js"></script>
+
+<!-- 4. Modules fonctionnels -->
 <script src="js/lessons.js"></script>
 <script src="js/quiz.js"></script>
 <script src="js/matching.js"></script>
 <script src="js/dictionary.js"></script>
 <script src="js/recognition.js"></script>
+
+<script src="js/data-words.js"></script>
+<script src="js/data-words-extra.js"></script> 
+<!-- 5. App (en dernier, car il initialise tout) -->
 <script src="js/app.js"></script>
+
 </body>
 </html>
