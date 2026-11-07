@@ -72,9 +72,20 @@
         <span class="hc-title">OCR</span>
         <span class="hc-sub">Lire un texte</span>
       </button>
+      <button class="home-card" data-goto="idioms">
+  <span class="hc-icon">💬</span>
+  <span class="hc-title">Expressions</span>
+  <span class="hc-sub">Idiomes anglais</span>
+</button>
     </div>
   </section>
-
+<section class="page" id="page-idioms">
+  <div class="page-header">
+    <button class="back-btn" data-goto="home">←</button>
+    <h2>💬 Expressions idiomatiques</h2>
+  </div>
+  <div id="idioms-container"></div>
+</section>
   <!-- COURS -->
   <section class="page" id="page-cours">
     <div class="page-header">
@@ -200,8 +211,15 @@
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.0/dist/mobilenet.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
 
-<!-- ===== APP SCRIPTS ===== -->
+<!-- ===== APP SCRIPTS ===== --> 
+ 
 <script src="js/speech.js"></script>
+<script src="js/data-words.js"></script>
+<script src="js/data-grammar.js"></script>
+<script src="js/data-idioms.js"></script>
+<script src="js/data-sentences.js"></script>
+<script src="js/data.js"></script>              <!-- ← Data en premier -->
+<script src="js/progression.js"></script>       <!-- ← Progression après -->
 <script src="js/lessons.js"></script>
 <script src="js/quiz.js"></script>
 <script src="js/matching.js"></script>
